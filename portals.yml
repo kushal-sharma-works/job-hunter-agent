@@ -1,0 +1,103 @@
+# portals.yml
+# Static list of company career pages + known ATS slugs.
+# The agent queries each of these directly — no scraping needed for Greenhouse/Lever/Ashby.
+#
+# Format:
+#   - name: Company Name
+#     type: greenhouse | lever | ashby | careers_page | ats_unknown
+#     slug: <slug for ATS API>    (for greenhouse/lever/ashby)
+#     url:  <direct URL>          (for careers_page)
+#
+# To find a company's Greenhouse slug: check their jobs page URL for boards.greenhouse.io/<slug>
+# To find a Lever slug: check for jobs.lever.co/<slug>
+# To find an Ashby slug: check for jobs.ashbyhq.com/<slug>
+
+portals:
+  # ── IND-registered tech companies with known ATS slugs ─────────────────────
+  - name: "Booking.com"
+    type: greenhouse
+    slug: "booking"
+  - name: "Adyen"
+    type: greenhouse
+    slug: "adyen"
+  - name: "Mollie"
+    type: greenhouse
+    slug: "mollie"
+  - name: "Messagebird"
+    type: greenhouse
+    slug: "messagebird"
+  - name: "Catawiki"
+    type: greenhouse
+    slug: "catawiki"
+  - name: "Backbase"
+    type: greenhouse
+    slug: "backbase"
+  - name: "TomTom"
+    type: greenhouse
+    slug: "tomtom"
+  - name: "Lightspeed"
+    type: greenhouse
+    slug: "lightspeed"
+  - name: "Vandebron"
+    type: lever
+    slug: "vandebron"
+  - name: "Picnic"
+    type: lever
+    slug: "picnic"
+  - name: "Coolblue"
+    type: careers_page
+    url: "https://werkenbijcoolblue.nl/vacatures?category=it-en-tech"
+  - name: "ASML"
+    type: careers_page
+    url: "https://www.asml.com/en/careers/find-your-job?q=software"
+  - name: "Philips"
+    type: careers_page
+    url: "https://www.careers.philips.com/global/en/search-results?keywords=software"
+  - name: "ING"
+    type: greenhouse
+    slug: "ing"
+  - name: "ABN AMRO"
+    type: careers_page
+    url: "https://www.abnamro.com/en/careers/vacancies?q=software+engineer"
+  - name: "Bol.com"
+    type: greenhouse
+    slug: "bolcom"
+  - name: "Takeaway / Just Eat"
+    type: greenhouse
+    slug: "justeat-takeaway"
+  - name: "Elastic"
+    type: greenhouse
+    slug: "elastic"
+  - name: "DataStax"
+    type: greenhouse
+    slug: "datastax"
+  - name: "WeTransfer"
+    type: greenhouse
+    slug: "wetransfer"
+  - name: "Miro"
+    type: greenhouse
+    slug: "miro"
+  - name: "GitLab"
+    type: greenhouse
+    slug: "gitlab"
+  - name: "Personio"
+    type: greenhouse
+    slug: "personio"
+  - name: "Ahold Delhaize"
+    type: careers_page
+    url: "https://careers.aholddelhaize.com/search/?q=software+engineer&locname=Netherlands"
+  - name: "Randstad Digital"
+    type: careers_page
+    url: "https://www.randstaddigital.nl/en/jobs/?q=java+developer"
+  - name: "Nmbrs"
+    type: lever
+    slug: "nmbrs"
+  - name: "Sendcloud"
+    type: greenhouse
+    slug: "sendcloud"
+  - name: "Temper"
+    type: greenhouse
+    slug: "temper"
+
+  # ── Add more here as you discover them ──────────────────────────────────────
+  # To contribute: find the careers page, identify the ATS, get the slug
