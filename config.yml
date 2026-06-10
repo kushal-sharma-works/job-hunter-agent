@@ -1,0 +1,130 @@
+# config.yml
+# All user-facing settings. Secrets go in .env (local) or GitHub Secrets (CI).
+# See SETUP.md for the full list of required environment variables.
+
+# ─── Search keywords ──────────────────────────────────────────────────────────
+search:
+  keywords:
+    developer:
+      - "Java developer Netherlands"
+      - "Kotlin developer Amsterdam"
+      - "Spring Boot developer Amsterdam"
+      - "backend developer Amsterdam"
+      - "full stack developer Netherlands"
+      - "software engineer Amsterdam"
+      - "backend engineer Netherlands visa"
+    pm:
+      - "product manager Amsterdam"
+      - "associate product manager Netherlands"
+      - "product owner Amsterdam tech"
+      - "junior product manager Netherlands"
+  # Dutch city allow-list — jobs outside these are filtered out
+  allowed_locations:
+    - Amsterdam
+    - Rotterdam
+    - Utrecht
+    - "Den Haag"
+    - "The Hague"
+    - Eindhoven
+    - Delft
+    - Leiden
+    - Haarlem
+    - Almere
+
+# ─── IND register ─────────────────────────────────────────────────────────────
+ind:
+  # Page that links to the downloadable Excel — agent finds the link dynamically
+  register_page: "https://ind.nl/en/public-register-recognised-sponsors"
+  # Fallback direct URL (update if IND changes the link)
+  register_url_fallback: "https://ind.nl/en/documents/public-register-regular-labour-and-highly-skilled-migrants.xlsx"
+  # Cache the downloaded register for N days before re-downloading
+  cache_days: 7
+  cache_file: "ind_register_cache.xlsx"
+  # Filter to these cities when building the IND company lookup set
+  target_cities:
+    - Amsterdam
+    - Rotterdam
+    - Utrecht
+    - "Den Haag"
+    - Eindhoven
+    - Delft
+    - Leiden
+    - Haarlem
+    - Almere
+    - Schiphol
+  # Fuzzy match threshold — company names rarely match exactly (B.V. suffixes, etc.)
+  fuzzy_threshold: 85  # 0–100; 85 is a good balance of precision vs. recall
+
+# ─── Sources — toggle each on/off ─────────────────────────────────────────────
+sources:
+  adzuna:
+    enabled: true
+    results_per_keyword: 50
+  serper:
+    enabled: true
+    results_per_keyword: 10
+  greenhouse_ind:
+    enabled: true          # queries Greenhouse ATS for all IND-registered companies
+  lever_ind:
+    enabled: true          # same for Lever
+  ashby_ind:
+    enabled: true          # same for Ashby
+  wellfound:
+    enabled: true
+    url: "https://wellfound.com/role/l/software-engineer/netherlands"
+  relocateme:
+    enabled: true
+    url: "https://relocate.me/search?q=developer&where=nl&type=fulltime"
+  undutchables:
+    enabled: true
+    url: "https://www.undutchables.nl/vacatures/?function=it-and-telecom"
+  gmail_yutori:
+    enabled: true
+    label: "Yutori Scouts"          # Gmail label — adjust if yours differs
+  gmail_andrew:
+    enabled: true
+    sender_contains: "stutanski"    # partial match on sender email
+  portals_static:
+    enabled: true
+    file: "portals.yml"
+  private_portal:
+    enabled: false          # stub — set to true once access method is known
+    url: ""                 # fill in after investigating the portal
+    login_required: true
+
+# ─── Filtering ────────────────────────────────────────────────────────────────
+filters:
+  # Run GPT-4o-mini disqualifier check on every job description
+  llm_disqualifier: true
+  # Batch up to N jobs per LLM call (cheaper than 1-by-1); set to 1 to disable
+  llm_batch_size: 10
+  # Maximum description length sent to LLM (tokens are ~4 chars each)
+  llm_max_desc_chars: 3000
+
+# ─── Enrichment ───────────────────────────────────────────────────────────────
+enrichment:
+  # Run recruiter extraction LLM on every non-disqualified job
+  llm_recruiter_extract: true
+  # Only generate digest one-liner summaries for tier1 + tier2 jobs
+  llm_summaries: true
+
+# ─── Outputs ──────────────────────────────────────────────────────────────────
+outputs:
+  # Human-readable markdown digest
+  markdown_digest: true
+  digest_file: "jobs_{date}.md"
+  # career-ops batch YAML
+  career_ops_batch: true
+  batch_file: "batch_{date}.yaml"
+  # Push batch YAML to career-ops GitHub repo
+  github_push: true
+  career_ops_repo: "YOUR_GITHUB_USERNAME/career-ops"   # ← fill in
+  career_ops_batch_dir: "batches"                       # dir inside the repo
+  # Email digest to yourself
+  email_digest: true
+  email_recipient: "YOUR_EMAIL@gmail.com"               # ← fill in
+
+# ─── Scoring threshold ────────────────────────────────────────────────────────
+career_ops:
+  # career-ops will auto-generate PDF for jobs scoring >= this threshold
+  min_score_for_pdf: 4.0
