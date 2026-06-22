@@ -1,19 +1,20 @@
 """
 agent.py — Main orchestrator for the job discovery pipeline.
 
-Run locally:     python agent.py
-Run in CI:       called by GitHub Actions via job_discovery.yml
+Run locally:  python agent.py
+Run in CI:    called by GitHub Actions via job_discovery.yml
 
 Pipeline stages:
-  1. Sources    → collect raw jobs from all enabled sources
-  2. Dedupe     → remove URL and title duplicates
-  3. State      → filter out already-seen jobs
-  4. Location   → drop jobs clearly outside NL
-  5. IND check  → tag tier1 / tier2 using IND register
-  6. Disqualify → GPT-4o-mini flags explicit EU-only language
-  7. Enrich     → extract recruiter/HM contact info
-  8. Outputs    → write MD digest, batch YAML, push to GitHub, send email
-  9. State save → mark all processed jobs as seen
+  1.  Load IND register
+  2.  Collect raw jobs from all enabled sources
+  3.  Deduplicate
+  4.  Filter already-seen jobs
+  5.  Location filter
+  6.  IND tier tagging (tier1 / tier2)
+  7.  GPT disqualifier filter
+  8.  Enrichment (recruiter contact, salary backfill)
+  9.  Write batch TSV + push to GitHub
+  10. Mark all processed jobs as seen
 """
 
 import logging
@@ -31,14 +32,14 @@ from models import Job
 from state import filter_new, mark_seen
 from sources import (
     adzuna_jobs,
-    serper_jobs,
-    portals_static_jobs,
+    jobspy_jobs,
     wellfound_jobs,
-    relocateme_jobs,
     undutchables_jobs,
     gmail_jobs,
     ind_ats_jobs,
-    private_portal_jobs,
+    linkedin_jobs_source,
+    linkedin_posts_source,
+    niche_boards_source,
 )
 from filters import (
     load_ind_companies,
@@ -49,10 +50,8 @@ from filters import (
 )
 from enrichment import enrich_jobs, backfill_salary_hints
 from outputs import (
-    write_markdown_digest,
-    write_batch_yaml,
+    write_batch_tsv,
     push_batch_to_github,
-    send_email_digest,
     save_run_log,
 )
 
@@ -80,16 +79,25 @@ def load_config() -> dict:
 def check_env(config: dict) -> None:
     """Warn about missing environment variables before starting."""
     required = []
+
     if config["sources"]["adzuna"]["enabled"]:
         required += ["ADZUNA_APP_ID", "ADZUNA_APP_KEY"]
-    if config["sources"]["serper"]["enabled"]:
-        required += ["SERPER_API_KEY"]
+
+    if config["sources"].get("jobspy", {}).get("enabled", True):
+        pass  # python-jobspy needs no API key
+
+    if (
+        config["sources"].get("linkedin_jobs", {}).get("enabled", True)
+        or config["sources"].get("linkedin_posts", {}).get("enabled", True)
+        or config["sources"].get("niche_boards", {}).get("enabled", True)
+    ):
+        required += ["BRAVE_API_KEY"]
+
     if config["filters"].get("llm_disqualifier") or config["enrichment"].get("llm_recruiter_extract"):
         required += ["OPENAI_API_KEY"]
+
     if config["outputs"].get("github_push"):
         required += ["GITHUB_PAT"]
-    if config["outputs"].get("email_digest"):
-        required += ["GMAIL_ADDRESS", "GMAIL_APP_PASSWORD"]
 
     missing = [k for k in required if not os.environ.get(k)]
     if missing:
@@ -107,28 +115,20 @@ def collect_jobs(config: dict, ind_companies: set) -> List[Job]:
     pm_kw = config["search"]["keywords"].get("pm", [])
     all_kw = dev_kw + pm_kw
 
-    # ── API sources ───────────────────────────────────────────────────────────
+    # ── API / scraper sources ─────────────────────────────────────────────────
     if src["adzuna"]["enabled"]:
         _collect(all_jobs, adzuna_jobs, all_kw, config)
 
-    if src["serper"]["enabled"]:
-        _collect(all_jobs, serper_jobs, all_kw, config)
-
-    # ── ATS sources (static portals list) ─────────────────────────────────────
-    if src["portals_static"]["enabled"]:
-        _collect(all_jobs, portals_static_jobs, src["portals_static"].get("file", "portals.yml"))
+    if src.get("jobspy", {}).get("enabled", True):
+        _collect(all_jobs, jobspy_jobs, all_kw, config)
 
     # ── IND-driven ATS discovery ──────────────────────────────────────────────
     if any(src.get(k, {}).get("enabled", True) for k in ("greenhouse_ind", "lever_ind", "ashby_ind")):
-        ind_company_list = list(ind_companies)[:500]  # cap at 500 to be reasonable
-        _collect(all_jobs, ind_ats_jobs, ind_company_list, config)
+        _collect(all_jobs, ind_ats_jobs, list(ind_companies)[:500], config)
 
     # ── Scraped job boards ────────────────────────────────────────────────────
     if src["wellfound"]["enabled"]:
         _collect(all_jobs, wellfound_jobs, config)
-
-    if src["relocateme"]["enabled"]:
-        _collect(all_jobs, relocateme_jobs, config)
 
     if src["undutchables"]["enabled"]:
         _collect(all_jobs, undutchables_jobs, config)
@@ -137,9 +137,15 @@ def collect_jobs(config: dict, ind_companies: set) -> List[Job]:
     if src["gmail_yutori"]["enabled"] or src["gmail_andrew"]["enabled"]:
         _collect(all_jobs, gmail_jobs, config)
 
-    # ── Private portal stub ───────────────────────────────────────────────────
-    if src["private_portal"]["enabled"]:
-        _collect(all_jobs, private_portal_jobs, config)
+    # ── Brave-powered sources ─────────────────────────────────────────────────
+    if src.get("linkedin_jobs", {}).get("enabled", True):
+        _collect(all_jobs, linkedin_jobs_source, all_kw, config)
+
+    if src.get("linkedin_posts", {}).get("enabled", True):
+        _collect(all_jobs, linkedin_posts_source, config)
+
+    if src.get("niche_boards", {}).get("enabled", True):
+        _collect(all_jobs, niche_boards_source, config)
 
     logger.info(f"Collection complete: {len(all_jobs)} raw jobs from all sources")
     return all_jobs
@@ -167,7 +173,7 @@ def run_pipeline(config: dict) -> None:
     # ── Stage 0: Check env vars ───────────────────────────────────────────────
     check_env(config)
 
-    # ── Stage 1: Load IND register (needed early for IND ATS querying) ────────
+    # ── Stage 1: Load IND register ────────────────────────────────────────────
     logger.info("Stage 1: Loading IND register…")
     ind_companies = load_ind_companies(config)
     logger.info(f"  → {len(ind_companies)} IND-eligible NL companies loaded")
@@ -197,7 +203,7 @@ def run_pipeline(config: dict) -> None:
     logger.info("Stage 6: Tagging IND tiers…")
     jobs = tag_ind_tier(jobs, ind_companies, config)
 
-    # ── Stage 7: GPT disqualifier filter ─────────────────────────────────────
+    # ── Stage 7: GPT disqualifier filter ──────────────────────────────────────
     logger.info("Stage 7: Running LLM disqualifier filter…")
     jobs = run_disqualifier_filter(jobs, config)
 
@@ -209,32 +215,17 @@ def run_pipeline(config: dict) -> None:
     # ── Stage 9: Outputs ──────────────────────────────────────────────────────
     logger.info("Stage 9: Writing outputs…")
     active = [j for j in jobs if j.tier != "disqualified"]
-    tier1 = [j for j in active if j.tier == "tier1"]
-    tier2 = [j for j in active if j.tier == "tier2"]
-    disq = [j for j in jobs if j.tier == "disqualified"]
+    tier1  = [j for j in active if j.tier == "tier1"]
+    tier2  = [j for j in active if j.tier == "tier2"]
+    disq   = [j for j in jobs if j.tier == "disqualified"]
 
     logger.info(f"  Summary: {len(tier1)} Tier 1 | {len(tier2)} Tier 2 | {len(disq)} Disqualified")
 
-    # Markdown digest
-    if config["outputs"].get("markdown_digest"):
-        digest_path = write_markdown_digest(jobs, config)
-    else:
-        digest_path = None
+    batch_path = write_batch_tsv(active, config)
 
-    # career-ops batch YAML
-    batch_path = None
-    if config["outputs"].get("career_ops_batch") and active:
-        batch_path = write_batch_yaml(jobs, config)
-
-    # Push to GitHub
     if config["outputs"].get("github_push") and batch_path:
         push_batch_to_github(batch_path, config)
 
-    # Email digest
-    if config["outputs"].get("email_digest") and digest_path:
-        send_email_digest(jobs, digest_path, config)
-
-    # Run log (always)
     save_run_log(jobs)
 
     # ── Stage 10: Mark as seen ────────────────────────────────────────────────
@@ -243,7 +234,7 @@ def run_pipeline(config: dict) -> None:
 
     elapsed = time.time() - start
     logger.info(f"Pipeline complete in {elapsed:.1f}s")
-    logger.info(f"Next step: pull career-ops, open Claude Code, run /career-ops batch")
+    logger.info(f"Next step: pull job-hunter-agent repo, open Claude Code, run /career-ops batch")
     logger.info("=" * 60)
 
 
@@ -252,7 +243,6 @@ def run_pipeline(config: dict) -> None:
 # ─────────────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    # Load .env for local development
     if Path(".env").exists():
         load_dotenv()
     elif Path("../.env").exists():

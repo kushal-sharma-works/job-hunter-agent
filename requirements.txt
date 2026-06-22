@@ -1,18 +1,30 @@
-# Core
+# requirements.txt
+# Install with: pip install -r requirements.txt
+# Then run:     playwright install chromium
+
+# ── Core ──────────────────────────────────────────────────────────────────────
 requests>=2.31.0
 pyyaml>=6.0
 python-dotenv>=1.0.0
 beautifulsoup4>=4.12.0
-lxml>=5.0.0
-openpyxl>=3.1.0
+lxml>=4.9.0
 
-# Fuzzy company-name matching against IND register
-rapidfuzz>=3.6.0
+# ── Job scraping (no API key needed) ─────────────────────────────────────────
+python-jobspy>=0.1.0
 
-# Playwright (for Wellfound + private portal)
+# ── Playwright (Wellfound) ────────────────────────────────────────────────────
 playwright>=1.43.0
 
-# Gmail API
-google-api-python-client>=2.120.0
+# ── OpenAI (GPT disqualifier + LinkedIn posts filter) ────────────────────────
+openai>=1.30.0
+
+# ── Google Gmail API ──────────────────────────────────────────────────────────
+google-api-python-client>=2.130.0
 google-auth-httplib2>=0.2.0
 google-auth-oauthlib>=1.2.0
+
+# ── Data ─────────────────────────────────────────────────────────────────────
+openpyxl>=3.1.0       # IND register .xlsx download
+pandas>=2.0.0         # jobspy returns a DataFrame
+fuzzywuzzy>=0.18.0    # IND company name fuzzy matching
+python-Levenshtein>=0.25.0  # speeds up fuzzywuzzy
