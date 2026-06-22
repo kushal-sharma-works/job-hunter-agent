@@ -3,6 +3,21 @@ sources.py — All job source integrations.
 
 Each source returns List[Job]. Errors are caught and logged — a failing
 source never kills the whole run.
+
+Sources:
+  1.  adzuna_jobs           — Adzuna API (free, 250 req/day)
+  2.  jobspy_jobs           — python-jobspy: LinkedIn, Indeed, Glassdoor (no key needed)
+  3.  greenhouse_jobs       — Greenhouse ATS public API
+  4.  lever_jobs            — Lever ATS public API
+  5.  ashby_jobs            — Ashby ATS public API
+  6.  wellfound_jobs        — Wellfound Playwright scraper
+  7.  undutchables_jobs     — Undutchables BS4 scraper
+  8.  gmail_jobs            — Gmail API (Yutori label + Andrew Stutanski)
+  9.  ind_ats_jobs          — IND register → Greenhouse/Lever/Ashby slug lookup
+  10. linkedin_jobs_source  — Brave Search: site:linkedin.com/jobs
+  11. linkedin_posts_source — Brave Search: site:linkedin.com/posts + GPT filter
+  12. niche_boards_source   — Brave Search: niche NL boards, PM boards,
+                              Dutch boards, recruiter sites
 """
 
 import json
@@ -12,7 +27,7 @@ import re
 import time
 from datetime import datetime
 from typing import List, Optional
-from urllib.parse import urlencode, urljoin
+from urllib.parse import urljoin
 
 import requests
 import yaml
@@ -46,9 +61,27 @@ def _get(url: str, params: dict = None, headers: dict = None, timeout: int = 15)
         return None
 
 
-def _load_config() -> dict:
-    with open("config.yml") as f:
-        return yaml.safe_load(f)
+def _brave_search(query: str, api_key: str, count: int = 10) -> list:
+    """
+    Call Brave Web Search API. Returns list of result dicts with
+    'url', 'title', 'description' keys.
+    """
+    try:
+        r = requests.get(
+            "https://api.search.brave.com/res/v1/web/search",
+            headers={
+                "Accept": "application/json",
+                "Accept-Encoding": "gzip",
+                "X-Subscription-Token": api_key,
+            },
+            params={"q": query, "count": count, "country": "nl"},
+            timeout=15,
+        )
+        r.raise_for_status()
+        return r.json().get("web", {}).get("results", [])
+    except Exception as e:
+        logger.warning(f"Brave search failed for '{query[:60]}': {e}")
+        return []
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -57,8 +90,12 @@ def _load_config() -> dict:
 
 def adzuna_jobs(keywords: List[str], config: dict) -> List[Job]:
     """Adzuna public API — free tier, 250 req/day."""
-    app_id = os.environ["ADZUNA_APP_ID"]
-    app_key = os.environ["ADZUNA_APP_KEY"]
+    app_id = os.environ.get("ADZUNA_APP_ID", "")
+    app_key = os.environ.get("ADZUNA_APP_KEY", "")
+    if not app_id or not app_key:
+        logger.warning("ADZUNA_APP_ID / ADZUNA_APP_KEY not set — skipping Adzuna")
+        return []
+
     rpp = config["sources"]["adzuna"].get("results_per_keyword", 50)
     jobs = []
 
@@ -93,7 +130,7 @@ def adzuna_jobs(keywords: List[str], config: dict) -> List[Job]:
                     date_posted=item.get("created", "")[:10],
                     source="adzuna",
                 ))
-        time.sleep(0.5)  # gentle rate limiting
+        time.sleep(0.5)
 
     logger.info(f"Adzuna: {len(jobs)} raw jobs across {len(keywords)} keywords")
     return jobs
@@ -110,40 +147,53 @@ def _adzuna_salary(item: dict) -> str:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# 2. Serper — Google Jobs
+# 2. python-jobspy — LinkedIn, Indeed, Glassdoor (no API key needed)
 # ─────────────────────────────────────────────────────────────────────────────
 
-def serper_jobs(keywords: List[str], config: dict) -> List[Job]:
-    """Serper.dev Google Jobs endpoint — 2,500 free req/month."""
-    api_key = os.environ["SERPER_API_KEY"]
-    rpp = config["sources"]["serper"].get("results_per_keyword", 10)
+def jobspy_jobs(keywords: List[str], config: dict) -> List[Job]:
+    """
+    python-jobspy scrapes LinkedIn, Indeed, and Glassdoor directly.
+    No API key required. Replaces Serper Google Jobs endpoint.
+    """
+    try:
+        from jobspy import scrape_jobs
+    except ImportError:
+        logger.warning("python-jobspy not installed — run: pip install python-jobspy")
+        return []
+
+    rpp = config["sources"].get("jobspy", {}).get("results_per_keyword", 15)
+    capped_kw = keywords[:6]  # cap to preserve time/bandwidth
     jobs = []
 
-    for kw in keywords:
+    for kw in capped_kw:
         try:
-            r = requests.post(
-                "https://google.serper.dev/jobs",
-                headers={"X-API-KEY": api_key, "Content-Type": "application/json"},
-                json={"q": kw, "location": "Netherlands", "num": rpp},
-                timeout=15,
+            df = scrape_jobs(
+                site_name=["linkedin", "indeed", "glassdoor"],
+                search_term=kw,
+                location="Netherlands",
+                results_wanted=rpp,
+                hours_old=168,  # 7 days
+                country_indeed="Netherlands",
             )
-            r.raise_for_status()
-            for item in r.json().get("jobs", []):
+            for _, row in df.iterrows():
+                url = str(row.get("job_url", ""))
+                if not url or url == "nan":
+                    continue
                 jobs.append(Job(
-                    url=item.get("link", ""),
-                    title=item.get("title", ""),
-                    company=item.get("company", ""),
-                    location=item.get("location", ""),
-                    description=item.get("description", ""),
-                    date_posted=item.get("date", ""),
-                    salary_hint=item.get("salary", ""),
-                    source="serper",
+                    url=url,
+                    title=str(row.get("title", "")),
+                    company=str(row.get("company", "")),
+                    location=str(row.get("location", "")),
+                    description=str(row.get("description", ""))[:1000],
+                    date_posted=str(row.get("date_posted", "")),
+                    salary_hint=str(row.get("min_amount", "") or ""),
+                    source="jobspy",
                 ))
         except Exception as e:
-            logger.warning(f"Serper failed for '{kw}': {e}")
-        time.sleep(0.3)
+            logger.warning(f"jobspy failed for '{kw}': {e}")
+        time.sleep(2)  # jobspy scrapes directly — be polite
 
-    logger.info(f"Serper: {len(jobs)} raw jobs")
+    logger.info(f"JobSpy: {len(jobs)} raw jobs")
     return jobs
 
 
@@ -159,7 +209,6 @@ def greenhouse_jobs(slug: str, company_name: str = "") -> List[Job]:
     jobs = []
     for item in r.json().get("jobs", []):
         loc = item.get("location", {}).get("name", "")
-        # Only NL-based roles
         if not _is_nl_location(loc):
             continue
         jobs.append(Job(
@@ -209,15 +258,17 @@ def ashby_jobs(slug: str, company_name: str = "") -> List[Job]:
     """Query Ashby public job board API for a company slug."""
     try:
         r = requests.post(
-            f"https://jobs.ashbyhq.com/api/non-user-facing/job-board/with-pagination",
+            "https://jobs.ashbyhq.com/api/non-user-facing/job-board/with-pagination",
             json={"organizationHostedJobsPageName": slug, "pageSize": 100, "page": 1},
             timeout=15,
         )
         r.raise_for_status()
         jobs = []
         for item in r.json().get("results", []):
-            loc = item.get("secondaryLocations", [{}])[0].get("city", "") or \
-                  item.get("primaryLocation", {}).get("city", "")
+            loc = (
+                item.get("secondaryLocations", [{}])[0].get("city", "")
+                or item.get("primaryLocation", {}).get("city", "")
+            )
             country = item.get("primaryLocation", {}).get("country", "")
             if country and country.lower() not in ("netherlands", "nl", "the netherlands"):
                 continue
@@ -235,73 +286,7 @@ def ashby_jobs(slug: str, company_name: str = "") -> List[Job]:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# 6. Static portals list (Greenhouse/Lever/Ashby slugs + careers pages)
-# ─────────────────────────────────────────────────────────────────────────────
-
-def portals_static_jobs(portals_file: str = "portals.yml") -> List[Job]:
-    """Query every company in portals.yml."""
-    with open(portals_file) as f:
-        portals_config = yaml.safe_load(f)
-
-    jobs = []
-    for portal in portals_config.get("portals", []):
-        name = portal["name"]
-        ptype = portal.get("type", "")
-        slug = portal.get("slug", "")
-
-        try:
-            if ptype == "greenhouse" and slug:
-                found = greenhouse_jobs(slug, name)
-            elif ptype == "lever" and slug:
-                found = lever_jobs(slug, name)
-            elif ptype == "ashby" and slug:
-                found = ashby_jobs(slug, name)
-            elif ptype == "careers_page" and portal.get("url"):
-                found = scrape_careers_page(portal["url"], name)
-            else:
-                found = []
-
-            logger.debug(f"Portals static [{name}]: {len(found)} jobs")
-            jobs.extend(found)
-        except Exception as e:
-            logger.warning(f"Portals static [{name}] failed: {e}")
-
-        time.sleep(0.3)
-
-    logger.info(f"Portals static: {len(jobs)} raw jobs")
-    return jobs
-
-
-def scrape_careers_page(url: str, company: str) -> List[Job]:
-    """Generic scraper for careers pages — extracts any <a> that looks like a job link."""
-    r = _get(url)
-    if not r:
-        return []
-    soup = BeautifulSoup(r.text, "html.parser")
-    jobs = []
-    seen_urls = set()
-    for a in soup.find_all("a", href=True):
-        href = a["href"]
-        text = a.get_text(strip=True)
-        if not href or not text or len(text) < 8:
-            continue
-        if not any(kw in href.lower() for kw in ("job", "career", "vacature", "vacancy", "position", "role", "opening")):
-            continue
-        full_url = href if href.startswith("http") else urljoin(url, href)
-        if full_url in seen_urls:
-            continue
-        seen_urls.add(full_url)
-        jobs.append(Job(
-            url=full_url,
-            title=text[:150],
-            company=company,
-            source="portal_static",
-        ))
-    return jobs[:30]  # cap — generic scraper isn't precise
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# 7. Wellfound (Playwright required)
+# 6. Wellfound (Playwright required)
 # ─────────────────────────────────────────────────────────────────────────────
 
 def wellfound_jobs(config: dict) -> List[Job]:
@@ -312,7 +297,9 @@ def wellfound_jobs(config: dict) -> List[Job]:
         logger.warning("Playwright not installed — skipping Wellfound. Run: pip install playwright && playwright install chromium")
         return []
 
-    url = config["sources"]["wellfound"].get("url", "https://wellfound.com/role/l/software-engineer/netherlands")
+    url = config["sources"]["wellfound"].get(
+        "url", "https://wellfound.com/role/l/software-engineer/netherlands"
+    )
     jobs = []
 
     try:
@@ -321,13 +308,15 @@ def wellfound_jobs(config: dict) -> List[Job]:
             page = browser.new_page()
             page.goto(url, wait_until="networkidle", timeout=30000)
             page.wait_for_selector("[data-test='StartupResult']", timeout=15000)
-
             cards = page.query_selector_all("[data-test='StartupResult']")
+
             for card in cards[:40]:
                 try:
                     job_links = card.query_selector_all("a[href*='/jobs/']")
-                    company_el = card.query_selector("[data-test='startup-name']") or \
-                                 card.query_selector("h2")
+                    company_el = (
+                        card.query_selector("[data-test='startup-name']")
+                        or card.query_selector("h2")
+                    )
                     company = company_el.inner_text().strip() if company_el else ""
 
                     for link in job_links[:5]:
@@ -354,44 +343,7 @@ def wellfound_jobs(config: dict) -> List[Job]:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# 8. Relocate.me
-# ─────────────────────────────────────────────────────────────────────────────
-
-def relocateme_jobs(config: dict) -> List[Job]:
-    url = config["sources"]["relocateme"].get("url", "https://relocate.me/search?q=developer&where=nl")
-    r = _get(url)
-    if not r:
-        return []
-
-    soup = BeautifulSoup(r.text, "html.parser")
-    jobs = []
-
-    for card in soup.select("article.job-card, div.job-card, li.job-item")[:50]:
-        title_el = card.select_one("h2, h3, .job-title, [class*='title']")
-        company_el = card.select_one(".company-name, [class*='company']")
-        link_el = card.select_one("a[href]")
-        loc_el = card.select_one(".location, [class*='location']")
-
-        if not title_el or not link_el:
-            continue
-
-        href = link_el["href"]
-        full_url = href if href.startswith("http") else f"https://relocate.me{href}"
-
-        jobs.append(Job(
-            url=full_url,
-            title=title_el.get_text(strip=True),
-            company=company_el.get_text(strip=True) if company_el else "",
-            location=loc_el.get_text(strip=True) if loc_el else "Netherlands",
-            source="relocateme",
-        ))
-
-    logger.info(f"Relocate.me: {len(jobs)} raw jobs")
-    return jobs
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# 9. Undutchables
+# 7. Undutchables
 # ─────────────────────────────────────────────────────────────────────────────
 
 def undutchables_jobs(config: dict) -> List[Job]:
@@ -405,7 +357,6 @@ def undutchables_jobs(config: dict) -> List[Job]:
         r = _get(paged_url)
         if not r:
             break
-
         soup = BeautifulSoup(r.text, "html.parser")
         cards = soup.select("article.vacancy, li.vacancy-item, div.job-listing")
         if not cards:
@@ -430,7 +381,6 @@ def undutchables_jobs(config: dict) -> List[Job]:
                 location=loc_el.get_text(strip=True) if loc_el else "Netherlands",
                 source="undutchables",
             ))
-
         time.sleep(1)
 
     logger.info(f"Undutchables: {len(jobs)} raw jobs")
@@ -438,7 +388,7 @@ def undutchables_jobs(config: dict) -> List[Job]:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# 10. Gmail — Yutori Scouts label + Andrew Stutanski weekly email
+# 8. Gmail — Yutori Scouts label + Andrew Stutanski weekly email
 # ─────────────────────────────────────────────────────────────────────────────
 
 def gmail_jobs(config: dict) -> List[Job]:
@@ -474,7 +424,7 @@ def gmail_jobs(config: dict) -> List[Job]:
         sender = config["sources"]["gmail_andrew"]["sender_contains"]
         try:
             jobs.extend(_extract_jobs_from_gmail_query(
-                service, f'from:{sender} newer_than:10d', source="gmail_andrew"
+                service, f"from:{sender} newer_than:10d", source="gmail_andrew"
             ))
         except Exception as e:
             logger.warning(f"Gmail Andrew failed: {e}")
@@ -488,6 +438,7 @@ def _extract_jobs_from_gmail_query(service, query: str, source: str) -> List[Job
     result = service.users().messages().list(userId="me", q=query, maxResults=20).execute()
     messages = result.get("messages", [])
     jobs = []
+
     url_pattern = re.compile(
         r'https?://[^\s"\'<>]+(?:job|career|vacature|vacancy|position|opening)[^\s"\'<>]*',
         re.IGNORECASE,
@@ -501,7 +452,6 @@ def _extract_jobs_from_gmail_query(service, query: str, source: str) -> List[Job
             body = _gmail_body(msg)
             urls = set(url_pattern.findall(body))
             for url in urls:
-                # Best-effort title from URL slug
                 slug = url.rstrip("/").split("/")[-1].replace("-", " ").title()
                 jobs.append(Job(
                     url=url,
@@ -521,7 +471,6 @@ def _gmail_body(message: dict) -> str:
     if not parts:
         data = message.get("payload", {}).get("body", {}).get("data", "")
         return base64.urlsafe_b64decode(data + "==").decode("utf-8", errors="ignore") if data else ""
-
     texts = []
     for part in parts:
         mime = part.get("mimeType", "")
@@ -534,35 +483,13 @@ def _gmail_body(message: dict) -> str:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# 11. Private portal stub
-# ─────────────────────────────────────────────────────────────────────────────
-
-def private_portal_jobs(config: dict) -> List[Job]:
-    """
-    Stub for the course teacher's private job portal.
-
-    TODO once access method is known:
-    - If login-based website → implement Playwright login + scrape
-    - If email → add a Gmail query pattern here
-    - If API → add API call
-
-    Set sources.private_portal.enabled: true in config.yml once implemented.
-    """
-    logger.info("Private portal: stub not yet implemented")
-    return []
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# 12. IND-driven ATS batch query
+# 9. IND-driven ATS batch query
 # ─────────────────────────────────────────────────────────────────────────────
 
 def ind_ats_jobs(ind_companies: List[str], config: dict) -> List[Job]:
     """
     For each IND-registered company, attempt to find their jobs via
     Greenhouse, Lever, and Ashby public APIs by guessing their slug.
-
-    Slug guessing strategy: normalise company name → try 3–5 variations.
-    Hit rate ~25–35% but completely free and automatic.
     """
     jobs = []
     checked = set()
@@ -579,7 +506,7 @@ def ind_ats_jobs(ind_companies: List[str], config: dict) -> List[Job]:
                 if found:
                     logger.debug(f"IND Greenhouse hit: {company} → {slug} ({len(found)} jobs)")
                     jobs.extend(found)
-                    break  # found on Greenhouse, skip Lever/Ashby
+                    break
 
             if config["sources"].get("lever_ind", {}).get("enabled", True):
                 found = lever_jobs(slug, company)
@@ -603,17 +530,234 @@ def ind_ats_jobs(ind_companies: List[str], config: dict) -> List[Job]:
 
 def _guess_slugs(company_name: str) -> List[str]:
     """Generate likely ATS slug variations from a company name."""
-    import re
-    # Strip legal suffixes
-    name = re.sub(r"\b(B\.?V\.?|N\.?V\.?|BV|NV|Ltd|LLC|Inc|GmbH|SE|Holding|Group)\b", "", company_name, flags=re.IGNORECASE)
+    name = re.sub(
+        r"\b(B\.?V\.?|N\.?V\.?|BV|NV|Ltd|LLC|Inc|GmbH|SE|Holding|Group)\b",
+        "", company_name, flags=re.IGNORECASE
+    )
     name = name.strip(" .,")
-
     base = re.sub(r"[^a-zA-Z0-9\s]", "", name).strip()
-    slug1 = base.lower().replace(" ", "")       # "bookingcom"
-    slug2 = base.lower().replace(" ", "-")     # "booking-com"
-    slug3 = base.lower().split()[0] if base.split() else slug1  # first word only
+    slug1 = base.lower().replace(" ", "")     # "bookingcom"
+    slug2 = base.lower().replace(" ", "-")    # "booking-com"
+    slug3 = base.lower().split()[0] if base.split() else slug1  # first word
+    return list(dict.fromkeys([slug1, slug2, slug3]))
 
-    return list(dict.fromkeys([slug1, slug2, slug3]))  # deduplicated, ordered
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 10. LinkedIn job listings (Brave Search, site: filter)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def linkedin_jobs_source(keywords: List[str], config: dict) -> List[Job]:
+    """Brave Search against linkedin.com/jobs."""
+    api_key = os.environ.get("BRAVE_API_KEY", "")
+    if not api_key:
+        logger.warning("BRAVE_API_KEY not set — skipping linkedin_jobs")
+        return []
+
+    jobs = []
+    capped_kw = keywords[:6]
+
+    for kw in capped_kw:
+        query = f'site:linkedin.com/jobs "{kw}" "Netherlands" "visa sponsorship"'
+        for item in _brave_search(query, api_key, count=10):
+            url = item.get("url", "")
+            if "linkedin.com/jobs" not in url:
+                continue
+            raw_title = item.get("title", "")
+            title = raw_title.replace(" - LinkedIn", "").strip()
+            company = ""
+            if " at " in title:
+                parts = title.rsplit(" at ", 1)
+                title = parts[0].strip()
+                company = parts[1].strip()
+            jobs.append(Job(
+                url=url,
+                title=title,
+                company=company,
+                location="Netherlands",
+                source="linkedin_jobs",
+            ))
+        time.sleep(0.3)
+
+    logger.info(f"LinkedIn jobs: {len(jobs)} raw jobs")
+    return jobs
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 11. LinkedIn hiring posts (Brave Search + GPT filter)
+# ─────────────────────────────────────────────────────────────────────────────
+
+_LINKEDIN_POST_QUERIES = [
+    'site:linkedin.com/posts "visa sponsorship" "hiring" "Netherlands" developer',
+    'site:linkedin.com/posts "visa sponsorship" "hiring" "Amsterdam" engineer',
+    'site:linkedin.com/posts "kennismigrant" "hiring" developer',
+    'site:linkedin.com/posts "relocation" "hiring" "Netherlands" "product manager"',
+    'site:linkedin.com/posts "we are hiring" "visa" "Netherlands" tech',
+]
+
+
+def linkedin_posts_source(config: dict) -> List[Job]:
+    """Brave Search against linkedin.com/posts — catches direct hiring announcements."""
+    api_key = os.environ.get("BRAVE_API_KEY", "")
+    if not api_key:
+        logger.warning("BRAVE_API_KEY not set — skipping linkedin_posts")
+        return []
+
+    raw_posts = []
+    for query in _LINKEDIN_POST_QUERIES:
+        for item in _brave_search(query, api_key, count=10):
+            url = item.get("url", "")
+            if "linkedin.com/posts" not in url:
+                continue
+            raw_posts.append({
+                "url": url,
+                "title": item.get("title", ""),
+                "snippet": item.get("description", ""),
+            })
+        time.sleep(0.3)
+
+    openai_key = os.environ.get("OPENAI_API_KEY", "")
+    if openai_key and raw_posts:
+        filtered = _filter_posts_with_gpt(raw_posts, openai_key)
+    else:
+        filtered = raw_posts
+
+    jobs = []
+    for post in filtered:
+        jobs.append(Job(
+            url=post["url"],
+            title=post.get("role", post["title"][:80]),
+            company=post.get("company", ""),
+            location="Netherlands",
+            source="linkedin_posts",
+        ))
+
+    logger.info(f"LinkedIn posts: {len(jobs)} jobs after filter")
+    return jobs
+
+
+def _filter_posts_with_gpt(posts: list, api_key: str) -> list:
+    """
+    GPT-4o-mini filter — keeps only genuine job openings with NL visa/relocation support.
+    Returns filtered list; falls back to all posts on any failure.
+    """
+    import json as _json
+    try:
+        import openai
+        client = openai.OpenAI(api_key=api_key)
+
+        snippets = [
+            {"id": i, "title": p["title"], "snippet": p["snippet"]}
+            for i, p in enumerate(posts)
+        ]
+        system = (
+            "You are a filter. Given a list of LinkedIn post snippets, "
+            "return ONLY those that are genuine job openings with visa sponsorship "
+            "or relocation support in the Netherlands. "
+            'Respond with ONLY a JSON array: [{"id": N, "role": "...", "company": "..."}]. '
+            "No preamble, no markdown."
+        )
+        resp = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": system},
+                {"role": "user", "content": _json.dumps(snippets)},
+            ],
+            max_tokens=600,
+            temperature=0,
+        )
+        raw = resp.choices[0].message.content.strip()
+        raw = raw.replace("```json", "").replace("```", "").strip()
+        filtered_ids = {item["id"]: item for item in _json.loads(raw)}
+        result = []
+        for i, post in enumerate(posts):
+            if i in filtered_ids:
+                post = dict(post)
+                post["role"] = filtered_ids[i].get("role", "")
+                post["company"] = filtered_ids[i].get("company", "")
+                result.append(post)
+        return result
+    except Exception as e:
+        logger.warning(f"LinkedIn posts GPT filter failed — passing all through: {e}")
+        return posts
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 12. Niche boards — tech boards, PM boards, Dutch boards, recruiter sites
+# ─────────────────────────────────────────────────────────────────────────────
+
+_NICHE_BOARD_QUERIES = [
+    # ── Tech-specific NL boards ──────────────────────────────────────────────
+    'site:devitjobs.nl Netherlands',
+    'site:iamexpat.nl "visa sponsorship" IT technology',
+    'site:indsponsors.nl Netherlands',
+    'site:visa-hunt.com Netherlands tech',
+    'site:arrowlancer.com Netherlands',
+    'site:startup.jobs Netherlands',
+    'site:hnhiring.com Amsterdam',
+    'site:jobs.uprotterdam.com',
+    'site:magnet.me "visa sponsorship" Netherlands tech',
+    'site:workway.dev Netherlands',
+    'site:vacaturebank.ai Netherlands',
+    'site:eurotoptech.com Netherlands',
+    'site:owliejobs.com Netherlands',
+    'site:jobmetasearch.ai "visa sponsorship" Netherlands',
+    'site:expatjobs.io Netherlands tech',
+    'site:moveabroadjobs.com Netherlands',
+    'site:jaabz.com Netherlands',
+
+    # ── PM-specific boards ───────────────────────────────────────────────────
+    'site:jobs.mindtheproduct.com Netherlands OR Amsterdam',
+    'site:producthired.com Netherlands OR Amsterdam',
+    'site:fintechcareers.com Amsterdam OR Netherlands',
+    'site:inferencejobs.com Amsterdam "product manager"',
+    'site:weloveproduct.co Netherlands',
+
+    # ── Dutch job boards (English-language listings) ─────────────────────────
+    'site:werkzoeken.nl "English" Netherlands developer "visa"',
+    'site:jobbird.com Netherlands developer "visa sponsorship"',
+    'site:intermediair.nl Netherlands IT "visa sponsorship"',
+    'site:monsterboard.nl "software engineer" Netherlands "visa"',
+    'site:nationalevacaturebank.nl developer Netherlands "English" "visa"',
+
+    # ── Recruiter / agency job boards ────────────────────────────────────────
+    'site:trinamics.nl Netherlands developer',
+    'site:sourcegroup.com Netherlands developer "visa"',
+    'site:wearedevelopers.com Netherlands',
+    'site:hays.nl "software" Netherlands "visa sponsorship"',
+    'site:roberthalfnl.nl developer Netherlands',
+    'site:yacht.nl "developer" OR "engineer" Netherlands "visa"',
+]
+
+
+def niche_boards_source(config: dict) -> List[Job]:
+    """
+    Brave Search against niche NL boards not covered by Adzuna or jobspy.
+    Covers: tech boards, PM-specific boards, Dutch job boards (English listings),
+    and recruiter/agency sites.
+    """
+    api_key = os.environ.get("BRAVE_API_KEY", "")
+    if not api_key:
+        logger.warning("BRAVE_API_KEY not set — skipping niche_boards")
+        return []
+
+    jobs = []
+    for query in _NICHE_BOARD_QUERIES:
+        for item in _brave_search(query, api_key, count=10):
+            url = item.get("url", "")
+            if not url:
+                continue
+            jobs.append(Job(
+                url=url,
+                title=item.get("title", "")[:150],
+                company="",
+                location="Netherlands",
+                description=item.get("description", ""),
+                source="niche_boards",
+            ))
+        time.sleep(0.3)
+
+    logger.info(f"Niche boards: {len(jobs)} raw jobs")
+    return jobs
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -630,6 +774,6 @@ NL_LOCATION_KEYWORDS = {
 def _is_nl_location(location: str) -> bool:
     """Return True if location string looks like it's in the Netherlands."""
     if not location:
-        return False  # no location info — include by default (filtered later)
+        return False
     loc_lower = location.lower()
     return any(kw in loc_lower for kw in NL_LOCATION_KEYWORDS)
