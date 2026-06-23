@@ -1,0 +1,24 @@
+name: Job Hunter
+on:
+  schedule:
+    - cron: '0 6 * * 1,3,5'   # Mon/Wed/Fri 6am UTC
+  workflow_dispatch:            # manual trigger button
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: playwright install chromium
+      - run: python agent.py
+        env:
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
+          GMAIL_TOKEN_JSON: ${{ secrets.GMAIL_TOKEN_JSON }}
