@@ -103,7 +103,7 @@ def adzuna_jobs(keywords: List[str], config: dict) -> List[Job]:
     jobs = []
 
     for kw in keywords:
-        for page in range(1, 3):  # up to 2 pages per keyword
+        for page in range(1, 2):  # 1 page per keyword — keeps requests under 250/day free tier
             params = {
                 "app_id": app_id,
                 "app_key": app_key,
@@ -165,6 +165,7 @@ def jobspy_jobs(keywords: List[str], config: dict) -> List[Job]:
         return []
 
     rpp = config["sources"].get("jobspy", {}).get("results_per_keyword", 15)
+    max_age_days = config.get("filters", {}).get("max_age_days", 21)
     capped_kw = keywords[:6]  # cap to preserve time/bandwidth
     jobs = []
 
@@ -175,7 +176,7 @@ def jobspy_jobs(keywords: List[str], config: dict) -> List[Job]:
                 search_term=kw,
                 location="Netherlands",
                 results_wanted=rpp,
-                hours_old=168,  # 7 days
+                hours_old=max_age_days * 24,  # respects config filters.max_age_days
                 country_indeed="Netherlands",
             )
             for _, row in df.iterrows():

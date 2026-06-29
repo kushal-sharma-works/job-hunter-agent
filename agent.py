@@ -109,12 +109,33 @@ def check_env(config: dict) -> None:
 # Stage 1 — Collect jobs from all sources
 # ─────────────────────────────────────────────────────────────────────────────
 
+def _role_keywords(config: dict) -> List[str]:
+    """
+    Build extra search keywords from priority_1 role eu_variants only.
+    P1 roles are the actively targeted ones — P2/P3 are lower priority and
+    skipped here to stay within Adzuna's 250 req/day free tier.
+    Each variant gets ' Netherlands' appended to match the search.keywords format.
+    nl_variants are intentionally skipped — Dutch terms yield little on English-
+    language boards (LinkedIn, Indeed, Glassdoor).
+    """
+    variants = []
+    for role in config.get("roles", {}).get("priority_1", []):
+        for v in role.get("eu_variants", []):
+            variants.append(f"{v} Netherlands")
+    return variants
+
+
 def collect_jobs(config: dict, ind_companies: set) -> List[Job]:
     all_jobs: List[Job] = []
     src = config["sources"]
-    dev_kw = config["search"]["keywords"].get("developer", [])
-    pm_kw = config["search"]["keywords"].get("pm", [])
-    all_kw = dev_kw + pm_kw
+    # Merge search.keywords groups + role eu_variants, then deduplicate
+    role_kw = _role_keywords(config)
+    all_kw = list(dict.fromkeys(
+        kw
+        for group in [*config["search"]["keywords"].values(), role_kw]
+        for kw in group
+    ))
+    logger.info(f"Keyword pool: {len(all_kw)} unique search terms")
 
     # ── API / scraper sources ─────────────────────────────────────────────────
     if src["adzuna"]["enabled"]:
