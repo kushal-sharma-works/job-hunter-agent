@@ -1,1 +1,5 @@
 .env
+__pycache__
+gmail_credentials.json
+gmail_token.json
+.DS_Store
