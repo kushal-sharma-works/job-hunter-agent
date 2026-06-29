@@ -61,26 +61,29 @@ def _get(url: str, params: dict = None, headers: dict = None, timeout: int = 15)
         return None
 
 
-def _brave_search(query: str, api_key: str, count: int = 10) -> list:
+def _serper_search(query: str, api_key: str, count: int = 10) -> list:
     """
-    Call Brave Web Search API. Returns list of result dicts with
-    'url', 'title', 'description' keys.
+    Call Serper Google Search API. Returns list of result dicts with
+    'url', 'title', 'description' keys (normalised from Serper's 'link'/'snippet').
     """
     try:
-        r = requests.get(
-            "https://api.search.brave.com/res/v1/web/search",
-            headers={
-                "Accept": "application/json",
-                "Accept-Encoding": "gzip",
-                "X-Subscription-Token": api_key,
-            },
-            params={"q": query, "count": count, "country": "nl"},
+        r = requests.post(
+            "https://google.serper.dev/search",
+            headers={"X-API-KEY": api_key, "Content-Type": "application/json"},
+            json={"q": query, "gl": "nl", "num": count, "tbs": "qdr:w3"},
             timeout=15,
         )
         r.raise_for_status()
-        return r.json().get("web", {}).get("results", [])
+        results = []
+        for item in r.json().get("organic", []):
+            results.append({
+                "url": item.get("link", ""),
+                "title": item.get("title", ""),
+                "description": item.get("snippet", ""),
+            })
+        return results
     except Exception as e:
-        logger.warning(f"Brave search failed for '{query[:60]}': {e}")
+        logger.warning(f"Serper search failed for '{query[:60]}': {e}")
         return []
 
 
@@ -548,9 +551,9 @@ def _guess_slugs(company_name: str) -> List[str]:
 
 def linkedin_jobs_source(keywords: List[str], config: dict) -> List[Job]:
     """Brave Search against linkedin.com/jobs."""
-    api_key = os.environ.get("BRAVE_API_KEY", "")
+    api_key = os.environ.get("SERPER_API_KEY", "")
     if not api_key:
-        logger.warning("BRAVE_API_KEY not set — skipping linkedin_jobs")
+        logger.warning("SERPER_API_KEY not set — skipping linkedin_jobs")
         return []
 
     jobs = []
@@ -558,7 +561,7 @@ def linkedin_jobs_source(keywords: List[str], config: dict) -> List[Job]:
 
     for kw in capped_kw:
         query = f'site:linkedin.com/jobs "{kw}" "Netherlands" "visa sponsorship"'
-        for item in _brave_search(query, api_key, count=10):
+        for item in _serper_search(query, api_key, count=10):
             url = item.get("url", "")
             if "linkedin.com/jobs" not in url:
                 continue
@@ -597,14 +600,14 @@ _LINKEDIN_POST_QUERIES = [
 
 def linkedin_posts_source(config: dict) -> List[Job]:
     """Brave Search against linkedin.com/posts — catches direct hiring announcements."""
-    api_key = os.environ.get("BRAVE_API_KEY", "")
+    api_key = os.environ.get("SERPER_API_KEY", "")
     if not api_key:
-        logger.warning("BRAVE_API_KEY not set — skipping linkedin_posts")
+        logger.warning("SERPER_API_KEY not set — skipping linkedin_posts")
         return []
 
     raw_posts = []
     for query in _LINKEDIN_POST_QUERIES:
-        for item in _brave_search(query, api_key, count=10):
+        for item in _serper_search(query, api_key, count=10):
             url = item.get("url", "")
             if "linkedin.com/posts" not in url:
                 continue
@@ -735,14 +738,14 @@ def niche_boards_source(config: dict) -> List[Job]:
     Covers: tech boards, PM-specific boards, Dutch job boards (English listings),
     and recruiter/agency sites.
     """
-    api_key = os.environ.get("BRAVE_API_KEY", "")
+    api_key = os.environ.get("SERPER_API_KEY", "")
     if not api_key:
-        logger.warning("BRAVE_API_KEY not set — skipping niche_boards")
+        logger.warning("SERPER_API_KEY not set — skipping niche_boards")
         return []
 
     jobs = []
     for query in _NICHE_BOARD_QUERIES:
-        for item in _brave_search(query, api_key, count=10):
+        for item in _serper_search(query, api_key, count=10):
             url = item.get("url", "")
             if not url:
                 continue
