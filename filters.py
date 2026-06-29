@@ -75,11 +75,18 @@ def load_ind_companies(config: dict) -> Set[str]:
         soup = BeautifulSoup(r.text, "html.parser")
         companies = set()
         for row in soup.select("table tr"):
-            cells = row.find_all("td")
-            if cells:
-                name = cells[0].get_text(strip=True)
-                if name:
-                    companies.add(_normalize_company(name))
+            cells = row.find_all(["td", "th"])
+            if len(cells) < 2:
+                continue
+            # Column 0 = Organisation name, Column 1 = KvK number (confirmed)
+            name = cells[0].get_text(strip=True)
+            if not name or name.lower() == "organisation":
+                continue  # skip header row
+            if name.replace(" ", "").isdigit():
+                continue  # skip anything purely numeric
+            normalized = _normalize_company(name)
+            if normalized:
+                companies.add(normalized)
         if companies:
             cache_file.write_text("\n".join(companies), encoding="utf-8")
             logger.info(f"IND register: {len(companies)} companies scraped and cached")
@@ -211,9 +218,15 @@ def _classify_single(job: Job, api_key: str, max_chars: int) -> None:
         company=job.company,
         description=desc,
     )
-    result = _call_openai(DISQUALIFIER_SYSTEM, user_msg, api_key)
-    if result:
-        _apply_disqualifier_result(job, result)
+    raw = _call_openai(DISQUALIFIER_SYSTEM, user_msg, api_key)
+    if not raw:
+        return
+    try:
+        result = json.loads(raw)
+        if isinstance(result, dict):
+            _apply_disqualifier_result(job, result)
+    except Exception:
+        pass  # unparseable — keep job, do not crash
 
 
 def _classify_batch(batch: List[Job], api_key: str, max_chars: int) -> None:
@@ -264,7 +277,7 @@ def _call_openai(system: str, user: str, api_key: str, model: str = "gpt-4o-mini
                     {"role": "system", "content": system},
                     {"role": "user", "content": user},
                 ],
-                "max_tokens": 200,
+                "max_tokens": 800,
                 "temperature": 0,
             },
             timeout=30,
@@ -341,3 +354,20 @@ def deduplicate(jobs: List[Job]) -> List[Job]:
 
     logger.info(f"Deduplication: {len(jobs)} → {len(unique)} unique jobs")
     return unique
+
+
+def filter_by_date(jobs, max_days: int = 21):
+    from datetime import datetime, timedelta
+    cutoff = datetime.utcnow() - timedelta(days=max_days)
+    fresh = []
+    for job in jobs:
+        if not job.date_posted:
+            fresh.append(job)
+            continue
+        try:
+            posted = datetime.fromisoformat(str(job.date_posted))
+            if posted >= cutoff:
+                fresh.append(job)
+        except Exception:
+            fresh.append(job)
+    return fresh

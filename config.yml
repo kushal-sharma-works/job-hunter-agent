@@ -90,7 +90,7 @@ sources:
     label: "Yutori Scouts"
   gmail_andrew:
     enabled: true
-    sender_contains: "stutanski"
+    sender_contains: "andrew stetsenko"
 
   # Brave Search sources — all need BRAVE_API_KEY
   # Sign up free at: https://brave.com/search/api (2,000 queries/month)
@@ -107,6 +107,7 @@ filters:
   llm_disqualifier: true
   llm_batch_size: 10
   llm_max_desc_chars: 3000
+  max_age_days: 21
 
 # ─── Enrichment ───────────────────────────────────────────────────────────────
 

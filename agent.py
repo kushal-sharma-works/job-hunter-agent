@@ -47,6 +47,7 @@ from filters import (
     run_disqualifier_filter,
     filter_by_location,
     deduplicate,
+    filter_by_date,
 )
 from enrichment import enrich_jobs, backfill_salary_hints
 from outputs import (
@@ -194,6 +195,10 @@ def run_pipeline(config: dict) -> None:
     if not jobs:
         logger.info("No new jobs found this run. Exiting.")
         return
+
+    # Stage 4.5: Date filter
+    jobs = filter_by_date(jobs, max_days=config.get("filters", {}).get("max_age_days", 21))
+    logger.info(f"After date filter: {len(jobs)} jobs")
 
     # ── Stage 5: Location filter ──────────────────────────────────────────────
     logger.info("Stage 5: Filtering by location…")
