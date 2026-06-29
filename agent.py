@@ -91,13 +91,13 @@ def check_env(config: dict) -> None:
         or config["sources"].get("linkedin_posts", {}).get("enabled", True)
         or config["sources"].get("niche_boards", {}).get("enabled", True)
     ):
-        required += ["BRAVE_API_KEY"]
+        required += ["SERPER_API_KEY"]
 
     if config["filters"].get("llm_disqualifier") or config["enrichment"].get("llm_recruiter_extract"):
         required += ["OPENAI_API_KEY"]
 
     if config["outputs"].get("github_push"):
-        required += ["GITHUB_PAT"]
+        required += ["GH_PAT"]
 
     missing = [k for k in required if not os.environ.get(k)]
     if missing:

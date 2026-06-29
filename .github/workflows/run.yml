@@ -20,6 +20,9 @@ jobs:
           pip install -r requirements.txt
           playwright install chromium
 
+      - name: Write Gmail token
+        run: echo '${{ secrets.GMAIL_TOKEN_JSON }}' > gmail_token.json
+
       - name: Run agent
         run: python agent.py
         env:
@@ -28,4 +31,3 @@ jobs:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
           GH_PAT: ${{ secrets.GH_PAT }}
-          GMAIL_TOKEN_JSON: ${{ secrets.GMAIL_TOKEN_JSON }}

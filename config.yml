@@ -37,7 +37,7 @@ search:
 
 ind:
   register_page: "https://ind.nl/en/public-register-recognised-sponsors"
-  register_url_fallback: "https://ind.nl/en/documents/public-register-regular-labour-and-highly-skilled-migrants.xlsx"
+  register_url_fallback: "https://ind.nl/en/documents/06/2023/public-register-regular-labour-and-highly-skilled-migrants.xlsx"
   cache_days: 7
   cache_file: "ind_register_cache.xlsx"
   target_cities:
@@ -82,7 +82,7 @@ sources:
   # Undutchables scraper
   undutchables:
     enabled: true
-    url: "https://www.undutchables.nl/vacatures/?function=it-and-telecom"
+    url: "https://www.undutchables.nl/vacatures/it-ict/"
 
   # Gmail API — needs gmail_token.json (run gmail_setup.py once)
   gmail_yutori:

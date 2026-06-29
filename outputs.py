@@ -62,9 +62,9 @@ def push_batch_to_github(batch_path: Path, config: dict) -> bool:
     Push the batch TSV to the job-hunter-agent GitHub repo using the GitHub
     Contents API. Requires GITHUB_PAT environment variable with repo write access.
     """
-    token = os.environ.get("GITHUB_PAT", "")
+    token = os.environ.get("GH_PAT", "")
     if not token:
-        logger.warning("GITHUB_PAT not set — skipping GitHub push.")
+        logger.warning("GH_PAT not set — skipping GitHub push.")
         return False
 
     repo = config["outputs"]["career_ops_repo"]

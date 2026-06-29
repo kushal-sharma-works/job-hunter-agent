@@ -51,136 +51,44 @@ HIGHLY_SKILLED_KEYWORDS = [
 
 def load_ind_companies(config: dict) -> Set[str]:
     """
-    Download (or use cached) IND recognised sponsors Excel.
-    Returns a set of normalised company names eligible for highly skilled migrant sponsorship
-    in the configured target cities.
+    Scrape IND recognised sponsors from the HTML table at ind.nl.
+    IND removed Excel downloads — the register is now a web table only.
+    Caches result as a text file (one company per line).
     """
-    cache_file = Path(config["ind"].get("cache_file", "ind_register_cache.xlsx"))
+    cache_file = Path("ind_register_cache.txt")
     cache_days = config["ind"].get("cache_days", 7)
-    target_cities = {c.lower() for c in config["ind"].get("target_cities", [])}
 
     # ── Use cache if fresh ───────────────────────────────────────────────────
     if cache_file.exists():
         age_days = (datetime.now() - datetime.fromtimestamp(cache_file.stat().st_mtime)).days
         if age_days < cache_days:
-            logger.info(f"IND register: using cached file ({age_days}d old)")
-            return _parse_ind_excel(cache_file, target_cities)
+            companies = set(cache_file.read_text(encoding="utf-8").splitlines())
+            logger.info(f"IND register: using cache ({age_days}d old, {len(companies)} companies)")
+            return companies
 
-    # ── Download fresh copy ──────────────────────────────────────────────────
-    excel_url = _find_ind_excel_url(config)
-    if not excel_url:
-        logger.error("Could not find IND register Excel URL. IND tier tagging will be skipped.")
-        return set()
-
-    logger.info(f"IND register: downloading from {excel_url}")
+    # ── Scrape HTML table ────────────────────────────────────────────────────
+    url = "https://ind.nl/en/public-register-recognised-sponsors/public-register-work"
+    logger.info(f"IND register: scraping {url}")
     try:
-        r = requests.get(excel_url, timeout=60, headers={"User-Agent": "Mozilla/5.0"})
-        r.raise_for_status()
-        cache_file.write_bytes(r.content)
-        logger.info(f"IND register: saved to {cache_file}")
-    except Exception as e:
-        logger.error(f"IND register download failed: {e}")
-        return set()
-
-    return _parse_ind_excel(cache_file, target_cities)
-
-
-def _find_ind_excel_url(config: dict) -> str:
-    """Scrape the IND register page to find the current Excel download link."""
-    fallback = config["ind"].get("register_url_fallback", "")
-    page_url = config["ind"].get("register_page", "https://ind.nl/en/public-register-recognised-sponsors")
-
-    try:
-        r = requests.get(page_url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
+        r = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
-
-        for a in soup.find_all("a", href=True):
-            href = a["href"]
-            if href.endswith(".xlsx") and ("sponsor" in href.lower() or "register" in href.lower()):
-                return href if href.startswith("http") else f"https://ind.nl{href}"
-
-        # Try any xlsx link on the page
-        for a in soup.find_all("a", href=True):
-            if a["href"].endswith(".xlsx"):
-                href = a["href"]
-                return href if href.startswith("http") else f"https://ind.nl{href}"
-
+        companies = set()
+        for row in soup.select("table tr"):
+            cells = row.find_all("td")
+            if cells:
+                name = cells[0].get_text(strip=True)
+                if name:
+                    companies.add(_normalize_company(name))
+        if companies:
+            cache_file.write_text("\n".join(companies), encoding="utf-8")
+            logger.info(f"IND register: {len(companies)} companies scraped and cached")
+            return companies
+        logger.warning("IND register: no companies found in HTML table")
+        return set()
     except Exception as e:
-        logger.warning(f"Could not scrape IND page: {e}")
-
-    logger.warning(f"Falling back to hardcoded IND URL: {fallback}")
-    return fallback
-
-
-def _parse_ind_excel(path: Path, target_cities: Set[str]) -> Set[str]:
-    """
-    Parse the IND register Excel and return a set of normalised company names
-    in the target cities that are eligible to sponsor highly skilled migrants.
-    """
-    try:
-        import openpyxl
-    except ImportError:
-        logger.error("openpyxl not installed. Run: pip install openpyxl")
+        logger.error(f"IND register scrape failed: {e}")
         return set()
-
-    wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
-    ws = wb.active
-
-    # ── Detect column positions from header row ──────────────────────────────
-    headers = []
-    col_name = col_city = col_type = -1
-    for i, row in enumerate(ws.iter_rows(values_only=True)):
-        row_lower = [str(c).lower().strip() if c else "" for c in row]
-        # Check if this looks like a header row
-        if any(any(kw in cell for kw in IND_COLUMNS["name"]) for cell in row_lower):
-            headers = row_lower
-            for kw in IND_COLUMNS["name"]:
-                if kw in headers:
-                    col_name = headers.index(kw)
-                    break
-            for kw in IND_COLUMNS["city"]:
-                if kw in headers:
-                    col_city = headers.index(kw)
-                    break
-            for kw in IND_COLUMNS["type"]:
-                if kw in headers:
-                    col_type = headers.index(kw)
-                    break
-            logger.debug(f"IND Excel columns: name={col_name}, city={col_city}, type={col_type}")
-            break
-
-    if col_name == -1:
-        logger.error("Could not find company name column in IND register. Check the Excel format.")
-        return set()
-
-    companies = set()
-    row_count = 0
-
-    for row in ws.iter_rows(min_row=i + 2, values_only=True):
-        if not any(row):
-            continue
-
-        name = str(row[col_name]).strip() if col_name >= 0 and row[col_name] else ""
-        city = str(row[col_city]).strip().lower() if col_city >= 0 and row[col_city] else ""
-        rtype = str(row[col_type]).strip().lower() if col_type >= 0 and row[col_type] else ""
-
-        if not name:
-            continue
-
-        # ── City filter ──────────────────────────────────────────────────────
-        if target_cities and not any(tc in city for tc in target_cities):
-            continue
-
-        # ── Type filter — only highly skilled migrant sponsors ───────────────
-        if rtype and not any(kw in rtype for kw in HIGHLY_SKILLED_KEYWORDS):
-            continue
-
-        companies.add(_normalize_company(name))
-        row_count += 1
-
-    logger.info(f"IND register: {row_count} eligible companies in target cities")
-    return companies
 
 
 def _normalize_company(name: str) -> str:
