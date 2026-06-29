@@ -3,6 +3,9 @@
 # See SETUP.md for the full list of required environment variables.
 
 # ─── Search keywords ──────────────────────────────────────────────────────────
+# NOTE: Adzuna free tier = 250 req/day. With results_per_keyword: 50 (5 pages each),
+# keep total keyword count under ~45 to stay safe. Roles section below handles
+# matching/scoring — keywords only need to cast the net.
 
 search:
   keywords:
@@ -14,11 +17,61 @@ search:
       - "full stack developer Netherlands"
       - "software engineer Amsterdam"
       - "backend engineer Netherlands visa"
+      - "API developer Netherlands"
+      - "API engineer Amsterdam"
+      - "integration engineer Netherlands"
+      - "Java full stack developer Netherlands"
+      - "web application developer Netherlands"
+
+    devops_cloud:
+      - "DevOps engineer Netherlands"
+      - "cloud engineer Amsterdam"
+      - "Azure engineer Netherlands"
+      - "platform engineer Amsterdam"
+      - "site reliability engineer Netherlands"
+      - "infrastructure engineer Netherlands"
+      - "CI/CD engineer Netherlands"
+
+    security:
+      - "application security engineer Netherlands"
+      - "AppSec engineer Amsterdam"
+      - "cloud security engineer Netherlands"
+      - "DevSecOps engineer Amsterdam"
+
+    observability_performance:
+      - "observability engineer Netherlands"
+      - "performance engineer Amsterdam"
+      - "monitoring engineer Netherlands"
+
+    streaming:
+      - "Kafka engineer Netherlands"
+      - "event streaming engineer Amsterdam"
+      - "event driven architecture engineer Netherlands"
+
+    qa:
+      - "QA engineer Amsterdam"
+      - "test automation engineer Netherlands"
+      - "SDET Netherlands"
+
+    consulting:
+      - "IT consultant Amsterdam"
+      - "technical consultant Netherlands"
+
+    leadership:
+      - "tech lead Amsterdam"
+      - "lead software engineer Netherlands"
+      - "engineering manager Netherlands"
+
+    architecture:
+      - "software architect Amsterdam"
+      - "solutions architect Netherlands"
+
     pm:
       - "product manager Amsterdam"
       - "associate product manager Netherlands"
       - "product owner Amsterdam tech"
       - "junior product manager Netherlands"
+      - "technical product manager Amsterdam"
 
   # Dutch city allow-list — jobs outside these are filtered out
   allowed_locations:
@@ -32,6 +85,629 @@ search:
     - Leiden
     - Haarlem
     - Almere
+
+# ─── Role definitions ─────────────────────────────────────────────────────────
+# Source: Dutch Market Role Priority Table
+# Columns used: Role (1) | AI-Enhanced Role(s) (4) | Local/EU Title Variants (5)
+# Used by the agent for job title matching, scoring, and tier classification.
+# P3 roles are included for deduplication and filtering — not actively targeted.
+
+roles:
+
+  priority_1:
+
+    - name: "Backend Engineer"
+      ai_enhanced:
+        - "AI Application(s) Engineer"
+        - "LLM Engineer"
+      nl_variants:
+        - "Backend Developer"
+        - "Software Developer (Backend)"
+        - "Java Ontwikkelaar"
+      eu_variants:
+        - "Backend Developer"
+        - "Software Engineer (Backend)"
+        - "Java Developer"
+        - "Kotlin Developer"
+        - "Java Software Engineer"
+        - "Server-Side Engineer"
+        - "Java/Kotlin Engineer"
+        - "Application Developer"
+
+    - name: "API Engineer"
+      ai_enhanced:
+        - "AI Integration Engineer"
+        - "AI Application(s) Engineer"
+      nl_variants:
+        - "API Ontwikkelaar"
+        - "API Engineer"
+      eu_variants:
+        - "API Developer"
+        - "API Platform Engineer"
+        - "Web Services Engineer"
+        - "REST API Developer"
+        - "Integration API Engineer"
+        - "API Specialist"
+
+    - name: "Integration Engineer"
+      ai_enhanced:
+        - "AI Integration Engineer"
+        - "AI Agent Engineer"
+      nl_variants:
+        - "Integratieontwikkelaar"
+        - "Integratiespecialist"
+        - "Middleware Ontwikkelaar"
+      eu_variants:
+        - "Integration Developer"
+        - "Middleware Engineer"
+        - "Systems Integration Engineer"
+        - "Interface Developer"
+        - "Enterprise Integration Specialist"
+        - "ESB Developer"
+        - "Connector Engineer"
+        - "Data Integration Engineer"
+
+    - name: "DevOps Engineer"
+      ai_enhanced:
+        - "AI DevOps Engineer"
+        - "MLOps Engineer"
+      nl_variants:
+        - "DevOps Engineer"
+        - "Cloud DevOps Engineer"
+        - "CI/CD Engineer"
+      eu_variants:
+        - "Cloud DevOps Engineer"
+        - "Build & Release Engineer"
+        - "CI/CD Engineer"
+        - "Infrastructure Automation Engineer"
+        - "Operations Engineer"
+        - "Platform & DevOps Engineer"
+        - "Release Engineer"
+        - "DevSecOps Engineer"
+
+    - name: "Cloud Engineer"
+      ai_enhanced:
+        - "AI Infrastructure Engineer"
+        - "AI Platform Engineer"
+      nl_variants:
+        - "Cloud Engineer"
+        - "Cloud Ingenieur"
+        - "Azure Engineer"
+      eu_variants:
+        - "Cloud Infrastructure Engineer"
+        - "Cloud Solutions Engineer"
+        - "Cloud Specialist"
+        - "Cloud Operations Engineer"
+        - "Cloud Platform Engineer"
+        - "Azure Engineer"
+        - "Cloud & DevOps Engineer"
+
+    - name: "Site Reliability Engineer"
+      ai_enhanced:
+        - "AI Reliability Engineer (AI SRE)"
+      nl_variants:
+        - "Site Reliability Engineer"
+        - "Platform Reliability Engineer"
+      eu_variants:
+        - "Reliability Engineer"
+        - "Platform Reliability Engineer"
+        - "Service Reliability Engineer"
+        - "Production Engineer"
+        - "Systems Reliability Engineer"
+        - "Observability & Reliability Engineer"
+
+    - name: "Platform Engineer"
+      ai_enhanced:
+        - "AI Platform Engineer"
+        - "AI Platform Architect"
+      nl_variants:
+        - "Platform Engineer"
+        - "Platform Ontwikkelaar"
+      eu_variants:
+        - "Internal Developer Platform Engineer"
+        - "Developer Platform Engineer"
+        - "IDP Engineer"
+        - "Developer Experience (DevEx) Engineer"
+        - "Infrastructure Platform Engineer"
+        - "Platform & Tools Engineer"
+
+    - name: "Tech Lead"
+      ai_enhanced:
+        - "AI Engineering Manager"
+      nl_variants:
+        - "Technisch Lead"
+        - "Lead Developer"
+        - "Lead Software Engineer"
+        - "Teamlead Softwareontwikkeling"
+      eu_variants:
+        - "Lead Software Engineer"
+        - "Lead Developer"
+        - "Technical Team Lead"
+        - "Engineering Lead"
+        - "Development Lead"
+        - "Principal Developer"
+        - "Software Development Lead"
+        - "Lead Engineer"
+
+    - name: "Observability Engineer"
+      ai_enhanced:
+        - "AI Observability Engineer"
+        - "AI Reliability Engineer"
+      nl_variants:
+        - "Observability Engineer"
+        - "Monitoring Engineer"
+      eu_variants:
+        - "Monitoring Engineer"
+        - "Platform Observability Engineer"
+        - "Telemetry Engineer"
+        - "Metrics & Tracing Engineer"
+        - "Production Monitoring Engineer"
+        - "Systems Observability Engineer"
+
+    - name: "Performance Engineer"
+      ai_enhanced:
+        - "AI Observability Engineer"
+        - "AI Reliability Engineer"
+      nl_variants:
+        - "Performance Engineer"
+        - "Prestatieingenieur"
+      eu_variants:
+        - "Software Performance Engineer"
+        - "Performance Testing Engineer"
+        - "Load Testing Engineer"
+        - "Capacity Engineer"
+        - "Performance Analyst"
+        - "Systems Performance Engineer"
+        - "Application Performance Engineer"
+
+    - name: "Application Security Engineer"
+      ai_enhanced:
+        - "AI Security Engineer"
+      nl_variants:
+        - "Applicatiebeveiligingsingenieur"
+        - "AppSec Engineer"
+        - "Beveiligingsontwikkelaar"
+      eu_variants:
+        - "AppSec Engineer"
+        - "Secure Software Engineer"
+        - "Product Security Engineer"
+        - "DevSecOps Engineer"
+        - "Software Security Engineer"
+        - "Application Security Specialist"
+
+    - name: "Cloud Security Engineer"
+      ai_enhanced:
+        - "AI Security Engineer"
+        - "AI Platform Security Architect"
+      nl_variants:
+        - "Cloud Beveiligingsingenieur"
+        - "Cloud Security Engineer"
+      eu_variants:
+        - "Cloud Security Specialist"
+        - "Cloud Infrastructure Security Engineer"
+        - "DevSecOps Engineer"
+        - "Security Architect (Cloud)"
+        - "Cloud Security Architect"
+        - "Cloud Compliance Engineer"
+
+    - name: "Full-Stack Engineer"
+      ai_enhanced:
+        - "AI Full-Stack Engineer"
+        - "AI Application(s) Engineer"
+      nl_variants:
+        - "Full-Stack Ontwikkelaar"
+        - "Webontwikkelaar"
+        - "Full-Stack Developer"
+        - "Java Full-Stack Developer"
+      eu_variants:
+        - "Full-Stack Developer"
+        - "Full-Stack Software Engineer"
+        - "Web Developer"
+        - "Software Developer (Full-Stack)"
+        - "Web Application Developer"
+        - "Java Full-Stack Developer"
+
+    - name: "Web Application Engineer"
+      ai_enhanced:
+        - "AI Application(s) Engineer"
+        - "AI Full-Stack Engineer"
+      nl_variants:
+        - "Webapplicatieontwikkelaar"
+        - "Web Developer"
+        - "Webontwikkelaar"
+      eu_variants:
+        - "Web Developer"
+        - "Web Engineer"
+        - "Application Developer"
+        - "Software Developer (Web)"
+        - "Web Software Engineer"
+
+    - name: "Compliance Automation Engineer / GRC Engineer"
+      ai_enhanced:
+        - "AI Governance & Compliance Engineer"
+      nl_variants:
+        - "Compliance Ingenieur"
+        - "IT Compliance Engineer"
+        - "Regelgevingstechnologie Specialist"
+      eu_variants:
+        - "IT Compliance Engineer"
+        - "Regulatory Technology Engineer"
+        - "RegTech Developer"
+        - "Compliance Engineer"
+        - "GRC Specialist (Technical)"
+        - "Risk & Compliance Engineer"
+        - "IT Auditor"
+        - "Policy Automation Engineer"
+
+    - name: "Internal Tools Engineer / Workflow Platform Engineer"
+      ai_enhanced:
+        - "AI Workflow Engineer"
+        - "AI Internal Tools Engineer"
+      nl_variants:
+        - "Interne Tools Ontwikkelaar"
+        - "Developer Experience Engineer"
+        - "Platform Engineer"
+      eu_variants:
+        - "Developer Experience Engineer"
+        - "DevEx Engineer"
+        - "Developer Productivity Engineer"
+        - "Internal Developer Tools Engineer"
+        - "Workflow Automation Engineer"
+        - "Internal Platform Developer"
+        - "Developer Tooling Engineer"
+
+    - name: "QA Engineer / Test Automation Engineer"
+      ai_enhanced:
+        - "AI Quality Engineer"
+      nl_variants:
+        - "Test Automation Engineer"
+        - "QA Engineer"
+        - "SDET"
+        - "Testautomatisering Ingenieur"
+        - "Kwaliteitsborgingsingenieur"
+      eu_variants:
+        - "Software Development Engineer in Test (SDET)"
+        - "Quality Assurance Engineer"
+        - "Automation Test Engineer"
+        - "QA Automation Engineer"
+        - "Software Test Engineer"
+        - "Test Engineer"
+        - "Quality Engineer"
+
+    - name: "IT Consultant / Technical Consultant"
+      ai_enhanced:
+        - "AI Technical Consultant"
+        - "AI Solutions Engineer"
+      nl_variants:
+        - "IT Consultant"
+        - "Technisch Consultant"
+        - "ICT Consultant"
+        - "Digitaal Consultant"
+      eu_variants:
+        - "Technology Consultant"
+        - "ICT Consultant"
+        - "Software Consultant"
+        - "Solutions Consultant"
+        - "Enterprise IT Consultant"
+        - "Digital Consultant"
+        - "IT Advisory Consultant"
+
+    - name: "DevSecOps Engineer"
+      ai_enhanced:
+        - "AI Security Automation Engineer"
+      nl_variants:
+        - "DevSecOps Engineer"
+        - "Platform Security Engineer"
+      eu_variants:
+        - "Security DevOps Engineer"
+        - "Cloud Security DevOps Engineer"
+        - "Secure CI/CD Engineer"
+        - "Platform Security Engineer"
+        - "DevOps Security Engineer"
+        - "Security Automation Engineer"
+
+    - name: "Event Streaming Engineer / Kafka Engineer"
+      ai_enhanced:
+        - "AI Event Streaming Architect"
+        - "AI Agent Platform Engineer"
+      nl_variants:
+        - "Kafka Engineer"
+        - "Event Streaming Engineer"
+        - "Event-Driven Architecture Engineer"
+      eu_variants:
+        - "Kafka Developer"
+        - "Streaming Platform Engineer"
+        - "Event-Driven Architecture Engineer"
+        - "Messaging Systems Engineer"
+        - "Apache Kafka Engineer"
+        - "Stream Processing Engineer"
+        - "Real-Time Data Engineer"
+
+  priority_2:
+
+    - name: "Software Architect"
+      ai_enhanced:
+        - "AI Solutions Architect"
+      nl_variants:
+        - "Software Architect"
+        - "Applicatiearchitect"
+        - "IT-Architect"
+      eu_variants:
+        - "Application Architect"
+        - "System Architect"
+        - "IT Architect"
+        - "Software Design Lead"
+        - "Principal Software Architect"
+        - "Technical Design Architect"
+
+    - name: "Solutions Architect"
+      ai_enhanced:
+        - "AI Solutions Architect"
+      nl_variants:
+        - "Oplossingsarchitect"
+        - "Technisch Architect"
+        - "IT-Oplossingsarchitect"
+      eu_variants:
+        - "Technical Architect"
+        - "Enterprise Architect"
+        - "Cloud Solutions Architect"
+        - "IT Solutions Architect"
+        - "Digital Architect"
+        - "Solution Design Lead"
+        - "Pre-Sales Architect"
+
+    - name: "Technical Architect"
+      ai_enhanced:
+        - "AI Solutions Architect"
+        - "AI Platform Architect"
+      nl_variants:
+        - "Technisch Architect"
+        - "IT-Architect"
+        - "Architectuur Lead"
+      eu_variants:
+        - "IT Architect"
+        - "Application Architect"
+        - "Systems Architect"
+        - "Digital Architect"
+        - "Technology Architect"
+        - "Lead Architect"
+        - "Principal Architect"
+
+    - name: "Infrastructure Engineer"
+      ai_enhanced:
+        - "AI Infrastructure Engineer"
+      nl_variants:
+        - "Infrastructuuringenieur"
+        - "IT-Infrastructuurspecialist"
+        - "Systems Engineer"
+      eu_variants:
+        - "IT Infrastructure Engineer"
+        - "Systems Engineer"
+        - "Cloud Infrastructure Engineer"
+        - "Network & Systems Engineer"
+        - "IT Operations Engineer"
+        - "Systems & Infrastructure Engineer"
+
+    - name: "Technical Product Manager"
+      ai_enhanced:
+        - "AI Product Manager"
+      nl_variants:
+        - "Technisch Product Manager"
+        - "Product Owner"
+        - "Digital Product Manager"
+        - "Platform Product Manager"
+      eu_variants:
+        - "Technical PM"
+        - "Platform Product Manager"
+        - "Product Engineer"
+        - "Digital Product Manager"
+        - "Product Manager (Engineering)"
+        - "Associate Product Manager"
+        - "Product Lead"
+
+    - name: "Product Owner"
+      ai_enhanced:
+        - "AI Product Manager"
+      nl_variants:
+        - "Product Owner"
+        - "Producteigenaar"
+        - "Digitaal Product Owner"
+      eu_variants:
+        - "Backlog Owner"
+        - "Digital Product Owner"
+        - "Feature Owner"
+        - "Product Manager"
+        - "Business Product Manager"
+        - "Agile Product Owner"
+        - "Sprint Product Owner"
+
+    - name: "Staff Engineer"
+      ai_enhanced:
+        - "AI Engineering Manager"
+        - "Applied AI Engineer"
+      nl_variants:
+        - "Staff Engineer"
+        - "Lead Software Engineer"
+        - "Senior Lead Software Engineer"
+      eu_variants:
+        - "Senior Lead Engineer"
+        - "Lead Software Engineer"
+        - "Principal Software Engineer"
+        - "Senior Architect"
+        - "Senior Technical Lead"
+        - "Engineering Specialist"
+
+    - name: "Engineering Manager"
+      ai_enhanced:
+        - "AI Engineering Manager"
+      nl_variants:
+        - "Engineering Manager"
+        - "Head of Engineering"
+        - "Teammanager Softwareontwikkeling"
+      eu_variants:
+        - "Engineering Team Manager"
+        - "Head of Engineering"
+        - "Software Development Manager"
+        - "Development Manager"
+        - "Technical Manager"
+        - "Engineering Lead"
+        - "VP of Engineering"
+        - "Director of Engineering"
+
+    - name: "Delivery Manager"
+      ai_enhanced:
+        - "AI Technical Program Manager"
+        - "AI Product Manager"
+      nl_variants:
+        - "Delivery Manager"
+        - "Agile Delivery Manager"
+        - "Programmamanager"
+      eu_variants:
+        - "IT Delivery Manager"
+        - "Agile Delivery Manager"
+        - "Program Manager"
+        - "Project Delivery Manager"
+        - "Head of Delivery"
+        - "Release Manager"
+        - "Service Delivery Manager"
+        - "IT Program Manager"
+
+    - name: "Technical Project Manager"
+      ai_enhanced:
+        - "AI Technical Program Manager"
+      nl_variants:
+        - "Technisch Projectmanager"
+        - "IT Projectmanager"
+        - "Digitaal Projectmanager"
+      eu_variants:
+        - "IT Project Manager"
+        - "Digital Project Manager"
+        - "Technology Project Manager"
+        - "Project Lead"
+        - "Project Manager (IT)"
+        - "Software Project Manager"
+
+    - name: "Engineering Program Manager"
+      ai_enhanced:
+        - "AI Technical Program Manager"
+      nl_variants:
+        - "Programmamanager"
+        - "Engineering Program Manager"
+        - "IT Programmamanager"
+      eu_variants:
+        - "Technical Program Manager"
+        - "IT Program Manager"
+        - "Program Manager (Engineering)"
+        - "Digital Program Manager"
+        - "Portfolio Manager"
+        - "Technology Program Manager"
+        - "IT Portfolio Manager"
+
+    - name: "IAM Engineer"
+      ai_enhanced:
+        - "AI IAM Architect"
+      nl_variants:
+        - "IAM Engineer"
+        - "Identiteitsbeheerder"
+        - "Identity Engineer"
+      eu_variants:
+        - "Identity Engineer"
+        - "Access Management Engineer"
+        - "Identity & Access Management Specialist"
+        - "IAM Architect"
+        - "SSO Engineer"
+        - "Directory Services Engineer"
+        - "Zero Trust Engineer"
+
+    - name: "Frontend Engineer"
+      ai_enhanced:
+        - "AI Full-Stack Engineer"
+      nl_variants:
+        - "Frontend Ontwikkelaar"
+        - "Webontwikkelaar"
+        - "React Ontwikkelaar"
+        - "UI Developer"
+      eu_variants:
+        - "Frontend Developer"
+        - "Web Developer"
+        - "UI Developer"
+        - "UI Engineer"
+        - "React Developer"
+        - "JavaScript Developer"
+        - "Web Frontend Developer"
+        - "React/TypeScript Developer"
+
+    - name: "Solutions Engineer"
+      ai_enhanced:
+        - "AI Solutions Engineer"
+      nl_variants:
+        - "Solutions Engineer"
+        - "Pre-Sales Engineer"
+        - "Technisch Verkoopadviseur"
+        - "Technisch Sales Engineer"
+      eu_variants:
+        - "Pre-Sales Engineer"
+        - "Technical Sales Engineer"
+        - "Sales Engineer"
+        - "Customer Solutions Engineer"
+        - "Technical Pre-Sales Consultant"
+        - "Field Engineer"
+        - "Application Engineer"
+
+  priority_3:
+
+    - name: "Principal Engineer"
+      ai_enhanced:
+        - "AI Solutions Architect"
+        - "Applied AI Engineer"
+      nl_variants:
+        - "Lead Software Engineer"
+        - "Principal Software Engineer"
+        - "Hoofd Softwareontwikkelaar"
+      eu_variants:
+        - "Lead Software Engineer"
+        - "Senior Lead Engineer"
+        - "Lead Developer"
+        - "Senior Architect"
+        - "Distinguished Engineer"
+        - "Engineering Fellow"
+        - "Senior Principal Engineer"
+
+    - name: "Product Manager"
+      ai_enhanced:
+        - "AI Product Manager"
+      nl_variants:
+        - "Product Manager"
+        - "Productmanager"
+        - "Digitaal Productmanager"
+      eu_variants:
+        - "Digital Product Manager"
+        - "Platform Product Manager"
+        - "Product Development Manager"
+        - "Product Director"
+        - "Head of Product"
+        - "Product Specialist"
+        - "B2B Product Manager"
+        - "Enterprise Product Manager"
+
+    - name: "ICT Business Analyst"
+      ai_enhanced:
+        - "AI Business Analyst"
+      nl_variants:
+        - "IT Business Analist"
+        - "Functioneel Analist"
+        - "Systeemanalist"
+        - "Bedrijfsanalist IT"
+        - "Business Analist ICT"
+      eu_variants:
+        - "IT Business Analyst"
+        - "Systems Analyst"
+        - "Business Systems Analyst"
+        - "Functional Analyst"
+        - "IT Analyst"
+        - "Requirements Analyst"
+        - "Digital Business Analyst"
+        - "Business Technology Analyst"
 
 # ─── IND register ─────────────────────────────────────────────────────────────
 
@@ -121,7 +797,7 @@ outputs:
   # Push batch TSV to GitHub so career-ops can pick it up
   github_push: true
   batch_dir: "batches"
-  career_ops_repo: "kushal-sharma-works/job-hunter-agent"  # ← your repo
+  career_ops_repo: "kushal-sharma-works/job-hunter-agent"
 
 # ─── Scoring threshold ────────────────────────────────────────────────────────
 
