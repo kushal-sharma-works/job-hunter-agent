@@ -49,6 +49,14 @@ def write_batch_tsv(jobs: List[Job], config: dict) -> Path:
                 note += f" | {job.salary_hint}"
             writer.writerow([i, job.url, job.source, note])
 
+            # LinkedIn posts fail WebFetch behind LinkedIn's login wall — write
+            # the snippet captured at scrape time so career-ops's batch-runner
+            # can use it directly instead of trying (and failing) to fetch the URL.
+            if job.source == "linkedin_posts" and getattr(job, "description", None):
+                jd_dir = batch_dir / "jd-text"
+                jd_dir.mkdir(parents=True, exist_ok=True)
+                (jd_dir / f"{i}.txt").write_text(job.description, encoding="utf-8")
+
     logger.info(f"Batch TSV written: {output_path} ({len(active)} jobs)")
     return output_path
 

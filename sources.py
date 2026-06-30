@@ -633,6 +633,7 @@ def linkedin_posts_source(config: dict) -> List[Job]:
             company=post.get("company", ""),
             location="Netherlands",
             source="linkedin_posts",
+            description=post.get("snippet", ""),
         ))
 
     logger.info(f"LinkedIn posts: {len(jobs)} jobs after filter")
