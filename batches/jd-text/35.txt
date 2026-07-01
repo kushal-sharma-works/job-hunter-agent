@@ -55,6 +55,61 @@ Cookie Policy
 .
 Save
 Report this job
+Use AI to assess how you fit
+Get AI-powered advice on this job and more exclusive features.
+Am I a good fit for this job?
+Tailor my resume
+Sign in to access AI-powered advices
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Sign in to evaluate your skills
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Sign in to tailor your resume
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
 P-1317
 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Founded by engineers — and customer obsessed — we leap at every opportunity to solve technical challenges, from designing next-gen UI/UX for interfacing with data to scaling our services and infrastructure across millions of virtual machines. And we're only getting started.
 As a software engineer with a backend focus, you will work with your team to build infrastructure and products for the Databricks platform at scale.
@@ -74,29 +129,4 @@ Databricks is the data and AI company. More than 10,000 organizations worldwide 
 Benefits
 At Databricks, we strive to provide comprehensive benefits and perks that meet the needs of all of our employees. For specific details on the benefits offered in your region click here.
 Our Commitment to Diversity and Inclusion
-At Databricks, we are committed to fostering a diverse and inclusive culture where everyone can excel. We take great care to ensure that our hiring practices are inclusive and meet equal employment opportunity standards. Individuals looking for employment at Databricks are considered without regard to age, color, disability, ethnicity, family or marital status, gender identity or expression, language, national origin, physical and mental ability, political affiliation, race, religion, sexual orientation, socio-economic status, veteran status, and other protected characteristics.
-Compliance
-If access to export-controlled technology or source code is required for performance of job duties, it is within Employer's discretion whether to apply for a U.S. government license for such positions, and Employer may decline to proceed with an applicant on this basis alone.
-Show more
-Show less
-Seniority level
-Mid-Senior level
-Employment type
-Full-time
-Job function
-Engineering and Information Technology
-Industries
-Software Development
-Referrals increase your chances of interviewing at Databricks by 2x
-See who you know
-Get notified about new
-Software Engineer
-jobs in
-Amsterdam, North Holland, Netherlands
-.
-Sign in to create job alert
-Similar jobs
-Backend Engineer, IAM
-Backend Engineer, IAM
-DataSnipper
-A
+At Databricks, we are committed to fostering a diverse and inclusive culture where everyone can excel. We take great care to ensure that our hiring practices are inclusive and meet equal employment opportunity standards. Individuals looking for employment at Databricks are considered without regard to age, color, disability, ethnicity, family or marital status, gender identity or expression, language, nat
