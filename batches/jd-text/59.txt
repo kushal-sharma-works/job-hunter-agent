@@ -1,1 +1,86 @@
-nan
+Code for Good hiring Full Stack Engineer in Eindhoven, North Brabant, Netherlands | LinkedIn
+Skip to main content
+Full Stack Engineer
+Code for Good
+Eindhoven, North Brabant, Netherlands
+Apply
+Full Stack Engineer
+Code for Good
+Eindhoven, North Brabant, Netherlands
+12 hours ago
+29 applicants
+See who Code for Good has hired for this role
+Apply
+Save
+Report this job
+About Code for Good
+At Code for Good, we connect data, people and AI to help organisations work smarter, faster and more sustainably. We don't do experiments, we deliver measurable return. Technology is the means, not the goal.
+Our team designs and builds the Code for Good Platform, a system that turns raw data into real-world impact across six areas of intelligence: Vision, Document, Knowledge, Internal, External and Numbers. With Vision we turn camera feeds into usable data for inspection, sorting and quality control. Document structures information from paperwork and unstructured files, and Knowledge makes an organisation's collective know-how searchable and usable.
+Where a standard solution isn't enough, we run innovation tracks: custom development built together with the client and aimed at direct impact. We work across manufacturing, construction and infra, transport and logistics, food and agri, circular resources, and government and defence.
+The future of work, as we see it, runs on augmented intelligence: people and technology reinforcing each other rather than one replacing the other.
+The Role
+We're looking for a Full-Stack Developer who designs and builds complex systems end-to-end. You'll join our Platform team and own real pieces of software: APIs, integrations, frontends, and the infrastructure that runs them.
+We build our own platform and extend it to serve our clients' needs, and those needs are broad. One capability might be a document extraction flow, the next a pipeline that ingests camera data and surfaces classifications in an operator dashboard. The needs are wide-ranging, so the platform has to be too.
+This is a hands-on role across the stack. You're comfortable shipping a frontend feature one day and tuning a deployment pipeline the next, and you think about how systems run in production, not just how they're built. Our stack is TypeScript and Next.js on the application layer, Go for real-time and streaming services, and Python where it fits for data processing and model integration. We run on Azure, and we also manage physical machines and cameras on client sites, so the work runs from cloud down to edge hardware. Devops and infra are part of the job, not an afterthought: CI/CD, deployments, and keeping things reliable in production.
+What you will do
+Design and build full-stack applications, from data model to UI
+Make architectural decisions across services, data, and integrations
+Integrate with external systems and hardware: ERPs, cameras, sensors, ...
+Work with AI and vision models in production
+What you need to succeed
+A few years building software in production
+Strong with TypeScript/JavaScript and Next.js or React
+Strong in at least one backend language: C++, Rust, Go, or similar
+Solid backend fundamentals: data modeling, API design, async flows
+Comfortable owning a feature end-to-end
+Real depth in at least one of:
+Platforms and SaaS: multi/single-tenancy, data models, clean APIs, the layer customers live in
+Real-time and streaming: event-driven systems and processing camera or sensor feeds in production
+Nice to have
+Python, Azure, LLM APIs
+Comfort with, or interest in, physical machines and edge hardware
+What We Offer
+Real ownership and freedom to shape our platform and technology
+An open culture where your ideas turn into action quickly
+Salary €4.000 - €6.500+ depending on experience and impact
+Growth opportunities as we build and scale together
+A friendly work environment in the center of Eindhoven
+Additional Information
+Office-first culture, based in the centre of Eindhoven
+Small team with direct impact on product and technology decisions
+Flat hierarchy with short lines of communication
+We are not our first startup and have experience building and scaling technology businesses
+Full-time role (40 hours per week)
+Pension plan included
+MacBook Pro provided
+Learning and development budget available, discussed together based on your goals and ambitions
+﻿
+Please note
+This is an office-first position in Eindhoven
+Applicants must already live in the Netherlands within commuting distance of the office
+We cannot offer visa sponsorship at this time
+Show more
+Show less
+Seniority level
+Entry level
+Employment type
+Full-time
+Job function
+Engineering and Information Technology
+Industries
+Technology, Information and Internet
+Referrals increase your chances of interviewing at Code for Good by 2x
+See who you know
+Get notified when a new job is posted.
+Set alert
+Sign in to set job alerts for “Full Stack Engineer” roles.
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Cont
