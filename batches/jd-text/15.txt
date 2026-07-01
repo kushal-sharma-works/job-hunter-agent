@@ -1,53 +1,151 @@
-GeekSoft Consulting hiring Java Developer in Amsterdam, North Holland, Netherlands | LinkedIn
+Infinity Quest hiring Sr Java Backend Developer in Amsterdam, North Holland, Netherlands | LinkedIn
 Skip to main content
-Java Developer
-GeekSoft Consulting
+Sr Java Backend Developer
+Infinity Quest
 Amsterdam, North Holland, Netherlands
 Apply
-Java Developer
-GeekSoft Consulting
+Sr Java Backend Developer
+Infinity Quest
 Amsterdam, North Holland, Netherlands
 1 week ago
-Be among the first 25 applicants
-See who GeekSoft Consulting has hired for this role
+Over 200 applicants
+See who Infinity Quest has hired for this role
 Apply
 Save
 Report this job
-Help design, build and continuously improve the clients online platform.
-Research, suggest and implement new technology solutions following best practices/standards.
-Take responsibility for the resiliency and availability of different products.
-Be a productive member of the team.
-Requirements
-4–7 years of professional backend development experience with a strong focus on Java-based enterprise applications.
-Develop and maintain Java-based backend services and APIs supporting digital wallet functionality.
-Design, implement, and enhance payment-related APIs, including card lifecycle operations such as token creation, deletion, and status management.
-Integrate backend services with mobile applications and external payment platforms in a secure, scalable, and reliable manner.
-Work closely with internal development teams, adhering to established engineering standards, security policies, and delivery processes.
-Support testing, debugging, and production readiness activities, including the resolution of issues identified during end-to-end and conformity testing.
-Contribute to continuous improvement initiatives through code reviews, refactoring, and performance optimization.
-Strong experience in Java backend development.
-Hands-on experience designing and developing RESTful APIs.
-Experience working with payment systems, digital wallets, and tokenization services.
-Good understanding of security and compliance requirements, including authentication and authorization mechanisms.
-Experience with integration testing frameworks and automated testing practices.
-Familiarity with CI/CD pipelines and modern software delivery practices.
-Experience working in Agile environments using tools such as Azure DevOps and Confluence.
-Strong analytical, troubleshooting, and problem-solving skills.
-Ability to collaborate effectively within cross-functional development teams.
-Benefits
-A challenging, innovating environment.
-Opportunities for learning where needed.
+Use AI to assess how you fit
+Get AI-powered advice on this job and more exclusive features.
+Am I a good fit for this job?
+Tailor my resume
+Sign in to access AI-powered advices
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Sign in to evaluate your skills
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Sign in to tailor your resume
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Direct message the job poster from Infinity Quest
+Godha Bramhi
+Godha Bramhi
+EU/UK-Lead Recruitment Specialist
+Key Responsibilities
+Design, develop, and maintain
+robust backend services and APIs
+using
+Java
+and related frameworks (Spring Boot).
+Build and integrate
+RESTful web services
+, ensuring high performance, scalability, and reliability.
+Work on
+AWS-based cloud infrastructure
+, supporting application deployment, configuration, and monitoring.
+Collaborate closely with product, frontend, QA, and DevOps teams to deliver end‑to‑end solutions.
+Implement and maintain
+CI/CD pipelines
+, enabling automated builds, testing, and deployments.
+Troubleshoot production issues, perform
+bug fixing
+, and ensure system stability.
+Monitor application health using
+Grafana and system metrics
+, proactively identifying performance bottlenecks.
+Follow best practices in
+code quality, security, and documentation
+.
+Required Skill Set
+Programming & Backend Development
+Strong hands‑on experience in
+Java
+for backend development.
+Working knowledge of
+Groovy
+for scripting and automation.
+Experience with
+Spring Boot
+, microservices architecture, and enterprise backend systems.
+API & Integration
+Proven experience in designing, developing, testing, and integrating
+RESTful APIs
+.
+Good understanding of API security, versioning, and performance optimization.
+Cloud & AWS
+Experience working in
+AWS cloud environments
+, including services such as:
+EC2, S3, RDS
+Lambda
+CloudWatch
+IAM
+Understanding of cloud-native architecture and scalable backend systems.
+Version Control & CI/CD
+Strong experience with
+Git
+for source code management.
+Hands-on expertise in
+CI/CD pipeline configuration and management
+using modern tools.
+Monitoring & Observability
+Experience with
+Grafana
+for monitoring dashboards and observability.
+Ability to track system metrics
+Send your CVs at brahmi.g@i-q.co
 Show more
 Show less
 Seniority level
 Mid-Senior level
 Employment type
-Full-time
+Contract
 Job function
 Information Technology
 Industries
-IT Services and IT Consulting
-Referrals increase your chances of interviewing at GeekSoft Consulting by 2x
+Software Development
+Referrals increase your chances of interviewing at Infinity Quest by 2x
 See who you know
 Get notified when a new job is posted.
 Set alert
@@ -69,110 +167,50 @@ Privacy Policy
 Cookie Policy
 .
 Similar jobs
-Java Developer
-Java Developer
-Sogeti
-Utrecht, Utrecht, Netherlands
-1 week ago
-Java Developer - NL
-Java Developer - NL
-Capgemini
-Utrecht, Utrecht, Netherlands
-1 month ago
-Java Software Developer
-Java Software Developer
-MYLAPS Sports Technology
-Haarlem, North Holland, Netherlands
-2 weeks ago
-Java Developer
-Java Developer
-Sopra Steria
-Nieuwegein, Utrecht, Netherlands
-1 week ago
-Java Backend Developer
-Java Backend Developer
-Monks
-Hilversum, North Holland, Netherlands
+Senior Software Engineer
+Senior Software Engineer
+FUGA
+Amsterdam, North Holland, Netherlands
+2 months ago
+Senior Backend Engineer (Java / Spring Boot) — Fintech
+Senior Backend Engineer (Java / Spring Boot) — Fintech
+Vive
+Amsterdam, North Holland, Netherlands
 6 days ago
-Java Software Engineer
-Java Software Engineer
-CIMSOLUTIONS
-North Holland, Netherlands
-1 day ago
-Software Engineer
-Software Engineer
-JD.COM
+Senior Software Engineer Java | AWS
+Senior Software Engineer Java | AWS
+Huxley
 Amsterdam, North Holland, Netherlands
-15 hours ago
-JAVA Developer
-JAVA Developer
-GeekSoft Consulting
-Amsterdam, North Holland, Netherlands
-2 weeks ago
-Java开发工程师
-Java开发工程师
-北京泰克正通科贸有限公司
-Maarssen, Utrecht, Netherlands
-1 month ago
-Medior Java developer
-Medior Java developer
-Rijkswaterstaat
-Utrecht Area
-€3,496.00
-            -
-            €5,535.00
-1 day ago
-Java Software Engineer
-Java Software Engineer
-CIMSOLUTIONS
-Utrecht Area
-1 day ago
-Java Software Engineer
-Java Software Engineer
-VX Company
-Utrecht Area
-1 week ago
-Open Source & Java Developer - NL
-Open Source & Java Developer - NL
-Capgemini
-Utrecht, Utrecht, Netherlands
-4 months ago
-Java Software Engineer
-Java Software Engineer
-DHL eCommerce Nederland
-Utrecht, Utrecht, Netherlands
-1 week ago
-Java Software Developer
-Java Software Developer
-Naturalis Biodiversity Center
-Leiden, South Holland, Netherlands
-2 weeks ago
-Software Engineer - Store
-Software Engineer - Store
+3 weeks ago
+Senior Software Engineer - Store
+Senior Software Engineer - Store
 Picnic Technologies
 Amsterdam, North Holland, Netherlands
-2 days ago
-Java开发
-Java开发
-杭州明讯软件技术有限公司
-Maarssen, Utrecht, Netherlands
-1 month ago
-Java Software Engineer
-Java Software Engineer
-Stanley David and Associates
-Utrecht, Netherlands
-2 weeks ago
-Software Engineer (Java) - Revenue Connect
-Software Engineer (Java) - Revenue Connect
-Adyen
+3 days ago
+Senior Backend Developer
+Senior Backend Developer
+Search X Recruitment
+Amsterdam, North Holland, Netherlands
+1 day ago
+Senior Backend Engineer
+Senior Backend Engineer
+Fastned
 Amsterdam, North Holland, Netherlands
 1 week ago
-Software Engineer
-Software Engineer
-Stealth
-Amsterdam Area
-4 weeks ago
-Java Developer
-Java Developer
-Pancompany
-Amst
+Senior Software Engineer - Warehouse Systems
+Senior Software Engineer - Warehouse Systems
+Picnic Technologies
+Amsterdam, North Holland, Netherlands
+2 weeks ago
+Senior Software Engineer (Java) - Financial Products
+Senior Software Engineer (Java) - Financial Products
+Adyen
+Amsterdam, North Holland, Netherlands
+2 weeks ago
+Software Engineer (Java) - Unified Platform
+Software Engineer (Java) - Unified Platform
+Adyen
+Amsterdam, North Holland, Netherlands
+2 days ago
+Senior Java Kotlin Developer
+Senior Java
