@@ -1,98 +1,23 @@
-Aivory hiring Full stack engineer in Netherlands | LinkedIn
+Built Different hiring React Developer in Netherlands | LinkedIn
 Skip to main content
-Full stack engineer
-Aivory
+React Developer
+Built Different
 Netherlands
 Apply
-Full stack engineer
-Aivory
+React Developer
+Built Different
 Netherlands
-2 weeks ago
+17 hours ago
 Over 200 applicants
-See who Aivory has hired for this role
+See who Built Different has hired for this role
 Apply
 Save
 Report this job
-Direct message the job poster from Aivory
-Ties Verberne
-Ties Verberne
-Modern software for dental practices
-Founding Engineer @ Aivory (Remote located in the Netherlands)
-About Us
-We’re
-Aivory
-, and we’re reinventing how dental practices run their entire business — from patient management to front-desk automation.
-Our mission is simple:
-build the smartest, most intuitive dental software ever created. No legac
-y. No clutter. Just a modern, AI-first platform that automates everything that doesn’t need a human — from voice-to-action charting in treatment rooms to automatically generated referral letters, scheduling, and patient communication.We’re bui
-lding something the dental world in the Netherlands (and beyond) has never seen before — and we’re doing it fast.If you wa
-nt to be part of a small, ambitious founding team that’s obsessed with product quality, speed, and impact — this might be the most exciting role you’ll read this year.
-About the Role
-We’re looking for a
-Founding Engineer
-— someone who doesn’t just want to “write code,” but wants to
-build a company
-.
-You’ll work directly with the founders (Ties & Sara) to shape the product, architecture, and culture from the ground up.
-You’ll own big parts of our stack, help make the key technical decisions, and ensure that the platform we ship is both beautiful and rock-solid. This is
-not
-a 9-to-5 role. It’s the kind of position for someone who loves to move fast, take full responsibility, and build something meaningful that touches thousands of users.
-What You’ll Do
-Help define and build the core architecture of Aivory’s SaaS platform.
-Translate real customer pain points into elegant, scalable solutions.
-Collaborate closely with the founders on product direction, design, and feature prioritization.
-Implement AI-driven workflows that automate real-world dental processes.
-Help grow the engineering team and establish best practices as we scale.
-Who You Are
-You have a
-strong product mindset
-— you love to ship, iterate, and improve.
-You’re comfortable working in ambiguity and thrive in early-stage environments.
-You can work independently and make things happen fast.
-You’re curious about the intersection of
-AI, healthcare, and great product design
-.
-You bring solid technical experience in
-modern web stacks (Angular, NestJS, Node.js, Python, or similar)
-and are comfortable connecting APIs and building reliable systems.
-You’re based in the
-Netherlands
-(remote-first, but we meet regularly in Amsterdam, Utrecht).
-Most importantly: you have a
-startup mentality
-— ownership, grit, and long-term vision.
-What We Offer
-💰
-€5.000 – €7.000 bruto per month
-, depending on experience.
-💎
-Significant equity package
-— we want you to have real skin in the game.
-🌍 Remote-first setup (within the Netherlands).
-🦷 The chance to build one of the most innovative healthcare platforms in Europe.
-⚡ Work directly with experienced founders — fast iterations, no politics, pure impact.
-Why Now?
-This is a unique moment to join before product-market fit explodes — you’ll have a
-founder-level impact
-on everything we ship.
-Ready to build the future of dental software with us?
-Send Ties Verberne a connection invite and message or reply to this vacancy direct.
-No long cover letter needed, we care more about mindset and drive than polished résumés.
-Show more
-Show less
-Seniority level
-Entry level
-Employment type
-Full-time
-Job function
-Engineering and Information Technology
-Industries
-Software Development
-Referrals increase your chances of interviewing at Aivory by 2x
-See who you know
-Get notified when a new job is posted.
-Set alert
-Sign in to set job alerts for “Full Stack Engineer” roles.
+Use AI to assess how you fit
+Get AI-powered advice on this job and more exclusive features.
+Am I a good fit for this job?
+Tailor my resume
+Sign in to access AI-powered advices
 Email or phone
 Password
 Show
@@ -109,7 +34,101 @@ Privacy Policy
 , and
 Cookie Policy
 .
+Sign in to evaluate your skills
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Sign in to tailor your resume
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Direct message the job poster from Built Different
+Will Aldred
+Will Aldred
+I help founders build teams that scale | Pre-Seed to Series B | Europe + US | Host, Starting to Scale
+React Developer - React / Next.js
+📍 Fully Remote | Up to €70,000 + benefits
+🛠 React - Next.js - TypeScript
+Digital card collecting is getting a proper rebuild. Think 3D cards, real ownership, and game mechanics that actually feel like they belong in 2026. This team is pushing out features fast and they're looking for a frontend developer who wants to own meaningful work on a product that's genuinely different. The gaming collectibles market is growing fast, blockchain-native ownership is changing what "yours" actually means, and this team is right in the middle of it.
+The founder has 30 years of experience and leads the way he'd want to be led - servant leadership, full transparency, and real respect for your time outside work. No ego, no politics. Just good engineering and a team that's building something worth talking about.
+✅ CTO who invests in your growth - not just your output
+🎮 A genuinely cool product in the digital gaming space
+💸 Funding secured and ready to scale
+🔨 A Next.js/TypeScript stack with room to do things properly
+🚀 Early enough to shape the product, stable enough to build with confidence
+🕐 Fully remote - results-focused, personal time respected
+What you'll be doing:
+🔹 Shipping frontend greenfield features on a React/Next.js web platform
+🔹 Taking ownership of your work end-to-end - from design handoff to production
+🔹 Collaborating directly with a CTO who listens and gives real context
+🔹 Writing clean, thoughtful TypeScript in a codebase that's set up to grow
+You'll love this if...
+✔ You care about quality without getting precious about it
+✔ You want to see the impact of your work, not just close tickets
+✔ You're energised by creative, passion-driven products
+✔ You want a place where your time and judgment are actually respected
+Built Different places senior technical talent in startups building things that matter. Drop a message if this is the kind of role you've been looking for.
+Built Different - Because great teams are built different.
+Show more
+Show less
+Seniority level
+Mid-Senior level
+Employment type
+Full-time
+Job function
+Information Technology, Product Management, and Project Management
+Industries
+Software Development, Computer Games, and IT Services and IT Consulting
+Referrals increase your chances of interviewing at Built Different by 2x
+See who you know
+Get notified about new
+Javascript Developer
+jobs in
+Netherlands
+.
+Sign in to create job alert
 Similar jobs
+Frontend Developer (React)
+Frontend Developer (React)
+Jobgether
+Netherlands
+6 days ago
+Software Engineer
+Software Engineer
+Builder.io
+Netherlands
+5 days ago
+Frontend Engineer (Benelux)
+Frontend Engineer (Benelux)
+Lateral Group
+Maastricht, Limburg, Netherlands
+9 months ago
 Full Stack Software Engineer
 Full Stack Software Engineer
 Lightdash
@@ -118,36 +137,44 @@ $100,000.00
             -
             $170,000.00
 1 year ago
-Software Engineer
-Software Engineer
-Builder.io
-Netherlands
-5 days ago
-Software Engineer (Full-stack)
-Software Engineer (Full-stack)
-kapa.ai
-Netherlands
-$100,000.00
+Frontend Developer - NL
+Frontend Developer - NL
+Capgemini
+Utrecht, Utrecht, Netherlands
+3 weeks ago
+React Developer
+React Developer
+theFactor.e (part of Conclusion)
+Groningen, Groningen, Netherlands
+10 months ago
+Front-end developer
+Front-end developer
+Starapple
+Eibergen, Gelderland, Netherlands
+18 hours ago
+Frontend Developer
+Frontend Developer
+Trifork
+Amsterdam, North Holland, Netherlands
+€3,500.00
             -
-            $150,000.00
-1 year ago
-Full-Stack Product Engineer
-Full-Stack Product Engineer
-The Flex
-Netherlands
+            €5,000.00
+7 hours ago
+Frontend Engineer
+Frontend Engineer
+MarvelX AI
+Amsterdam, North Holland, Netherlands
 2 weeks ago
-Full Stack Software Engineer - Control Plane
-Full Stack Software Engineer - Control Plane
-ClickHouse
-North Holland, Netherlands
-2 weeks ago
-Fullstack Software Engineer - Business Solutions
-Fullstack Software Engineer - Business Solutions
-Dataiku
-Netherlands
-5 months ago
-Full Stack Software Engineer - Billing Team
-Full Stack Software Engineer - Billing Team
-ClickHouse
-North Holland, Netherlands
-1 wee
+Front-end Developer
+Front-end Developer
+Adswag
+Amsterdam, North Holland, Netherlands
+4 days ago
+Fullstack Engineer (m/f/d)
+Fullstack Engineer (m/f/d)
+Eye Security
+Rotterdam and The Hague
+15 hours ago
+FRONT END DEVELOPER
+FRONT END DEVELOPER
+E
