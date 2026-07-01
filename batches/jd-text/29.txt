@@ -1,14 +1,14 @@
-Albert Heijn hiring Backend developer (Kotlin, Event-driven, DevOps) in Zaandam, North Holland, Netherlands | LinkedIn
+JetBrains hiring Technical Lead (IntelliJ Platform) in Amsterdam, North Holland, Netherlands | LinkedIn
 Skip to main content
-Backend developer (Kotlin, Event-driven, DevOps)
-Albert Heijn
-Zaandam, North Holland, Netherlands
+Technical Lead (IntelliJ Platform)
+JetBrains
+Amsterdam, North Holland, Netherlands
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Backend developer (Kotlin, Event-driven, DevOps)
+Technical Lead (IntelliJ Platform)
 role at
-Albert Heijn
+JetBrains
 Email or phone
 Password
 Show
@@ -25,18 +25,18 @@ Privacy Policy
 , and
 Cookie Policy
 .
-Backend developer (Kotlin, Event-driven, DevOps)
-Albert Heijn
-Zaandam, North Holland, Netherlands
+Technical Lead (IntelliJ Platform)
+JetBrains
+Amsterdam, North Holland, Netherlands
 2 weeks ago
-44 applicants
-See who Albert Heijn has hired for this role
+144 applicants
+See who JetBrains has hired for this role
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Backend developer (Kotlin, Event-driven, DevOps)
+Technical Lead (IntelliJ Platform)
 role at
-Albert Heijn
+JetBrains
 Email or phone
 Password
 Show
@@ -55,11 +55,55 @@ Cookie Policy
 .
 Save
 Report this job
-Use AI to assess how you fit
-Get AI-powered advice on this job and more exclusive features.
-Am I a good fit for this job?
-Tailor my resume
-Sign in to access AI-powered advices
+At JetBrains, code is our passion. Ever since we started, back in 2000, we have strived to make the strongest, most effective developer tools on earth. By automating routine checks and corrections, our tools speed up production, freeing developers to grow, discover, and create.
+The IntelliJ Platform is the foundation of JetBrains IDEs, driving innovation and enabling millions of developers worldwide to achieve their full potential. We’re now looking for a Technical Lead to join the IntelliJ Platform team and help us deliver features and improvements that redefine what it means to be productive.
+In This Role, You Will
+Drive the plugin development ecosystem (internal and external) for both remote development and UI tooling by defining clear, minimal APIs, drafting documentation, and shaping the team’s definition of done.
+Re-architect several core subsystems to meet modern needs, including by making settings flexible and portable across machines (for remote or dev-provisioned environments).
+Organize and implement processes related to the deprecation cycle for the IntelliJ Platform API.
+We’ll be happy to have you on our team if you have:
+Extensive experience in platform architecture and systems design
+A strong understanding of JVM concurrency
+Knowledge of Kotlin coroutines
+Strong technical writing and documentation skills
+Critical thinking and architectural foresight
+The ability to organize and perform large-scale refactoring in monorepos
+We’d Be Especially Thrilled If You Have
+Experience building developer tools
+Experience with different UI frameworks
+Knowledge of database internals
+Experience working with network applications
+Why join JetBrains?
+Strong base salary. We offer competitive pay that reflects your skills and experience.
+Flexible work location. Enjoy the freedom to work from home or from the office.
+Remote work. Spend up to 30 days per year working remotely from abroad.
+Extra time off. More days to relax, recharge, and do the things you love.
+Medical insurance allowance. Enjoy peace of mind for you and your family.
+Learning and development opportunities. Access to conferences, courses, and language classes.
+Language classes. Pick up the local language or sharpen your English skills.
+Fuel your day. Enjoy a hot meal or receive a lunch allowance on workdays.
+Mental health support. To help you feel your best, we provide easy access to professional mental health services.
+Sports benefit. Enjoy an on-site gym or sports club stipend.
+Internal events. Join company-wide celebrations and team gatherings.
+Some benefits may vary depending on location.
+We are an equal opportunity employer
+We know great ideas can come from anyone, anywhere. That’s why we do our best to create an open and inclusive workplace – one that welcomes everyone regardless of their background, identity, religion, age, accessibility needs, or orientation.
+We process the data provided in your job application in accordance with the Recruitment Privacy Policy.
+Show more
+Show less
+Seniority level
+Mid-Senior level
+Employment type
+Full-time
+Job function
+Other
+Industries
+Software Development
+Referrals increase your chances of interviewing at JetBrains by 2x
+See who you know
+Get notified when a new job is posted.
+Set alert
+Sign in to set job alerts for “Software Engineering Technician” roles.
 Email or phone
 Password
 Show
@@ -76,61 +120,20 @@ Privacy Policy
 , and
 Cookie Policy
 .
-Sign in to evaluate your skills
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Sign in to tailor your resume
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Op het hoofdkantoor
-Bij Albert Heijn werken is niet zomaar een baan. Het is werk met betekenis. Je werkt in een informele cultuur samen met een bevlogen team dat graag voorop wil blijven lopen en verschil wil maken. Met jouw unieke talent maak je impact op het leven van al onze klanten. Je leert van experts in hun vakgebied en we helpen je jouw loopbaan vorm te geven. Je kunt bij ons flexibel werken, zowel vanuit huis als op ons hoofdkantoor in Zaandam. Een baan bij Albert Heijn is niet alleen een baan voor nu, maar ook voor later
-Wat betekent dit voor jou?
-Help build the integration backbone powering warehouse mechanization. As our new Backend Engineer, you will design and develop services that connect WMS, integration platforms, and mechanized systems (WCS), enabling reliable and scalable data exchange across the supply chain.
-Operating in a distributed and event-driven environment, you will work on systems that handle real-time flows of orders, stock, and operational events. Your contributions will be key to ensuring data consistency, system resilience, and the smooth coordination between digital systems and physical warehouse operations.
-Build systems that matter at real scale. In this role, you will design and build backend services that support business‑critical processes used daily across the organization. Your work directly impacts system reliability, developer productivity, and the ability of teams to deliver features faster and more safely. You will work on production systems at scale, where performance, resilience, and maintainability are first‑class concerns—not afterthoughts.
-This Is How You’ll Reinvent Food Retail.
-You design, develop, and operate backend services using modern engineering practices
-You work with technologies such as Kotlin, event‑driven architectures with Kafka
-You take ownership of services end‑to‑end: from design and implementation to production support and continuous improvement, DevOps
-You collaborate closely with product, platform, and other engineering teams to make pragmatic technical decisions
-How We Work.
-Engineers have real ownership and autonomy in technical decisions within our architectural guiderails
-With the latest DevAI Tooling we supercharge our development workflow, automate where we can, giving you more time to focus on creative problem-solving.
-Code quality matters: peer reviews, clear architecture, and readable code are part of daily work
-Technical debt is acknowledged and addressed—not ignored
-We value simple, robust solutions over unnecessary complexity
-Why this role is interesting for engineers.
-You work on systems with real users and real impact
-You face non‑trivial engineering challenges around scalability, data flow, and reliability
-You have time and space to improve both the codebase and the way we work
-You grow technically through exposure to complex systems, experienced engineers, and meaningful ownership
-Your new team and office.
-You work at t
+Similar jobs
+Staff Software Developer (IntelliJ Platform)
+Staff Software Developer (IntelliJ Platform)
+JetBrains
+Amsterdam, North Holland, Netherlands
+5 days ago
+Tech Lead
+Tech Lead
+Marktplaats
+Amsterdam, North Holland, Netherlands
+3 weeks ago
+Staff Software Developer (Kotlin Libraries)
+Staff Software Developer (Kotlin Libraries)
+JetBrains
+Amsterdam, North Holland, Netherlands
+2 days ago
+Tech Lead (Java
