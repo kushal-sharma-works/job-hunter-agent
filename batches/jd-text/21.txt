@@ -1,98 +1,148 @@
-Energie Data Services Nederland (EDSN) B.V. hiring Kotlin developer (medior) in Amersfoort, Utrecht, Netherlands | LinkedIn
+Qualogy hiring Kotlin Software Engineer in Rijswijk, South Holland, Netherlands | LinkedIn
 Skip to main content
-Kotlin developer (medior)
-Energie Data Services Nederland (EDSN) B.V.
-Amersfoort, Utrecht, Netherlands
+Kotlin Software Engineer
+Qualogy
+Rijswijk, South Holland, Netherlands
 Apply
-Join or sign in to find your next job
-Join to apply for the
-Kotlin developer (medior)
-role at
-Energie Data Services Nederland (EDSN) B.V.
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Kotlin developer (medior)
-Energie Data Services Nederland (EDSN) B.V.
-Amersfoort, Utrecht, Netherlands
-4 days ago
-42 applicants
-See who Energie Data Services Nederland (EDSN) B.V. has hired for this role
+Kotlin Software Engineer
+Qualogy
+Rijswijk, South Holland, Netherlands
+1 week ago
+Be among the first 25 applicants
+See who Qualogy has hired for this role
 Apply
-Join or sign in to find your next job
-Join to apply for the
-Kotlin developer (medior)
-role at
-Energie Data Services Nederland (EDSN) B.V.
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
 Save
 Report this job
-Direct message the job poster from Energie Data Services Nederland (EDSN) B.V.
-Ash(enafi) Kogelman
-Ash(enafi) Kogelman
-Recruitment business partner
-Energiemarkt | 32-40 uur | Amersfoort / Hybride | v/m/x | €43.000-€70.000 per jaar inclusief 8% vakantiegeld + mobiliteitsbudget of leaseauto.
-Als medior Kotlin developer bouw je mee aan innovatieve software die de energietransitie vooruitbrengt
-In jouw rol als Kotlin Developer lever je een directe bijdrage aan een goed werkende energiemarkt in Nederland. Jij ontwikkelt en verbetert systemen die ervoor zorgen dat energiedata veilig en betrouwbaar beschikbaar is voor alle netbeheerders.
-Zo werk je als Kotlin Developer vol energie
-Je ontwikkelt zelfstandig complexe backend-systemen binnen een microservices-architectuur. Je draagt bij aan de optimalisatie van CI/CD-processen door middel van automatisering en monitoring. Je adviseert teamleden en stakeholders over technische oplossingen en implementeert schaalbare systemen. Daarnaast deel je actief kennis via code-reviews, documentatie en interne trainingen. Je ondersteunt junior collega’s en helpt hen groeien in hun rol. Je komt te werken in één van onze multidisciplinaire teams. Hoe die teams eruit zien lees je
-hier
+Only applications from fluent Dutch-speaking candidates will be considered
+Rijswijk (hybride) | Vast Dienstverband | Salaris: €3.750 - €6.000 per maand + bonus
+Wil jij met jouw Kotlin-expertise directe impact maken bij toporganisaties zoals Ahold, ING en ABN AMRO? Bij Qualogy werk je als Kotlin Software Engineer aan hoogwaardige softwareoplossingen die cruciaal zijn voor de digitale transformatie van grote bedrijven. Je combineert diepgaande technische kennis met advies richting klanten en teams en blijft jezelf continu ontwikkelen binnen een sterke Java/Kotlin-community.
+Je werkt aan uiteenlopende projecten, lost complexe technische vraagstukken op en tilt oplossingen naar een hoger niveau.
+Wat ga je doen?
+Je ontwikkelt hoogwaardige Kotlin-oplossingen voor diverse klanten en sectoren
+Je doet dit nadrukkelijk AI-assisted
+Je werkt in multidisciplinaire teams aan complexe technische uitdagingen
+Je adviseert klanten en collega’s over architectuur en technische keuzes
+Je test je code structureel tijdens het ontwikkelproces
+Je deelt kennis binnen de actieve Java/Kotlin Community van Qualogy
+Je blijft jezelf ontwikkelen via events, trainingen en kennissessies
+Wat breng jij mee?
+Must-haves:
+Minimaal 5 jaar ervaring in softwareontwikkeling
+Minimaal 3 jaar ervaring met Kotlin
+Minimaal HBO-diploma in een IT-gerelateerd vakgebied
+Ervaring met tools zoals IntelliJ/Eclipse, Maven en Git
+Ervaring met cloudomgevingen (AWS, Azure, Kubernetes is een pré)
+Sterke test- en kwaliteitsmindset
+Goede communicatieve vaardigheden en advieskracht
+Drive om jezelf en je collega’s continu te ontwikkelen, specifiek op het gebied van AI-assisted software development
+Mooi meegenomen:
+Ervaring met moderne architecturen en microservices
+Affiniteit met DevOps en CI/CD
+Ervaring in complexe enterprise-omgevingen
+Ervaring met AI-assisted software ontwikkeling, met tools als Claude Code, Windsurf, Cursor, Co-pilot etc.
+Wat krijg je ervoor terug?
+💰 Salaris tussen
+€3.750 en €6.000 per maand
+📈 Bonusregeling van
+15% tot 50%
+bovenop je salaris
+📄 Direct een vast contract
+🎓 Persoonlijk ontwikkelbudget van
+€2.500 per jaar
+(eerste jaar onbeperkt)
+🚗 Leaseauto met tankpas (ook in het buitenland)
+🏖️ 30 vakantiedagen
+🏡 Hybride werken mogelijk
+💻 Laptop & telefoon (of BYOD-regeling)
+🎉 Events, teamuitjes en grote zomer- & kerstfeesten
+🤝 Persoonlijke fieldmanager voor coaching en groei
+Waarom Qualogy?
+Bij Qualogy draait alles om kwaliteit, kennisdeling en persoonlijke aandacht. Je werkt in een internationale organisatie met sterke technische communities, uitdagende projecten en veel ruimte voor ontwikkeling. Van enterprise software tot cloud en data-oplossingen: jouw werk maakt zichtbaar impact.
+Show more
+Show less
+Seniority level
+Mid-Senior level
+Employment type
+Full-time
+Job function
+Engineering and Information Technology
+Industries
+IT Services and IT Consulting
+Referrals increase your chances of interviewing at Qualogy by 2x
+See who you know
+Get notified about new
+Software Engineer
+jobs in
+Rijswijk, South Holland, Netherlands
 .
-Hier krijg jij als Kotlin Developer energie van
-Je krijgt energie van het ontwikkelen en verbeteren van van backend-functionaliteiten binnen een moderne Kotlin-stack
-Je vindt het leuk om te werken met Kotlin, Spring Boot en CI/CD-tooling
-Je wordt blij van het oplossen van technische vraagstukken en het bouwen van schaalbare oplossingen
-Je werkt graag samen met collega’s en stakeholders aan slimme technische keuzes
-Je deelt graag kennis via code reviews, documentatie of interne sessies
-Je vindt het leuk om junior collega’s te helpen groeien
-Onze energiedrijvers
-Bruto maandsalaris tussen €3.580 en €5.450
-6 weken vakantie per jaar
-80% werkgeversbijdrage in je pensioen
-Hybride werken: vanuit huis en ons moderne kantoor in Amersfoort
-Reiskostenvergoeding, NS Businesscard, leaseauto of mobiliteitsbudget
-Veel ruimte voor persoonlijke en professionele ontwikkeling
-Benieuwd naar wat wij nog meer te bieden hebben? Kijk dan snel bij onze
-arbeidsvoorwaarden
-!
-Dit breng jij mee
-Je hebt een afgeronde HBO/WO-opleiding in een relevant vakgebied of je beschikt over relevante aantoonbare werkervaring.
-3-6 jaar ervaring in Kotlin-ontwikkeling binnen complexe omgevingen.
-Uitgebreide kennis van Spring Boot, CI/CD-tools en API-ontwikkeling.
-Vaardigheden om zelfstandig problemen op te lossen en verbeteringen door te voeren.
-Bereidheid om junior collega's te begeleiden en coachen.
-Maak kennis met je team
-Je werkt binnen een van onze DevOps-teams, elk verantwoordelijk voor een specifiek domein binnen de energiemarkt. Samen zorgen jullie ervoor dat onze applicaties veilig, stabiel en schaalbaar draaien. De sfeer is informeel, professioneel en gedreven: we hebben een gezamenlijke missie en helpen elkaar om steeds beter te worden.
-Ben jij die Kotlin Developer die ook wil werken vol energie?
-Reageer dan eenvoudig via de solliciteer-button! We kunnen jou op korte termijn al gebruiken bij EDSN. Heb je inhoudelijke vragen over de functie? Neem gerust contact met ons op.
-Over EDSN
-Energie Data Services Nederland (EDSN) is een groeiend bedrijf dat snel stappen zet in de professionalisering van haar organisatie. EDSN ontwikkelt voor alle regionale en landelijke netbeheerders een betrouwbare en innovatieve ICT-infrastructuur. We specialiseren ons in het verzamelen en bereikbaar maken van gebruiksdata, die andere marktpartijen weer kunnen gebruiken voor het ontwikkelen van nieuwe diensten. Met die datadiensten geven we de energietransitie en daarmee ook de verduurzaming van Nederland ruim baan.
-This position requires a high proficiency of the Dutch language
+Sign in to create job alert
+Similar jobs
+Kotlin Developer
+Kotlin Developer
+Corsano Health
+The Hague, South Holland, Netherlands
+1 month ago
+Kotlin Software Engineer | Qualogy
+Kotlin Software Engineer | Qualogy
+Cooder
+Rijswijk, South Holland, Netherlands
+€3,750.00
+            -
+            €6,000.00
+2 weeks ago
+Ervaren Kotlin / JVM back-end engineer
+Ervaren Kotlin / JVM back-end engineer
+Q42
+Rotterdam, South Holland, Netherlands
+6 months ago
+Mobile App Developer (Kotlin) Trust Smarthome
+Mobile App Developer (Kotlin) Trust Smarthome
+Trust International B.V.
+Dordrecht, South Holland, Netherlands
+4 days ago
+Back End Developer
+Back End Developer
+NIXZ.
+Rotterdam, South Holland, Netherlands
+2 weeks ago
+Android developer
+Android developer
+Miniclip
+Zoetermeer, South Holland, Netherlands
+7 months ago
+Senior Java/Kotlin Developer
+Senior Java/Kotlin Developer
+Sytac
+The Randstad, Netherlands
+1 month ago
+Mobile Developer
+Mobile Developer
+Ditto
+Rotterdam, South Holland, Netherlands
+3 months ago
+Staff Software Engineer (remote)
+Staff Software Engineer (remote)
+Doghouse Recruitment
+The Randstad, Netherlands
+3 weeks ago
+Principal Software Engineer
+Principal Software Engineer
+Doghouse Recruitment
+The Randstad, Netherlands
+3 weeks ago
+Mobile Developer | Energietransitie
+Mobile Developer | Energietransitie
+Haystack People
+Leiden, South Holland, Netherlands
+1 week ago
+Full Stack Engineer
+Full Stack Engineer
+Keylane
+Rotterdam, South Holland, Netherlands
+1 week ago
+Senior Back-end Developer
+Senior Back-end Developer
+DPG Media Nederland
+Rotterdam, South Holland, Netherlands
+3 months ago
+Software Eng
