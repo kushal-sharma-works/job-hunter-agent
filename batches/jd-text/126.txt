@@ -1,62 +1,143 @@
-UML Developer Jobs in Heythuysen | 3 open jobs | WeAreDevelopers
-For Developers
-World Congress 2026
-Europe
-Berlin, Germany, 8-10th July 2026
-World Congress 2026
-North America
-San José, CA, 23-25th September 2026
-Conference 2026
-India
-Bengaluru, India, 25-26th November 2026
-For Tech Leaders
-Tech Leaders Summit 2026
-Europe
-Berlin, Germany, 8-10th July 2026
-For Leaders in HR/TA/Recruiting
-HR Leaders Summit 2026
-Europe
-Berlin, Germany, 8-10th July 2026
-Solutions
-Employer Branding
-Tech Recruiting
-Product Marketing
-Event Partnerships
-2026
-Post a job
-Products
-Talent Marketing Membership
-Product Marketing Membership
-WeAreDevelopers World Congress
-Job Platform
-Insights
-Resources
-Developer survey
-Salary calculator
-Newsletter
-Blog
-Remote only
-Remote only
-Try:
-React
-PHP
-iOS Swift
-Kubernetes
-UML jobs in Heythuysen, Netherlands
-Currently you can find 3 jobs that match your search for developer vacancies with UML in Heythuysen.
-Software architect / ict infrastructuur architect / informatie architect / solution architect salesforce of dynamics 365
-cimsolutions.nl
-Heythuysen, Netherlands
-UML
-Salesforce
-Data analysis
-Microsoft Dynamics
-Test engineer / test automation engineer / testcoördinator
-cimsolutions.nl
-Heythuysen, Netherlands
-UML
-GIT
-JUnit
-Maven
-Scrum
-+10
+Why Companies Hesitate to Hire Remote Workers Abroad | Hana LaRock posted on the topic | LinkedIn
+Agree & Join LinkedIn
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Skip to main content
+Why Companies Hesitate to Hire Remote Workers Abroad
+This title was summarized by AI from the post below.
+Hana LaRock
+4d
+Edited
+Report this post
+Applying for jobs is hard already.
+
+It can be even harder when your lifestyle looks a little different.
+
+And, when companies see "Bogotá" on an application, I imagine it raises some questions.
+
+Or Portugal.
+
+Or Mexico.
+
+I could just put New York.
+
+But I'm not really one for lying. (Also, a lot of ya'll are doing this and your companies never catch you/it's also never been a problem until it is a problem. Still, I prefer to be transparent.)
+
+I've been working remotely from abroad for more than a decade. I have a U.S. LLC, I'm a U.S. citizen, I pay U.S. taxes, and I've worked with companies of all sizes this way.
+
+I also completely understand that some roles genuinely need someone physically in the U.S.
+
+But for jobs that are 100% remote, I'm genuinely curious where the hesitation comes from.
+
+If someone is engaged as an independent contractor, there are established ways to do this. There are W-9s, W-8s (not for U.S. citizens!), 1099s, Employer of Record services, and other options depending on the situation.
+
+Not only this, though. In many cases, there are actually a lot of benefits to hiring someone who is abroad. Because, companies can also avoid costs like:
+
+- Health insurance and other employee benefits
+- Payroll taxes associated with employees
+- Equipment stipends or office overhead
+- Long-term employment commitments
+
+(though, stipends are usually appreciated!)
+
+I'm not a tax attorney or an HR expert. (Although I am the granddaughter of a CPA who always joked I was his most complicated client.)
+So this is a genuine question for recruiters, founders, and HR folks:
+
+What is the biggest concern when you see a qualified candidate living abroad?
+
+Is it compliance? Taxes? Insurance? Company policy? Something else?
+
+And, for companies that don't have a policy and can hire globally...why? How do you do it? What are the challenges?
+
+I'd love to know!
+#HR
+#Recruiting
+#Remotework
+1
+Like
+Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+To view or add a comment,
+sign in
+More Relevant Posts
+Dhi ADT
+2,172 followers
+3w
+Report this post
+One of the most expensive assumptions companies make when expanding into
+#Europe
+is believing that
+#Germany
+works "more or less" like every other developed market.
+
+It doesn't.
+
+We've seen hiring plans built on salary numbers that didn't account for employer social security contributions.
+
+We've seen expansion timelines built around assumptions that an entity can be opened quickly.
+
+We've seen companies discover halfway through a hiring process that employment protections, termination rules, pension obligations, or payroll requirements look very different from what they expected.
+
+None of these rules are hidden.
+
+The challenge is that most companies only encounter them after they've already committed to hiring.
+
+Germany remains one of the strongest talent markets in Europe, but it rewards preparation more than improvisation.
+
+The companies that hire successfully here usually spend less time asking, "Can we hire this person?" and more time asking, "What does employing this person actually require?"
+
+That's exactly why we created this 𝐆𝐞𝐫𝐦𝐚𝐧𝐲 𝐇𝐢𝐫𝐢𝐧𝐠 𝐆𝐮𝐢𝐝𝐞.
+
+Inside, you'll find practical insights on employer costs, EOR vs entity decisions, AÜG licensing, termination realities, social security obligations, and the operational details that often get missed during expansion planning.
+
+Because discovering these things before the hire is significantly cheaper than discovering them after.
+
+If Germany hiring is on your roadmap for 2026, save this post and share it with your HR, Finance, and Legal teams.
+
+And if you'd like the full guide, comment "𝐆𝐄𝐑𝐌𝐀𝐍𝐘"" below and we'll send it across.
+#GermanyHiring
+#EmployerOfRecord
+#EuropeanHiring
+#GlobalPayroll
+#HRCompliance
+#EOR
+#DhiADT
+12
+1 Comment
+Like
+Comment
+Share
+Copy
+LinkedIn
+Facebook
+X
+To view or add a comment,
+sign in
+Matisha Bansal
+3w
+Report this post
+The riskiest contractor arrangement often looks perfectly normal to the business team.
+
+It usually starts as a quick fix. Someone needs support urgently. The business wants flexibility. A contractor agreement is prepared.
+
+Then the contract review starts showing familiar requests:
+
+·      Can we add fixed working hours?
+·      Can we include annual leave?
+·      Can we provide a company laptop?
+·      Can they use a company email ID?
+·      Can they access internal systems?
+·      Can they report daily to our internal manager?
+
+Individually, these may look practical. Together, they can make the relationship look less like an independent contractor arrangement and more like employment.
+
+That is where contractor cla
