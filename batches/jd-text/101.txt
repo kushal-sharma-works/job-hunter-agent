@@ -1,0 +1,97 @@
+Senior Data Scientist – Experimentation & Statistical Innovation Platform at Sprint and Partners | Expat Jobs
+Expat Jobs
+Jobs by Country
+Companies
+Salaries
+Calculator
+💰 Game
+Sign in
+Register
+Sign in
+← Back to vacancies
+Senior Data Scientist – Experimentation & Statistical Innovation Platform
+—
+Amsterdam, Netherlands
+By agreement
+Amsterdam, Netherlands (Remote)
+Remote
+Contract
+Senior
+Sprint and Partners
+NEW
+Description (EN)
+RU
+Senior Data Scientist – Experimentation & Statistical Innovation Platform
+Amsterdam (Hybrid) - Visa sponsorship and relocation included
+A globally operating technology company is building the next generation of experimentation infrastructure — and is looking for a Senior Data Scientist to play a key role in that journey.
+This is not a traditional analytics role. You won’t simply analyse experiments. You’ll help build the statistical engine behind them.
+The team develops an internal experimentation platform used across multiple product and engineering domains, powering thousands of experiments annually at significant scale.
+What makes this role unique?
+You work on the experimentation platform itself. Think scalable experimentation infrastructure, not one-off analysis.
+Advanced statistical innovation. The company is heavily investing in cutting-edge experimentation methods, moving beyond traditional fixed-horizon testing toward more robust sequential testing and modern statistical approaches. There is a strong appetite to explore new research and implement innovative methods that create real business impact.
+Real scale, real complexity. The platform supports thousands of experiments annually across critical customer-facing systems and product flows.
+Strong connection to academia & research. You’ll work in an environment that actively follows academic developments in experimentation and statistical testing. Team members attend specialized conferences, collaborate with researchers, and continuously evaluate emerging methodologies for practical implementation.
+High ownership & senior influence. This role requires someone who can combine deep technical expertise with strategic thinking. You’ll influence how experimentation is applied across the business and help shape long-term platform direction.
+Ideal background:
+Experience with experimentation platforms and statistical infrastructure
+Strong understanding of hypothesis testing and experimental design
+Experience implementing statistical methodologies
+Python/data ecosystem experience (Spark, Airflow, Pandas, etc.)
+Strong communication skills and stakeholder management
+Ability to operate independently in a senior, high-ownership environment
+Salary and benefits
+The salary is amongst the best in Amsterdam but depends on what you bring to the table in terms of skills, personality and experience. Some of the secondary benefits: a permanent contract, 20% guaranteed bonus, 10K+ personal allowance, healthcare allowance (~2K a year), holiday allowance (8%), holidays, laptop, travel allowance, relocation package for Internationals, training & conferences, 30% ruling, VISA sponsorship, luxury lunch, snacks/drinks, work from home setup, etc.
+Published
+2 days ago
+View original
+Apply
+Similar vacancies
+Work & Travel in Portugal – Remote baan met accommodatie!
+🎯 Move
+20
+NEW
+By agreement
+✈️ Relocation package
+📦
+Moving costs
+Rotterdam, Netherlands (Remote)
+Remote
+Internship
+Global People Sphere
+Breng je zomer door in Lissabon — Werk, reis &amp; verhuis naar Portugal Op zoek naar een frisse start deze zomer? Wil je in het buitenland wonen, men...
+today
+View job →
+View job →
+Mid-Market Account Executive - (Turkey)
+NEW
+By agreement
+Amsterdam, Netherlands
+Full-time
+datadog
+Mid-Market Account Executive As an Account Executive on our Mid-Market Sales team, you will assist in Datadog’s overall business growth by strategical...
+today
+View job →
+View job →
+Deployment Strategist
+NEW
+By agreement
+Amsterdam, Netherlands (Remote)
+Remote
+Full-time
+palantir
+A World-Changing Company &nbsp; Palantir builds the world’s leading software for data-driven decisions and operations. By bringing the right data to t...
+1 day ago
+View job →
+View job →
+Senior Software Engineer
+NEW
+By agreement
+✈️ Relocation package
+Amsterdam, Netherlands
+Internship
+Senior
+GreenFlux
+The company Smart Electric Vehicle Charging Solutions. That’s the business we are in! GreenFlux offers a cloud-based charge point management SaaS solu...
+1 day ago
+View job →
+View job →
