@@ -1,0 +1,136 @@
+Albert Heijn hiring Backend developer (Kotlin, Event-driven, DevOps) in Zaandam, North Holland, Netherlands | LinkedIn
+Skip to main content
+Backend developer (Kotlin, Event-driven, DevOps)
+Albert Heijn
+Zaandam, North Holland, Netherlands
+Apply
+Join or sign in to find your next job
+Join to apply for the
+Backend developer (Kotlin, Event-driven, DevOps)
+role at
+Albert Heijn
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Backend developer (Kotlin, Event-driven, DevOps)
+Albert Heijn
+Zaandam, North Holland, Netherlands
+2 weeks ago
+44 applicants
+See who Albert Heijn has hired for this role
+Apply
+Join or sign in to find your next job
+Join to apply for the
+Backend developer (Kotlin, Event-driven, DevOps)
+role at
+Albert Heijn
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Save
+Report this job
+Use AI to assess how you fit
+Get AI-powered advice on this job and more exclusive features.
+Am I a good fit for this job?
+Tailor my resume
+Sign in to access AI-powered advices
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Sign in to evaluate your skills
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Sign in to tailor your resume
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Op het hoofdkantoor
+Bij Albert Heijn werken is niet zomaar een baan. Het is werk met betekenis. Je werkt in een informele cultuur samen met een bevlogen team dat graag voorop wil blijven lopen en verschil wil maken. Met jouw unieke talent maak je impact op het leven van al onze klanten. Je leert van experts in hun vakgebied en we helpen je jouw loopbaan vorm te geven. Je kunt bij ons flexibel werken, zowel vanuit huis als op ons hoofdkantoor in Zaandam. Een baan bij Albert Heijn is niet alleen een baan voor nu, maar ook voor later
+Wat betekent dit voor jou?
+Help build the integration backbone powering warehouse mechanization. As our new Backend Engineer, you will design and develop services that connect WMS, integration platforms, and mechanized systems (WCS), enabling reliable and scalable data exchange across the supply chain.
+Operating in a distributed and event-driven environment, you will work on systems that handle real-time flows of orders, stock, and operational events. Your contributions will be key to ensuring data consistency, system resilience, and the smooth coordination between digital systems and physical warehouse operations.
+Build systems that matter at real scale. In this role, you will design and build backend services that support business‑critical processes used daily across the organization. Your work directly impacts system reliability, developer productivity, and the ability of teams to deliver features faster and more safely. You will work on production systems at scale, where performance, resilience, and maintainability are first‑class concerns—not afterthoughts.
+This Is How You’ll Reinvent Food Retail.
+You design, develop, and operate backend services using modern engineering practices
+You work with technologies such as Kotlin, event‑driven architectures with Kafka
+You take ownership of services end‑to‑end: from design and implementation to production support and continuous improvement, DevOps
+You collaborate closely with product, platform, and other engineering teams to make pragmatic technical decisions
+How We Work.
+Engineers have real ownership and autonomy in technical decisions within our architectural guiderails
+With the latest DevAI Tooling we supercharge our development workflow, automate where we can, giving you more time to focus on creative problem-solving.
+Code quality matters: peer reviews, clear architecture, and readable code are part of daily work
+Technical debt is acknowledged and addressed—not ignored
+We value simple, robust solutions over unnecessary complexity
+Why this role is interesting for engineers.
+You work on systems with real users and real impact
+You face non‑trivial engineering challenges around scalability, data flow, and reliability
+You have time and space to improve both the codebase and the way we work
+You grow technically through exposure to complex systems, experienced engineers, and meaningful ownership
+Your new team and office.
+You work at t
