@@ -1,14 +1,14 @@
-Philips hiring Software Developer Azurion Eye in Best, North Brabant, Netherlands | LinkedIn
+Crisp hiring Full stack developer in Amsterdam, North Holland, Netherlands | LinkedIn
 Skip to main content
-Software Developer Azurion Eye
-Philips
-Best, North Brabant, Netherlands
+Full stack developer
+Crisp
+Amsterdam, North Holland, Netherlands
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Software Developer Azurion Eye
+Full stack developer
 role at
-Philips
+Crisp
 Email or phone
 Password
 Show
@@ -25,18 +25,18 @@ Privacy Policy
 , and
 Cookie Policy
 .
-Software Developer Azurion Eye
-Philips
-Best, North Brabant, Netherlands
-1 week ago
-83 applicants
-See who Philips has hired for this role
+Full stack developer
+Crisp
+Amsterdam, North Holland, Netherlands
+2 weeks ago
+Over 200 applicants
+See who Crisp has hired for this role
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Software Developer Azurion Eye
+Full stack developer
 role at
-Philips
+Crisp
 Email or phone
 Password
 Show
@@ -110,21 +110,43 @@ Privacy Policy
 , and
 Cookie Policy
 .
-Job Title
-Software Developer Azurion Eye
-Job Description
-Software Developer Azurion Eye
-In this role, you will have the opportunity to join the leading innovator in image-guided therapy solutions as Software Development Engineer for the Azurion Eye solution—an integrated, AI-enabled software platform. You will be responsible for product development for a portfolio of microservice‑first applications that power our Lab Orchestrator, a component that converts AI-based observations into workflow automation. You will develop event-driven backend services that operate with low latency, high reliability, and clear traceability in a regulated environment.
-Your Role
-You will design and develop backend services for the Lab Orchestrator using Go, building deterministic orchestration services that integrate with our edge-native platform.
-You will implement workflow orchestration capabilities including event ingestion, state handling, rule evaluation, suppression logic, prioritization, and idempotent action emission.
-You will integrate with event-driven interfaces and contracts such as NATS JetStream, AsyncAPI-described subjects, and OpenAPI-defined ingress/control APIs, as well as platform adapters and related components.
-You will build services that are safe for low-latency, event-driven operation targeting an edge platform, and you will develop observability capabilities such as structured logging, metrics, traces, and operational diagnostics.
-You will implement automated tests and contribute to CI/CD support to enable safe and frequent backend changes, while analyzing and resolving issues related to event ordering, latency bottlenecks, state consistency, connector behavior, ingestion failures, schema drifts, and runtime reliability.
-You will be part of the Image Guided Therapy Systems business unit with development sites in the Netherlands, China and India, and you will join the global R&D department collaborating with product managers, architects, system engineers, clinical experts, Data & AI Engineers, and Software Test Engineers to define and deliver workflow behavior that matches product and clinical intent. You will participate in code reviews and drive continuous improvement of engineering practices, quality standards, and maintainability.
-You're The Right Fit If
-You have a Bachelor’s / Master’s Degree in Computer Science, Software Engineering, Information Technology or equivalent.
-You have minimum 2 years of experience in Software Development, Software Design & Architecture, Testing and Quality Assurance (or equivalent), including requirement analysis, development, integration, enhancement, maintenance, testing, and problem diagnosis/resolution.
-You are proficient in Golang and Python, and you can analyze and solve complex problems with a strong desire to learn and adapt to new technologies and challenges.
-You have experience with event-driven systems and messaging technologies such as NATS and/or Kafka, and you are interested in contract-first event design (e.g., AsyncAPI).
-You have a strong understanding of RESTful API design and i
+Our developers build the systems our customers use to shop for groceries — as well as the software that runs our warehouses, supports last-mile, and helps our purchasing and commerce teams operate effectively.
+What you'll do
+We build software in a lean and pragmatic way, and care about choosing the right abstractions for our domain and continuously balance delivery speed against long-term complexity.
+Our stack includes Typescript, React Native, modern PHP and PostgreSQL. We prefer to work with people who have seen—or want to learn—different technologies, as we consider our tools a means to an end.
+You will:
+Work with a small team of product owners and product designers to implement new app features.
+Help validate features work as intended, from analysing technical telemetry to joining customer interviews.
+Code across our stack — frontend and backend.
+Ship often and take responsibility for your code “in the field”
+.
+We invest heavily in automated testing and code readability. Refactoring is part of the job. Abstractions are revisited when the business changes.
+We use LLMs as productivity tools where appropriate, but every line of code shipped to production is understood and owned by the developer who commits it.
+What you bring
+You likely:
+Have several years of experience with developing for mobile.
+Have real experience with a general-purpose language (Python, JavaScript, PHP, Go, ...).
+Care about code quality and long-term maintainability.
+Enjoy working directly with product designers and our customers.
+Are comfortable taking responsibility for production systems.
+Bonus points for:
+Experience with React Native.
+Experience chasing and solving delicate performance issues on Android or iOS.
+Experience operating systems serving a large user base.
+Don’t worry if you don’t match every point above. We hire for long-term potential, curiosity and the ability to learn quickly.
+A minimum of B2 level Dutch working proficiency and a full-time availability of 36-40 hours per week are required.
+What we offer
+The chance to leave your mark on our food system and have real impact with your commitment and experience.
+Working with the best: a high-profile team experienced in building and scaling ventures from the ground up, with diverse backgrounds.
+The ability for you to learn quickly from others on the team.
+A team culture based on modesty, openness and excellence.
+Plenty of opportunity to take responsibility from day one.
+The opportunity to shape the culture of a well established company in a new, vibrant location.
+A competitive salary and equity/stock.
+Regular hackweeks to work on anything you find worthwhile.
+Time to get to know your colleagues during sports, events and tastings.
+Interested?
+We would love to hear from you! Our process starts with a technical assignment, followed up by an on-site interview in Amsterdam.
+Should you have any questions, please contact us on jobs@crisp.nl.
+A reference check is part of our selection process.
+At Crisp, we strive for an inclusive and diverse work environment where everyone is welcome, regardless of their background, gender, age, ethnicity, sexu
