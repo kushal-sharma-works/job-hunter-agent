@@ -42,23 +42,15 @@ def write_batch_tsv(jobs: List[Job], config: dict) -> Path:
 
     with open(output_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f, delimiter="\t")
-        writer.writerow(["id", "url", "source", "notes"])
+        writer.writerow(["id", "url", "source", "notes", "cv_score"])
         for i, job in enumerate(active, start=1):
-            note = f"{job.tier} | {job.title} @ {job.company}"
+            score_str = f"{job.cv_score:.1f}" if job.cv_score > 0 else "-"
+            note = f"{job.tier} | score:{score_str} | {job.title} @ {job.company}"
             if job.salary_hint:
                 note += f" | {job.salary_hint}"
+            if job.cv_score_reason:
+                note += f" | {job.cv_score_reason}"
             writer.writerow([i, job.url, job.source, note])
-
-            # gemini-eval.mjs (career-ops's Gemini path) cannot fetch URLs —
-            # it only evaluates pre-supplied text. Write whatever description
-            # text we already scraped so it has something to evaluate. Sources
-            # that don't populate job.description yet (greenhouse, ashby,
-            # wellfound, undutchables, gmail, linkedin_jobs_source) will have
-            # no jd-text file and get skipped by the Gemini batch runner.
-            if getattr(job, "description", None):
-                jd_dir = batch_dir / "jd-text"
-                jd_dir.mkdir(parents=True, exist_ok=True)
-                (jd_dir / f"{i}.txt").write_text(job.description, encoding="utf-8")
 
     logger.info(f"Batch TSV written: {output_path} ({len(active)} jobs)")
     return output_path

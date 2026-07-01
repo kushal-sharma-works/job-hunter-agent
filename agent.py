@@ -40,6 +40,8 @@ from sources import (
     linkedin_jobs_source,
     linkedin_posts_source,
     niche_boards_source,
+    portals_source,
+    fetch_full_jd,
 )
 from filters import (
     load_ind_companies,
@@ -48,6 +50,7 @@ from filters import (
     filter_by_location,
     deduplicate,
     filter_by_date,
+    run_cv_scorer,
 )
 from enrichment import enrich_jobs, backfill_salary_hints
 from outputs import (
@@ -169,6 +172,10 @@ def collect_jobs(config: dict, ind_companies: set) -> List[Job]:
     if src.get("niche_boards", {}).get("enabled", True):
         _collect(all_jobs, niche_boards_source, config)
 
+    # ── Portals (curated companies from portals.yml) ──────────────────────────
+    if src.get("portals", {}).get("enabled", True):
+        _collect(all_jobs, portals_source, config)
+
     logger.info(f"Collection complete: {len(all_jobs)} raw jobs from all sources")
     return all_jobs
 
@@ -232,6 +239,20 @@ def run_pipeline(config: dict) -> None:
     # ── Stage 7: GPT disqualifier filter ──────────────────────────────────────
     logger.info("Stage 7: Running LLM disqualifier filter…")
     jobs = run_disqualifier_filter(jobs, config)
+
+    # ── Stage 7.5: Fetch full JDs ─────────────────────────────────────────────
+    if config.get("scorer", {}).get("enabled", True):
+        logger.info("Stage 7.5: Fetching full JDs for CV scoring…")
+        active_for_scoring = [j for j in jobs if j.tier != "disqualified"]
+        for job in active_for_scoring:
+            full_text = fetch_full_jd(job)
+            if full_text and len(full_text) > len(job.description or ""):
+                job.description = full_text
+        logger.info(f"  → Full JDs fetched for {len(active_for_scoring)} jobs")
+
+    # ── Stage 7.6: CV match scoring ───────────────────────────────────────────
+    logger.info("Stage 7.6: Running CV match scorer…")
+    jobs = run_cv_scorer(jobs, config)
 
     # ── Stage 8: Enrichment ───────────────────────────────────────────────────
     logger.info("Stage 8: Enriching recruiter/HM contacts…")

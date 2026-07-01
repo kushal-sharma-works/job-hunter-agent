@@ -777,6 +777,10 @@ sources:
   niche_boards:
     enabled: true   # covers tech boards, PM boards, Dutch boards, recruiter sites
 
+  # Portals — curated companies from portals.yml (Greenhouse/Lever/Ashby)
+  portals:
+    enabled: true
+
 # ─── Filtering ────────────────────────────────────────────────────────────────
 
 filters:
@@ -798,6 +802,17 @@ outputs:
   github_push: true
   batch_dir: "batches"
   career_ops_repo: "kushal-sharma-works/job-hunter-agent"
+
+# ─── CV Match Scorer ─────────────────────────────────────────────────────────
+# Uses OpenAI gpt-4o-mini to score each job against your cv.md (1.0-5.0).
+# Jobs below min_score are filtered out before the TSV is written.
+# Requires cv.md in the repo root and OPENAI_API_KEY in secrets.
+
+scorer:
+  enabled: true
+  min_score: 3.5        # jobs below this are dropped
+  batch_size: 5         # jobs per OpenAI call (saves tokens)
+  max_desc_chars: 3000  # max JD chars sent to scorer
 
 # ─── Scoring threshold ────────────────────────────────────────────────────────
 

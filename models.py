@@ -38,6 +38,11 @@ class Job:
     recruiter_linkedin: str = ""
     hm_hint: str = ""
 
+    # ── CV Match Score ─────────────────────────────────────────────────────────
+    # Set by run_cv_scorer() after full JD fetch. 0.0 = not yet scored.
+    cv_score: float = 0.0
+    cv_score_reason: str = ""
+
     # ── Metadata ───────────────────────────────────────────────────────────────
     date_found: str = field(default_factory=lambda: datetime.utcnow().strftime("%Y-%m-%d"))
 
@@ -66,6 +71,8 @@ class Job:
             "recruiter_name": self.recruiter_name,
             "recruiter_linkedin": self.recruiter_linkedin,
             "hm_hint": self.hm_hint,
+            "cv_score": self.cv_score,
+            "cv_score_reason": self.cv_score_reason,
             "date_found": self.date_found,
         }
 

@@ -783,3 +783,135 @@ def _is_nl_location(location: str) -> bool:
         return False
     loc_lower = location.lower()
     return any(kw in loc_lower for kw in NL_LOCATION_KEYWORDS)
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Portals source — reads portals.yml, hits known ATS slugs directly
+# ─────────────────────────────────────────────────────────────────────────────
+
+def portals_source(config: dict) -> List[Job]:
+    """
+    Read portals.yml and query each company's ATS directly using known slugs.
+    Unlike ind_ats_jobs (which guesses slugs from the IND register),
+    this uses curated, verified slugs — no 404 noise.
+    careers_page type is skipped (requires Playwright).
+    """
+    portals_file = Path("portals.yml")
+    if not portals_file.exists():
+        logger.warning("portals.yml not found — skipping portals source")
+        return []
+
+    with open(portals_file) as f:
+        data = yaml.safe_load(f)
+
+    portals = data.get("portals", [])
+    jobs = []
+
+    for portal in portals:
+        if not portal.get("enabled", True):
+            continue
+        name = portal.get("name", "")
+        ptype = portal.get("type", "")
+        slug = portal.get("slug", "")
+
+        try:
+            if ptype == "greenhouse" and slug:
+                found = greenhouse_jobs(slug, name)
+                if found:
+                    logger.info(f"Portals Greenhouse: {name} → {len(found)} jobs")
+                    jobs.extend(found)
+
+            elif ptype == "lever" and slug:
+                found = lever_jobs(slug, name)
+                if found:
+                    logger.info(f"Portals Lever: {name} → {len(found)} jobs")
+                    jobs.extend(found)
+
+            elif ptype == "ashby" and slug:
+                found = ashby_jobs(slug, name)
+                if found:
+                    logger.info(f"Portals Ashby: {name} → {len(found)} jobs")
+                    jobs.extend(found)
+
+            elif ptype == "careers_page":
+                logger.debug(f"Portals: {name} is careers_page type — skipped (requires Playwright)")
+
+        except Exception as e:
+            logger.warning(f"Portals: {name} failed — {e}")
+
+        time.sleep(0.2)
+
+    logger.info(f"Portals source: {len(jobs)} total jobs from {len([p for p in portals if p.get('enabled', True)])} companies")
+    return jobs
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Full JD fetcher — replaces snippets with full page text for scoring
+# ─────────────────────────────────────────────────────────────────────────────
+
+_SKIP_FETCH_DOMAINS = {
+    "linkedin.com", "indeed.com", "glassdoor.com",
+}
+
+_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.5",
+}
+
+def fetch_full_jd(job: Job, max_chars: int = 4000) -> str:
+    """
+    Fetch the full job description from the job URL.
+    Returns the extracted text (up to max_chars).
+    Falls back to job.description if fetch fails or domain is blocked.
+    """
+    from urllib.parse import urlparse
+    try:
+        domain = urlparse(job.url).netloc.lower().replace("www.", "")
+    except Exception:
+        return job.description
+
+    # Skip login-walled sites — use existing snippet
+    if any(blocked in domain for blocked in _SKIP_FETCH_DOMAINS):
+        return job.description
+
+    # If description is already substantial, don't refetch
+    if len(job.description) >= 1500:
+        return job.description
+
+    try:
+        r = requests.get(job.url, headers=_HEADERS, timeout=15, allow_redirects=True)
+        if r.status_code != 200:
+            return job.description
+
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        # Remove noise elements
+        for tag in soup(["script", "style", "nav", "header", "footer", "meta", "noscript"]):
+            tag.decompose()
+
+        # Try common JD container selectors first
+        jd_text = ""
+        for selector in [
+            "[class*='job-description']", "[class*='jobDescription']",
+            "[class*='description']", "[id*='job-description']",
+            "article", "main", ".content", "#content",
+        ]:
+            el = soup.select_one(selector)
+            if el:
+                jd_text = el.get_text(separator=" ", strip=True)
+                if len(jd_text) > 300:
+                    break
+
+        # Fall back to full body text
+        if len(jd_text) < 300:
+            jd_text = soup.get_text(separator=" ", strip=True)
+
+        # Collapse whitespace
+        import re as _re
+        jd_text = _re.sub(r'\s+', ' ', jd_text).strip()
+
+        return jd_text[:max_chars] if jd_text else job.description
+
+    except Exception as e:
+        logger.debug(f"JD fetch failed for {job.url}: {e}")
+        return job.description

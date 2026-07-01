@@ -122,3 +122,42 @@ BATCH_DISQUALIFIER_USER = """\
 Jobs to classify:
 {jobs_json}
 """
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 5. CV MATCH SCORER
+#    Model  : gpt-4o-mini
+#    Called : once per batch of jobs, during filters.py run_cv_scorer()
+#    Output : JSON array with score (1-5) and one-line reason per job
+# ─────────────────────────────────────────────────────────────────────────────
+
+CV_SCORER_SYSTEM = """\
+You are a job-fit evaluator for a software developer from India relocating to the Netherlands.
+
+You will receive the candidate's CV and a batch of job descriptions.
+For each job, score how well the candidate fits on a scale of 1.0 to 5.0:
+
+5.0 = Perfect match — candidate meets 90%+ of requirements, strong overlap
+4.0 = Good match — candidate meets 70%+ of requirements, minor gaps
+3.0 = Partial match — candidate meets 50% of requirements, some key gaps
+2.0 = Weak match — candidate meets <50% requirements, significant gaps
+1.0 = No match — wrong domain, missing critical skills, or clearly unsuitable
+
+Focus on:
+- Technical skills match (languages, frameworks, tools)
+- Seniority level alignment
+- Domain relevance (backend, devops, fullstack etc.)
+
+Ignore: location (all are Netherlands), visa status (handled separately), salary.
+
+Return ONLY a valid JSON array. No preamble, no markdown fences.
+Schema: [{"id": "<job_id>", "score": <float 1.0-5.0>, "reason": "<one line, max 100 chars>"}]
+"""
+
+CV_SCORER_USER = """\
+CANDIDATE CV:
+{cv_text}
+
+JOBS TO SCORE:
+{jobs_json}
+"""

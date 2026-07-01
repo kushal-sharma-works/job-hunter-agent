@@ -265,7 +265,7 @@ def _apply_disqualifier_result(job: Job, result: dict) -> None:
         job.disqualifier_reason = result.get("reason", "LLM flagged")
 
 
-def _call_openai(system: str, user: str, api_key: str, model: str = "gpt-4o-mini") -> str:
+def _call_openai(system: str, user: str, api_key: str, model: str = "gpt-4o-mini", max_tokens: int = 800) -> str:
     """Make a single OpenAI chat completion call. Returns response text or empty string."""
     try:
         r = requests.post(
@@ -277,7 +277,7 @@ def _call_openai(system: str, user: str, api_key: str, model: str = "gpt-4o-mini
                     {"role": "system", "content": system},
                     {"role": "user", "content": user},
                 ],
-                "max_tokens": 800,
+                "max_tokens": max_tokens,
                 "temperature": 0,
             },
             timeout=30,
@@ -371,3 +371,112 @@ def filter_by_date(jobs, max_days: int = 21):
         except Exception:
             fresh.append(job)
     return fresh
+
+# ─────────────────────────────────────────────────────────────────────────────
+# CV Match Scorer — scores each job against cv.md using OpenAI
+# ─────────────────────────────────────────────────────────────────────────────
+
+from prompts import CV_SCORER_SYSTEM, CV_SCORER_USER  # noqa: E402 (appended at bottom)
+
+
+def run_cv_scorer(jobs: List[Job], config: dict) -> List[Job]:
+    """
+    Score each job against cv.md using gpt-4o-mini.
+    Jobs below the threshold are marked disqualified.
+    Mutates jobs in-place, returns the same list.
+    """
+    if not config.get("scorer", {}).get("enabled", True):
+        logger.info("CV scorer disabled in config — skipping.")
+        return jobs
+
+    api_key = os.environ.get("OPENAI_API_KEY", "")
+    if not api_key:
+        logger.warning("OPENAI_API_KEY not set — skipping CV scorer.")
+        return jobs
+
+    cv_path = Path("cv.md")
+    if not cv_path.exists():
+        logger.warning("cv.md not found — skipping CV scorer. Add your CV as cv.md in the repo root.")
+        return jobs
+
+    cv_text = cv_path.read_text(encoding="utf-8")
+    threshold = config.get("scorer", {}).get("min_score", 3.5)
+    batch_size = config.get("scorer", {}).get("batch_size", 5)
+    max_desc = config.get("scorer", {}).get("max_desc_chars", 3000)
+
+    to_score = [j for j in jobs if j.tier != "disqualified"]
+    logger.info(f"CV scorer: scoring {len(to_score)} jobs (threshold: {threshold}/5)")
+
+    for i in range(0, len(to_score), batch_size):
+        batch = to_score[i:i + batch_size]
+        _score_batch(batch, cv_text, api_key, max_desc)
+        time.sleep(0.5)
+
+    # Filter below threshold
+    below = [j for j in to_score if j.cv_score > 0 and j.cv_score < threshold]
+    for job in below:
+        job.tier = "disqualified"
+        job.disqualifier_reason = f"CV score {job.cv_score}/5 below threshold {threshold}"
+
+    scored = [j for j in to_score if j.cv_score > 0]
+    passed = [j for j in scored if j.cv_score >= threshold]
+    logger.info(f"CV scorer: {len(scored)} scored, {len(passed)} passed (≥{threshold}), {len(below)} filtered out")
+    return jobs
+
+
+def _score_batch(batch: List[Job], cv_text: str, api_key: str, max_desc: int) -> None:
+    """Score a batch of jobs in a single OpenAI call."""
+    jobs_payload = [
+        {
+            "id": j.job_id,
+            "title": j.title,
+            "company": j.company,
+            "description": (j.description or "")[:max_desc],
+        }
+        for j in batch
+    ]
+
+    user_msg = CV_SCORER_USER.format(
+        cv_text=cv_text[:6000],  # cap CV to avoid token overflow
+        jobs_json=json.dumps(jobs_payload, ensure_ascii=False),
+    )
+
+    raw = _call_openai(CV_SCORER_SYSTEM, user_msg, api_key, max_tokens=500)
+    if not raw:
+        return
+
+    try:
+        # Strip markdown fences if model adds them
+        clean = raw.strip().lstrip("```json").lstrip("```").rstrip("```").strip()
+        results = json.loads(clean)
+        result_map = {r["id"]: r for r in results}
+        for job in batch:
+            if job.job_id in result_map:
+                job.cv_score = float(result_map[job.job_id].get("score", 0.0))
+                job.cv_score_reason = result_map[job.job_id].get("reason", "")
+    except Exception as e:
+        logger.warning(f"CV scorer parse error: {e}. Raw: {raw[:200]}")
+        # If batch fails, score individually
+        for job in batch:
+            _score_single(job, cv_text, api_key, max_desc)
+
+
+def _score_single(job: Job, cv_text: str, api_key: str, max_desc: int) -> None:
+    """Score a single job — fallback when batch parse fails."""
+    payload = [{"id": job.job_id, "title": job.title, "company": job.company,
+                "description": (job.description or "")[:max_desc]}]
+    user_msg = CV_SCORER_USER.format(
+        cv_text=cv_text[:6000],
+        jobs_json=json.dumps(payload, ensure_ascii=False),
+    )
+    raw = _call_openai(CV_SCORER_SYSTEM, user_msg, api_key, max_tokens=200)
+    if not raw:
+        return
+    try:
+        clean = raw.strip().lstrip("```json").lstrip("```").rstrip("```").strip()
+        results = json.loads(clean)
+        if results:
+            job.cv_score = float(results[0].get("score", 0.0))
+            job.cv_score_reason = results[0].get("reason", "")
+    except Exception:
+        pass
