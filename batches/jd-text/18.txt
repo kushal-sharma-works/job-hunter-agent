@@ -1,239 +1,102 @@
-Stanley David and Associates hiring Java Software Engineer in Utrecht, Netherlands | LinkedIn
+Trust International B.V. hiring Mobile App Developer (Kotlin) Trust Smarthome in Dordrecht, South Holland, Netherlands | LinkedIn
 Skip to main content
-Java Software Engineer
-Stanley David and Associates
-Utrecht, Netherlands
+Mobile App Developer (Kotlin) Trust Smarthome
+Trust International B.V.
+Dordrecht, South Holland, Netherlands
 Apply
-Java Software Engineer
-Stanley David and Associates
-Utrecht, Netherlands
-2 weeks ago
-Over 200 applicants
-See who Stanley David and Associates has hired for this role
+Join or sign in to find your next job
+Join to apply for the
+Mobile App Developer (Kotlin) Trust Smarthome
+role at
+Trust International B.V.
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Mobile App Developer (Kotlin) Trust Smarthome
+Trust International B.V.
+Dordrecht, South Holland, Netherlands
+4 days ago
+65 applicants
+See who Trust International B.V. has hired for this role
 Apply
+Join or sign in to find your next job
+Join to apply for the
+Mobile App Developer (Kotlin) Trust Smarthome
+role at
+Trust International B.V.
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
 Save
 Report this job
-Use AI to assess how you fit
-Get AI-powered advice on this job and more exclusive features.
-Am I a good fit for this job?
-Tailor my resume
-Sign in to access AI-powered advices
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Sign in to evaluate your skills
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Sign in to tailor your resume
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Direct message the job poster from Stanley David and Associates
-Simran Gaur
-Simran Gaur
-Senior Account Manager at Stanley David and Associates
-Role: Java Developer (Mid/ Senior/ Lead)
-Type - Permanent
-Location – Utrecht, Netherlands (Hybrid)
-Dutch - B1/B2 Fluency
-Java Developer Requirements
-Hands-on experience in Java application development.
-Expertise knowledge in Java , Spring Framework, Hibernate/JPA, and RESTful web applications.
-Good knowledge in SQL/Relational Databases.
-Experience with JavaFX/Swing and application servers such as WebLogic (preferred).
-Hands-on experience with JUnit, Git, Jenkins (CI/CD), and Agile/Scrum development methodologies.
-Strong problem-solving, debugging, and application support skills.
+Fulltime/parttime
+Locatie: Dordrecht / Hybride
+Trust Smart Home is hét merk voor Smart Home-oplossingen. Ons doel is om het dagelijks leven makkelijker, veiliger en duurzamer te maken, en dat doen we wereldwijd. We werken met een hecht team dat elkaar ondersteunt bij elke uitdaging en vol enthousiasme samenwerkt aan slimme innovaties.
+Trust Smart Home voert verschillende merken waaronder KlikAanKlikUit, hét Nederlandse merk met makkelijke en betaalbare smart home oplossingen voor Technisch Installateurs en thuisklussers en Trust Smart Home WiFi, het internationale merk met instapklare Smart Home oplossingen voor iedere consument die eenvoudig bediend worden met de gratis Trust WiFi-app.
+Mobile App Developer (Kotlin) Trust Smart Home
+Ben jij een enthousiaste en nauwkeurige softwareontwikkelaar met een analytische blik? Heb je affiniteit met technologie en lijkt het je leuk om te werken met innovatieve Smart Home producten? Dan zijn wij op zoek naar jou!
+Wat ga je doen?
+Als softwareontwikkelaar bij Trust Smart Home werk je aan de KlikAanKlikUit en Trust Smart Home apps voor Android en iOS, waar consumenten hun Smart Home producten mee aansturen en automatiseren, zoals slimme stekkers en lampen, IP-camera’s, sensoren en onze Smart Bridge.
+Je werkzaamheden bestaan onder andere uit:
+Samen met het team werken aan het verbeteren, uitbreiden en onderhouden van de app
+Nieuwe Smart Home producten in de app integreren
+Bijdragen aan technische verbeteringen, zoals de geleidelijke migratie naar Kotlin en Compose (Multiplatform, één codebase voor Android en iOS)
+De mogelijkheid om full-stack te werken, dus ook aan onze server-side systemen in Kotlin met Spring Boot
+Wat breng je mee?
+Je hebt een afgeronde hbo- of wo-bachelor (Technische) Informatica, Software Engineering of vergelijkbaar werk- en denkniveau
+Je hebt ervaring met softwareontwikkeling in Kotlin
+Je hebt ervaring met mobile app development (Android en/of iOS)
+Je werkt nauwkeurig en gestructureerd, kan goed omgaan met feedback en wil graag leren
+Je beheerst de Nederlandse en Engelse taal goed
+Nice to have/pré:
+Ervaring met Jetpack Compose, SwiftUI of een ander declaratief UI-framework
+Ervaring met back-end development in Kotlin of Java (bijvoorbeeld Spring Boot)
+Ervaring met embedded development in C/C++
+Je hebt affiniteit met technologie en Smart Home producten
+Wat wij bieden
+Een salaris passend bij jouw werkervaring, bonus, reiskostenvergoeding, pensioen en 8% vakantiegeld
+Hybride werken met flexibiliteit om thuis en op kantoor te werken
+Een thuiswerkvergoeding, Trust producten voor je thuiskantoor én een budget om je thuiswerkplek optimaal in te richten
+25 vakantiedagen voor een gezonde werk-privébalans (o.b.v. 40 uur)
+Diverse team activiteiten, zoals sportieve uitjes, pub quiz avonden en game nights
+Een sport abonnement om fit en energiek te blijven
+Elke dag vers fruit op kantoor én goede koffie om je dag goed te starten
+Interesse?
+We zijn op zoek naar iemand die kansen grijpt en dingen voor elkaar krijgt, die anderen ondersteunt en doet wat het beste is voor het bedrijf, de klanten en de planeet, en die handelt met integriteit en doet wat hij of zij belooft. We hopen dat je met ons mee wilt bouwen aan de toekomst van duurzame digitale accessoires en kijken uit naar je sollicitatie!
+Geïnteresseerd in meer carrièremogelijkheden bij Trust? Bezoek onze carrièrepagina, Careers page of bekijk onze vacatures op LinkedIn en Indeed voor alle openstaande vacatures.
+We controleren onze vacaturebeschrijvingen en -vereisten zorgvuldig op inclusiviteit en rechtvaardigheid. Laten we samen een positieve impact maken!
+Wij verzoeken recruitmentbureaus vriendelijk om niet op deze vacature te reageren.
 Show more
 Show less
 Seniority level
-Mid-Senior level
+Entry level
 Employment type
 Full-time
 Job function
-Information Technology
-Industries
-IT Services and IT Consulting
-Referrals increase your chances of interviewing at Stanley David and Associates by 2x
-See who you know
-Get notified when a new job is posted.
-Set alert
-Sign in to set job alerts for “Java Software Engineer” roles.
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Similar jobs
-Java Developer - NL
-Java Developer - NL
-Capgemini
-Utrecht, Utrecht, Netherlands
-1 month ago
-Java Developer
-Java Developer
-Sogeti
-Utrecht, Utrecht, Netherlands
-1 week ago
-Java Developer
-Java Developer
-Sopra Steria
-Nieuwegein, Utrecht, Netherlands
-1 week ago
-Medior Java developer
-Medior Java developer
-Rijkswaterstaat
-Utrecht Area
-€3,496.00
-            -
-            €5,535.00
-1 day ago
-Java Software Engineer
-Java Software Engineer
-DHL eCommerce Nederland
-Utrecht, Utrecht, Netherlands
-1 week ago
-Open Source & Java Developer - NL
-Open Source & Java Developer - NL
-Capgemini
-Utrecht, Utrecht, Netherlands
-4 months ago
-Medior Java developer
-Medior Java developer
-Rijksoverheid
-Utrecht Area
-6 days ago
-Java Software Engineer
-Java Software Engineer
-VX Company
-Utrecht Area
-1 week ago
-Java Software Engineer
-Java Software Engineer
-CIMSOLUTIONS
-Utrecht Area
-1 day ago
-Java developer (medior)
-Java developer (medior)
-Energie Data Services Nederland (EDSN) B.V.
-Amersfoort, Utrecht, Netherlands
-4 days ago
-Java-ontwikkelaar
-Java-ontwikkelaar
-Sterksen
-Utrecht, Netherlands
-3 weeks ago
-Backend Engineer (Junior / Medior Level)
-Backend Engineer (Junior / Medior Level)
-Solvimon
-Utrecht, Utrecht, Netherlands
-11 months ago
-Java-ontwikkelaar
-Java-ontwikkelaar
-NAVARA
-Utrecht, Netherlands
-1 week ago
-Java Engineer - Utrecht, Nederland  (H/F)
-Java Engineer - Utrecht, Nederland  (H/F)
-Astek
-Utrecht, Utrecht, Netherlands
-2 weeks ago
-Software-ingenieur
-Software-ingenieur
-CodeBlauw
-Utrecht, Netherlands
-1 week ago
-Backend Engineer (Various Levels)
-Backend Engineer (Various Levels)
-Solvimon
-Utrecht, Utrecht, Netherlands
-1 year ago
-Java开发工程师
-Java开发工程师
-北京泰克正通科贸有限公司
-Maarssen, Utrecht, Netherlands
-1 month ago
-Medior Java Software Engineer
-Medior Java Software Engineer
-Keylane
-Utrecht, Utrecht, Netherlands
-4 months ago
-Medior Java developer
-Medior Java developer
-Nationaal Dataportaal Wegverkeer
-Utrecht, Netherlands
-5 days ago
-Software Engineer (Java)
-Software Engineer (Java)
-SynTouch
-Utrecht, Utrecht, Netherlands
-2 weeks ago
-Full Stack Java Developer
-Full Stack Java Developer
-adesso SE
-Utrecht, Utrecht, Netherlands
-2 months ago
-Software Engineer Java/Kotlin (M)
-Software Engineer Java/Kotlin (M)
-bol
-Utrecht, Utrecht, Netherlands
-€5,800.00
-            -
-            €8,300.00
-4 days ago
-Java Software Engineer
-Java Software Engineer
-ilionx
-Utrecht, Netherlands
-1 week ago
-Java/Kotlin Deve
+Enginee
