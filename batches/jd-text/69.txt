@@ -1,0 +1,10 @@
+About Insify
+ 
+We are a high-growth scale-up backed by €43M in total funding from world-class investors like Accel, Munich Re Ventures, and Formula 1 champion Nico Rosberg. While we started our journey five years ago in the Netherlands, we have since expanded into France and Germany, and we’re just getting started. Our mission is to dominate the European market and become a global leader in AI-powered SME insurance.
+ 
+We aren't just building a company; we’re leading a revolution. Our culture is intense, high-stakes, and mission-driven. We hire smart, ambitious "owners" who possess a relentless drive to win. This is an environment for those who thrive on challenges, value intellectual honesty, and share our mindset of becoming a global category leader.
+ 
+Our founding team consists of seasoned entrepreneurs who have previously built iconic businesses like HelloFresh, Bloomon, and SumUp. We combine that deep fintech and e-commerce expertise with cutting-edge AI to stay ahead of the curve.
+
+We're looking for a highly motivated Analytics Engineer who will work closely with Product and Insurance departments to bring instant, tailored and affordable financial safety products to entrepreneurs.
+ 
