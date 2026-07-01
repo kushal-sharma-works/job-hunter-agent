@@ -1,210 +1,84 @@
-Arrows hiring Full Stack Engineer in Amsterdam, North Holland, Netherlands | LinkedIn
+Futurewhiz hiring Medior Python Backend Developer in Amsterdam, North Holland, Netherlands | LinkedIn
 Skip to main content
-Full Stack Engineer
-Arrows
+Medior Python Backend Developer
+Futurewhiz
 Amsterdam, North Holland, Netherlands
 Apply
-Full Stack Engineer
-Arrows
+Join or sign in to find your next job
+Join to apply for the
+Medior Python Backend Developer
+role at
+Futurewhiz
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Medior Python Backend Developer
+Futurewhiz
 Amsterdam, North Holland, Netherlands
-1 week ago
-Over 200 applicants
-See who Arrows has hired for this role
+2 weeks ago
+37 applicants
+See who Futurewhiz has hired for this role
 Apply
+Join or sign in to find your next job
+Join to apply for the
+Medior Python Backend Developer
+role at
+Futurewhiz
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
 Save
 Report this job
-Use AI to assess how you fit
-Get AI-powered advice on this job and more exclusive features.
-Am I a good fit for this job?
-Tailor my resume
-Sign in to access AI-powered advices
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Sign in to evaluate your skills
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Sign in to tailor your resume
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Direct message the job poster from Arrows
-Henry Wright
-Henry Wright
-Arrows AI | Machine Learning Specialist
-I’m working with an
-early-stage
-tech company based in Amsterdam that is building a next-generation AI platform focused on
-securing critical real-world systems
-.
-They are now looking for a
-Full Stack AI Engineer (React and Python)
-to join the team as they scale their core platform.
-This is a hands-on engineering role where you’ll have
-genuine ownership
-over architecture and product direction, working closely with an
-experienced founding team
-that has successfully built and exited companies before.
-What you’ll be doing:
-Strong Python skills and experience with at least one frontend framework (React or Vue)
-Hands-on experience building and shipping LLM-powered applications in production
-Solid understanding of RAG pipelines, vector databases, and prompt engineering
-Experience wrapping models in scalable APIs and integrating with third-party model providers (OpenAI, Anthropic etc.)
-Comfortable with cloud infrastructure, Docker, and CI/CD pipelines
-Able to own the full stack - from data ingestion through to user-facing AI features
-Startup mindset - comfortable with ambiguity, moving fast, and wearing multiple hats
-What’s on offer:
-Hybrid setup (4 days per week in Amsterdam)
-Salary up to £120,000 plus bonus plus SARS
-High-impact role with real ownership and
-autonomy
-Backed by a highly
-experienced leadership team
-with a strong track record
-Opportunity to help shape a genuinely
-novel produc
-t in a fast-growing space
-If this sounds interesting, feel free to share your CV.
-Show more
-Show less
-Seniority level
-Mid-Senior level
-Employment type
-Full-time
-Job function
-Engineering and Information Technology
-Industries
-Computer and Network Security and IT Services and IT Consulting
-Referrals increase your chances of interviewing at Arrows by 2x
-See who you know
-Get notified about new
-Full Stack Engineer
-jobs in
-Amsterdam, North Holland, Netherlands
-.
-Sign in to create job alert
-Similar jobs
-Full-stack Developer
-Full-stack Developer
-Adswag
-Amsterdam, North Holland, Netherlands
-4 days ago
-Full stack developer
-Full stack developer
-Crisp
-Amsterdam, North Holland, Netherlands
-2 weeks ago
-Full-stack Developer
-Full-stack Developer
-BYBORRE
-Amsterdam, North Holland, Netherlands
-2 months ago
-Full Stack Developer
-Full Stack Developer
-Foreside
-Amsterdam, North Holland, Netherlands
-1 week ago
-Full Stack Engineer
-Full Stack Engineer
-FUGA
-Amsterdam, North Holland, Netherlands
-5 months ago
-Full Stack Developer
-Full Stack Developer
-Frank Energie
-Amsterdam, North Holland, Netherlands
-6 days ago
-Full-Stack Developer
-Full-Stack Developer
-Hypersolid
-Amsterdam, North Holland, Netherlands
-3 days ago
-Software Engineer(Amsterdam)
-Software Engineer(Amsterdam)
-Together AI
-Amsterdam, North Holland, Netherlands
-5 days ago
-Full Stack Developer
-Full Stack Developer
-Frank Energie
-Amsterdam, North Holland, Netherlands
-1 week ago
-Full Stack Engineer
-Full Stack Engineer
-FIRM24
-Amsterdam, North Holland, Netherlands
-1 month ago
-Full Stack Developer
-Full Stack Developer
-Pancompany
-Amsterdam, North Holland, Netherlands
-1 month ago
-Software Engineer - Fullstack
-Software Engineer - Fullstack
-Databricks
-Amsterdam, North Holland, Netherlands
-1 week ago
-Software Engineer, Full-Stack
-Software Engineer, Full-Stack
-Monumental
-Amsterdam, North Holland, Netherlands
-1 month ago
-Full Stack Software Engineer
-Full Stack Software Engineer
-Cognizant
-Amsterdam, North Holland, Netherlands
-2 weeks ago
-Full Stack Engineer
-Full Stack Engineer
-TwentyEighth Conversation
-Amsterdam, North Holland, Netherlands
-4 weeks ago
-Fullstack Engineer
-Fullstack Engineer
-myTomorrows
-Amsterdam, North Holland, Netherlands
-1 week ago
-Software Engineer
-Software Engineer
-Teero
-Amste
+📍 Amsterdam - Hybrid (minimum 50% at the office)
+⏱️ 36-40 hours per week
+💰 €3800 - €4800 per month
+🌍 Futurewhiz is a B Corp
+Just a small heads-up regarding logistics: we aren't able to offer visa sponsorship for this role, so we can only consider candidates who already hold a valid work permit for the Netherlands or the EU.
+Are you a driven backend developer who wants to make an impact on how children learn? At Futurewhiz, you'll build Squla, the platform that helps more than 160,000 children at home and over half a million in classrooms learn through play, every day. You'll join the Primary Education team and help build the features, experiments, and systems that make learning smarter and more fun. Want to contribute to the future of digital learning? Apply now!
+At Futurewhiz, we have one mission that unites us all:
+Empowering every child to grow by shaping the future of personalized learning for the next generation.
+Every day, we create digital learning products that challenge, motivate, and help children aged 3 to 18 develop.
+🏰 About Futurewhiz, Squla And StudyGo
+For over 16 years, Futurewhiz has been the market leader in EdTech in the Netherlands. Our brands, including Squla and StudyGo, help children and teenagers aged 3 to 18 learn and grow at their own level and pace. Our mission is clear: "Empowering every child to grow." We've been a certified B Corp since 2020, which means we strive for a strong balance between purpose and profit.
+Squla is a popular educational brand among (primary school) children, parents and teachers. Every day, more than 160,000 children at home and more than half a million children play the best games and quizzes at school in the classroom. Our mission? Helping children progress through play! We do this by staying close to children's experiences, and by using gaming elements, attractive UX designs and current, changing content.
+StudyGo (formerly WRTS) is the go-to online platform for secondary school students to prepare for exams. From vocabulary practice and assignments to chatting with tutors and attending group lessons, we offer a comprehensive toolkit to help students succeed. With over 650,000 annual users, StudyGo has become one of the key digital platforms for secondary education.
+🎮 What will you do as our Medior Developer?
+You'll join the Primary Education team working on Squla. You'll work in a small multidisciplinary team where product, design, engineering, education and marketing shape solutions together and share responsibility for the results, not just the roadmap. We work in short cycles: six weeks of focused execution, then a week to reflect, learn and replan.
+We're rethinking how we build software around AI. Coding agents are taking on a growing share of the implementation work, and we're looking for engineers who already work that way personally and want to help push the team further. You're a backend developer at heart, but you won't stop at the backend: as agents remove friction, picking up frontend, data or deployment work becomes the normal way to keep the team moving.
+🌟 Your role and impact
+Turn product ideas into production-ready solutions, working from goals and context rather than waiting for detailed specifications
+Use AI tooling as your default way of working: delegate well-scoped implementation to coding agents, run explorations in parallel, and review the output with strong engineering judgment
+Work across the stack where it avoids handoffs: backend first, frontend, data and infrastructure when needed
+Ensure scalability, security and maintainability across our services
+Shape solutions early together with product, design and education colleagues
+Take ownership of team results: follow whether the things you ship actually improve learning and business outcomes, and iterate when they don't
+Contribute to architectural discussions and help improve how we use AI in our engineering practice
+Our stack is:
+Python back-end
+Reac
