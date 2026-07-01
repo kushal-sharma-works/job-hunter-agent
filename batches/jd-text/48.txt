@@ -1,16 +1,58 @@
-GoMeddo hiring Full Stack Developer in Laren, North Holland, Netherlands | LinkedIn
+Conference Compass hiring Full Stack Engineer in The Hague, South Holland, Netherlands | LinkedIn
 Skip to main content
-Full Stack Developer
-GoMeddo
-Laren, North Holland, Netherlands
+Full Stack Engineer
+Conference Compass
+The Hague, South Holland, Netherlands
 Apply
-Full Stack Developer
-GoMeddo
-Laren, North Holland, Netherlands
-1 week ago
-Over 200 applicants
-See who GoMeddo has hired for this role
+Join or sign in to find your next job
+Join to apply for the
+Full Stack Engineer
+role at
+Conference Compass
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Full Stack Engineer
+Conference Compass
+The Hague, South Holland, Netherlands
+2 weeks ago
+113 applicants
+See who Conference Compass has hired for this role
 Apply
+Join or sign in to find your next job
+Join to apply for the
+Full Stack Engineer
+role at
+Conference Compass
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
 Save
 Report this job
 Use AI to assess how you fit
@@ -68,82 +110,29 @@ Privacy Policy
 , and
 Cookie Policy
 .
-As a Developer at GoMeddo, you will become part of our talented Development team and play a key role in developing innovative software. You think of practical solutions to solve complex, abstract problems and translate these into reliable and maintainable software. Part of your role is to use your creativity and skills to make a real contribution to the team. You will work on our GoMeddo and GoTallo products. GoMeddo helps our customers with complex scheduling questions, we help our education customers schedule classes, teachers and equipment, or help car manufacturers schedule test drives for their cars. GoTallo is our messaging platform that enables seamless communication between businesses and their customers.
-Your background:
-Experience:
-At least 2 years of professional software development experience.
-Tech Stack:
-Strong knowledge of Python, JavaScript, and/or React.
-Cloud:
-Hands-on experience with AWS or similar cloud platforms.
-Nice-to-haves:
-Experience with Salesforce (Apex, LWC) or DevOps practices is a major plus.
-Location & Language:
-Currently living in the Netherlands, with fluent written and spoken English skills.
-What we offer:
-Compensation:
-A competitive salary based on your knowledge and experience.
-Growth:
-A generous Training & Education Budget, because we care about your professional development.
-Flexibility:
-Flexible working hours, whether you start at 7 a.m. or 10 a.m., we focus on the impact you deliver.
-Hybrid Work:
-Freedom to choose where you work (from home or our great office in Laren), though we love catching up face-to-face regularly.
-Culture:
-A high-trust, ego-free ecosystem where we assume positive intent. We operate as one united team, celebrate wins together, and maintain a safe space for experimentation where you can take risks
-Who are we?
-At GoMeddo we think technology should enable you to make life easier and improve the quality of experiences on a daily basis. We think flexibility and adaptability should be just as important as a strong digital backbone to run your business on and deliver user experiences with. That’s why we have combined these topics in 2014 and since then brought our Salesforce-based planning, scheduling and booking solution.
-It’s our mission to help organisations maximise their efficiency, user experience and grow their business with our native Salesforce planning, scheduling and booking application. Let’s free up resources, assets, spaces, people and customers and maximise their impact. We have got the app and the team who deliver on this promise in 34 countries across 6 continents, with millions of recurring reservations. Do you recognise yourself in the skills described and are you excited about possibly joining GoMeddo? Then apply by sending your CV to jobs@gomeddo.com.
-Show more
-Show less
-Seniority level
-Associate
-Employment type
-Full-time
-Job function
-Information Technology
-Industries
-Software Development
-Referrals increase your chances of interviewing at GoMeddo by 2x
-See who you know
-Get notified when a new job is posted.
-Set alert
-Sign in to set job alerts for “Full Stack Engineer” roles.
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Similar jobs
-Full-stack Developer
-Full-stack Developer
-Adswag
-Amsterdam, North Holland, Netherlands
-4 days ago
-Full-stack Developer
-Full-stack Developer
-BYBORRE
-Amsterdam, North Holland, Netherlands
-2 months ago
-Full Stack Developer
-Full Stack Developer
-Frank Energie
-Amsterdam, North Holland, Netherlands
-6 days ago
-Full stack developer
-Full stack developer
-Crisp
-Amsterdam, North Holland, Netherlands
-2 weeks ago
-Full Stack Developer
+About the Job 🔗
+Conference Compass is seeking a skilled and inspired Full Stack Engineer to join our enthusiastic international team. You will help shape the next generation of event technologies that power our highly customizable mobile and web applications for events.
+In this role, you will work on the data backbone of our platform: connecting to client systems, importing data from their APIs and static files, and transforming it into the formats our platform needs to deliver rich event experiences. Your work will enable seamless integrations across platforms and services, supporting innovative features for mobile and web applications.
+A particularly exciting part of this role is helping us build the next generation of our import tooling, a new suite of data import processes designed to be more automated, more resilient, and AI-friendly. If you're driven by a passion for well-written, efficient code and love tackling complex data and full-stack challenges, we'd love to hear from you. Whether you're an experienced full stack engineer or a rising talent eager to grow, this position offers a fantastic opportunity to make an impact.
+What You’ll Do 🧑‍💻
+Build and maintain integrations with a wide variety of client APIs, file feeds, and external data sources.
+Develop parsing, transformation, and validation logic to map incoming client data into the formats required by the Floq platform.
+Design and implement scalable data processing pipelines that reliably handle large volumes of event data.
+Build user-facing features in our web applications, owning work end to end from data and API through to the interface.
+Help shape and build our next-generation import suite, automated, easier to configure, and AI-friendly by design.
+Collaborate with client-facing teams to onboard new data sources quickly and robustly.
+Write and maintain code primarily in TypeScript and Python across the stack, with a strong focus on server-side operations.
+What We’re Looking For
+🤔
+We're looking for a full stack engineer with a backend focus who thrives on solving technical challenges and excels in a collaborative team environment. You recognize opportunities, take initiative, and take pride in delivering robust, scalable solutions.
+Your Skills and Attributes:
+Proficiency in TypeScript and Python for backend development.
+Strong understanding of API design and integration (e.g., REST, WebSockets).
+Experience building and managing data processing pipelines, including parsing and transforming data from heterogeneous sources (APIs, CSV/JSON/XML files, etc.).
+Comfort working across the full stack, including building front-end features (e.g., React).
+Familiarity with cloud platforms like AWS, including serverless services (e.g., AWS Lambda, DynamoDB, S3).
+An interest in AI-assisted tooling and exploring how LLMs can make data integration work faster and more reliably.
+Solid debugging and problem-solving skills with an eye for detail.
+Eagerness to learn new tools and solve complex problems.
+Fluency in English and excellent communication skills.
+NB
