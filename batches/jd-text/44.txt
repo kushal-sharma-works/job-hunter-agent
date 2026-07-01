@@ -1,88 +1,105 @@
-Valk Service Center hiring Full-stack Developer in Breukelen, Utrecht, Netherlands | LinkedIn
+Jobgether hiring Frontend Developer (React) in Netherlands | LinkedIn
 Skip to main content
-Full-stack Developer
-Valk Service Center
-Breukelen, Utrecht, Netherlands
+Frontend Developer (React)
+Jobgether
+Netherlands
 Apply
-Join or sign in to find your next job
-Join to apply for the
-Full-stack Developer
-role at
-Valk Service Center
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Full-stack Developer
-Valk Service Center
-Breukelen, Utrecht, Netherlands
-5 days ago
-Be among the first 25 applicants
-See who Valk Service Center has hired for this role
+Frontend Developer (React)
+Jobgether
+Netherlands
+6 days ago
+119 applicants
+See who Jobgether has hired for this role
 Apply
-Join or sign in to find your next job
-Join to apply for the
-Full-stack Developer
-role at
-Valk Service Center
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
 Save
 Report this job
-Functieomschrijving
-Wil jij bouwen aan de volgende generatie hoteltechnologie? Als Full-stack Developer ontwikkel je slimme applicaties en AI-oplossingen die dagelijks impact maken op de operatie van meer dan 70 Van der Valk hotels.
-Jouw werk
-Wil jij bouwen aan de volgende generatie hoteltechnologie? Als Full-stack Developer ontwikkel je end-to-end applicaties en platformcomponenten die de hoteloperatie slimmer, sneller en meer datagedreven maken. Je werkt in een modern Azure-landschap waarin data, events en AI samenkomen en draagt bij aan innovatieve oplossingen die dagelijks worden gebruikt binnen meer dan 70 Van der Valk hotels.
-Je ontwikkelt applicaties in C# (.NET), TypeScript en Python en bouwt AI-gedreven workflows en agents binnen Azure AI Foundry. Daarnaast ontwikkel je API's en services voor het Valk-platform, integreer je verschillende systemen zoals PMS, RMS en SevenRooms en werk je met event-driven architecturen, onder andere via Azure Event Grid. Zo realiseer je schaalbare oplossingen die processen automatiseren en de samenwerking tussen systemen verbeteren.
-Van slimme applicaties tot AI-oplossingen: dankzij jouw werk maken we de hotelervaring én de operatie iedere dag een stukje slimmer.
-Je werkt nauw samen met product owners, data engineers en hotelteams om nieuwe functionaliteiten te ontwikkelen die aansluiten op de behoeften van onze hotels. Daarbij maak je gebruik van moderne AI-tools, zoals Claude en GitHub Copilot, waarmee je sneller, slimmer en efficiënter kunt ontwikkelen.
-Je team
-Je werkt in een multidisciplinair team met data engineers, data analisten en IT operations. Samen bouwen jullie aan schaalbare oplossingen voor de hoteloperatie. Samen bouwen jullie aan schaalbare applicaties en slimme AI-oplossingen die de hoteloperatie ondersteunen. Binnen het team heerst een informele werksfeer waarin samenwerken, kennis delen en continu verbeteren centraal staan.
-De organisatie
-Werken bij de toekan betekent werken bij de meest gastvrije hotels van Nederland. Een stralende glimlach op de gezichten van onze gasten, daar doen we het voor! Je komt te werken bij het Valk Service Center. Dit is de faciliterende organisatie voor meer dan 70 Van der Valk hotels in het binnen- en buitenland. In verschillende teams zoals marketing, Revenue management en HR ondersteunen we samen onze hotels op de best mogelijke manier. Dit doen we op ons moderne kantoor in het mooie Van der Valk Hotel in Breukelen.
-Vereisten
-Jij
-Jij bent een nieuwsgierige en gedreven developer die energie krijgt van het bouwen aan innovatieve software. Je denkt in oplossingen, werkt graag samen met collega's uit verschillende disciplines en vindt het leuk om nieuwe technologieën, zoals AI, toe te passen in de praktijk. Je neemt initiatief, bent communicatief sterk en blijft jezelf graag ontwikkelen.
-Verder
-e hebt hbo werk- en denkniveau;
-Je hebt minimaal 3 jaar ervaring als Full-stack Developer;
-Je hebt ervaring met C#, Python en TypeScript;
-Je hebt ervaring met moderne frameworks zoals .NET. Ervaring met Node.js, React of Next.js is een pré;
-Je bent bekend met cloud development, bij voorkeur Microsoft Azure;
-Je hebt interesse in of ervaring met AI, Machine Learning en Large Language Models (LLM's);
-Je hebt ervaring met API-integraties en event-driven architectuur.
-Arbeidsvoorwaarden
-Afhankelijk van je achtergrond en ervaring ontvang je een salaris tussen €3.250,- tot €5.350,- o.b.v. 38 uur;
-Mogelijkheid om in overleg deels thuiswerken;
-Een pensioenregeling. Wij hanteren een pensioenregeling bij het Pensioenfonds Horeca & Catering;
-Vitaliteit en gezondheid vinden wij belangrijk, daarom bieden we gratis onbeperkt sportlessen samen met je collega’s aan. Ook is er dagelijks vers fruit op kantoor;
-25 vakantiedagen;
-Reiskostenvergoeding;
-Toegang tot ons Van der Valk Benefits at Work platform, waarbij je korting krijgt op merken zoals Adidas, JBL, Philips, Walibi en nog veel meer;
-Aantrekkelijke personeelsko
+Use AI to assess how you fit
+Get AI-powered advice on this job and more exclusive features.
+Am I a good fit for this job?
+Tailor my resume
+Sign in to access AI-powered advices
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Sign in to evaluate your skills
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Sign in to tailor your resume
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Frontend Developer (React) based in Netherlands.
+This is an exciting opportunity to join a product-focused development team building innovative digital solutions that serve large-scale user communities. As a Frontend Developer, you will contribute to the creation of modern, high-performance web applications while collaborating closely with cross-functional teams on meaningful product initiatives. The role offers significant autonomy, the chance to influence technical decisions, and exposure to diverse projects across the product lifecycle. You will work in an environment that values innovation, continuous learning, and engineering excellence. From designing scalable frontend architectures to delivering engaging user experiences, your contributions will directly impact product quality and customer satisfaction. This position is ideal for developers who enjoy ownership, collaboration, and ongoing professional growth.
+Accountabilities
+Develop, maintain, and enhance modern web applications using React and related frontend technologies.
+Collaborate closely with development teams and technical leadership to deliver new product features and improvements.
+Participate in application architecture design and contribute to technical decision-making processes.
+Select, evaluate, and implement appropriate tools, frameworks, and development practices to support project goals.
+Perform code reviews and maintain high standards of code quality, performance, and maintainability.
+Develop responsive, interactive, and optimized user interfaces that provide an excellent user experience.
+Integrate frontend applications with backend services through RESTful APIs and service-oriented architectures.
+Contribute to support activities, troubleshooting, and continuous improvement initiatives across existing applications.
+Ensure adherence to best practices for version control, testing, deployment, and CI/CD workflows.
+Requirements
+3+ years of professional experience developing web applications.
+At least 2 years of hands-on experience with React.js in production environments.
+Strong understanding of object-oriented programming and functional programming principles.
+Experience building interactive, responsive, and high-performance user interfaces.
+Proficiency with Redux, Flux, or similar state management solutions.
+Advanced knowledge of CSS, styling methodologies, frontend optimization, and browser rendering processes.
+Experience using Git-based version control systems such as GitHub or GitLab.
+Strong experience with React Hooks and TypeScript-based application architectures.
+Understanding of REST APIs, service-oriented architecture (SOA), and frontend-backend integration.
+Solid knowledge of modern JavaScript standards, including ES6, ES7, and ES8.
+Familiarity with CI/CD concepts, tools, and deployment workflows.
+Strong analytical thinking, problem-solving abilities, and collaborative communication skills.
+Experience with high-load applications, Node.js, Docker, Linux environments, distributed systems, SOLID principles, or Bash scripting would be considered an advantage.
+Benefits
+Flexible work arrangement with the option to work remotely or from the office.
+Remote onboarding process for a seamless start.
+Performance-based bonuses awarded annually or quarterly depending on role requirements.
+Comprehensive health and life insurance coverage.
+Access to employee wellbeing initiatives and professional psychological support.
+Continuous learning opportunities through internal resources, company libraries, and partner-led training programs.
+Exposure to innovative product development projects and modern technology stacks.
+Supportive and collaborative engin
