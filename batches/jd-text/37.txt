@@ -1,0 +1,137 @@
+Rototip hiring Full-stack software engineer in Amsterdam, North Holland, Netherlands | LinkedIn
+Skip to main content
+Full-stack software engineer
+Rototip
+Amsterdam, North Holland, Netherlands
+Apply
+Join or sign in to find your next job
+Join to apply for the
+Full-stack software engineer
+role at
+Rototip
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Full-stack software engineer
+Rototip
+Amsterdam, North Holland, Netherlands
+1 week ago
+124 applicants
+See who Rototip has hired for this role
+Apply
+Join or sign in to find your next job
+Join to apply for the
+Full-stack software engineer
+role at
+Rototip
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Save
+Report this job
+About The Role
+We're building the digital infrastructure that connects modern manufacturing companies with top-tier factories across the globe. As one of the first senior engineers joining a small, hands-on team, you'll have a direct impact on architecture decisions, product direction, and how we scale a complex marketplace platform.
+You'll work day-to-day with our hands-on CTO and a lead-level engineer - meaning you need to be comfortable owning problems end-to-end, from data model to deployment, without a large team to hand things off to.
+If you have strong TypeScript instincts, care about building systems that are both correct and maintainable, and are energised (not intimidated) by the full stack - we'd love to talk.
+What You'll Do
+Build and maintain full-stack features using Next.js, React, and TypeScript - from server components to client-side interactions
+Design and query a PostgreSQL database via Prisma, with an eye for performance and data integrity
+Style UIs with TailwindCSS, working closely with design intent rather than just implementing specs
+Write meaningful tests - unit, integration, and end-to-end where it counts
+Build and maintain infrastructure across our hybrid cloud setup (AWS, Hetzner bare metal, Cloudflare) using an IaC approach
+Contribute to architectural decisions, including our event-driven and microservices patterns
+Deploy and operate services - you'll own what you ship
+What You'll Bring
+4+ years of professional experience with a meaningful portion in full-stack or senior roles
+Strong command of TypeScript and React, including Next.js in production
+Solid backend fundamentals - you're equally comfortable in a Prisma schema and a complex SQL query
+Experience with PostgreSQL in a production environment
+Comfort working across the stack as a generalist - you don't wait for someone else to own the infrastructure or the data model
+Hands-on experience with Docker and container-based deployments
+Familiarity with IaC tooling (Terraform) and cloud environments, particularly AWS
+Exposure to event-driven architectures or microservices patterns is a plus
+Familiarity with state management approaches (Redux Toolkit, Tanstack Query, Zustand)
+Preferably based in the Netherlands (alternatively in Turkiye or Poland)
+What's In It For You
+Fully remote position
+MacBook Pro provided
+Learning budget to support your professional growth
+20 days paid leave plus Dutch public holidays
+Discretionary bonus potential
+A small, senior team - no bureaucracy, high ownership, real impact on the product
+The process
+Initial call
+Technical interview - a 45-minute call where we walk through a real technical problem together to understand how you think and reason
+Final call
+About Rototip.com
+Rototip is a digital marketplace connecting companies that need manufactured goods with factories capable of producing them across CNC and other manufacturing technologies. Headquartered in the Netherlands, we're building the platform that makes global manufacturing procurement fast, transparent, and reliable. Rototip is an equal opportunity employer.
+Show more
+Show less
+Seniority level
+Mid-Senior level
+Employment type
+Full-time
+Job function
+Engineering and Information Technology
+Industries
+Manufacturing
+Referrals increase your chances of interviewing at Rototip by 2x
+See who you know
+Get notified about new
+Software Engineer
+jobs in
+Amsterdam, North Holland, Netherlands
+.
+Sign in to create job alert
+Similar jobs
+Full stack developer
+Full stack developer
+Crisp
+Amsterdam, North Holland, Netherlands
+2 weeks ago
+Full-stack Developer
+Full-stack Developer
+Adswag
+Amsterdam, North Holland, Netherlands
+4 days ago
+Software Engineer(Amsterdam)
+Software Engineer(Amsterdam)
+Together AI
+Amsterdam, North Holland, Netherlands
+5 days ago
+Software Engineer, Full-Stack
+Software Engineer, Full-Stack
+Monumental
+Amsterdam, North Holland, Netherlands
+1 month ago
+Full Stack Developer
+Full Stack Developer
+Foreside
+Amsterdam, North Holland, Netherlands
+1 week ago
