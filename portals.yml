@@ -1,103 +1,454 @@
-# portals.yml
-# Static list of company career pages + known ATS slugs.
-# The agent queries each of these directly — no scraping needed for Greenhouse/Lever/Ashby.
+# portals.yml — Career Ops portal scanner config
+# Candidate: Kushal Sharma — Java/Kotlin/React/Spring Boot + PM track
+# Target: Randstad (Amsterdam/Rotterdam/Utrecht/Den Haag) | Kennismigrant sponsorship
 #
-# Format:
-#   - name: Company Name
-#     type: greenhouse | lever | ashby | careers_page | ats_unknown
-#     slug: <slug for ATS API>    (for greenhouse/lever/ashby)
-#     url:  <direct URL>          (for careers_page)
+# Track 2 of 2: run /career-ops scan weekly to hit company career pages directly.
+# Track 1 (automated): job-hunter-agent runs every 2-3 days via GitHub Actions.
 #
-# To find a company's Greenhouse slug: check their jobs page URL for boards.greenhouse.io/<slug>
-# To find a Lever slug: check for jobs.lever.co/<slug>
-# To find an Ashby slug: check for jobs.ashbyhq.com/<slug>
+# ATS key:
+#   Greenhouse  → api: https://boards-api.greenhouse.io/v1/boards/{slug}/jobs
+#   Lever       → careers_url: https://jobs.lever.co/{slug}
+#   Ashby       → careers_url: https://jobs.ashbyhq.com/{slug}
+#   Recruitee   → careers_url: https://{slug}.recruitee.com
+#   Other/own   → playwright scrape (default, no special fields needed)
+#
+# To add a company: copy any entry below, update name + careers_url.
+# To pause a company: set enabled: false.
 
-portals:
-  # ── IND-registered tech companies with known ATS slugs ─────────────────────
-  - name: "Booking.com"
-    type: greenhouse
-    slug: "booking"
-  - name: "Adyen"
-    type: greenhouse
-    slug: "adyen"
-  - name: "Mollie"
-    type: greenhouse
-    slug: "mollie"
-  - name: "Messagebird"
-    type: greenhouse
-    slug: "messagebird"
-  - name: "Catawiki"
-    type: greenhouse
-    slug: "catawiki"
-  - name: "Backbase"
-    type: greenhouse
-    slug: "backbase"
-  - name: "TomTom"
-    type: greenhouse
-    slug: "tomtom"
-  - name: "Lightspeed"
-    type: greenhouse
-    slug: "lightspeed"
-  - name: "Vandebron"
-    type: lever
-    slug: "vandebron"
-  - name: "Picnic"
-    type: lever
-    slug: "picnic"
-  - name: "Coolblue"
-    type: careers_page
-    url: "https://werkenbijcoolblue.nl/vacatures?category=it-en-tech"
-  - name: "ASML"
-    type: careers_page
-    url: "https://www.asml.com/en/careers/find-your-job?q=software"
-  - name: "Philips"
-    type: careers_page
-    url: "https://www.careers.philips.com/global/en/search-results?keywords=software"
-  - name: "ING"
-    type: greenhouse
-    slug: "ing"
-  - name: "ABN AMRO"
-    type: careers_page
-    url: "https://www.abnamro.com/en/careers/vacancies?q=software+engineer"
-  - name: "Bol.com"
-    type: greenhouse
-    slug: "bolcom"
-  - name: "Takeaway / Just Eat"
-    type: greenhouse
-    slug: "justeat-takeaway"
-  - name: "Elastic"
-    type: greenhouse
-    slug: "elastic"
-  - name: "DataStax"
-    type: greenhouse
-    slug: "datastax"
-  - name: "WeTransfer"
-    type: greenhouse
-    slug: "wetransfer"
-  - name: "Miro"
-    type: greenhouse
-    slug: "miro"
-  - name: "GitLab"
-    type: greenhouse
-    slug: "gitlab"
-  - name: "Personio"
-    type: greenhouse
-    slug: "personio"
-  - name: "Ahold Delhaize"
-    type: careers_page
-    url: "https://careers.aholddelhaize.com/search/?q=software+engineer&locname=Netherlands"
-  - name: "Randstad Digital"
-    type: careers_page
-    url: "https://www.randstaddigital.nl/en/jobs/?q=java+developer"
-  - name: "Nmbrs"
-    type: lever
-    slug: "nmbrs"
-  - name: "Sendcloud"
-    type: greenhouse
-    slug: "sendcloud"
-  - name: "Temper"
-    type: greenhouse
-    slug: "temper"
+# -- Title filter ---------------------------------------------------------
+# At least 1 positive must match AND 0 negatives must match (case-insensitive).
 
-  # ── Add more here as you discover them ──────────────────────────────────────
-  # To contribute: find the careers page, identify the ATS, get the slug
+title_filter:
+  positive:
+    # Engineering roles
+    - "Software Engineer"
+    - "Backend Engineer"
+    - "Backend Developer"
+    - "Full Stack"
+    - "Fullstack"
+    - "Platform Engineer"
+    - "Staff Engineer"
+    - "Senior Engineer"
+    - "API Engineer"
+    - "SRE"
+    - "DevOps"
+    - "Cloud Engineer"
+    - "Data Engineer"
+    # Language/stack signals
+    - "Java"
+    - "Kotlin"
+    - "Python"
+    - "TypeScript"
+    - "React"
+    - "Spring Boot"
+    # PM roles
+    - "Product Manager"
+    - "Product Owner"
+    - "Associate Product Manager"
+    - "Technical Product Manager"
+    # AI/ML roles
+    - "ML Engineer"
+    - "AI Engineer"
+    - "Machine Learning"
+    - "LLMOps"
+    - "MLOps"
+
+  negative:
+    - "Junior"
+    - "Intern"
+    - "Internship"
+    - "Trainee"
+    - "Graduate"       # remove this if you want APM/grad PM roles — some are fine
+    - "PHP"
+    - "Blockchain"
+    - "Dutch speaking"
+    - "Dutch required"
+    - "Dutch proficient"
+    - "Dutch language"
+    - "Sales"
+    - "Marketing"
+    - "Office Manager"
+    - "HR"
+    - "Recruiter"
+    - "Customer Support"
+    - "Customer Success"
+
+# -- Location filter -------------------------------------------------------
+# Empty location on a job always passes (no data = no penalty).
+
+location_filter:
+  always_allow:
+    - "Amsterdam"
+    - "Rotterdam"
+    - "Utrecht"
+    - "Netherlands"
+    - "Remote"
+  allow:
+    - "Amsterdam"
+    - "Rotterdam"
+    - "Utrecht"
+    - "Den Haag"
+    - "The Hague"
+    - "Eindhoven"
+    - "Delft"
+    - "Leiden"
+    - "Haarlem"
+    - "Almere"
+    - "Schiphol"
+    - "Netherlands"
+    - "Nederland"
+    - "Remote"
+  block:
+    - "India"
+    - "Bengaluru"
+    - "United Kingdom"
+    - "London"
+    - "Germany"
+    - "France"
+    - "Singapore"
+    - "Australia"
+    - "Canada"
+    - "United States"
+    - "Dublin"
+    - "Warsaw"
+    - "Krakow"
+
+# -- Company career pages (Track 2) ----------------------------------------
+
+tracked_companies:
+
+  # ── Scale-ups & Fintech ─────────────────────────────────────────────────────
+
+  - name: Booking.com
+    careers_url: https://careers.booking.com
+    api: https://boards-api.greenhouse.io/v1/boards/booking/jobs
+    notes: "Amsterdam. Java/Spring Boot/React/Kubernetes. Top IND sponsor. Dedicated relocation pipeline."
+    enabled: true
+
+  - name: Adyen
+    careers_url: https://careers.adyen.com
+    provider: smartrecruiters
+    notes: "Amsterdam. Java/Scala/Python/Go. Leading payments. Active Kennismigrant sponsor."
+    enabled: true
+
+  - name: Mollie
+    careers_url: https://jobs.mollie.com
+    api: https://boards-api.greenhouse.io/v1/boards/mollie/jobs
+    notes: "Amsterdam. Java/Spring Boot/React. Growing international engineering team."
+    enabled: true
+
+  - name: Picnic
+    careers_url: https://jobs.picnic.app/en
+    notes: "Amsterdam. Java/Spring Boot/Python/React/AWS. Data-driven culture."
+    enabled: true
+
+  - name: bol.com
+    careers_url: https://careers.bol.com
+    api: https://boards-api.greenhouse.io/v1/boards/bolcomen/jobs
+    notes: "Utrecht. Java/Kotlin/Go/GCP. NL largest e-commerce. 50/50 hybrid. Strong IND sponsor."
+    enabled: true
+
+  - name: bunq
+    careers_url: https://careers.bunq.com
+    notes: "Amsterdam. Challenger bank. International team. Full-stack focus."
+    enabled: true
+
+  - name: Just Eat Takeaway
+    careers_url: https://careers.justeattakeaway.com/global/en
+    notes: "Amsterdam HQ. Global food delivery. Established non-EU hiring processes."
+    enabled: true
+
+  - name: Sennder
+    careers_url: https://www.sennder.com/open-positions
+    notes: "Amsterdam. Python/FastAPI/Kafka/Snowflake. Logistics tech. International culture."
+    enabled: true
+
+  - name: Miro
+    careers_url: https://miro.com/careers
+    api: https://boards-api.greenhouse.io/v1/boards/miro/jobs
+    notes: "Amsterdam. Collaborative platform. Active IND sponsor. APM programme exists."
+    enabled: true
+
+  - name: Backbase
+    careers_url: https://www.backbase.com/careers
+    api: https://boards-api.greenhouse.io/v1/boards/backbase/jobs
+    notes: "Amsterdam. Digital banking SaaS. Java/React. Product and platform roles."
+    enabled: true
+
+  - name: Airwallex
+    careers_url: https://careers.airwallex.com
+    api: https://boards-api.greenhouse.io/v1/boards/airwallex/jobs
+    notes: "Amsterdam. Global payments infrastructure. Engineering and PM roles."
+    enabled: true
+
+  - name: ING
+    careers_url: https://careers.ing.com/en
+    notes: "Amsterdam. Major Dutch bank. AI/platform/data engineering. Large IND sponsor."
+    enabled: true
+
+  - name: BUX
+    careers_url: https://jobs.bux.com
+    notes: "Amsterdam. Retail investing app. Java/fintech. Senior engineering roles."
+    enabled: true
+
+  - name: Mambu
+    careers_url: https://www.mambu.com/careers
+    api: https://boards-api.greenhouse.io/v1/boards/mambu/jobs
+    notes: "Amsterdam. Cloud banking SaaS. Java/platform engineering."
+    enabled: true
+
+  - name: Coolblue
+    careers_url: https://www.coolblue.nl/en/vacancies
+    notes: "Rotterdam. Dutch e-commerce. Product owner and backend engineering roles."
+    enabled: true
+
+  - name: Vanderlande
+    careers_url: https://careers.vanderlande.com
+    notes: "Veghel/NL. Logistics automation (Schiphol/Amazon warehouses). Software PM roles."
+    enabled: true
+
+  - name: Teva Pharmaceuticals NL
+    careers_url: https://careers.teva
+    scan_method: websearch
+    scan_query: 'site:careers.teva "Netherlands" OR "Haarlem" engineer OR "product" OR "AI" OR "platform"'
+    notes: "Haarlem. Pharma. Enterprise AI/platform product lead roles seen here."
+    enabled: true
+
+  # ── High-frequency trading ───────────────────────────────────────────────────
+
+  - name: Optiver
+    careers_url: https://www.optiver.com/careers
+    notes: "Amsterdam. HFT. C++/Python/Java. Top comp + top IND sponsor. High-performance culture."
+    enabled: true
+
+  - name: IMC Trading
+    careers_url: https://www.imc.com/eu/careers
+    notes: "Amsterdam. HFT. C++/Python/Java. Consistent Kennismigrant sponsor."
+    enabled: true
+
+  - name: Flow Traders
+    careers_url: https://www.flowtraders.com/careers
+    notes: "Amsterdam. HFT. C++/Java/Python. Active IND sponsor. Smaller team than Optiver/IMC."
+    enabled: true
+
+  - name: STX Group
+    careers_url: https://stxgroup.com/careers
+    notes: "Amsterdam. Commodities/energy trading tech. Staff Software Engineer roles."
+    enabled: true
+
+  # ── Global tech — NL presence ────────────────────────────────────────────────
+
+  - name: Google Amsterdam
+    careers_url: https://careers.google.com
+    scan_method: websearch
+    scan_query: 'site:careers.google.com "Amsterdam" OR "Netherlands" "Software Engineer" OR "Product Manager" OR "SRE"'
+    notes: "Google EMEA engineering hub. Amsterdam. International hiring confirmed."
+    enabled: true
+
+  - name: IBM Netherlands
+    careers_url: https://www.ibm.com/careers
+    scan_method: websearch
+    scan_query: 'site:ibm.com/careers "Amsterdam" OR "Netherlands" "engineer" OR "developer" OR "product"'
+    notes: "IBM Amsterdam. Cloud/AI/systems engineering. IND sponsor."
+    enabled: true
+
+  - name: Capgemini Netherlands
+    careers_url: https://careers.capgemini.com
+    scan_method: websearch
+    scan_query: 'site:careers.capgemini.com "Netherlands" OR "Amsterdam" OR "Rotterdam" Java OR Kotlin OR Python OR "product manager" OR DevOps'
+    notes: "Large consulting/tech. Multiple NL offices. Active IND sponsor."
+    enabled: true
+
+  - name: ASML
+    careers_url: https://www.asml.com/careers
+    scan_method: websearch
+    scan_query: 'site:asml.com/careers "software engineer" OR "product manager" OR "platform engineer" OR "DevOps"'
+    notes: "Eindhoven. Semiconductor lithography. Strong visa sponsorship. Python/Java/C++."
+    enabled: true
+
+  - name: TomTom
+    careers_url: https://www.tomtom.com/careers
+    notes: "Amsterdam. Navigation/mapping. Java/Kotlin/Python. Product and platform roles."
+    enabled: true
+
+  - name: Dataiku
+    careers_url: https://www.dataiku.com/company/careers
+    api: https://boards-api.greenhouse.io/v1/boards/dataiku/jobs
+    notes: "Amsterdam. Data/AI platform. Python/Java/cloud. Engineering and PM roles."
+    enabled: true
+
+  - name: EPAM Systems
+    careers_url: https://www.epam.com/careers/locations/netherlands
+    notes: "Global IT services. NL office. Product and engineering roles. Relocation support."
+    enabled: true
+
+  - name: Cognizant Netherlands
+    careers_url: https://careers.cognizant.com
+    scan_method: websearch
+    scan_query: 'site:careers.cognizant.com "Netherlands" OR "Amsterdam" "engineer" OR "developer" OR "product"'
+    notes: "IT services. Amsterdam. Cloud/platform/product roles. IND sponsor."
+    enabled: true
+
+  # ── Mid-size NL tech ─────────────────────────────────────────────────────────
+
+  - name: Mendix
+    careers_url: https://jobs.lever.co/mendix
+    notes: "Rotterdam. Low-code platform (Siemens). Java/Python/React. Lever ATS."
+    enabled: true
+
+  - name: Keylane
+    careers_url: https://careers.keylane.com
+    notes: "Amsterdam. SaaS for insurance/pension industry. Java/cloud. PM and engineering."
+    enabled: true
+
+  - name: Amberscript
+    careers_url: https://www.amberscript.com/en/careers
+    notes: "Amsterdam. Speech-to-text AI scale-up. Python/NLP/React."
+    enabled: true
+
+  - name: Samotics
+    careers_url: https://careers.samotics.com
+    notes: "Amsterdam. Industrial AI/IoT. Python/data engineering. Climate-tech adjacent."
+    enabled: true
+
+  - name: Road
+    careers_url: https://careers.road.io
+    notes: "Amsterdam. B2B SaaS fleet management. Platform/backend roles."
+    enabled: true
+
+  - name: Dashmote
+    careers_url: https://dashmote.recruitee.com
+    notes: "Amsterdam. AI-powered market intelligence. Python/data/product roles."
+    enabled: true
+
+  - name: Skytree
+    careers_url: https://skytree.recruitee.com
+    notes: "Amsterdam. Climate tech/direct air capture. Python/embedded engineering."
+    enabled: true
+
+  - name: CM.com
+    careers_url: https://cmcom.recruitee.com
+    notes: "Breda/Amsterdam. Cloud comms platform. Java/API/messaging."
+    enabled: true
+
+  - name: Dusk Network
+    careers_url: https://dusk.network/careers
+    notes: "Amsterdam. Privacy blockchain. Only flag non-blockchain engineering/PM roles."
+    enabled: true
+
+  - name: Q42
+    careers_url: https://werkenbij.q42.nl
+    notes: "Amsterdam/DenHaag/Rotterdam. Digital product studio. .NET/React/TypeScript."
+    enabled: true
+
+  - name: CodeBlauw
+    careers_url: https://codeblauw.careers
+    notes: "Rotterdam. Dev shop. Go-heavy but also platform/cloud roles occasionally."
+    enabled: true
+
+  - name: ParkBee
+    careers_url: https://careers.parkbee.com
+    api: https://boards-api.greenhouse.io/v1/boards/parkbee/jobs
+    notes: "Amsterdam. Smart parking platform. React/backend engineering."
+    enabled: true
+
+  - name: MarvelX AI
+    careers_url: https://www.marvelx.ai/careers
+    notes: "Amsterdam. AI product company. PM and engineering roles."
+    enabled: true
+
+  - name: Tellent
+    careers_url: https://careers.tellent.com
+    notes: "Amsterdam. HR tech/AI agentic platform. Engineering and PM roles."
+    enabled: true
+
+  - name: Workwize
+    careers_url: https://www.workwize.com/careers
+    scan_method: websearch
+    scan_query: 'site:jobs.peak.capital/companies/workwize OR site:jobs.graduate.nl/companies/workwize "product manager" OR "engineer" OR "software"'
+    notes: "Amsterdam. IT asset management SaaS. AI PM roles seen on Peak Capital board."
+    enabled: true
+
+  - name: Intelic
+    careers_url: https://intelic.ai/careers
+    notes: "Amsterdam. AI/defense tech startup. Senior Technical PM and engineering."
+    enabled: true
+
+  - name: Dweve
+    careers_url: https://dweve.com/en/careers
+    notes: "Netherlands/Germany. AI engineering. Python/LLM-adjacent roles."
+    enabled: true
+
+  - name: Software Improvement Group
+    careers_url: https://careers.sig.eu
+    notes: "Amsterdam. Software quality/code analysis SaaS. Java/platform/data."
+    enabled: true
+
+  - name: Competa IT
+    careers_url: https://competa.com/careers
+    notes: "Amsterdam. IT consulting. Java/cloud/DevOps roles. Visa support track record."
+    enabled: true
+
+  - name: Reaktor
+    careers_url: https://www.reaktor.com/careers
+    notes: "Amsterdam. Digital transformation consultancy. Engineering/PM roles."
+    enabled: true
+
+  - name: Rituals
+    careers_url: https://careers.rituals.com
+    notes: "Amsterdam. Retail/beauty. Low priority — flag only senior tech/PM roles."
+    enabled: true
+
+# -- Broad discovery (VC portfolio boards + ATS sweeps) ---------------------
+
+search_queries:
+
+  # VC portfolio boards — catch NL startups not individually tracked
+  - name: Alkeon Capital — Netherlands
+    query: 'site:jobs.alkeon.com "Netherlands" OR "Amsterdam" engineer OR "product manager"'
+    enabled: true
+
+  - name: Khosla Ventures — Netherlands
+    query: 'site:jobs.khoslaventures.com "Netherlands" OR "Amsterdam"'
+    enabled: true
+
+  - name: Peak Capital — Netherlands
+    query: 'site:jobs.peak.capital "Netherlands" OR "Amsterdam" engineer OR "product manager" OR "software"'
+    enabled: true
+
+  - name: B2Venture — Netherlands
+    query: 'site:jobs.b2venture.vc "Netherlands" OR "Amsterdam" engineer OR "product"'
+    enabled: true
+
+  - name: firstminute capital — Netherlands
+    query: 'site:jobs.firstminute.capital "Netherlands" OR "Amsterdam" engineer OR "product"'
+    enabled: true
+
+  - name: Sapphire Ventures — Netherlands
+    query: 'site:jobs.sapphireventures.com "Netherlands" OR "Amsterdam" engineer OR "product"'
+    enabled: true
+
+  - name: Graduate.nl — Netherlands tech
+    query: 'site:jobs.graduate.nl "Netherlands" engineer OR "product manager" OR "software"'
+    enabled: true
+
+  - name: Weekday Works — Netherlands visa
+    query: 'site:jobs.weekday.works "Netherlands" "visa" OR "kennismigrant" OR "sponsorship"'
+    enabled: true
+
+  # Broad ATS sweeps with visa/sponsorship signal
+  - name: Greenhouse — NL visa sponsorship engineers
+    query: 'site:boards.greenhouse.io "Netherlands" "visa sponsorship" "Software Engineer" OR "Product Manager" OR "Backend"'
+    enabled: true
+
+  - name: Greenhouse job-boards — NL visa engineers
+    query: 'site:job-boards.greenhouse.io "Netherlands" "visa sponsorship" "engineer" OR "developer" OR "backend"'
+    enabled: true
+
+  - name: Ashby — NL visa engineers
+    query: 'site:jobs.ashbyhq.com "Netherlands" "visa" OR "kennismigrant" "engineer" OR "product manager"'
+    enabled: true
+
+  - name: Lever — NL engineers
+    query: 'site:jobs.lever.co "Amsterdam" OR "Rotterdam" OR "Utrecht" "visa sponsorship" OR "relocation" engineer OR "product manager"'
+    enabled: true
