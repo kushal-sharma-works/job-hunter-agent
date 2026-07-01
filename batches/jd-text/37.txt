@@ -1,14 +1,14 @@
-Rototip hiring Full-stack software engineer in Amsterdam, North Holland, Netherlands | LinkedIn
+Philips hiring Software Developer Azurion Eye in Best, North Brabant, Netherlands | LinkedIn
 Skip to main content
-Full-stack software engineer
-Rototip
-Amsterdam, North Holland, Netherlands
+Software Developer Azurion Eye
+Philips
+Best, North Brabant, Netherlands
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Full-stack software engineer
+Software Developer Azurion Eye
 role at
-Rototip
+Philips
 Email or phone
 Password
 Show
@@ -25,18 +25,18 @@ Privacy Policy
 , and
 Cookie Policy
 .
-Full-stack software engineer
-Rototip
-Amsterdam, North Holland, Netherlands
+Software Developer Azurion Eye
+Philips
+Best, North Brabant, Netherlands
 1 week ago
-124 applicants
-See who Rototip has hired for this role
+83 applicants
+See who Philips has hired for this role
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Full-stack software engineer
+Software Developer Azurion Eye
 role at
-Rototip
+Philips
 Email or phone
 Password
 Show
@@ -55,83 +55,76 @@ Cookie Policy
 .
 Save
 Report this job
-About The Role
-We're building the digital infrastructure that connects modern manufacturing companies with top-tier factories across the globe. As one of the first senior engineers joining a small, hands-on team, you'll have a direct impact on architecture decisions, product direction, and how we scale a complex marketplace platform.
-You'll work day-to-day with our hands-on CTO and a lead-level engineer - meaning you need to be comfortable owning problems end-to-end, from data model to deployment, without a large team to hand things off to.
-If you have strong TypeScript instincts, care about building systems that are both correct and maintainable, and are energised (not intimidated) by the full stack - we'd love to talk.
-What You'll Do
-Build and maintain full-stack features using Next.js, React, and TypeScript - from server components to client-side interactions
-Design and query a PostgreSQL database via Prisma, with an eye for performance and data integrity
-Style UIs with TailwindCSS, working closely with design intent rather than just implementing specs
-Write meaningful tests - unit, integration, and end-to-end where it counts
-Build and maintain infrastructure across our hybrid cloud setup (AWS, Hetzner bare metal, Cloudflare) using an IaC approach
-Contribute to architectural decisions, including our event-driven and microservices patterns
-Deploy and operate services - you'll own what you ship
-What You'll Bring
-4+ years of professional experience with a meaningful portion in full-stack or senior roles
-Strong command of TypeScript and React, including Next.js in production
-Solid backend fundamentals - you're equally comfortable in a Prisma schema and a complex SQL query
-Experience with PostgreSQL in a production environment
-Comfort working across the stack as a generalist - you don't wait for someone else to own the infrastructure or the data model
-Hands-on experience with Docker and container-based deployments
-Familiarity with IaC tooling (Terraform) and cloud environments, particularly AWS
-Exposure to event-driven architectures or microservices patterns is a plus
-Familiarity with state management approaches (Redux Toolkit, Tanstack Query, Zustand)
-Preferably based in the Netherlands (alternatively in Turkiye or Poland)
-What's In It For You
-Fully remote position
-MacBook Pro provided
-Learning budget to support your professional growth
-20 days paid leave plus Dutch public holidays
-Discretionary bonus potential
-A small, senior team - no bureaucracy, high ownership, real impact on the product
-The process
-Initial call
-Technical interview - a 45-minute call where we walk through a real technical problem together to understand how you think and reason
-Final call
-About Rototip.com
-Rototip is a digital marketplace connecting companies that need manufactured goods with factories capable of producing them across CNC and other manufacturing technologies. Headquartered in the Netherlands, we're building the platform that makes global manufacturing procurement fast, transparent, and reliable. Rototip is an equal opportunity employer.
-Show more
-Show less
-Seniority level
-Mid-Senior level
-Employment type
-Full-time
-Job function
-Engineering and Information Technology
-Industries
-Manufacturing
-Referrals increase your chances of interviewing at Rototip by 2x
-See who you know
-Get notified about new
-Software Engineer
-jobs in
-Amsterdam, North Holland, Netherlands
+Use AI to assess how you fit
+Get AI-powered advice on this job and more exclusive features.
+Am I a good fit for this job?
+Tailor my resume
+Sign in to access AI-powered advices
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
 .
-Sign in to create job alert
-Similar jobs
-Full stack developer
-Full stack developer
-Crisp
-Amsterdam, North Holland, Netherlands
-2 weeks ago
-Full-stack Developer
-Full-stack Developer
-Adswag
-Amsterdam, North Holland, Netherlands
-4 days ago
-Software Engineer(Amsterdam)
-Software Engineer(Amsterdam)
-Together AI
-Amsterdam, North Holland, Netherlands
-5 days ago
-Software Engineer, Full-Stack
-Software Engineer, Full-Stack
-Monumental
-Amsterdam, North Holland, Netherlands
-1 month ago
-Full Stack Developer
-Full Stack Developer
-Foreside
-Amsterdam, North Holland, Netherlands
-1 week ago
+Sign in to evaluate your skills
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Sign in to tailor your resume
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Job Title
+Software Developer Azurion Eye
+Job Description
+Software Developer Azurion Eye
+In this role, you will have the opportunity to join the leading innovator in image-guided therapy solutions as Software Development Engineer for the Azurion Eye solution—an integrated, AI-enabled software platform. You will be responsible for product development for a portfolio of microservice‑first applications that power our Lab Orchestrator, a component that converts AI-based observations into workflow automation. You will develop event-driven backend services that operate with low latency, high reliability, and clear traceability in a regulated environment.
+Your Role
+You will design and develop backend services for the Lab Orchestrator using Go, building deterministic orchestration services that integrate with our edge-native platform.
+You will implement workflow orchestration capabilities including event ingestion, state handling, rule evaluation, suppression logic, prioritization, and idempotent action emission.
+You will integrate with event-driven interfaces and contracts such as NATS JetStream, AsyncAPI-described subjects, and OpenAPI-defined ingress/control APIs, as well as platform adapters and related components.
+You will build services that are safe for low-latency, event-driven operation targeting an edge platform, and you will develop observability capabilities such as structured logging, metrics, traces, and operational diagnostics.
+You will implement automated tests and contribute to CI/CD support to enable safe and frequent backend changes, while analyzing and resolving issues related to event ordering, latency bottlenecks, state consistency, connector behavior, ingestion failures, schema drifts, and runtime reliability.
+You will be part of the Image Guided Therapy Systems business unit with development sites in the Netherlands, China and India, and you will join the global R&D department collaborating with product managers, architects, system engineers, clinical experts, Data & AI Engineers, and Software Test Engineers to define and deliver workflow behavior that matches product and clinical intent. You will participate in code reviews and drive continuous improvement of engineering practices, quality standards, and maintainability.
+You're The Right Fit If
+You have a Bachelor’s / Master’s Degree in Computer Science, Software Engineering, Information Technology or equivalent.
+You have minimum 2 years of experience in Software Development, Software Design & Architecture, Testing and Quality Assurance (or equivalent), including requirement analysis, development, integration, enhancement, maintenance, testing, and problem diagnosis/resolution.
+You are proficient in Golang and Python, and you can analyze and solve complex problems with a strong desire to learn and adapt to new technologies and challenges.
+You have experience with event-driven systems and messaging technologies such as NATS and/or Kafka, and you are interested in contract-first event design (e.g., AsyncAPI).
+You have a strong understanding of RESTful API design and i
