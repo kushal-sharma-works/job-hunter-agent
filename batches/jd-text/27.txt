@@ -1,0 +1,98 @@
+Planner 5D hiring Java/Kotlin Internal Tools Developer in Amsterdam, North Holland, Netherlands | LinkedIn
+Skip to main content
+Java/Kotlin Internal Tools Developer
+Planner 5D
+Amsterdam, North Holland, Netherlands
+Apply
+Join or sign in to find your next job
+Join to apply for the
+Java/Kotlin Internal Tools Developer
+role at
+Planner 5D
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Java/Kotlin Internal Tools Developer
+Planner 5D
+Amsterdam, North Holland, Netherlands
+1 week ago
+26 applicants
+See who Planner 5D has hired for this role
+Apply
+Join or sign in to find your next job
+Join to apply for the
+Java/Kotlin Internal Tools Developer
+role at
+Planner 5D
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Save
+Report this job
+About us:
+Planner 5D
+is a global hub for home design, uniting over 100+ million users in 230 territories around our planet (yes, we have 2 users connecting from Antarctica each month!). Our platform simplifies the home renovation process from concept to execution, and this process has never been more straightforward with our cutting-edge software. You don't need to be a professional designer to enhance your home or workspace. We are dedicated to streamlining the design experience, making the customization of dream homes accessible to everyone.
+Our cross-platform presence spans Web, iOS, Android, Windows, and MacOS, ensuring seamless synchronization for our users. Planner 5D is more than just software; it's a vibrant community of enthusiastic and product-oriented professionals. From diverse backgrounds, our team collaborates across time zones, fueled by a shared passion to revolutionize the home design market.
+We are constantly looking for like-minded talent eager to take ownership and drive innovation within our expanding suite of tools. Join us in shaping the future of home design.
+We’re looking for a
+Java/Kotlin Engineer
+who will develop tools and pipelines related to AI, rendering, data conversion, and similar areas.
+Our tech stack:
+Languages: Kotlin, Python
+Core development: Kotlin/JVM, Java, coroutines, serialization, reflection, dependency injection with Dagger
+3D and rendering workflows: Blender Python scripting, glTF processing, 3D model conversion, geometry/math-related tooling, scene and asset preparation pipelines
+Data and storage: MongoDB, SQLite, FlatBuffers
+Infrastructure and observability: Prometheus metrics, Sentry, CI/CD, Git, Git LFS, internal monitoring and logging
+Responsibilities:
+Develop and maintain Kotlin/JVM-based backend tools, console applications, utilities, and automation pipelines;
+Develop and support Python-based Blender rendering pipelines, including scene processing, automation and production rendering workflows;
+Work on platform components for preparing catalogs, launching processing pipelines, converting 3D models, and supporting internal production workflows;
+Build and maintain tooling related to 3D content processing, geometry, scene preparation, wall generation, model conversion, and other math-heavy tasks;
+Research and evaluate current and upcoming technologies related to 3D, rendering, media formats, data processing, and production automation;
+Write maintainable, high-performance, and high-quality code using best practices, SOLID principles, automated tests, code reviews, and clean architecture
+Required knowledge of:
+Strong experience with Java and/or Kotlin on JVM;
+Practical experience with Python, willingness to work deeply with Python-based Blender rendering pipelines;
+Good understanding of JVM ecosystem: Gradle, dependency management, modular code structure, debugging, profiling, logging, and performance optimization;
+Solid SQL knowledge (SQLite, MySQL, PostgreSQL);
+Good understanding of object-oriented programming, SOLID principles, clean architecture, and maintainable code design;
+Ability to work with math-heavy, data-heavy, or algorithmic tasks and turn them into stable production solutions;
+Ability to write clean, reliable, high-performance code and cover critical logic with tests;
+Knowledge of Linux, common tools, and Linux ecosystem;
+Fluent in English
+Nice to have:
+Experience with Python, C / C++ languages;
+Experience with popular libraries like Spring, Dagger, JUnit, Apache Commons;
+Understanding of 2D / 3D technologies and software (for example OpenGL, WebGL, Raytracing, Blender);
+Understanding of Mathematics, Geometry, Computer Vision;
+Understanding of Kubernetes, Docker and nearby technologies
+Several example of tasks you will be doing:
+Process data from APIs, databases, JSON, XML, and other sources;
+Transform assets (images, 3D models, videos, etc.) into different formats;
+Import and export of 2D/3D
