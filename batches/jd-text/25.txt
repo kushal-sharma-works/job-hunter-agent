@@ -1,115 +1,203 @@
-Realworks BV hiring Android Developer in Amsterdam Area | LinkedIn
+SOURCE.ME hiring Android Developer in Amsterdam Area | LinkedIn
 Skip to main content
 Android Developer
-Realworks BV
+SOURCE.ME
 Amsterdam Area
 Apply
-Join or sign in to find your next job
-Join to apply for the
 Android Developer
-role at
-Realworks BV
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Android Developer
-Realworks BV
+SOURCE.ME
 Amsterdam Area
-1 week ago
-114 applicants
-See who Realworks BV has hired for this role
+2 weeks ago
+Over 200 applicants
+See who SOURCE.ME has hired for this role
 Apply
-Join or sign in to find your next job
-Join to apply for the
-Android Developer
-role at
-Realworks BV
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
 Save
 Report this job
-As an Android Developer at Realworks you will work on two apps that are used daily: the Realworks app by more than 18,000 real estate agents (B2B) and the Move.nl app by over 100,000 consumers (B2C). This means our apps always need to perform optimally. Within the Mobile team at Realworks, you get the chance to work on solid apps with many possibilities and direct impact!
-Our users are not only real estate agents who want to manage their work quickly and efficiently while on the go, but also consumers who are buying or selling a home. Real estate agents use the Realworks app, for example, to place a new property online with photos and floor plans or to quickly search through current listings. Consumers use the Move.nl app to gain insight into their own property or a property they have purchased. The main reason to join our Mobile team is to show your amazing skills to improve both apps and their functionalities, while ensuring they remain user-friendly.
-Your team
-You will work together with 2 Android Developers, 4 iOS Developers, and a Product Owner. Together, you ensure the apps run smoothly, and that new features are rolled out seamlessly. We work hard, but we also value having fun: grabbing a drink together, taking a lunch walk, or joining events like Dam tot Dam is part of the culture.
-Job requirements
-There is no fixed set of skills required to become the best Android Developer at Realworks, but you are familiar with the following tech stack:
-Strong knowlegde of Kotlin;
-Ability to work with Java code;
-DI: Dagger 2 and Hilt;
-Strong knowledge of Rest API
-Basic knowledge of GraphQI
-Strong understanding of MVVM and ability to work with Clean Architecture;
-Android SDK and Android Jetpack(DataBinding, Compose, Room);
-Ability to work with RxJava2;
-Espresso and Junit.
-Additionally, you are:
-Having a bachelor degree;
-Results-oriented;
-Curious and eager to learn;
-Communicative;
-Problem-solving;
-Proficient in English and preferably Dutch;
-Open to exploring new technologies.
-What we offer:
-At Realworks we offer a lot of space for your own initiatives and personal development. We are located in a nice office in the city centre of Amsterdam, easy to reach by public transportation and car. Together with 100+ colleagues, we work in small teams, which gives you a lot of responsibility.
-When you apply and join us, we offer you:
-Balance and Bliss: Achieve work-life harmony and well-being;
-Global Vibes: Embrace an international, energetic, and flexible work environment;
-Central and Cool Workspace: Enjoy the best of both worlds with our cool, centrally located office with easy accessibility, making your daily commute a breeze;
-Fuel for Success: Indulge in healthy lunches when working on-site;
-Flexible Work: Embrace hybrid work and travel allowances;
-Dutch Courses: Learn the language and dive into the local culture;
-Fun-filled Meetups: Engage in quarterly events with activities and drinks;
-Empowered Impact: Make a difference and bring your ideas to the self-managed teams;
-Ongoing Growth: Fuel your professional development with Realworks' annual learning and development budget;
-25 Days Holiday: Relax, recharge, and spend quality time with loved ones with 25 days of annual leave;
-Pension Plan: Secure your future with our retirement savings support;
-Equipment: Excel in your role with company-provided laptop (MacBook or Windows) and essential tools.
-How does our process look like?
-Apply: Click the apply button to start.
-Phone screening: Impress during an engaging phone conversation.
-First interview: Show your talents and how you fit within the team.
-Assignment: Take on the challenge and demonstrate your expertise.
-Second interview: Dive deeper into your compatibility with us.
-Congratulations! You are one step closer to an exciting opportunity.
-A reference check may be part of the recruitment process.
-More information?
-Call or email our Recruiter Esther at +31 6 3815 9460 or recruitment@realworks.nl.
+Direct message the job poster from SOURCE.ME
+Samuel Holloway
+Samuel Holloway
+Technical Recruiter | Founding Engineers → CTOs | Netherlands 🇳🇱 
+
+160+ Recommendations ⬇️
+Mobile SDK Lead | Android | Kotlin
+Amsterdam | €100,000 - €115,000
+Question.
+At what point did you become more interested in the SDK than the app?
+More interested in:
+Architecture
+Modularity
+Performance
+Tooling
+Developer Experience
+better than building another screen? Because that's exactly the point this role is aimed at.
+I'm working with a cybersecurity company whose product is a mobile SDK embedded inside banking applications.
+Not a mobile app team.
+Not a feature factory.
+The SDK is the product.
+It runs inside some of the most sensitive mobile environments in the world, helping financial institutions understand whether a device can be trusted, whether malware is present, and whether suspicious activity is taking place.
+This creates a very different set of engineering challenge.
+You don't control the app.
+You don't control the device.
+You don't control the release cycle.
+Yet the SDK still needs to be stable, performant, backwards compatible and developer-friendly.
+That's where you come in.
+I'm looking for a technically strong Android engineer who has led people before, Not an architect, not a manager.
+A genuine Android engineer who can provide technical direction, mentor others, make good decisions and still enjoy getting hands-on with Kotlin.
+You'll probably have spent time around:
+SDKs
+Shared mobile platforms
+Libraries
+Large Android codebases
+Architecture & modularisation
+Developer tooling
+The kind of engineer who asks:
+"How do we solve this once, properly?"
+rather than:
+"How quickly can we ship it?"
+Small team of 4, to be 6. Serious Android engineering. Interesting problems.
+Sound like you? Happy to tell you a bit more.
 Show more
 Show less
 Seniority level
-Associate
+Mid-Senior level
 Employment type
 Full-time
 Job function
 Information Technology
 Industries
-IT Se
+Software Development and Computer and Network Security
+Referrals increase your chances of interviewing at SOURCE.ME by 2x
+See who you know
+Get notified when a new job is posted.
+Set alert
+Sign in to set job alerts for “Android Developer” roles.
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Similar jobs
+Android Developer
+Android Developer
+Realworks BV
+Amsterdam Area
+1 week ago
+Android Developer
+Android Developer
+TicketSwap
+Amsterdam, North Holland, Netherlands
+1 week ago
+Android Developer
+Android Developer
+Dawn Technology
+Hilversum, North Holland, Netherlands
+€4,000.00
+            -
+            €6,500.00
+2 months ago
+Mobile App Developer
+Mobile App Developer
+GeekSoft Consulting
+Amsterdam, North Holland, Netherlands
+1 week ago
+Android Developer
+Android Developer
+Monks
+Hilversum, North Holland, Netherlands
+12 hours ago
+Android Developer
+Android Developer
+NOWATCH
+Amsterdam, North Holland, Netherlands
+2 months ago
+Android Developer
+Android Developer
+DEPT®
+Amsterdam, North Holland, Netherlands
+1 week ago
+Android Developer
+Android Developer
+bunq
+Amsterdam, North Holland, Netherlands
+14 hours ago
+Mobile Developer
+Mobile Developer
+Appical
+Amsterdam, North Holland, Netherlands
+1 month ago
+Android Developer with React Native experience
+Android Developer with React Native experience
+Elements
+Amsterdam, North Holland, Netherlands
+€50,000.00
+            -
+            €62,000.00
+2 months ago
+Mobile App Developer
+Mobile App Developer
+ChipSoft Nederland
+Amsterdam, North Holland, Netherlands
+2 days ago
+Senior Android Engineer
+Senior Android Engineer
+Talk360
+Amsterdam Area
+2 days ago
+Senior Android Engineer
+Senior Android Engineer
+Yoursafe
+Amsterdam, North Holland, Netherlands
+3 weeks ago
+Kotlin & Compose Multiplatform engineer
+Kotlin & Compose Multiplatform engineer
+Q42
+Amsterdam, North Holland, Netherlands
+€3,900.00
+            -
+            €7,000.00
+1 month ago
+Senior Mobile Engineer (Android)
+Senior Mobile Engineer (Android)
+ThreatFabric
+Amsterdam, North Holland, Netherlands
+€75,000.00
+            -
+            €90,000.00
+1 month ago
+Android Team Lead
+Android Team Lead
+Planner 5D
+Amsterdam, North Holland, Netherlands
+2 weeks ago
+Software Engineer - Partner Integration
+Software Engineer - Partner Integration
+Fairphone
+Amsterdam, North Holland, Netherlands
+1 day ago
+Mobile SDK Lead
+Mobile SDK Lead
+ThreatFabric
+Amsterdam, North Holland, Netherlands
+2 weeks ago
+Senior Fullstack Mobile Engineer
+Senior Fullstack Mobile Engineer
+Tebi
+Amsterdam, North Holland, Netherlands
+2 weeks ago
+AOSP Engineer
+AOSP Engineer
+Adyen
+Amsterdam, North Holland, Netherlands
+2 days ago
+iOS Develo
