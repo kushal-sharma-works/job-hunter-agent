@@ -1,16 +1,58 @@
-Built Different hiring Full Stack Engineer (Python) in Netherlands | LinkedIn
+Mollie hiring Application Engineer II in Amsterdam, North Holland, Netherlands | LinkedIn
 Skip to main content
-Full Stack Engineer (Python)
-Built Different
-Netherlands
+Application Engineer II
+Mollie
+Amsterdam, North Holland, Netherlands
 Apply
-Full Stack Engineer (Python)
-Built Different
-Netherlands
-2 weeks ago
-Over 200 applicants
-See who Built Different has hired for this role
+Join or sign in to find your next job
+Join to apply for the
+Application Engineer II
+role at
+Mollie
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Application Engineer II
+Mollie
+Amsterdam, North Holland, Netherlands
+18 hours ago
+173 applicants
+See who Mollie has hired for this role
 Apply
+Join or sign in to find your next job
+Join to apply for the
+Application Engineer II
+role at
+Mollie
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
 Save
 Report this job
 Use AI to assess how you fit
@@ -68,83 +110,19 @@ Privacy Policy
 , and
 Cookie Policy
 .
-Direct message the job poster from Built Different
-Will Aldred
-Will Aldred
-I help founders build teams that scale | Pre-Seed to Series B | Europe + US | Host, Starting to Scale
-Senior Full-Stack Engineer
-📍 Netherlands - Remote 💶 Up to €100k + benefits & equity (€300k)
-Some markets are slow because they're genuinely hard. This one is slow because nobody's bothered to fix it.
-A small Amsterdam team is changing that. They're rebuilding how regulated firms onboard new clients, today a weeks-long mess of emails, manual checks and chased paperwork. Their platform turns it into something clean that takes days, and quietly keeps bad actors out of the financial system while it's at it.
-This is a young, international, deliberately small team and they intend to stay that way. No layers, no committees, no slow drift towards becoming a corporate. You'd report straight to the founder and own real surface area from day one.
-Most of what you build is greenfield. You're designing systems, and building something secure and exciting. Whatever you ship is in front of paying customers within days, and the feedback lands in real time!!
-This isn't a slide in a pitch deck. The product is live, the runway runs years deep, and the market is old, niche, and barely contested.
-💶 Salary up to €100k + benefits
-📍 Amsterdam HQ - Remote working
-🤝 A genuine founding-team seat - flat structure, direct line to the CTO, no layers
-⚡ Your work ships to real users in days, not quarters
-🧠 An AI-native engineering culture - Claude Code, Codex and friends are part of the daily toolkit, not a side experiment
-🪴 Meaningful equity (worth up €300k) - real skin in the game, not a token
-🏗 Real ownership of backend architecture, security and core business logic
-What you'll be doing
-🔧 Building and owning backend services in Python and FastAPI on GCP
-🔐 Designing secure, reliable systems where data sensitivity genuinely matters
-🧩 Turning messy, real-world compliance workflows into clean product logic
-🤖 Using AI dev tools to move fast without cutting corners on quality
-🎨 Jumping into the React/TypeScript frontend whenever the product needs it
-You'll love this if...
-✅ You have strong backend experience with Python, Fast API and ideally GCP
-✅ You have experience with JavaScript, Typescript and frameworks such as React
-✅ You ship fast, learn faster, and treat AI tools as a force multiplier - Vibe coding is a must!
-✅ You want your code in front of customers within days
-✅ You'd rather have real ownership in a team of 6 than a title in a team of 600
-✅ Bonus points if you've built in a regulated or security-sensitive space
-Open to Benelux-based candidates.
-Apply today!
-Because great teams are Built Different.
-Show more
-Show less
-Seniority level
-Mid-Senior level
-Employment type
-Full-time
-Job function
-Engineering, Information Technology, and Product Management
-Industries
-Software Development, Technology, Information and Media, and IT System Custom Software Development
-Referrals increase your chances of interviewing at Built Different by 2x
-See who you know
-Get notified about new
-Full Stack Engineer
-jobs in
-Netherlands
-.
-Sign in to create job alert
-Similar jobs
-Software Engineer (Full-stack)
-Software Engineer (Full-stack)
-kapa.ai
-Netherlands
-$100,000.00
-            -
-            $150,000.00
-1 year ago
-Fullstack Software Engineer - Business Solutions
-Fullstack Software Engineer - Business Solutions
-Dataiku
-Netherlands
-5 months ago
-Full-Stack Product Engineer
-Full-Stack Product Engineer
-The Flex
-Netherlands
-2 weeks ago
-Software Engineer
-Software Engineer
-The Flex
-Netherlands
-2 weeks ago
-Mid-Level Fullstack Software Engineer (React / Python) - Growing Impact Scale Up
-Mid-Level Fullstack Software Engineer (React / Python) - Growing Impact Scale Up
-Simvia
-Amsterdam, North H
+Build with us
+Since 2004, we've had one clear goal: to make payments and money management effortless for every business in Europe. Today, more than 250,000 companies use Mollie to get paid, manage money and grow – with products designed to be simple, scalable, and dependable. With 950+ Mollies across 14+ locations, we care deeply about autonomy and craft. So we work in small teams, with real ownership, and we trust you to make the right decisions. We're building for the long term, so we provide the tools you need, processes you can rely on, and a balanced work environment to help you do work you're proud of. Sound like your kind of place? Let's build together.
+Your impact
+At Mollie, data and money movement are at the heart of everything we do — and the engineers who build and maintain these systems are central to our mission.
+As an Application Engineer II, you will work on systems that operate at the core of Mollie's platform — from the financial infrastructure that underpins every payment we process, to the data products that help our merchants grow, protect their revenue, and optimise their performance. The work is high-stakes, high-ownership, and highly visible. You will be building systems where correctness, reliability, and scale are non-negotiable — and where the things you ship directly impact more than 250,000 businesses across Europe.
+This is not a maintenance role. You will be joining a small, fast-moving team with a clear and ambitious mandate, working in a delivery-first environment where you take ideas from concept to production. You will have real end-to-end ownership, collaborate closely with engineers, product managers, and stakeholders across domains, and contribute to some of the most strategically important work happening at Mollie right now.
+What you will be doing:
+Design, build, and maintain backend systems and APIs that operate at high scale and high frequency — where performance, fault tolerance, and reliability are critical.
+Take ownership of features end-to-end, from architecture and estimation through to delivery, production support, and continuous improvement.
+Contribute to ambitious migration and modernisation initiatives, decoupling legacy dependencies and building cleaner, more scalable foundations for the future.
+Transform complex technical and business requirements into well-designed, production-ready solutions — working closely with product and engineering stakeholders to shape what gets built and how.
+Participate actively in agile ceremonies including brainstorming, estimation, and sprint planning, bringing both technical depth and a product-first perspective to the table.
+Identify and resolve complex issues across distributed systems, applying creative problem-solving to challenges that sit at the intersection of engineering excellence and real merchant impact.
+What you will bring:
+5+ years of backend engineering experience, with strong proficiency in Java and ideally exposure to PHP; experience with Go, C#, or Python is also valued.
+Experience building and maintaining large-scale, high-volume systems — with a solid und
