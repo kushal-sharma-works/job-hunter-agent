@@ -1,123 +1,46 @@
-Insify hiring Frontend Engineer - Growth team in Amsterdam, North Holland, Netherlands | LinkedIn
+Insify hiring Software Engineer, Payments Platform in Amsterdam, North Holland, Netherlands | LinkedIn
 Skip to main content
-Frontend Engineer - Growth team
+Software Engineer, Payments Platform
 Insify
 Amsterdam, North Holland, Netherlands
 Apply
-Frontend Engineer - Growth team
+Software Engineer, Payments Platform
 Insify
 Amsterdam, North Holland, Netherlands
-1 hour ago
-148 applicants
+1 day ago
+94 applicants
 See who Insify has hired for this role
 Apply
 Save
 Report this job
-Use AI to assess how you fit
-Get AI-powered advice on this job and more exclusive features.
-Am I a good fit for this job?
-Tailor my resume
-Sign in to access AI-powered advices
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Sign in to evaluate your skills
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Sign in to tailor your resume
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
 About Insify
 We are a high-growth scale-up backed by €43M in total funding from world-class investors like Accel, Munich Re Ventures, and Formula 1 champion Nico Rosberg. While we started our journey five years ago in the Netherlands, we have since expanded into France and Germany, and we’re just getting started. Our mission is to dominate the European market and become a global leader in AI-powered SME insurance.
 We aren't just building a company; we’re leading a revolution. Our culture is intense, high-stakes, and mission-driven. We hire smart, ambitious "owners" who possess a relentless drive to win. This is an environment for those who thrive on challenges, value intellectual honesty, and share our mindset of becoming a global category leader.
 Our founding team consists of seasoned entrepreneurs who have previously built iconic businesses like HelloFresh, Bloomon, and SumUp. We combine that deep fintech and e-commerce expertise with cutting-edge AI to stay ahead of the curve.
 In this role, your mission is simple but demanding: to take ownership of a meaningful part of Insify’s journey and deliver results that move the company forward.
-We're looking for a
-Frontend Engineer
-with 3+ years of experience to join the Growth team. You'll build, optimize and scale the digital experiences that bring entrepreneurs to Insify and help them make the right choice.
-What you'll be up to:
-Build, edit and maintain landing pages and blog articles that drive acquisition and conversion
-Create reusable frontend components and contribute to the design system
-Build AI-powered internal tools for content generation, review and analysis
-Ship growth experiments end-to-end, from hypothesis to live test
-Own CI/CD and infrastructure (Netlify) for the website
-Collaborate with designers, marketers and product on delivering best-in-class customer experience
-This role is a strong fit if you have:
-React, TypeScript, HTML, CSS. You build fast, clean, maintainable code
-AI in your workflow. You actively use AI for coding, content tooling and automation to move faster
-Attention to detail. Pixel-perfect implementation matters to you
-Curiosity and growth mindset. You experiment, seek feedback and learn fast
-Collaboration. You communicate clearly and work well with designers, marketers and product
-Nice to haves:
-Headless CMS. Experience with Contentful, Sanity, Storyblok or similar
-Gatsby, Next.js, Astro or any other static site generator
-A/B testing and SEO. You know how to set up experiments and measure what matters
-This role is not for you if:
-You are looking for a strict 40-hour work week
-You need fully defined scopes and stable priorities to perform well
-You prefer staying high-level and avoiding hands-on execution
-You expect long ramp-up periods before taking ownership
+We're looking for a Software Engineer with 3+ years of experience to join the Billing team. You'll help design and build a scalable, multi-country billing platform: payment scheduling, invoicing, dunning, fees, taxes and reconciliation across legal entities, products and markets. You'll work shoulder-to-shoulder with product, finance, legal and our insurance carriers (Axeria, Hiscox, HDI, iptiQ, Chubb, Wakam). You'll own systems end-to-end, from the data model to production behaviour, and you'll be the engineer the rest of the company trusts when money is involved.
+What you'll be doing:
+Build a billing platform that scales from two countries to six. Make the right abstractions now so adding a new market is a config change, not a rewrite
+Design and ship core billing capabilities: annual and monthly payment schedules, the Insify platform fee, VAT logic across jurisdictions, fee waiver rules, pro-rata refunds and renewals
+Own our dunning flow across Adyen (credit card) and Twikey (SEPA): failure classification, retries, settling checks, partial payments and country-specific legal compliance (NL 14-day statutory warning, FR mise en demeure, and whatever comes next)
+Build resilient integrations with payment, banking and tax providers, and keep them observable, secure and easy to swap out
+Handle multi-entity invoicing across Insify B.V., Insify Holding B.V., Insify NLD Agent B.V. and the entities we will add as we expand
+Partner with finance, legal and compliance to turn regulatory and accounting requirements into clean, testable systems. Be the engineer in the room who can credibly push back when something doesn't make sense
+Set the bar for engineering quality in the billing domain: idempotency, correctness, observability, recoverability. This is a domain where bugs cost real money
+Own incidents and operational health. When something breaks in billing, the business notices, and you'll be one of the people who fixes it
+What you'll need:
+3+ years of professional software engineering experience, ideally with TypeScript and AWS (Lambda, DynamoDB, event-driven architectures)
+A serious bar for correctness. You think in terms of edge cases, idempotency, consistency, retries, partial states and audit trails. You understand that "mostly works" is not acceptable when money moves
+Strong fundamentals in distributed systems, data modelling and API design. You can spot the abstraction that will hold up across five countries and four payment providers
+Comfort with complexity and ambiguity. Billing sits at the intersection of code, accounting, tax and law. You enjoy that instead of running from it
+Ownership instinct. You think of the system as yours, not as someone else's ticket queue
+Clear communicator. You can sit with finance, legal or a carrier and translate fuzzy requirements into a working system
+AI in your workflow. You actively use AI for coding, debugging and tooling to move faster
+Nice to have:
+Experience with payment providers (Adyen, Stripe, Mollie, Twikey or similar), SEPA and card payment flows
+Background in fintech, insurtech, billing, subscriptions or accounting systems at scale
+Experience expanding a product or platform into new countries, including localisation of payments, tax and invoicing
+Familiarity with VAT and multi-entity invoicing across EU markets
+Strong observability instincts (Sentry, Datadog) and a track record of operating
 We offer:
-Competitive compensation that reflects responsibility and impact
-Trust and autonomy: you’ll have real ownership and room to make decisions Space to grow and shape your role as Insify evolves
-A steep learning curve, with support from experienced teammates
-The opportunity to share in what we’re building, with equity for eligible roles once there’s mutual conviction on fit and impact
-A welcoming, central Amsterdam HQ where we work closely together: shared lunches, dogs in the office, whiteboards, and fun end-of-week drinks
-An international, ambitious team that enjoys building meaningful things together
-Show more
-Show less
-Seniority level
-Not Applicable
-Employment type
-Full-time
-Job function
-Engineering and Information Technology
-Industries
-Transportation, Logistics, Supply Chain and Storage
-Referrals increase your chances of interviewing at Insify by 2x
-See who you know
-Get notified about new
-Frontend Developer
-jobs in
-A
+Competitive compensation that reflects responsibility 
