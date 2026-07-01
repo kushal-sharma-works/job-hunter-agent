@@ -1,14 +1,14 @@
-Hypersolid hiring Android Developer in Alkmaar, North Holland, Netherlands | LinkedIn
+Cooder hiring Kotlin Software Engineer | Qualogy in Rijswijk, South Holland, Netherlands | LinkedIn
 Skip to main content
-Android Developer
-Hypersolid
-Alkmaar, North Holland, Netherlands
+Kotlin Software Engineer | Qualogy
+Cooder
+Rijswijk, South Holland, Netherlands
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Android Developer
+Kotlin Software Engineer | Qualogy
 role at
-Hypersolid
+Cooder
 Email or phone
 Password
 Show
@@ -25,18 +25,18 @@ Privacy Policy
 , and
 Cookie Policy
 .
-Android Developer
-Hypersolid
-Alkmaar, North Holland, Netherlands
-1 week ago
-Over 200 applicants
-See who Hypersolid has hired for this role
+Kotlin Software Engineer | Qualogy
+Cooder
+Rijswijk, South Holland, Netherlands
+2 weeks ago
+Be among the first 25 applicants
+See who Cooder has hired for this role
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Android Developer
+Kotlin Software Engineer | Qualogy
 role at
-Hypersolid
+Cooder
 Email or phone
 Password
 Show
@@ -110,32 +110,47 @@ Privacy Policy
 , and
 Cookie Policy
 .
-Direct message the job poster from Hypersolid
-Alon Basoglu
-Alon Basoglu
-Join the team: hypersolid.com/careers
-Would you like to make a real impact by working on widely used Android apps for clients such as ESPN and PostNL? At Hypersolid, we are looking for an Android Developer to build, improve, and maintain native applications using modern technologies and tools.
-What are you going to do?
-You are responsible for designing, developing, and maintaining native Android mobile applications, leveraging the latest developments. You make the most beautiful apps from start to finish, while also continuously improving and maintaining existing applications.
-During the design sessions, you provide input based on your expertise. You make hour estimates based on the designs. You will also provide a ballpark estimate based on the requirements. You share responsibility for the apps' architecture with the entire Android team and work in scrum teams with other disciplines to create the most beautiful products.
-Your activities include:
-Implementing new features and improving existing codebases.
-Debugging and troubleshooting.
-Optimizing the stability and performance of our Android apps.
-Actively think along with our customers & colleagues about new and existing functionalities.
-Be accountable for our architecture standards.
-Code testing through Unit Testing and code reviews.
-Ability to supervise interns and junior Android developers.
-Collaborating with international clients and teams, with the flexibility to occasionally work across different time zones.
-Exploring and applying AI tools where useful to improve development workflows and productivity.
-Our Team
-You will join our Development department, which has 70 developers. The team includes 12 specialists who focus entirely on developing the Android platform. Additionally, you will work on a multidisciplinary team comprising designers, front-end and back-end developers, QA engineers, and a project manager, supporting one or more customers.
-It is essential to share knowledge and make each other a little better every day. We do this by meeting every week during Android Weekly. We discuss new developments with one another, and each colleague takes the floor. New techniques or architecture choices are regularly discussed here, or results within a project are shared.
-Within the Android team, we dedicate significant time and effort to fostering team spirit. We do this by organizing team-building activities, such as weekend trips or group dinners. Each year, we review the latest developments by attending the Android Dev Summit. Additionally, we participate in events like Funky Fridays and Talks Meetup. It's also important for us to get to know our colleagues better.
-What do you bring with you?
-HBO working and thinking level;
-3+ years of experience in Android development;
-Strong experience with Kotlin and working on complex Android applications, including maintaining and improving existing systems;
-Knowledge of MVVM & Clean Architecture;
-Interest in experimenting with AI tools to optimize your workflow and development process.
-A flexible m
+Cooder provided pay range
+This range is provided by Cooder. Your actual pay will be based on your skills and experience — talk with your recruiter to learn more.
+Base pay range
+€3,750.00/mo - €6,000.00/mo
+Wil jij met jouw Kotlin-expertise directe impact maken bij toporganisaties zoals Ahold, ING en ABN AMRO? Bij Qualogy werk je als Kotlin Software Engineer aan hoogwaardige softwareoplossingen die cruciaal zijn voor de digitale transformatie van grote bedrijven. Je combineert diepgaande technische kennis met advies richting klanten en teams en blijft jezelf continu ontwikkelen binnen een sterke Java/Kotlin-community.
+Je werkt aan uiteenlopende projecten, lost complexe technische vraagstukken op en tilt oplossingen naar een hoger niveau.
+De vacature
+Wil jij met jouw Kotlin-expertise directe impact maken bij toporganisaties zoals Ahold, ING en ABN AMRO? Bij Qualogy werk je als Kotlin Software Engineer aan hoogwaardige softwareoplossingen die cruciaal zijn voor de digitale transformatie van grote bedrijven. Je combineert diepgaande technische kennis met advies richting klanten en teams en blijft jezelf continu ontwikkelen binnen een sterke Java/Kotlin-community.
+Je werkt aan uiteenlopende projecten, lost complexe technische vraagstukken op en tilt oplossingen naar een hoger niveau.
+Wat ga je doen?
+Je ontwikkelt hoogwaardige Kotlin-oplossingen voor diverse klanten en sectoren
+Je doet dit nadrukkelijk AI-assisted
+Je werkt in multidisciplinaire teams aan complexe technische uitdagingen
+Je adviseert klanten en collega’s over architectuur en technische keuzes
+Je deelt kennis binnen de actieve Java/Kotlin Community van Qualogy
+Je blijft jezelf ontwikkelen via events, trainingen en kennissessies
+Hier gaan we vanuit
+Must-haves:
+Minimaal 5 jaar ervaring in softwareontwikkeling, bij voorkeur met Java
+Minimaal 3 jaar ervaring met Kotlin
+Minimaal HBO-diploma in een IT-gerelateerd vakgebied
+Ervaring met tools zoals IntelliJ/Eclipse, Maven en Git
+Ervaring met cloudomgevingen (AWS, Azure, Kubernetes is een pré)
+Sterke test- en kwaliteitsmindset
+Goede communicatieve vaardigheden en advieskracht
+Drive om jezelf en je collega’s continu te ontwikkelen, specifiek op het gebied van AI-assisted software development.
+Mooi meegenomen:
+Ervaring met moderne architecturen en microservices
+Affiniteit met DevOps en CI/CD
+Ervaring in complexe enterprise-omgevingen
+Ervaring met AI-assisted software ontwikkeling, met tools als Claud Code, Windsurf, Cursor, Co-pilot etc.
+Arbeidsvoorwaarden
+Salaris tussen €3.750 en €6.000 per maand
+Bonusregeling van 15% tot 50% bovenop je salaris
+Direct een vast contract
+Persoonlijk ontwikkelbudget van €2.500 per jaar (eerste jaar onbeperkt)
+Leaseauto met tankpas (ook in het buitenland)
+30 vakantiedagen
+Hybride werken mogelijk
+Laptop & telefoon (of BYOD-regeling)
+Events, teamuitjes en grote zomer- & kerstfeesten
+Persoonlijke fieldmanager voor coaching en groei
+Over Qualogy:
+Bij Qualogy staat kennisdeling centraal. Je werkt in sterke communities, krijgt volop ruimte om jezelf te ontwikkelen 
