@@ -1,14 +1,14 @@
-Cooder hiring Kotlin Software Engineer | Qualogy in Rijswijk, South Holland, Netherlands | LinkedIn
+bunq hiring Android Developer in Amsterdam, North Holland, Netherlands | LinkedIn
 Skip to main content
-Kotlin Software Engineer | Qualogy
-Cooder
-Rijswijk, South Holland, Netherlands
+Android Developer
+bunq
+Amsterdam, North Holland, Netherlands
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Kotlin Software Engineer | Qualogy
+Android Developer
 role at
-Cooder
+bunq
 Email or phone
 Password
 Show
@@ -25,18 +25,18 @@ Privacy Policy
 , and
 Cookie Policy
 .
-Kotlin Software Engineer | Qualogy
-Cooder
-Rijswijk, South Holland, Netherlands
-2 weeks ago
-Be among the first 25 applicants
-See who Cooder has hired for this role
+Android Developer
+bunq
+Amsterdam, North Holland, Netherlands
+14 hours ago
+Over 200 applicants
+See who bunq has hired for this role
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Kotlin Software Engineer | Qualogy
+Android Developer
 role at
-Cooder
+bunq
 Email or phone
 Password
 Show
@@ -55,85 +55,66 @@ Cookie Policy
 .
 Save
 Report this job
-Cooder provided pay range
-This range is provided by Cooder. Your actual pay will be based on your skills and experience — talk with your recruiter to learn more.
-Base pay range
-€3,750.00/mo - €6,000.00/mo
-Wil jij met jouw Kotlin-expertise directe impact maken bij toporganisaties zoals Ahold, ING en ABN AMRO? Bij Qualogy werk je als Kotlin Software Engineer aan hoogwaardige softwareoplossingen die cruciaal zijn voor de digitale transformatie van grote bedrijven. Je combineert diepgaande technische kennis met advies richting klanten en teams en blijft jezelf continu ontwikkelen binnen een sterke Java/Kotlin-community.
-Je werkt aan uiteenlopende projecten, lost complexe technische vraagstukken op en tilt oplossingen naar een hoger niveau.
-De vacature
-Wil jij met jouw Kotlin-expertise directe impact maken bij toporganisaties zoals Ahold, ING en ABN AMRO? Bij Qualogy werk je als Kotlin Software Engineer aan hoogwaardige softwareoplossingen die cruciaal zijn voor de digitale transformatie van grote bedrijven. Je combineert diepgaande technische kennis met advies richting klanten en teams en blijft jezelf continu ontwikkelen binnen een sterke Java/Kotlin-community.
-Je werkt aan uiteenlopende projecten, lost complexe technische vraagstukken op en tilt oplossingen naar een hoger niveau.
-Wat ga je doen?
-Je ontwikkelt hoogwaardige Kotlin-oplossingen voor diverse klanten en sectoren
-Je doet dit nadrukkelijk AI-assisted
-Je werkt in multidisciplinaire teams aan complexe technische uitdagingen
-Je adviseert klanten en collega’s over architectuur en technische keuzes
-Je deelt kennis binnen de actieve Java/Kotlin Community van Qualogy
-Je blijft jezelf ontwikkelen via events, trainingen en kennissessies
-Hier gaan we vanuit
-Must-haves:
-Minimaal 5 jaar ervaring in softwareontwikkeling, bij voorkeur met Java
-Minimaal 3 jaar ervaring met Kotlin
-Minimaal HBO-diploma in een IT-gerelateerd vakgebied
-Ervaring met tools zoals IntelliJ/Eclipse, Maven en Git
-Ervaring met cloudomgevingen (AWS, Azure, Kubernetes is een pré)
-Sterke test- en kwaliteitsmindset
-Goede communicatieve vaardigheden en advieskracht
-Drive om jezelf en je collega’s continu te ontwikkelen, specifiek op het gebied van AI-assisted software development.
-Mooi meegenomen:
-Ervaring met moderne architecturen en microservices
-Affiniteit met DevOps en CI/CD
-Ervaring in complexe enterprise-omgevingen
-Ervaring met AI-assisted software ontwikkeling, met tools als Claud Code, Windsurf, Cursor, Co-pilot etc.
-Arbeidsvoorwaarden
-Salaris tussen €3.750 en €6.000 per maand
-Bonusregeling van 15% tot 50% bovenop je salaris
-Direct een vast contract
-Persoonlijk ontwikkelbudget van €2.500 per jaar (eerste jaar onbeperkt)
-Leaseauto met tankpas (ook in het buitenland)
-30 vakantiedagen
-Hybride werken mogelijk
-Laptop & telefoon (of BYOD-regeling)
-Events, teamuitjes en grote zomer- & kerstfeesten
-Persoonlijke fieldmanager voor coaching en groei
-Over Qualogy:
-Bij Qualogy staat kennisdeling centraal. Je werkt in sterke communities, krijgt volop ruimte om jezelf te ontwikkelen en werkt aan projecten waar jouw oplossingen direct zichtbaar impact maken. Of je nu wilt verdiepen in techniek of doorgroeien richting leiderschap, alles is mogelijk.
-Opgericht in 1998
-Werkzaam in de Information Technology.
-De gemiddelde leeftijd is 35.
-Werkzaam in 1 kantoor.
+At bunq, we're not just building a banking app; we're reshaping how people around the world experience financial freedom. As our Android Developer, your mission is to ensure our app feels smooth, responsive, and enjoyable every time a user opens it. You'll build new features our users will love, fix the bugs that get in the way, and constantly improve the app’s performance and stability so it never lets them down.
+Up for this?
+Kick off your application by taking our assessment and find out if bunq is your perfect match! 🚀
+Take Ownership
+As our Android Developer at bunq, you will take full ownership of the user experience and technical excellence of our app. You'll:
+Deliver a stable and highly reliable app by proactively identifying, analyzing, and fixing crashes, bugs, and performance bottlenecks.
+Own the end-to-end implementation of new features, delivering high-quality updates quickly and efficiently.
+Drive the architectural vision of our app by writing clean, testable, and maintainable code to simplify future updates and keep our codebase healthy.
+You have a deep knowledge of Kotlin and write clean, idiomatic code, leveraging features like coroutines and flows to build scalable and performant applications.
+You have expert-level knowledge of modern Android architecture patterns (MVVM/MVI) and extensive experience with Jetpack libraries, especially Compose.
+You are a master of debugging, with a proven ability to use profiling tools to pinpoint and resolve complex issues related to crashes, memory leaks, and performance.
+You are proactive and have a keen eye for detail, taking full ownership of your work from the first line of code to the final user experience.
+You are fluent in English - able to communicate effectively in a global team, ensuring collaboration and clarity across all project stages.
+All new hires are subject to Pre-employment Screening (PES), which includes checks conducted by our third-party partner, DISA. This is part of our commitment to a secure and trustworthy workplace
+Curious to see how we make life easy? - try the bunq app, it only takes 5 minutes to sign up.
+Your space to perform
+We give you the space and the tools you need to succeed 💪🏼
+🤟 Great, international colleagues who share your mindset
+👩‍💻 Hybrid setup: after 3 months in-office, work 2 days remote, 3 days in-office weekly.
+📚 We support growth with bunq Academy and €1500 annual learning budget
+🚴 A massive discount with Urban Sports Club for your wellbeing (in the Netherlands)
+🇧🇬 Flex Benefits: €70 monthly budget via Re: benefit, offering access to 150+ perks tailored to your lifestyle.
+🚌 Travel expenses are covered whether you come walking or by bike, bus or car (though we prefer green choices 🌳) (in Netherlands)
+🧳 Digital Nomad Program: After your first year, enjoy up to 20 days per year to work while traveling, combining flexibility with strong team collaboration
+🚀 We reward tenure with a dedicated travel budget: €1.5k after 2 years and €3k after 4 years to visit another core office.
+💻 A MacBook so you can Get Shit Done with us
+🥦 Delicious lunches from our fabulous in-house chefs with vegan and vegetarian options
+💰 An optional pension plan with monthly contribution from bunq (in Netherlands)
+⚕️ Private health insurance, just in case (in Bulgaria)
+💸 Monthly contribution to your phone and internet bills (in Netherlands)
+🍻 Friday drinks and other celebrations - bunq style
 Show more
 Show less
 Seniority level
-Mid-Senior level
+Not Applicable
 Employment type
 Full-time
 Job function
 Information Technology
 Industries
 IT Services and IT Consulting
-Referrals increase your chances of interviewing at Cooder by 2x
+Referrals increase your chances of interviewing at bunq by 2x
 See who you know
-Get notified when a new job is posted.
-Set alert
-Sign in to set job alerts for “Software Engineer” roles.
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
+Get notified about new
+Android Developer
+jobs in
+Amsterdam, North Holland, Netherlands
 .
+Sign in to create job alert
 Similar jobs
-Kotlin Software Engineer
-Kotlin Software Engin
+Android Developer
+Android Developer
+Realworks BV
+Amsterdam Area
+1 week ago
+Android Developer
+Android Developer
+Coffee IT - Ontwikkelaar van Mobiele en Web-apps (Part of The Digital Club)
+Utrecht, Utrecht, Netherlands
+8 months ago
+Android Developer
+Android Developer
+Dawn
