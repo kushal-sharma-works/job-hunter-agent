@@ -1,0 +1,116 @@
+Telnyx hiring Junior Software Engineer, Elixir in Amsterdam, North Holland, Netherlands | LinkedIn
+Skip to main content
+Junior Software Engineer, Elixir
+Telnyx
+Amsterdam, North Holland, Netherlands
+Apply
+Join or sign in to find your next job
+Join to apply for the
+Junior Software Engineer, Elixir
+role at
+Telnyx
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Junior Software Engineer, Elixir
+Telnyx
+Amsterdam, North Holland, Netherlands
+1 week ago
+Over 200 applicants
+See who Telnyx has hired for this role
+Apply
+Join or sign in to find your next job
+Join to apply for the
+Junior Software Engineer, Elixir
+role at
+Telnyx
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Save
+Report this job
+About Telnyx
+Telnyx is an industry leader that's not just imagining the future of global connectivity—we're building it. From architecting and amplifying the reach of a
+private, global, multi-cloud IP network
+, to bringing
+hyperlocal edge
+technology right to your fingertips through intuitive APIs, we're shaping a new era of seamless interconnection between people, devices, and applications.
+We're driven by a desire to transform and modernize what's antiquated, automate the manual, and solve real-world problems through innovative connectivity solutions. As a testament to our success, we're proud to stand as a financially stable and profitable company. Our robust profitability allows us not only to invest in pioneering technologies but also to foster an environment of continuous learning and growth for our team.
+Our collective vision is a world where borderless connectivity fuels limitless innovation. By joining us, you can be part of laying the foundations for this interconnected future. We're currently seeking passionate individuals who are excited about the opportunity to contribute to an industry-shaping company while growing their own skills and careers.
+About You
+We’re looking for people with a strong background or interest in building successful products or systems; you’re comfortable in dealing with lots of moving pieces; you have exquisite attention to detail; and you’re comfortable learning new technologies and systems.
+The Opportunity
+The team you’ll be joining is tasked with developing and maintaining the software that enables seamless and efficient delivery of Telnyx's communication and connectivity services. While you’ll be responsible for the stack that allows customers to interact with our products and platform (think api-gateway, authentication, rate-limiting, etc), you’ll also work with other engineering squads to continuously improve the way they expose and monitor their services.
+Design, build and maintain APIs, services, and systems across Telnyx’s engineering teams.
+Debug production issues across gateway, auth, network, and application layers.
+Work with engineers across the company to build new features at large-scale, both internally and externally.
+Improve engineering standards, tooling, processes, observability and reliability
+What We're Looking For
+Have 1-2 years of professional software development experience with an object-oriented or functional programming language (Elixir is preferred).
+Have an appreciation of functional programming and a strong desire to become an expert Elixir programmer.
+You take a thoughtful approach to decision making, knowing when to move fast and when to long-term optimize.
+Have experience working with relational databases at scale.
+Understand the challenges inherent in concurrent and distributed programming.
+Have deep knowledge of microservices architecture patterns and anti-patterns.
+Have familiarity with Docker, Kubernetes, Consul, Prometheus, Grafana and/or RabbitMQ.
+You keep up to date with the latest technologies and patterns, and enjoy sharing what you’ve learned.
+You're a team player and willing to put the team's success ahead of your own.
+Bonus Points For
+Experience building or operating customer-facing APIs, gateways, auth systems, or internal platforms.
+You want to work in a fast-paced, product-driven environment.
+Have experience with Envoy
+Show more
+Show less
+Seniority level
+Entry level
+Employment type
+Full-time
+Job function
+Engineering and Information Technology
+Industries
+Software Development
+Referrals increase your chances of interviewing at Telnyx by 2x
+See who you know
+Get notified about new
+Junior Software Engineer
+jobs in
+Amsterdam, North Holland, Netherlands
+.
+Sign in to create job alert
+Similar jobs
+Software Engineer, Elixir
+Software Engineer, Elixir
+Telnyx
+Amsterdam, North Holland, Netherlands
+1 week ago
+Software Engineer(Amsterdam)
+Software Engineer(Amsterdam)
+Together AI
+Amsterdam, North Holland, Netherlands
+5 days 
