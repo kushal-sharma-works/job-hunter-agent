@@ -1,14 +1,14 @@
-JetBrains hiring Staff Software Developer (Kotlin Libraries) in Amsterdam, North Holland, Netherlands | LinkedIn
+Energie Data Services Nederland (EDSN) B.V. hiring Kotlin developer (medior) in Amersfoort, Utrecht, Netherlands | LinkedIn
 Skip to main content
-Staff Software Developer (Kotlin Libraries)
-JetBrains
-Amsterdam, North Holland, Netherlands
+Kotlin developer (medior)
+Energie Data Services Nederland (EDSN) B.V.
+Amersfoort, Utrecht, Netherlands
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Staff Software Developer (Kotlin Libraries)
+Kotlin developer (medior)
 role at
-JetBrains
+Energie Data Services Nederland (EDSN) B.V.
 Email or phone
 Password
 Show
@@ -25,18 +25,18 @@ Privacy Policy
 , and
 Cookie Policy
 .
-Staff Software Developer (Kotlin Libraries)
-JetBrains
-Amsterdam, North Holland, Netherlands
-2 days ago
-119 applicants
-See who JetBrains has hired for this role
+Kotlin developer (medior)
+Energie Data Services Nederland (EDSN) B.V.
+Amersfoort, Utrecht, Netherlands
+4 days ago
+42 applicants
+See who Energie Data Services Nederland (EDSN) B.V. has hired for this role
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Staff Software Developer (Kotlin Libraries)
+Kotlin developer (medior)
 role at
-JetBrains
+Energie Data Services Nederland (EDSN) B.V.
 Email or phone
 Password
 Show
@@ -110,51 +110,39 @@ Privacy Policy
 , and
 Cookie Policy
 .
-We are looking for an experienced developer to help us shape the future of the Kotlin ecosystem.
-As Part Of Our Team, You Will
-Create and maintain foundational libraries for Kotlin core primitives that are used by hundreds of thousands of developers
-Become an expert in specific domains of computer science and software engineering
-Be part of a design committee that decides how the Kotlin API should be shaped
-Participate in creating standard Kotlin tools, specifications and language features
-Preferable
-JVM development experience down to the implementation details of the Java standard library
-Strong understanding of the domain you've been working with
-Ability to write design documents for complex systems with strong reasoning behind each trade-off and technical decision
-Experience in performance engineering or API design
-In general, if you see yourself reading a Unicode standard, exploring how five other languages transform strings to bytes, figuring out why some Oceania islands changed their timezone from -10:00 to +14:00 and whether it should be expressed in the API of Kotlin timezones, optimizing interface hierarchy to be more JIT-friendly and is not afraid of re-iterating over documentation a multitude of times, you won't get bored in our team.
-Why join JetBrains?
-Strong base salary. We offer competitive pay that reflects your skills and experience.
-Flexible work location. Enjoy the freedom to work from home or from the office.
-Remote work. Spend up to 30 days per year working remotely from abroad.
-Extra time off. More days to relax, recharge, and do the things you love.
-Medical insurance allowance. Enjoy peace of mind for you and your family.
-Learning and development opportunities. Access to conferences, courses, and language classes.
-Language classes. Pick up the local language or sharpen your English skills.
-Fuel your day. Enjoy a hot meal or receive a lunch allowance on workdays.
-Mental health support. To help you feel your best, we provide easy access to professional mental health services.
-Sports benefit. Enjoy an on-site gym or sports club stipend.
-Internal events. Join company-wide celebrations and team gatherings.
-Some benefits may vary depending on location.
-We are an equal opportunity employer
-We know great ideas can come from anyone, anywhere. That’s why we do our best to create an open and inclusive workplace – one that welcomes everyone regardless of their background, identity, religion, age, accessibility needs, or orientation.
-We process the data provided in your job application in accordance with the Recruitment Privacy Policy.
-Show more
-Show less
-Seniority level
-Mid-Senior level
-Employment type
-Full-time
-Job function
-Engineering and Information Technology
-Industries
-Software Development
-Referrals increase your chances of interviewing at JetBrains by 2x
-See who you know
-Get notified about new
-Staff Software Engineer
-jobs in
-Amsterdam, North Holland, Netherlands
+Direct message the job poster from Energie Data Services Nederland (EDSN) B.V.
+Ash(enafi) Kogelman
+Ash(enafi) Kogelman
+Recruitment business partner
+Energiemarkt | 32-40 uur | Amersfoort / Hybride | v/m/x | €43.000-€70.000 per jaar inclusief 8% vakantiegeld + mobiliteitsbudget of leaseauto.
+Als medior Kotlin developer bouw je mee aan innovatieve software die de energietransitie vooruitbrengt
+In jouw rol als Kotlin Developer lever je een directe bijdrage aan een goed werkende energiemarkt in Nederland. Jij ontwikkelt en verbetert systemen die ervoor zorgen dat energiedata veilig en betrouwbaar beschikbaar is voor alle netbeheerders.
+Zo werk je als Kotlin Developer vol energie
+Je ontwikkelt zelfstandig complexe backend-systemen binnen een microservices-architectuur. Je draagt bij aan de optimalisatie van CI/CD-processen door middel van automatisering en monitoring. Je adviseert teamleden en stakeholders over technische oplossingen en implementeert schaalbare systemen. Daarnaast deel je actief kennis via code-reviews, documentatie en interne trainingen. Je ondersteunt junior collega’s en helpt hen groeien in hun rol. Je komt te werken in één van onze multidisciplinaire teams. Hoe die teams eruit zien lees je
+hier
 .
-Sign in to create job alert
-Similar jobs
-Staff Software Deve
+Hier krijg jij als Kotlin Developer energie van
+Je krijgt energie van het ontwikkelen en verbeteren van van backend-functionaliteiten binnen een moderne Kotlin-stack
+Je vindt het leuk om te werken met Kotlin, Spring Boot en CI/CD-tooling
+Je wordt blij van het oplossen van technische vraagstukken en het bouwen van schaalbare oplossingen
+Je werkt graag samen met collega’s en stakeholders aan slimme technische keuzes
+Je deelt graag kennis via code reviews, documentatie of interne sessies
+Je vindt het leuk om junior collega’s te helpen groeien
+Onze energiedrijvers
+Bruto maandsalaris tussen €3.580 en €5.450
+6 weken vakantie per jaar
+80% werkgeversbijdrage in je pensioen
+Hybride werken: vanuit huis en ons moderne kantoor in Amersfoort
+Reiskostenvergoeding, NS Businesscard, leaseauto of mobiliteitsbudget
+Veel ruimte voor persoonlijke en professionele ontwikkeling
+Benieuwd naar wat wij nog meer te bieden hebben? Kijk dan snel bij onze
+arbeidsvoorwaarden
+!
+Dit breng jij mee
+Je hebt een afgeronde HBO/WO-opleiding in een relevant vakgebied of je beschikt over relevante aantoonbare werkervaring.
+3-6 jaar ervaring in Kotlin-ontwikkeling binnen complexe omgevingen.
+Uitgebreide kennis van Spring Boot, CI/CD-tools en API-ontwikkeling.
+Vaardigheden om zelfstandig problemen op te lossen en verbeteringen door te voeren.
+Bereidheid om junior collega's te begeleiden en coachen.
+Maak kennis met je team
+Je werkt binnen een van onze DevOps-teams, elk verantwoordelijk voor een specifiek domein binnen de energiemarkt. Samen zorgen jullie ervoor dat onze applicaties veilig, stabiel en schaalbaar draaien. De sfeer is informeel, professioneel en gedreven: we hebben 
