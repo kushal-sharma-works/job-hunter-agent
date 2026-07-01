@@ -1,0 +1,122 @@
+CNN hiring Software Engineer II in Amsterdam, North Holland, Netherlands | LinkedIn
+Skip to main content
+Software Engineer II
+CNN
+Amsterdam, North Holland, Netherlands
+Apply
+Join or sign in to find your next job
+Join to apply for the
+Software Engineer II
+role at
+CNN
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Software Engineer II
+CNN
+Amsterdam, North Holland, Netherlands
+1 week ago
+Over 200 applicants
+See who CNN has hired for this role
+Apply
+Join or sign in to find your next job
+Join to apply for the
+Software Engineer II
+role at
+CNN
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Save
+Report this job
+Welcome to Warner Bros. Discovery… the stuff dreams are made of.
+Who We Are…
+When we say, “the stuff dreams are made of,” we’re not just referring to the world of wizards, dragons and superheroes, or even to the wonders of Planet Earth. Behind WBD’s vast portfolio of iconic content and beloved brands, are the
+storytellers
+bringing our characters to life, the
+creators
+bringing them to your living rooms and the
+dreamers
+creating what’s next…
+From brilliant creatives, to technology trailblazers, across the globe, WBD offers career defining opportunities, thoughtfully curated benefits, and the tools to explore and grow into your best selves. Here you are supported, here you are celebrated, here you can thrive.
+We are the now and the next. The power behind the people building the future. We are born from the spirit of innovation. We are created from the idea that people around the world want more, need more, deserve more. We are the home of the global digital revolution. We are CNN.
+To see what it’s like to work at CNN, follow @WBDLife on
+Instagram
+and
+X
+!
+Your Role Accountabilities...
+Engineering and Implementation:
+Build and maintain features tightly integrated with our CMS platform for editors and product teams to configure, launch, and monitor A/B and multivariate tests
+Collaborate on APIs and services for experimentation, integrations with frontend and backend systems
+Write clean, efficient software code with a focus on maintainability and performance
+Participate in regular testing, QA coverage analysis, and deployment processes to ensure production readiness
+Collaboration and Delivery:
+Partner closely with peer engineers to learn and build experimentation systems, from architectural design to iterative feature development to production release
+Partner with product and analytics leads to define and deliver high-impact testing features
+Participate in sprint planning, sprint reviews, and retrospectives to develop team delivery skills
+Contribute to code reviews, architectural design documentation, and engineering process workflows
+Mentorship and Growth:
+Provide peer mentorship through informal code reviews and collaborative debugging
+Share technical insights during team meetings and sprint ceremonies
+Lead knowledge-sharing sessions and create technical documentation
+Encourage inclusive engineering practices and a test-and-learn mindset
+Qualifications and Experience...
+Backend Node.js (2+ years of experience)
+AWS (Lambda/S3/ECS/RDS) / Infrastructure as code (Terraform preferred)
+Unit, Functional Testing & TDD
+Typescript / JavaScript
+JavaScript frameworks (such as React, Vue, or Angular)
+Fluent in English
+Bonus Skills:
+Kafka
+CI/CD
+API Development (such as REST or RPC)
+Go
+Rust
+A/B testing
+Data engineering
+Content Management Systems
+How We Get Things Done…
+This last bit is probably the most important! Here at WBD, our guiding principles are the core values by which we operate and are central to how we get things done. You can find them at
+www.wbd.com/guiding-principles/
+along with some insights from the team on what they mean and how they show up in their day to day. We hope they resonate with you and look forward to discussing them during your interview.
+Championing Inclusion at WBD
+Warner Bros. Discovery embraces the opportunity to build a workforce that reflects a wide array of perspectives, backgrounds and experiences. Being an equal opportunity employer means that we take seriously our responsibility to consider qualified candidates on the basis of merit, regardless of sex, gender identity, ethnicity, age, sexual orientation, religion or belief, marital status, pregnancy, parenthood, disability or any other category protected by law.
+If you’re a qualified candidate with a disability and you require adjustments or accommodations during the job application and/or recruitment process, please visit our
+accessibility page
+for instructions to submit your request.
+Show more
+Show less
+Seniority level
+Mid-Senior level
+Employment type
+Full-time
+Job function
+Engineering and Infor
