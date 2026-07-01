@@ -1,0 +1,128 @@
+Capua hiring Back End Developer in Amsterdam Area | LinkedIn
+Skip to main content
+Back End Developer
+Capua
+Amsterdam Area
+Apply
+Back End Developer
+Capua
+Amsterdam Area
+1 day ago
+106 applicants
+See who Capua has hired for this role
+Apply
+Save
+Report this job
+Use AI to assess how you fit
+Get AI-powered advice on this job and more exclusive features.
+Am I a good fit for this job?
+Tailor my resume
+Sign in to access AI-powered advices
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Sign in to evaluate your skills
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Sign in to tailor your resume
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Direct message the job poster from Capua
+Zdenka Markikj
+Zdenka Markikj
+Lead Talent Associate at Capua
+VC Backed Fin-Tech Company | Back-end Engineer | Amsterdam | Competitive compensation
+About the Company:
+Our client is a fast-growing, VC-backed fintech building infrastructure at the intersection of traditional finance, asset tokenisation and blockchain technology.
+Its platform helps loan originators access improved financing options while giving investors faster and simpler access to structured finance opportunities. The product automates the structuring and management of complex securitisation transactions, helping bridge institutional finance with modern, decentralised technology.
+This is an opportunity to join a technical, ambitious and collaborative team building secure, scalable financial infrastructure for the real economy.
+About the Role:
+They are looking for a Back-end Engineer to help build and scale production-ready systems, APIs and integrations across its core platform.
+The successful candidate will work closely with the engineering team on back-end architecture, data integrations, blockchain protocol interactions, security, testing and system reliability. This role would suit someone with strong Golang experience, a security-first mindset and an interest in fintech, institutional finance or Web3 infrastructure.
+Key Responsibilities:
+Build performant, reliable and maintainable back-end systems and APIs.
+Develop complex integrations across multiple data sources, back-end services and blockchain protocols.
+Write high-quality, well-tested code following software engineering best practices.
+Produce clear technical documentation and contribute to strong development standards.
+Embed security best practices across all layers of the technology stack.
+Contribute to end-to-end product architecture and technical decision-making.
+Work collaboratively with the wider engineering team on areas such as DevOps, infrastructure and smart contract integrations.
+Help ensure systems are scalable, observable and suitable for production use.
+Ideal Candidate Requirements:
+2+ years of experience building robust back-end systems and APIs.
+Strong commercial or project experience with
+Golang
+.
+Good understanding of communication protocols such as REST/HTTP, gRPC, GraphQL and message queues.
+Experience working with relational databases, ideally PostgreSQL.
+Familiarity with database lifecycle management, including deployment, migrations and backups.
+Strong understanding of Git and CI/CD pipelines.
+Security-first approach to software engineering.
+Strong problem-solving skills, attention to detail and ability to think critically.
+Proactive, collaborative and comfortable working in a fast-paced technical environment.
+Clear communicator with the ability to work effectively as part of a small, high-performing team.
+Nice to Have:
+Experience deploying and monitoring containerised applications.
+Knowledge of Web3, blockchain integrations or Ethereum infrastructure.
+Experience with the Ethereum stack, including go-ethereum.
+Previous experience in fintech, banking, lending, capital markets or financial infrastructure.
+What the Company Offers:
+Competitive compensation.
+Opportunity to become a core member of an early-stage technical team.
+Meaningful ownership and growth opportunities aligned with company objectives.
+Flexible working hours and remote working options.
+Supportive, technically excellent team culture.
+Exposure to cutting-edge work across fintech, blockchain and institutional finance.
+Direct impact on infrastructure bridging traditional and decentralised finance.
+Show more
+Show less
+Seniority level
+Associate
+Employment type
+Full-time
+Job function
+Engineering and Information Technology
+Industries
+Software Development and Financial Services
+Referrals increase your chances of interviewing at 
