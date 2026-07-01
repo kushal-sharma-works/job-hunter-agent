@@ -1,0 +1,80 @@
+NAVARA hiring Software-ingenieur in Utrecht, Netherlands | LinkedIn
+Skip to main content
+Software-ingenieur
+NAVARA
+Utrecht, Netherlands
+Apply
+Software-ingenieur
+NAVARA
+Utrecht, Netherlands
+2 weeks ago
+61 applicants
+See who NAVARA has hired for this role
+Apply
+Save
+Report this job
+Direct message the job poster from NAVARA
+Christine Levöleger
+Christine Levöleger
+Field Manager | Talent Acquisition Manager at NAVARA
+Bij Navara bouwen we software die werkt: oplossingen die live gaan en aantoonbare impact maken. Van digitale producten die miljoenen mensen gebruiken tot complexe systemen in het hart van organisaties. Je werkt in Navara teams waarin je veel invloed hebt op technische keuzes. Met moderne technologie, bewezen engineering practices en veel aandacht voor developer experience helpen we organisaties echte techbedrijven te worden.
+Wat ga je doen?
+Je denkt mee over technische keuzes, vertaalt user stories naar robuuste implementaties en optimaliseert deze continu. Je krijgt veel eigenaarschap binnen kleine, hoogwaardige teams.
+Verder:
+Zorg je dat best practices worden toegepast (TDD, CI/CD, trunk-based development);
+Vertaal je business- en technische vraagstukken naar schaalbare oplossingen;
+Werk je in nauwe samenwerking met je team, waarin code reviews en inhoudelijke afstemming centraal staan.
+We zien ons werk als teamsport
+Je werkt binnen een sterke engineering cultuur met focus op Developer Experience. We zien softwareontwikkeling als een teamsport. Je werkt samen met gedreven engineers aan hoogwaardige oplossingen, met moderne technologie en bewezen best practices als basis.
+Kennisdeling zit verweven in ons werk. Denk aan code reviews, pair programming, kennisfestival, LunchLabs en hackathons. Zo blijf je jezelf technisch ontwikkelen en leer je continu van andere engineers.
+Onze impact
+Je werkt aan software die dagelijks door grote groepen mensen wordt gebruikt. Een aantal voorbeeld projecten waar we nu aan werken zijn:
+BerekenJeRecht
+: met een team van 5 een applicatie bouwen die miljoenen mensen helpt inzicht te krijgen in hun rechten en financiële situatie (TypeScript, React frontend met
+Next.js
+, CI/CD met GitHub Actions, en IAC met Bicep);
+Integratie van het nieuwe pensioenstelsel (Wtp)
+: alles wat deelnemers en werkgevers zien, loopt via systemen waar jij aan bouwt. Dit doe je samen met een team van 8 collega’s (Python, Docker, AWS, Azure);
+Slim laden van elektrische auto’s
+: software bouwen in een team van 8 die ervoor zorgt dat auto’s op duurzame en efficiënte momenten worden opgeladen (AWS en TypeScript, Kafka).
+Je bouwt dus niet alleen systemen, maar oplossingen die zichtbaar impact maken in de maatschappij.
+We werken ook met andere technologieën zoals C#, Java, Python, TypeScript en frameworks als Angular en React. Qua cloudtechnologie werken we met Azure en AWS.
+Waarom werken bij Navara?
+Bij Navara draait het om samen groeien en beter worden. Geen gebaande paden, maar echte uitdagingen in complexe omgevingen.
+Verder kan je nog denken aan:
+Er is veel aandacht en ruimte voor ontwikkeling, zo heb je sessies met je Technology Officer en mentor om je ontwikkeling gericht te sturen;
+Een helder groeipad, richting technische diepgang of juist leiderschap;
+Flexibel werken (hybride);
+Regelmatige kennissessies, meetups, hackathons en andere bedrijfsactiviteiten;
+Een salaris tussen de € 3.500,- en €5.000,- euro per maand én maandelijkse bonus;
+Een vast contract, leaseauto of mobiliteitsvergoeding, netto telefoon- en onkostenvergoeding en een premievrij pensioen.
+Wat verwachten we van jou?
+Je ziet kansen voor verbetering en neemt het initiatief om samen met je team nieuwe technieken of methodieken uit te proberen. Verder heb jij:
+Een technische bachelor, master en/of PhD op zak;
+Minimaal 3 jaar relevante werkervaring opgedaan;
+Nieuwsgierigheid en de drive om jezelf te blijven ontwikkelen;
+Een goede beheersing van zowel de Nederlandse als Engelse taal in woord en geschrift.
+Over onze Business Unit Utrecht
+We vinden teambuilding en een goede, informele werksfeer erg belangrijk. Onze Business Unit telt zo’n 50 collega’s en we werken vanuit een prachtig kantoor in Driebergen-Rijsenburg. Zo heb je regelmatig check-ins met iemand van het MT (Ron, Geert Jan of Christine) wandelend door de bossen. We organiseren activiteiten zoals onze wekelijkse crossfit, boekenclub, padel, boulderen, BBQs, en het jaarlijkse kerstfeest en wintersport.
+Ben je benieuwd naar meer informatie of wil je eerst even vrijblijvend sparren? Dan is dit natuurlijk mogelijk, we vertellen je graag meer! Solliciteer via LinkedIn of mail naar recruiters@navara.nl.
+Show more
+Show less
+Seniority level
+Associate
+Employment type
+Full-time
+Job function
+Consulting and Information Technology
+Industries
+IT Services and IT Consulting
+Referrals increase your chances of interviewing at NAVARA by 2x
+See who you know
+Get notified about new
+Software Engineer
+jobs in
+Utrecht, Netherlands
+.
+Sign in to create job alert
+Similar jobs
+Software-ingenieur
+Software
