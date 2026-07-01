@@ -1,14 +1,14 @@
-Telnyx hiring Junior Software Engineer, Elixir in Amsterdam, North Holland, Netherlands | LinkedIn
+CNN hiring Software Engineer II in Amsterdam, North Holland, Netherlands | LinkedIn
 Skip to main content
-Junior Software Engineer, Elixir
-Telnyx
+Software Engineer II
+CNN
 Amsterdam, North Holland, Netherlands
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Junior Software Engineer, Elixir
+Software Engineer II
 role at
-Telnyx
+CNN
 Email or phone
 Password
 Show
@@ -25,18 +25,18 @@ Privacy Policy
 , and
 Cookie Policy
 .
-Junior Software Engineer, Elixir
-Telnyx
+Software Engineer II
+CNN
 Amsterdam, North Holland, Netherlands
 1 week ago
 Over 200 applicants
-See who Telnyx has hired for this role
+See who CNN has hired for this role
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Junior Software Engineer, Elixir
+Software Engineer II
 role at
-Telnyx
+CNN
 Email or phone
 Password
 Show
@@ -55,62 +55,88 @@ Cookie Policy
 .
 Save
 Report this job
-About Telnyx
-Telnyx is an industry leader that's not just imagining the future of global connectivity—we're building it. From architecting and amplifying the reach of a
-private, global, multi-cloud IP network
-, to bringing
-hyperlocal edge
-technology right to your fingertips through intuitive APIs, we're shaping a new era of seamless interconnection between people, devices, and applications.
-We're driven by a desire to transform and modernize what's antiquated, automate the manual, and solve real-world problems through innovative connectivity solutions. As a testament to our success, we're proud to stand as a financially stable and profitable company. Our robust profitability allows us not only to invest in pioneering technologies but also to foster an environment of continuous learning and growth for our team.
-Our collective vision is a world where borderless connectivity fuels limitless innovation. By joining us, you can be part of laying the foundations for this interconnected future. We're currently seeking passionate individuals who are excited about the opportunity to contribute to an industry-shaping company while growing their own skills and careers.
-About You
-We’re looking for people with a strong background or interest in building successful products or systems; you’re comfortable in dealing with lots of moving pieces; you have exquisite attention to detail; and you’re comfortable learning new technologies and systems.
-The Opportunity
-The team you’ll be joining is tasked with developing and maintaining the software that enables seamless and efficient delivery of Telnyx's communication and connectivity services. While you’ll be responsible for the stack that allows customers to interact with our products and platform (think api-gateway, authentication, rate-limiting, etc), you’ll also work with other engineering squads to continuously improve the way they expose and monitor their services.
-Design, build and maintain APIs, services, and systems across Telnyx’s engineering teams.
-Debug production issues across gateway, auth, network, and application layers.
-Work with engineers across the company to build new features at large-scale, both internally and externally.
-Improve engineering standards, tooling, processes, observability and reliability
-What We're Looking For
-Have 1-2 years of professional software development experience with an object-oriented or functional programming language (Elixir is preferred).
-Have an appreciation of functional programming and a strong desire to become an expert Elixir programmer.
-You take a thoughtful approach to decision making, knowing when to move fast and when to long-term optimize.
-Have experience working with relational databases at scale.
-Understand the challenges inherent in concurrent and distributed programming.
-Have deep knowledge of microservices architecture patterns and anti-patterns.
-Have familiarity with Docker, Kubernetes, Consul, Prometheus, Grafana and/or RabbitMQ.
-You keep up to date with the latest technologies and patterns, and enjoy sharing what you’ve learned.
-You're a team player and willing to put the team's success ahead of your own.
-Bonus Points For
-Experience building or operating customer-facing APIs, gateways, auth systems, or internal platforms.
-You want to work in a fast-paced, product-driven environment.
-Have experience with Envoy
-Show more
-Show less
-Seniority level
-Entry level
-Employment type
-Full-time
-Job function
-Engineering and Information Technology
-Industries
-Software Development
-Referrals increase your chances of interviewing at Telnyx by 2x
-See who you know
-Get notified about new
-Junior Software Engineer
-jobs in
-Amsterdam, North Holland, Netherlands
+Use AI to assess how you fit
+Get AI-powered advice on this job and more exclusive features.
+Am I a good fit for this job?
+Tailor my resume
+Sign in to access AI-powered advices
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
 .
-Sign in to create job alert
-Similar jobs
-Software Engineer, Elixir
-Software Engineer, Elixir
-Telnyx
-Amsterdam, North Holland, Netherlands
-1 week ago
-Software Engineer(Amsterdam)
-Software Engineer(Amsterdam)
-Together AI
-Amsterdam, North Holland, Netherlands
-5 days 
+Sign in to evaluate your skills
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Sign in to tailor your resume
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Welcome to Warner Bros. Discovery… the stuff dreams are made of.
+Who We Are…
+When we say, “the stuff dreams are made of,” we’re not just referring to the world of wizards, dragons and superheroes, or even to the wonders of Planet Earth. Behind WBD’s vast portfolio of iconic content and beloved brands, are the
+storytellers
+bringing our characters to life, the
+creators
+bringing them to your living rooms and the
+dreamers
+creating what’s next…
+From brilliant creatives, to technology trailblazers, across the globe, WBD offers career defining opportunities, thoughtfully curated benefits, and the tools to explore and grow into your best selves. Here you are supported, here you are celebrated, here you can thrive.
+We are the now and the next. The power behind the people building the future. We are born from the spirit of innovation. We are created from the idea that people around the world want more, need more, deserve more. We are the home of the global digital revolution. We are CNN.
+To see what it’s like to work at CNN, follow @WBDLife on
+Instagram
+and
+X
+!
+Your New Role...
+The Software Engineer II is responsible for designing, developing, testing, and delivering medium-complexity features across CNN digital platforms. This role works within cloud-hosted, multi-client systems and partners closely with frontend, mobile, platform, product, and operational teams to build reliable, scalable, and maintainable solutions.
+The SEII independently drives feature delivery with limited guidance, contributes to technical decisions, and continuously improves engineering practices while maintaining high standards for code quality, reliability, and operational excellence.
+Your Role Accountabilities...
+This is a great opportunity for an individual that is passionate about building mobile apps for News audiences. Our team builds innovative and creative user experiences taking advantage of the latest features and technologies that CNN has to offer.
+Architect and build intuitive, simple and elegantly designed mobile apps that people want to use
+Provide support and development of software tools and procedures to extend and enhance the core production pipeline
+Work with multiple departments, including Product, Design, Delivery, Editorial and Engineering to implement CNN Digital consumer experience solutions and apps
+Assist with troubleshooting production problems, root cause analysis, and debugging
+Development and maintenance of existing production systems supporting CNN’s digital ecosystem
+Mentor more junior developers
+Ensure software development follows industry best practices, policies and guidelines.  Specifically, ensuring that technical solutions are in line with established CNN Digital strategy, standards in respect to architecture, security, corporate governance, coding standards, monitoring, logging, unit test, and service enablement
+Qualifications and Experience...
+Own medium-complexity features across backend APIs and data, work in cloud-hosted, multi-client systems, write tests and docs, and ship safely with partner teams—without needing deep specialization in every layer (infra, frontend framework,
