@@ -1,0 +1,84 @@
+Futurewhiz hiring Medior Python Backend Developer in Amsterdam, North Holland, Netherlands | LinkedIn
+Skip to main content
+Medior Python Backend Developer
+Futurewhiz
+Amsterdam, North Holland, Netherlands
+Apply
+Join or sign in to find your next job
+Join to apply for the
+Medior Python Backend Developer
+role at
+Futurewhiz
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Medior Python Backend Developer
+Futurewhiz
+Amsterdam, North Holland, Netherlands
+2 weeks ago
+37 applicants
+See who Futurewhiz has hired for this role
+Apply
+Join or sign in to find your next job
+Join to apply for the
+Medior Python Backend Developer
+role at
+Futurewhiz
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Save
+Report this job
+📍 Amsterdam - Hybrid (minimum 50% at the office)
+⏱️ 36-40 hours per week
+💰 €3800 - €4800 per month
+🌍 Futurewhiz is a B Corp
+Just a small heads-up regarding logistics: we aren't able to offer visa sponsorship for this role, so we can only consider candidates who already hold a valid work permit for the Netherlands or the EU.
+Are you a driven backend developer who wants to make an impact on how children learn? At Futurewhiz, you'll build Squla, the platform that helps more than 160,000 children at home and over half a million in classrooms learn through play, every day. You'll join the Primary Education team and help build the features, experiments, and systems that make learning smarter and more fun. Want to contribute to the future of digital learning? Apply now!
+At Futurewhiz, we have one mission that unites us all:
+Empowering every child to grow by shaping the future of personalized learning for the next generation.
+Every day, we create digital learning products that challenge, motivate, and help children aged 3 to 18 develop.
+🏰 About Futurewhiz, Squla And StudyGo
+For over 16 years, Futurewhiz has been the market leader in EdTech in the Netherlands. Our brands, including Squla and StudyGo, help children and teenagers aged 3 to 18 learn and grow at their own level and pace. Our mission is clear: "Empowering every child to grow." We've been a certified B Corp since 2020, which means we strive for a strong balance between purpose and profit.
+Squla is a popular educational brand among (primary school) children, parents and teachers. Every day, more than 160,000 children at home and more than half a million children play the best games and quizzes at school in the classroom. Our mission? Helping children progress through play! We do this by staying close to children's experiences, and by using gaming elements, attractive UX designs and current, changing content.
+StudyGo (formerly WRTS) is the go-to online platform for secondary school students to prepare for exams. From vocabulary practice and assignments to chatting with tutors and attending group lessons, we offer a comprehensive toolkit to help students succeed. With over 650,000 annual users, StudyGo has become one of the key digital platforms for secondary education.
+🎮 What will you do as our Medior Developer?
+You'll join the Primary Education team working on Squla. You'll work in a small multidisciplinary team where product, design, engineering, education and marketing shape solutions together and share responsibility for the results, not just the roadmap. We work in short cycles: six weeks of focused execution, then a week to reflect, learn and replan.
+We're rethinking how we build software around AI. Coding agents are taking on a growing share of the implementation work, and we're looking for engineers who already work that way personally and want to help push the team further. You're a backend developer at heart, but you won't stop at the backend: as agents remove friction, picking up frontend, data or deployment work becomes the normal way to keep the team moving.
+🌟 Your role and impact
+Turn product ideas into production-ready solutions, working from goals and context rather than waiting for detailed specifications
+Use AI tooling as your default way of working: delegate well-scoped implementation to coding agents, run explorations in parallel, and review the output with strong engineering judgment
+Work across the stack where it avoids handoffs: backend first, frontend, data and infrastructure when needed
+Ensure scalability, security and maintainability across our services
+Shape solutions early together with product, design and education colleagues
+Take ownership of team results: follow whether the things you ship actually improve learning and business outcomes, and iterate when they don't
+Contribute to architectural discussions and help improve how we use AI in our engineering practice
+Our stack is:
+Python back-end
+Reac
