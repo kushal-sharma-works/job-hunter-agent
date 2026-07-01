@@ -55,61 +55,6 @@ Cookie Policy
 .
 Save
 Report this job
-Use AI to assess how you fit
-Get AI-powered advice on this job and more exclusive features.
-Am I a good fit for this job?
-Tailor my resume
-Sign in to access AI-powered advices
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Sign in to evaluate your skills
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Sign in to tailor your resume
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
 P-1320
 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Founded by engineers — and customer obsessed — we leap at every opportunity to solve technical challenges, from designing next-gen UI/UX for interfacing with data to scaling our services and infrastructure across millions of virtual machines. And we're only getting started.
 Unlike traditional enterprise software, we design and build modern SaaS products that bring delight to all of the stakeholders: decision makers, admins, and end users. As a full stack software engineer, you will work closely with your team and product management to bring that delight through great user experience.
@@ -133,4 +78,8 @@ Good knowledge of SQL
 Experience with cloud technologies, e.g. AWS, Azure, GCP, Docker, Kubernetes
 Experience in architecting, developing, deploying, and operating large scale distributed systems
 About Databricks
-D
+Databricks is the data and AI company. More than 10,000 organizations worldwide — including Comcast, Condé Nast, Grammarly, and over 50% of the Fortune 500 — rely on the Databricks Data Intelligence Platform to unify and democratize data, analytics and AI. Databricks is headquartered in San Francisco, with offices around the globe and was founded by the original creators of Lakehouse, Apache Spark™, Delta Lake and MLflow. To learn more, follow Databricks on Twitter, LinkedIn and Facebook.
+Benefits
+At Databricks, we strive to provide comprehensive benefits and perks that meet the needs of all of our employees. For specific details on the benefits offered in your region click here.
+Our Commitment to Diversity and Inclusion
+At Databricks, we are committed to fostering a diverse and inclusive culture where everyone can excel. We take great care to ensure that our hiring practices are inclusive
