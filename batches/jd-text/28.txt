@@ -1,14 +1,14 @@
-Albert Heijn hiring Backend Engineer (Kotlin, Kafka, AI/LLM systems) in Zaandam, North Holland, Netherlands | LinkedIn
+JetBrains hiring Backend Customer Success Engineer (Kotlin Ecosystem) in Amsterdam, North Holland, Netherlands | LinkedIn
 Skip to main content
-Backend Engineer (Kotlin, Kafka, AI/LLM systems)
-Albert Heijn
-Zaandam, North Holland, Netherlands
+Backend Customer Success Engineer (Kotlin Ecosystem)
+JetBrains
+Amsterdam, North Holland, Netherlands
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Backend Engineer (Kotlin, Kafka, AI/LLM systems)
+Backend Customer Success Engineer (Kotlin Ecosystem)
 role at
-Albert Heijn
+JetBrains
 Email or phone
 Password
 Show
@@ -25,18 +25,18 @@ Privacy Policy
 , and
 Cookie Policy
 .
-Backend Engineer (Kotlin, Kafka, AI/LLM systems)
-Albert Heijn
-Zaandam, North Holland, Netherlands
-1 week ago
-68 applicants
-See who Albert Heijn has hired for this role
+Backend Customer Success Engineer (Kotlin Ecosystem)
+JetBrains
+Amsterdam, North Holland, Netherlands
+2 weeks ago
+45 applicants
+See who JetBrains has hired for this role
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Backend Engineer (Kotlin, Kafka, AI/LLM systems)
+Backend Customer Success Engineer (Kotlin Ecosystem)
 role at
-Albert Heijn
+JetBrains
 Email or phone
 Password
 Show
@@ -55,75 +55,44 @@ Cookie Policy
 .
 Save
 Report this job
-Use AI to assess how you fit
-Get AI-powered advice on this job and more exclusive features.
-Am I a good fit for this job?
-Tailor my resume
-Sign in to access AI-powered advices
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Sign in to evaluate your skills
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Sign in to tailor your resume
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Op het hoofdkantoor
-Bij Albert Heijn werken is niet zomaar een baan. Het is werk met betekenis. Je werkt in een informele cultuur samen met een bevlogen team dat graag voorop wil blijven lopen en verschil wil maken. Met jouw unieke talent maak je impact op het leven van al onze klanten. Je leert van experts in hun vakgebied en we helpen je jouw loopbaan vorm te geven. Je kunt bij ons flexibel werken, zowel vanuit huis als op ons hoofdkantoor in Zaandam. Een baan bij Albert Heijn is niet alleen een baan voor nu, maar ook voor later
-Wat betekent dit voor jou?
-Werken bij Albert Heijn is niet zomaar een baan. Het is werk met betekenis. Je werkt in een informele cultuur samen met een bevlogen team dat graag voorop wil blijven lopen en verschil wil maken. Met jouw unieke talent maak je impact op het leven van al onze klanten. Je leert van experts in hun vakgebied en we helpen je jouw loopbaan vorm te geven. Je kunt bij ons flexibel werken, zowel vanuit huis als op ons hoofdkantoor in Zaandam.
-Wat betekent dit voor jou?
-We zoeken naar een proactieve en gemotiveerde Medior Backend Engineer die ons customer service team bij Albert Heijn komt versterken.
-Je sluit aan bij een samenwerkend team dat zich richt op het bouwen van de volgende generatie digitale ervaringen bij Albert Heijn. Samen werk je aan innovatieve oplossingen, waaronder onze AI-gestuurde customer service chatbot 'Digital Assistant', die dagelijks miljoenen klanten bedient. Jouw team is verantwoordelijk voor de backend-systemen die kritieke klantcontactpunten mogelijk maken—van onze customer service pagina's tot onze winkelzoeker—en zorgt voor naadloze ervaringen op alle platforms. Je neemt eigenaarschap van echte productiesystemen die rechtstreeks van invloed zijn op hoe onze klanten dagelijks met Albert Heijn omgaan.
-Zo zul je de voedselretail opnieuw uitvinden
-Backend services en APIs ontwerpen en bouwen die customer-facing experiences mogelijk maken
-Systemen achter onze AI-gestuurde customer service chatbot ontwikkelen en onderhouden
-Nieuwe mogelijkheden integreren in bestaande AH-systemen en betrouwbare datastromen garanderen
-Eigenaarschap nemen van ontwerp tot implementatie en doorlopende operatie
-Samenwerken met Product Owners, engineers en stakeholders om ideeën in werkende oplossingen om te zetten
-Ervoor zorgen dat systemen schaalbaar, betrouwbaar en onderhoudbaar zijn in een complexe retailomgeving
-Jouw nieuwe team en kantoor
-Je sluit aan bij een team dat zich richt op het bouwen van de backend-fundamenten achter Albert Heijn's customer experience platforms. We zetten ideeën om in productie-klare systemen die op schaal werken, ontwerpen APIs en integreren met bestaande AH-systemen om betrouwbare datastromen in ons retaillandschap te garanderen.
-Samen met je team van Backend en Frontend Developers en andere specialisten werk je aan inspirerende projecten die onze transitie naar een hybride Food & Tech bedrijf versnellen. We willen data en te
+At JetBrains, code is our passion. Ever since we started, back in 2000, we have strived to make the strongest, most effective developer tools on earth. By automating routine checks and corrections, our tools speed up production, freeing developers to grow, discover, and create.
+We’re now looking for a Customer Success Engineer (CSE) to help engineering teams successfully adopt Kotlin on the backend in real-world production environments.
+Currently, this role is focused on adoption – helping Java teams introduce Kotlin into existing applications. You’ll work directly with organizations to guide migration, integration, troubleshooting, and scaling, ensuring they move from initial experiments to successful production use.
+In addition, you’ll proactively communicate with prospective users to help them understand the Kotlin adoption process, as well as design and implement the migration path.
+Responsibilities
+Track and maintain visibility into organizations and their stage of Kotlin adoption (e.g., not started, evaluating, experimenting, production)
+Proactively engage with organizations across different phases of their Kotlin adoption journey
+Develop and recommend high-level adoption strategies tailored to each organization’s context
+Identify and document blockers that hinder progress and propose ways to address them
+Establish and manage feedback loops with development teams to ensure continuous alignment and improvement
+We will be happy to have you on our team if you have:
+Technical expertise
+Extensive hands-on experience with Kotlin, Java, and the JVM ecosystem
+Proven experience migrating Java backend codebases to Kotlin
+Experience with the Spring (Boot) ecosystem or similar frameworks (e.g., Quarkus, Micronaut, Ktor)
+Solid understanding of build tools and project structuring, including Maven and Gradle
+Communication and customer engagement
+Experience in customer-facing technical roles such as Solutions Engineering, Developer Advocacy, or Technical Consulting
+Strong English communication skills, both written and spoken
+Ability to lead workshops, demos, talks, meetups, and other public-facing activities
+Comfort with outbound engagement, including identifying target companies, articulating value propositions, and building relationships with engineering teams
+Ability to effectively communicate with engineers, tech leads, and business stakeholders
+System design and architecture
+Ability to design and guide Kotlin adoption strategies for backend applications
+Experience designing backend systems using common architectural patterns (e.g., monolith, modulith, microservices)
+Why join JetBrains?
+Strong base salary. We offer competitive pay that reflects your skills and experience.
+Flexible work location. Enjoy the freedom to work from home or from the office.
+Remote work. Spend up to 30 days per year working remotely from abroad.
+Extra time off. More days to relax, recharge, and do the things you love.
+Medical insurance allowance. Enjoy peace of mind for you and your family
+Learning and development opportunities. Access to conferences, courses, and language classes.
+Relocation support. We help make your move as smooth and stress-free as possible.
+Language classes. Pick up the local language or sharpen your English skills.
+Fuel your day. Enjoy a hot meal or receive a lunch allowance on workdays.
+Mental health support. To help you feel your best, we provide easy access to professional mental health services.
+Sports benefit. Enjoy an on-site gym or sports club stipend.
+Internal events. Join company-wide celebrations and team gatherings.
+Some benefits may vary depending on location.
+We are an equal opportunity employer
+We know great ideas can come from anyone, anywhere. That’s why we do our best to create an open and inclusive workplace – one that welcomes everyone regardless of their background, i
