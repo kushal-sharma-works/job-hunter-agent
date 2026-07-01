@@ -1,0 +1,130 @@
+Philips hiring Software Developer Azurion Eye in Best, North Brabant, Netherlands | LinkedIn
+Skip to main content
+Software Developer Azurion Eye
+Philips
+Best, North Brabant, Netherlands
+Apply
+Join or sign in to find your next job
+Join to apply for the
+Software Developer Azurion Eye
+role at
+Philips
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Software Developer Azurion Eye
+Philips
+Best, North Brabant, Netherlands
+1 week ago
+83 applicants
+See who Philips has hired for this role
+Apply
+Join or sign in to find your next job
+Join to apply for the
+Software Developer Azurion Eye
+role at
+Philips
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Save
+Report this job
+Use AI to assess how you fit
+Get AI-powered advice on this job and more exclusive features.
+Am I a good fit for this job?
+Tailor my resume
+Sign in to access AI-powered advices
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Sign in to evaluate your skills
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Sign in to tailor your resume
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Job Title
+Software Developer Azurion Eye
+Job Description
+Software Developer Azurion Eye
+In this role, you will have the opportunity to join the leading innovator in image-guided therapy solutions as Software Development Engineer for the Azurion Eye solution—an integrated, AI-enabled software platform. You will be responsible for product development for a portfolio of microservice‑first applications that power our Lab Orchestrator, a component that converts AI-based observations into workflow automation. You will develop event-driven backend services that operate with low latency, high reliability, and clear traceability in a regulated environment.
+Your Role
+You will design and develop backend services for the Lab Orchestrator using Go, building deterministic orchestration services that integrate with our edge-native platform.
+You will implement workflow orchestration capabilities including event ingestion, state handling, rule evaluation, suppression logic, prioritization, and idempotent action emission.
+You will integrate with event-driven interfaces and contracts such as NATS JetStream, AsyncAPI-described subjects, and OpenAPI-defined ingress/control APIs, as well as platform adapters and related components.
+You will build services that are safe for low-latency, event-driven operation targeting an edge platform, and you will develop observability capabilities such as structured logging, metrics, traces, and operational diagnostics.
+You will implement automated tests and contribute to CI/CD support to enable safe and frequent backend changes, while analyzing and resolving issues related to event ordering, latency bottlenecks, state consistency, connector behavior, ingestion failures, schema drifts, and runtime reliability.
+You will be part of the Image Guided Therapy Systems business unit with development sites in the Netherlands, China and India, and you will join the global R&D department collaborating with product managers, architects, system engineers, clinical experts, Data & AI Engineers, and Software Test Engineers to define and deliver workflow behavior that matches product and clinical intent. You will participate in code reviews and drive continuous improvement of engineering practices, quality standards, and maintainability.
+You're The Right Fit If
+You have a Bachelor’s / Master’s Degree in Computer Science, Software Engineering, Information Technology or equivalent.
+You have minimum 2 years of experience in Software Development, Software Design & Architecture, Testing and Quality Assurance (or equivalent), including requirement analysis, development, integration, enhancement, maintenance, testing, and problem diagnosis/resolution.
+You are proficient in Golang and Python, and you can analyze and solve complex problems with a strong desire to learn and adapt to new technologies and challenges.
+You have experience with event-driven systems and messaging technologies such as NATS and/or Kafka, and you are interested in contract-first event design (e.g., AsyncAPI).
+You have a strong understanding of RESTful API design and i
