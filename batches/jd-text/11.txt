@@ -1,14 +1,14 @@
-Energie Data Services Nederland (EDSN) B.V. hiring Java developer (medior) in Amersfoort, Utrecht, Netherlands | LinkedIn
+NN Group hiring Java Developer bij BeFrank in Amsterdam, North Holland, Netherlands | LinkedIn
 Skip to main content
-Java developer (medior)
-Energie Data Services Nederland (EDSN) B.V.
-Amersfoort, Utrecht, Netherlands
+Java Developer bij BeFrank
+NN Group
+Amsterdam, North Holland, Netherlands
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Java developer (medior)
+Java Developer bij BeFrank
 role at
-Energie Data Services Nederland (EDSN) B.V.
+NN Group
 Email or phone
 Password
 Show
@@ -25,18 +25,18 @@ Privacy Policy
 , and
 Cookie Policy
 .
-Java developer (medior)
-Energie Data Services Nederland (EDSN) B.V.
-Amersfoort, Utrecht, Netherlands
-4 days ago
-180 applicants
-See who Energie Data Services Nederland (EDSN) B.V. has hired for this role
+Java Developer bij BeFrank
+NN Group
+Amsterdam, North Holland, Netherlands
+1 day ago
+Be among the first 25 applicants
+See who NN Group has hired for this role
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Java developer (medior)
+Java Developer bij BeFrank
 role at
-Energie Data Services Nederland (EDSN) B.V.
+NN Group
 Email or phone
 Password
 Show
@@ -55,39 +55,41 @@ Cookie Policy
 .
 Save
 Report this job
-Direct message the job poster from Energie Data Services Nederland (EDSN) B.V.
-Ash(enafi) Kogelman
-Ash(enafi) Kogelman
-Recruitment business partner
-Energiemarkt | 32-40 uur | Amersfoort / Hybride | v/m/x | €43.000-€70.000 inclusief 8% vakantiegeld + mobiliteitsbudget of leaseauto.
-Als Java developer bouw jij aan innovatieve software die de energietransitie vooruitbrengt
-Bij EDSN draag jij bij aan de verduurzaming van Nederland. Elke dag. Samen met onze partners in de energiesector. Cloudtechnologie speelt een steeds grotere rol in onze ontwikkeling. Zo ook voor onze development teams. Met jouw digitale skills en verbindende kracht speel jij een grote rol om dit te realiseren.
-Zo werk jij als Java Developer vol energie
-Je ontwikkelt zelfstandig complexe backend-systemen binnen een microservices-architectuur. Je draagt bij aan de optimalisatie van CI/CD-processen door middel van automatisering en monitoring. Je werkt samen met teamleden aan strategische keuzes en lost technische uitdagingen op. Daarnaast deel je actief kennis via code-reviews, documentatie en interne trainingen. Je begeleidt junior collega’s en helpt hen groeien in hun rol. Je komt te werken in één van onze multidisciplinaire teams. Hoe die teams eruit zien lees je hier .
-Hier krijg jij als Java Developer energie van
-Je krijgt energie van het ontwikkelen van backend-functionaliteiten binnen een moderne Java-stack.
-Je vindt het leuk om CI/CD-processen te optimaliseren en automatisering naar een hoger niveau te tillen.
-Je hebt interesse in het adviseren over schaalbare en toekomstbestendige technische oplossingen.
-Je bent een developer die blij wordt van samenwerken aan strategische keuzes en het oplossen van complexe technische uitdagingen.
-Je krijgt energie van het delen van kennis en het begeleiden van junior collega’s binnen een open ontwikkelcultuur.
-Je vindt het belangrijk om te werken in een dynamische, datagedreven organisatie waar technologie centraal staat.
-Onze energiedrijvers
-Bruto maandsalaris tussen €3.580 en €5.450
-6 weken vakantie per jaar
-80% werkgeversbijdrage in je pensioen
-Hybride werken: vanuit huis en ons moderne kantoor in Amersfoort
-Reiskostenvergoeding, NS Businesscard, leaseauto of mobiliteitsbudget
-Veel ruimte voor persoonlijke en professionele ontwikkeling
-Dit breng jij mee
-Een afgeronde hbo- of wo-opleiding in een relevant vakgebied of aantoonbare werkervaring
-3-6 jaar ervaring in software ontwikkeling binnen complexe omgevingen
-Uitgebreide kennis van Spring Boot, CI/CD-tools en API-ontwikkeling
-vaardigheden om zelfstandig problemen op te lossen en verbeteringen door te voeren
-Bereidheid om junior collega’s te begeleiden en coachen
-Een goede beheersing van de Nederlandse taal
-Maak kennis met je team
-Je werkt binnen één van onze DevOps-teams, elk verantwoordelijk voor een specifiek domein binnen de energiemarkt. Samen zorgen jullie ervoor dat onze applicaties veilig, stabiel en schaalbaar draaien. De sfeer is informeel, professioneel en gedreven: we hebben een gezamenlijke missie en helpen elkaar om steeds beter te worden.
-Ben jij die Java developer die ook wil werken vol energie?
-Reageer dan eenvoudig via de solliciteerknop! We verwelkomen je graag op korte termijn bij EDSN. Heb je inhoudelijke vragen over de functie? Neem gerust contact met ons op. Of ken je iemand voor wie deze vacature op het lijf is geschreven? Tip hem of haar dan.
-Over EDSN
-Energie Data Services Nederland (EDSN) ontwikkelt voor alle regionale en landelijke netbeheerders een betrouwbare en innovatieve ICT-infrastructuur. We specialiseren ons in het verzamelen en bereikbaar maken van gebruiksdata, die andere marktpartijen weer kunnen gebruiken voor het ontwikkelen van nieuwe diensten. Met die datadiensten geven we de energietransitie en daarmee ook de verduurzaming van Nederl
+BeFrank zoekt een Java Developer!
+Wil jij werken bij een innovatief bedrijf dat constant voorop wil blijven lopen in de markt? Binnen een hecht team met collega’s die net zo vakkundig en gedreven zijn als jij? En denk je graag zelf mee over de features die je gaat ontwikkelen? Dan is de rol van full stack Java Developer bij BeFrank jou op het lijf geschreven.
+Please note: since BeFrank is a
+Dutch
+pension company, all our internal and external communication is in
+Dutch. It is therefore a strict requirement for applicants to speak and write fluent
+Dutch
+in order to qualify for a position at BeFrank.
+Jouw impact als Java Developer
+Als Java Developer bij BeFrank ontwikkel en verbeter je nieuwe componenten voor de portalen en het zelfgebouwde pensioenadministratiesysteem van BeFrank. Het innoveren en optimaliseren van onze systemen valt onder jouw werkzaamheden. Door een pragmatische houding en de grote mate van vrijheid die je krijgt, worden de juiste verbeteringen vaak binnen no time gevonden door het team. We werken op basis van Scrum en gaan meerdere keren per week naar productie. Jouw werk heeft direct impact op zowel onze klanten als op je BeFrank collega’s. Een grote verantwoordelijkheid dus, waarbij wat jij bouwt echt het verschil maakt. Geen vraag is te gek en je input wordt écht gewaardeerd. Dat maakt software development bij BeFrank zo leuk!
+Technische achtergrond
+Onze applicaties zijn gebaseerd op een microservice architectuur en draaien als containers in Azure op een Kubernetes cluster. Er worden zowel synchrone als asynchrone communicatiepatronen gebruikt. We volgen een GitOps strategie en gebruiken daarvoor tools zoals ArgoCD.
+Met wie je werkt
+Bij BeFrank werken zo’n 130 mensen waarvan meer dan 50 in het IT-team. De Java Developers zijn verdeeld over vier DevOps teams die verder bestaan uit een Product Owner en een Business Analist. Je werkt nauw samen binnen je DevOps team, met proceseigenaren en natuurlijk met de business. Jouw mede Developers zijn kundige en behulpzame collega’s, je kunt veel van ze leren (en zij van jou!). We zijn trots op onze informele werksfeer waarin we goed samenwerken en veel vooruitgang boeken.
+Wat je gaat doen
+Implementeren van innovatieve en uitdagende oplossingen, dit doe je in afstemming met de (interne) gebruikers en business analisten;
+Verder ontwikkelen van de klantportalen en het pensioenadministratiesysteem van BeFrank, gericht op het verbeteren van onze dienstverlening;
+Het signaleren van verbeteringen op zowel technisch als functioneel gebied;
+Eigenaarschap nemen en het onderhouden van het door jou opgeleverde werk;
+Ontwikkelen, monitoren en onderhouden van integraties in het binnen en buiten landschap (API’s);
+Zorg dragen voor het gehele ontwikkelproces: van het verfijnen van requirements tot test en opleveren van de software;
+Meedoen aan Hackathons (4x per jaar), Tech Tuesday en onze Software Guild!
+Wat je meebrengt
+Je hebt hbo- of wo-werk- en -denkniveau en minimaal 3 jaar ervaring als full stack Java Developer. Je beheerst de Nederlandse taal voldoende zodat jij je kan redden in een werkomgeving waar iedereen Nederlands spreekt en schrijft. Je bent een echte full stack ontwikkelaar. Secure coding is belangrijk voor onze dienstverlening en daar ben jij je van bewust. Je hebt affiniteit met onze cloud infrastructuur (Azure, Docker en Kubernetes). Ook heb je ervaring met het werken in DevOps teams en met Scrum. Je bent een fijne collega die in staat is de visie van BeFrank ter vertalen in techniek. We zoeken een Developer met een persoonlijke drive om zich verder te ontwikkelen en op de juiste momenten eigenaarschap toont.
+Daarnaast heb je vakinhoudelijke kennis van (de meeste van) onderstaande talen, tooling en frameworks:
+Java 17/21
+JUnit, Mockito, Testcontainers, Cucumber, Jasmine, Playwright
+JPA (Hibernate)
+MSSQL
+REST API’s
+Microservices
+Kafka
+Spring Boot
+ArgoCD, Helm en Kubernetes
+Angular 16+
+HTML5/CSS3
+Arbeidsvoorwaarden die bij jou passen
+B
