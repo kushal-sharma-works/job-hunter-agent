@@ -1,0 +1,280 @@
+European Software Engineer Compensation Report 2026 | Euro Top Tech
+Skip to content
+Updated July 2026
+European Software Engineer Compensation Report 2026
+What software engineers across Europe report earning and keeping, by seniority, by country, and after tax.
+A senior engineer in Europe reports a median
+€87k
+, ranging from
+€60k
+in
+Hungary
+to
+€140k
+in
+Switzerland
+. Pay roughly doubles from entry (
+€45k
+) to staff (
+€115k
+). Take-home
+flips
+the ranking though: a senior in
+Romania
+keeps about
+€35k
+a year, as much as one in
+Switzerland
+, because tax and living costs matter as much as the headline pay. Around
+30
+% of
+1,244
+reporting engineers clear €100k, all from real self-reports.
+Methodology & what these numbers are
+The pay and savings figures come from
+1,244
+engineers across Europe who self-reported their compensation, savings, and seniority through the EuroTopTech
+community data project
+. They are
+medians
+, not means, split by seniority.
+A second view uses
+13,305
+curated top-tier listings from our job board, to show where such a career pays off and how many of those roles are open right now (which can increase your odds of landing one). Its “savings” axis is
+modeled
+take-home after income tax and cost of living, so read it for the pattern, not the exact euro. Numbers refresh hourly.
+Updated
+July 2026
+.
+These are two different populations, real self-reports and curated openings, answering different questions, so we never blend them into one number.
+What engineers earn, by seniority
+Self-reported total compensation from the EuroTopTech community, split by level. Median pay climbs
+about 2.6×
+from
+€45k
+at entry to
+€115k
+at staff, and savings climb with it. Each bar is the median; the whisker shows the 25th to 75th percentile, so you can see the spread, not just the midpoint.
+Median reported total comp by level (Europe-wide community self-reports). Whisker shows the 25th to 75th percentile. Source: EuroTopTech community data · eurotoptech.com/compensation-report
+Level
+Reports
+Median pay
+Pay 25th–75th
+Median saved / yr
+Saved 25th–75th
+Entry
+167
+€45,000
+€30k
+–
+€69k
+€12,000
+€6k
+–
+€18k
+Mid
+414
+€61,000
+€43k
+–
+€85k
+€14,000
+€7k
+–
+€24k
+Senior
+501
+€87,000
+€68k
+–
+€114k
+€20,000
+€10k
+–
+€35k
+Staff
+122
+€115,000
+€89k
+–
+€168k
+€30,000
+€15k
+–
+€50k
+The top-tier premium:
+senior
+openings
+on the jobs board advertise a median
+€165k
+, about
+1.9
+× the
+€87k
+a typical senior reports. The board shows the ceiling; the community shows the market.
+What a senior engineer makes, by country
+The same reports, held at the senior level so countries compare like for like. Median pay ranges from
+€60k
+in
+Hungary
+to
+€140k
+in
+Switzerland
+, but take-home
+flips
+it: a senior in
+Romania
+keeps about
+€35k
+a year, as much as one in
+Switzerland
+on roughly half the pay. Only countries with 15 or more senior reports are shown.
+Median reported total comp for senior engineers, by country. Whisker shows the 25th to 75th percentile. Source: EuroTopTech community data · eurotoptech.com/compensation-report
+Country
+Reports
+Median pay
+Pay 25th–75th
+Median saved / yr
+Saved 25th–75th
+Switzerland
+24
+€140,000
+€118k
+–
+€160k
+€32,000
+€21k
+–
+€51k
+United Kingdom
+23
+€127,000
+€92k
+–
+€228k
+€27,000
+€15k
+–
+€49k
+Netherlands
+23
+€104,000
+€91k
+–
+€163k
+€22,000
+€15k
+–
+€45k
+Romania
+24
+€98,100
+€87k
+–
+€137k
+€35,000
+€15k
+–
+€70k
+Poland
+42
+€97,500
+€73k
+–
+€124k
+€30,500
+€23k
+–
+€46k
+Lithuania
+15
+€97,000
+€77k
+–
+€140k
+€30,000
+€24k
+–
+€66k
+Germany
+76
+€93,500
+€80k
+–
+€115k
+€20,000
+€12k
+–
+€25k
+Spain
+51
+€70,000
+€56k
+–
+€90k
+€20,000
+€12k
+–
+€32k
+Portugal
+27
+€60,000
+€47k
+–
+€77k
+€10,000
+€4k
+–
+€15k
+Italy
+35
+€60,000
+€47k
+–
+€77k
+€10,000
+€5k
+–
+€20k
+Hungary
+23
+€60,000
+€44k
+–
+€73k
+€20,000
+€7k
+–
+€26k
+Where a top-tier career pays off, and whether you can get in
+Now the top tier specifically: the high-paying on-site and hybrid roles on our job board (big tech, trading and HFT firms, well-funded scale-ups), across all seniority levels. For these curated openings, this plots what you'd
+keep
+(modeled take-home, after tax and cost of living) against how many are open right now. The biggest take-home often sits on the scarcest roles, so read the shape, not the exact euro.
+Arbitrage winner
+Poland
+·
+€45k
+/yr
+kept on a
+€104k
+median package
+Higher tax, less kept
+Sweden
+·
+€11k
+/yr
+kept on a higher
+€98k
+median package
+4.1
+×
+more saved despite lower headline pay
+What you keep vs. how gettable the job is
+Up = you keep more. Right = more of these roles are open, so you're likelier to land one. Top-right is the sweet spot; top-left is a lottery (great pay, almost no openings); the bottom is low take-home regardless.
+Big tech, HFT & high-pay scale-ups: savings × job availability
+On-site & hybrid roles only, all seniority levels. Not remote (where you could earn this pay but live somewhere cheaper, like Poland or Serbia, and keep more).
+Worth it & gettable
+High keep, but scarce (lottery)
+Low take-home
+Y = modeled €/yr kept (comfortable lifestyle, after tax + cost-of-living). X = open curated roles (log scale). Dashed lines = medians. So
