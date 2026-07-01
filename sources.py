@@ -579,6 +579,7 @@ def linkedin_jobs_source(keywords: List[str], config: dict) -> List[Job]:
                 company=company,
                 location="Netherlands",
                 source="linkedin_jobs",
+                description=item.get("snippet", ""),
             ))
         time.sleep(0.3)
 

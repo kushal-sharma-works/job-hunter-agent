@@ -49,10 +49,13 @@ def write_batch_tsv(jobs: List[Job], config: dict) -> Path:
                 note += f" | {job.salary_hint}"
             writer.writerow([i, job.url, job.source, note])
 
-            # LinkedIn posts fail WebFetch behind LinkedIn's login wall — write
-            # the snippet captured at scrape time so career-ops's batch-runner
-            # can use it directly instead of trying (and failing) to fetch the URL.
-            if job.source == "linkedin_posts" and getattr(job, "description", None):
+            # gemini-eval.mjs (career-ops's Gemini path) cannot fetch URLs —
+            # it only evaluates pre-supplied text. Write whatever description
+            # text we already scraped so it has something to evaluate. Sources
+            # that don't populate job.description yet (greenhouse, ashby,
+            # wellfound, undutchables, gmail, linkedin_jobs_source) will have
+            # no jd-text file and get skipped by the Gemini batch runner.
+            if getattr(job, "description", None):
                 jd_dir = batch_dir / "jd-text"
                 jd_dir.mkdir(parents=True, exist_ok=True)
                 (jd_dir / f"{i}.txt").write_text(job.description, encoding="utf-8")
@@ -67,8 +70,9 @@ def write_batch_tsv(jobs: List[Job], config: dict) -> Path:
 
 def push_batch_to_github(batch_path: Path, config: dict) -> bool:
     """
-    Push the batch TSV to the job-hunter-agent GitHub repo using the GitHub
-    Contents API. Requires GITHUB_PAT environment variable with repo write access.
+    Push the batch TSV (and any jd-text/ files) to the job-hunter-agent
+    GitHub repo using the GitHub Contents API.
+    Requires GH_PAT environment variable with repo write access.
     """
     token = os.environ.get("GH_PAT", "")
     if not token:
@@ -76,41 +80,46 @@ def push_batch_to_github(batch_path: Path, config: dict) -> bool:
         return False
 
     repo = config["outputs"]["career_ops_repo"]
-    batch_dir = config["outputs"].get("batch_dir", "batches")
-    remote_path = f"{batch_dir}/{batch_path.name}"
-    api_url = f"https://api.github.com/repos/{repo}/contents/{remote_path}"
-
+    batch_dir_name = config["outputs"].get("batch_dir", "batches")
     headers = {
         "Authorization": f"token {token}",
         "Accept": "application/vnd.github.v3+json",
     }
 
-    content_b64 = b64encode(batch_path.read_bytes()).decode()
+    def _push_file(local_path: Path, remote_path: str) -> bool:
+        api_url = f"https://api.github.com/repos/{repo}/contents/{remote_path}"
+        content_b64 = b64encode(local_path.read_bytes()).decode()
+        sha = None
+        try:
+            r = requests.get(api_url, headers=headers, timeout=15)
+            if r.status_code == 200:
+                sha = r.json().get("sha")
+        except Exception:
+            pass
+        payload = {"message": f"chore: add job batch {TODAY}", "content": content_b64}
+        if sha:
+            payload["sha"] = sha
+        try:
+            r = requests.put(api_url, headers=headers, json=payload, timeout=30)
+            r.raise_for_status()
+            return True
+        except Exception as e:
+            logger.error(f"GitHub push failed for {remote_path}: {e}")
+            return False
 
-    # Check if file already exists (needed to get sha for update)
-    sha = None
-    try:
-        r = requests.get(api_url, headers=headers, timeout=15)
-        if r.status_code == 200:
-            sha = r.json().get("sha")
-    except Exception:
-        pass
+    # Push the TSV
+    ok = _push_file(batch_path, f"{batch_dir_name}/{batch_path.name}")
+    if ok:
+        logger.info(f"GitHub push: {batch_path.name} → {repo} ✓")
 
-    payload = {
-        "message": f"chore: add job batch {TODAY}",
-        "content": content_b64,
-    }
-    if sha:
-        payload["sha"] = sha
+    # Push jd-text/ files so the sync script can pull them locally
+    jd_dir = batch_path.parent / "jd-text"
+    if jd_dir.exists():
+        for txt_file in sorted(jd_dir.glob("*.txt")):
+            _push_file(txt_file, f"{batch_dir_name}/jd-text/{txt_file.name}")
+        logger.info(f"GitHub push: jd-text/ ({len(list(jd_dir.glob('*.txt')))} files) → {repo} ✓")
 
-    try:
-        r = requests.put(api_url, headers=headers, json=payload, timeout=30)
-        r.raise_for_status()
-        logger.info(f"GitHub push: {remote_path} → {repo} ✓")
-        return True
-    except Exception as e:
-        logger.error(f"GitHub push failed: {e}")
-        return False
+    return ok
 
 
 # ─────────────────────────────────────────────────────────────────────────────
