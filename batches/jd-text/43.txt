@@ -1,14 +1,14 @@
-Adswag hiring Front-end Developer in Amsterdam, North Holland, Netherlands | LinkedIn
+Valk Service Center hiring Full-stack Developer in Breukelen, Utrecht, Netherlands | LinkedIn
 Skip to main content
-Front-end Developer
-Adswag
-Amsterdam, North Holland, Netherlands
+Full-stack Developer
+Valk Service Center
+Breukelen, Utrecht, Netherlands
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Front-end Developer
+Full-stack Developer
 role at
-Adswag
+Valk Service Center
 Email or phone
 Password
 Show
@@ -25,18 +25,18 @@ Privacy Policy
 , and
 Cookie Policy
 .
-Front-end Developer
-Adswag
-Amsterdam, North Holland, Netherlands
-4 days ago
-61 applicants
-See who Adswag has hired for this role
+Full-stack Developer
+Valk Service Center
+Breukelen, Utrecht, Netherlands
+5 days ago
+Be among the first 25 applicants
+See who Valk Service Center has hired for this role
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Front-end Developer
+Full-stack Developer
 role at
-Adswag
+Valk Service Center
 Email or phone
 Password
 Show
@@ -55,48 +55,11 @@ Cookie Policy
 .
 Save
 Report this job
-Vacature: Front-end Developer (React, NextJS)
-Ben jij een Front-end Developer die meer zoekt dan alleen code schrijven? Bij Adswag krijg je de kans om niet alleen mooie interfaces te bouwen, maar ook actief mee te denken over slimme oplossingen. We zoeken iemand die energie haalt uit samenwerken in een gezellig team, maar ook graag de ruimte krijgt om zelfstandig beslissingen te nemen en impact te maken.
-Klinkt als jouw ding? Lees snel verder!
-Wat ga je doen?
-Als Front-end Developer ben jij de spil in het ontwikkelen van onze slimme tools en platformen. Van het bedenken van technische oplossingen tot het bouwen van schaalbare systemen: jij zorgt ervoor dat onze producten er niet alleen strak uitzien, maar ook soepel draaien. Samen met je collega’s zet je ideeën om in concrete resultaten die écht werken.
-Jouw Verantwoordelijkheden
-Bouwen van dynamische en responsive front-end toepassingen die gebruikers blij maken.
-Meedenken over technische keuzes en architectuur – jouw input telt echt!
-Werken met talen zoals JavaScript, TypeScript, en HTML/CSS, en frameworks zoals React en NextJS.
-Samen met designers en back-end developers toffe ideeën uitwerken en tot leven brengen.
-Verbeteren en optimaliseren van bestaande functionaliteiten en workflows, want goed kan altijd beter.
-Wie ben jij?
-Je hebt minimaal 2 jaar ervaring als Front-end Developer.
-Frameworks zoals React en NextJS zijn je niet vreemd, en je hebt een goede basis in JavaScript, TypeScript, HTML, en CSS.
-Je houdt ervan om samen te werken, maar kunt ook zelfstandig knopen doorhakken.
-Je bent creatief in het vinden van oplossingen en houdt van een uitdaging.
-Analytisch en hands-on: je denkt goed na, maar steekt ook graag de handen uit de mouwen.
-Wat krijg je van ons?
-Een uitdagende rol (32-40 uur) waarin je veel verantwoordelijkheid én vrijheid krijgt.
-Een plek in een jong en enthousiast team dat houdt van doorpakken.
-De kans om met de nieuwste technologieën te werken en snel te groeien.
-Goede arbeidsvoorwaarden, inclusief reiskostenvergoeding en uitzicht op een vast contract.
-Regelmatig leuke teamuitjes en een prachtige werkplek in hartje Amsterdam.
-Over Adswag
-Bij Adswag houden we van slimme oplossingen die écht werken. We bouwen tools en strategieën waarmee publishers, adverteerders en retailers groeien in de digitale advertentiewereld. Geen blabla, maar resultaten waar onze klanten blij van worden – en jij straks ook.
-Interesse?
-Zie jij jezelf al aan de slag bij ons? Stuur dan je CV en een korte motivatie naar jobs@adswag.nl. We kunnen niet wachten om je te ontmoeten!
-Show more
-Show less
-Seniority level
-Entry level
-Employment type
-Full-time
-Job function
-Engineering and Information Technology
-Industries
-Technology, Information and Media
-Referrals increase your chances of interviewing at Adswag by 2x
-See who you know
-Get notified when a new job is posted.
-Set alert
-Sign in to set job alerts for “Frontend Developer” roles.
+Use AI to assess how you fit
+Get AI-powered advice on this job and more exclusive features.
+Am I a good fit for this job?
+Tailor my resume
+Sign in to access AI-powered advices
 Email or phone
 Password
 Show
@@ -113,50 +76,56 @@ Privacy Policy
 , and
 Cookie Policy
 .
-Similar jobs
-Frontend Developer
-Frontend Developer
-Trifork
-Amsterdam, North Holland, Netherlands
-€3,500.00
-            -
-            €5,000.00
-5 hours ago
-Front-end Developer
-Front-end Developer
-Happy Horizon
-Utrecht, Utrecht, Netherlands
-1 month ago
-Front-end Developer
-Front-end Developer
-CIMSOLUTIONS
-Amsterdam Area
-1 day ago
-Frontend Engineer
-Frontend Engineer
-MarvelX AI
-Amsterdam, North Holland, Netherlands
-2 weeks ago
-Frontend Developer
-Frontend Developer
-Capgemini
-Utrecht, Utrecht, Netherlands
-3 weeks ago
-FRONT END DEVELOPER
-FRONT END DEVELOPER
-Eenvoud
-Amsterdam, North Holland, Netherlands
-8 months ago
-Frontend Developer - NL
-Frontend Developer - NL
-Capgemini
-Utrecht, Utrecht, Netherlands
-3 weeks ago
-Frontend Developer
-Frontend Developer
-Intelic
-Amsterdam, North Holland, Netherlands
-1 week ago
-Frontend Developer E-commerce
-Frontend Developer E-commerce
-Postcode Loterij
+Sign in to evaluate your skills
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Sign in to tailor your resume
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Functieomschrijving
+Wil jij bouwen aan de volgende generatie hoteltechnologie? Als Full-stack Developer ontwikkel je slimme applicaties en AI-oplossingen die dagelijks impact maken op de operatie van meer dan 70 Van der Valk hotels.
+Jouw werk
+Wil jij bouwen aan de volgende generatie hoteltechnologie? Als Full-stack Developer ontwikkel je end-to-end applicaties en platformcomponenten die de hoteloperatie slimmer, sneller en meer datagedreven maken. Je werkt in een modern Azure-landschap waarin data, events en AI samenkomen en draagt bij aan innovatieve oplossingen die dagelijks worden gebruikt binnen meer dan 70 Van der Valk hotels.
+Je ontwikkelt applicaties in C# (.NET), TypeScript en Python en bouwt AI-gedreven workflows en agents binnen Azure AI Foundry. Daarnaast ontwikkel je API's en services voor het Valk-platform, integreer je verschillende systemen zoals PMS, RMS en SevenRooms en werk je met event-driven architecturen, onder andere via Azure Event Grid. Zo realiseer je schaalbare oplossingen die processen automatiseren en de samenwerking tussen systemen verbeteren.
+Van slimme applicaties tot AI-oplossingen: dankzij jouw werk maken we de hotelervaring én de operatie iedere dag een stukje slimmer.
+Je werkt nauw samen met product owners, data engineers en hotelteams om nieuwe functionaliteiten te ontwikkelen die aansluiten op de behoeften van onze hotels. Daarbij maak je gebruik van moderne AI-tools, zoals Claude en GitHub Copilot, waarmee je sneller, slimmer en efficiënter kunt ontwikkelen.
+Je team
+Je werkt in een multidisciplinair team met data engineers, data analisten en IT operations. Samen bouwen jullie aan schaalbare oplossingen voor de hoteloperatie. Samen bouwen jullie aan schaalbare applicaties en slimme AI-oplossingen die de hoteloperatie ondersteunen. Binnen het team heerst een informele werksfeer waarin samenwerken, kennis delen en continu verbeteren centraal staan.
+De organisatie
+Werken bij de toekan betekent werken bij de meest gastvrije hotels van Nederland. Een stralende glimlach op de gezichten van onze gasten, daar doen we het voor! Je komt te werken bij het Valk Service Center. Dit is de faciliterende organisatie voor meer dan 70 Van der Valk hotels in het binnen- en buitenland. In verschillende teams zoals marketing, Revenue management en HR ondersteunen we samen onze hotels op de best mogelijke manier. Dit doen we op ons moderne kantoor in het mooie Van der Valk Hotel in Breukelen.
+Vereisten
+Jij
+Jij bent een nieuwsgierige en gedreven developer die energie krijgt van het bouwen aan innovatieve software. Je denkt in oplossingen, werkt graag samen met collega's uit verschillende disciplines en vindt het leuk om nieuwe technologieën, zoals AI, toe te passen in de praktijk. Je neemt initiatief, bent communicatief sterk en blijft jezelf graag ontwikkelen.
+Verder
+e hebt hbo werk- en denkniveau;
+Je hebt minimaal 3 jaar ervaring als Full-stack Developer;
+Je hebt ervaring met C#, Python en TypeScript;
+Je hebt ervaring met moderne frameworks zoals .NET. Ervaring met Node.js, Reac
