@@ -1,14 +1,14 @@
-Nedap hiring Java Developer in Groenlo, Gelderland, Netherlands | LinkedIn
+Energie Data Services Nederland (EDSN) B.V. hiring Java developer (medior) in Amersfoort, Utrecht, Netherlands | LinkedIn
 Skip to main content
-Java Developer
-Nedap
-Groenlo, Gelderland, Netherlands
+Java developer (medior)
+Energie Data Services Nederland (EDSN) B.V.
+Amersfoort, Utrecht, Netherlands
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Java Developer
+Java developer (medior)
 role at
-Nedap
+Energie Data Services Nederland (EDSN) B.V.
 Email or phone
 Password
 Show
@@ -25,18 +25,18 @@ Privacy Policy
 , and
 Cookie Policy
 .
-Java Developer
-Nedap
-Groenlo, Gelderland, Netherlands
-5 days ago
-49 applicants
-See who Nedap has hired for this role
+Java developer (medior)
+Energie Data Services Nederland (EDSN) B.V.
+Amersfoort, Utrecht, Netherlands
+4 days ago
+180 applicants
+See who Energie Data Services Nederland (EDSN) B.V. has hired for this role
 Apply
 Join or sign in to find your next job
 Join to apply for the
-Java Developer
+Java developer (medior)
 role at
-Nedap
+Energie Data Services Nederland (EDSN) B.V.
 Email or phone
 Password
 Show
@@ -55,63 +55,39 @@ Cookie Policy
 .
 Save
 Report this job
-Groenlo, Nederland
-32 - 38 uur
-€ 3.800 - € 5.100
-Wat ga je doen?
-Bij Nedap geloven we dat goede zorg begint bij helderheid, vertrouwen en samenwerking. Voor zorgverleners betekent dat: snel begrijpen wie een cliënt is, wat er nodig is en of zij de juiste zorg kunnen leveren.
-Als
-Java Developer
-binnen Ons® Ketenverkeer werk je niet alleen aan code, maar aan een zorgketen waarin informatie soepel, betrouwbaar en betekenisvol stroomt. Zo help je zorgprofessionals om met vertrouwen keuzes te maken, zodat zij kunnen doen waar zij goed in zijn: zorg verlenen.
-Start je sollicitatie
-Verantwoordelijkheden
-samen met je team ontwerp en ontwikkel je oplossingen die niet alleen goed werken, maar ook stabiel, schaalbaar en onderhoudbaar zijn.
-je werkt zelfstandig, maar zoekt actief de samenwerking op binnen en buiten je team.
-je verdiept je in het zorgdomein en vertaalt inzichten naar verbeteringen die zorgverleners ontlasten.
-je denkt mee over technische keuzes en hun impact op de toekomst van het product en het team.
-je helpt het team duurzame keuzes te maken die het onderhoud voor een klein, autonoom team beheersbaar houden.
-Jouw team
-Als
-Java Developer
-word je onderdeel van een hecht en betrokken team binnen de Integration Tribe. Samen met één ander ontwikkelteam vormen jullie een groep van circa twaalf ontwikkelaars, aangevuld met UX-specialisten en partnermanagers.
-We werken hybride. Op maandag zijn we gezamenlijk op kantoor, de rest van de week bepaal je zelf, in overleg, de balans tussen thuis en kantoor. Onze cultuur is open en collegiaal: we bouwen software die ertoe doet, nemen samen beslissingen en hebben plezier in hoe we werken.
-Ons aanbod
-Wat krijg je er voor terug?
-Als
-Java Developer
-bij Nedap lever je een waardevolle bijdrage aan ons doel: mensen gelukkiger en succesvoller maken in hun professionele leven. De salarisrange voor deze rol ligt tussen de
-€ 3.800,- en € 5.100,-
-bruto per maand o.b.v. fulltime dienstverband (38 uur) en is afhankelijk van relevante kennis en ervaring. Naast je salaris heb je recht op een dertiende maand, een goede pensioensregeling, en een winstdeling met de mogelijkheid om aandeelhouder van Nedap te worden.
-Bij ons draait alles om vertrouwen en autonomie. Daarom stem je, in overleg met je collega’s, je eigen werktijden en vakantiedagen af voor een goede werk/privé balans. Ook krijg je volop ruimte voor persoonlijke en professionele ontwikkeling.
-Benieuwd naar al onze arbeidsvoorwaarden? Lees hier verder.
-Alle arbeidsvoorwaarden
-Benodigde vaardigheden
-We zoeken een
-Java Developer
-die verder kijkt dan alleen de taak op het bordje. Iemand die wil begrijpen waarom iets wordt gebouwd en voor wie. Je voelt je thuis in een team waar vertrouwen, autonomie en humor hand in hand gaan.
-Verder herken je jezelf in het volgende:
-Senioriteit: Enkele jaren ervaring als softwareontwikkelaar (medior-niveau).
-Programmeertaal: Ervaring met Java en/of Kotlin.
-Spring: Ervaring met Spring.
-Vue: Ervaring met Vue is een pré.
-FHIR: Kennis van FHIR is een pré.
-Werkhouding: Je kunt zelfstandig werken, zoekt actief samenwerking en maakt onderbouwde technische keuzes die bijdragen aan een onderhoudbaar product.
-Goed om te weten
-: je bent
-32–38 uur
-per week beschikbaar.
-Hybride
-werken is gebruikelijk binnen Nedap en samen met je team stem je werktijden en aanwezigheid in Groenlo af voor een gezonde werk/privé balans.
-Neem contact op!
-Heb je interesse in de vacature Java Developer of wil je meer weten over werken bij Nedap? Neem gerust contact op met Nicole Mons via nicole.mons@nedap.com. We helpen je graag verder!
-Over Nedap
-Nedap is een wereldleider in Digital Twin Technology en verbindt de fysieke en digitale wereld in Retail, Healthcare, Livestock en Security. Gedreven door onze filosofie
-Technology for Life
-ontwikkelen we slimme en duurzame oplossingen die mensen en organisaties helpen te floreren in een snel veranderende wereld. Met meer dan 1.000 collega’s geven we samen vorm aan de toekomst met betekenisvolle innovaties.
-Show more
-Show less
-Seniority level
-Entry level
-Employment type
-Full-time
-Job 
+Direct message the job poster from Energie Data Services Nederland (EDSN) B.V.
+Ash(enafi) Kogelman
+Ash(enafi) Kogelman
+Recruitment business partner
+Energiemarkt | 32-40 uur | Amersfoort / Hybride | v/m/x | €43.000-€70.000 inclusief 8% vakantiegeld + mobiliteitsbudget of leaseauto.
+Als Java developer bouw jij aan innovatieve software die de energietransitie vooruitbrengt
+Bij EDSN draag jij bij aan de verduurzaming van Nederland. Elke dag. Samen met onze partners in de energiesector. Cloudtechnologie speelt een steeds grotere rol in onze ontwikkeling. Zo ook voor onze development teams. Met jouw digitale skills en verbindende kracht speel jij een grote rol om dit te realiseren.
+Zo werk jij als Java Developer vol energie
+Je ontwikkelt zelfstandig complexe backend-systemen binnen een microservices-architectuur. Je draagt bij aan de optimalisatie van CI/CD-processen door middel van automatisering en monitoring. Je werkt samen met teamleden aan strategische keuzes en lost technische uitdagingen op. Daarnaast deel je actief kennis via code-reviews, documentatie en interne trainingen. Je begeleidt junior collega’s en helpt hen groeien in hun rol. Je komt te werken in één van onze multidisciplinaire teams. Hoe die teams eruit zien lees je hier .
+Hier krijg jij als Java Developer energie van
+Je krijgt energie van het ontwikkelen van backend-functionaliteiten binnen een moderne Java-stack.
+Je vindt het leuk om CI/CD-processen te optimaliseren en automatisering naar een hoger niveau te tillen.
+Je hebt interesse in het adviseren over schaalbare en toekomstbestendige technische oplossingen.
+Je bent een developer die blij wordt van samenwerken aan strategische keuzes en het oplossen van complexe technische uitdagingen.
+Je krijgt energie van het delen van kennis en het begeleiden van junior collega’s binnen een open ontwikkelcultuur.
+Je vindt het belangrijk om te werken in een dynamische, datagedreven organisatie waar technologie centraal staat.
+Onze energiedrijvers
+Bruto maandsalaris tussen €3.580 en €5.450
+6 weken vakantie per jaar
+80% werkgeversbijdrage in je pensioen
+Hybride werken: vanuit huis en ons moderne kantoor in Amersfoort
+Reiskostenvergoeding, NS Businesscard, leaseauto of mobiliteitsbudget
+Veel ruimte voor persoonlijke en professionele ontwikkeling
+Dit breng jij mee
+Een afgeronde hbo- of wo-opleiding in een relevant vakgebied of aantoonbare werkervaring
+3-6 jaar ervaring in software ontwikkeling binnen complexe omgevingen
+Uitgebreide kennis van Spring Boot, CI/CD-tools en API-ontwikkeling
+vaardigheden om zelfstandig problemen op te lossen en verbeteringen door te voeren
+Bereidheid om junior collega’s te begeleiden en coachen
+Een goede beheersing van de Nederlandse taal
+Maak kennis met je team
+Je werkt binnen één van onze DevOps-teams, elk verantwoordelijk voor een specifiek domein binnen de energiemarkt. Samen zorgen jullie ervoor dat onze applicaties veilig, stabiel en schaalbaar draaien. De sfeer is informeel, professioneel en gedreven: we hebben een gezamenlijke missie en helpen elkaar om steeds beter te worden.
+Ben jij die Java developer die ook wil werken vol energie?
+Reageer dan eenvoudig via de solliciteerknop! We verwelkomen je graag op korte termijn bij EDSN. Heb je inhoudelijke vragen over de functie? Neem gerust contact met ons op. Of ken je iemand voor wie deze vacature op het lijf is geschreven? Tip hem of haar dan.
+Over EDSN
+Energie Data Services Nederland (EDSN) ontwikkelt voor alle regionale en landelijke netbeheerders een betrouwbare en innovatieve ICT-infrastructuur. We specialiseren ons in het verzamelen en bereikbaar maken van gebruiksdata, die andere marktpartijen weer kunnen gebruiken voor het ontwikkelen van nieuwe diensten. Met die datadiensten geven we de energietransitie en daarmee ook de verduurzaming van Nederl
