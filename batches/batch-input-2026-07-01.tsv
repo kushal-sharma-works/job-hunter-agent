@@ -1,172 +1,202 @@
-id	url	source	notes
-1	https://www.adzuna.nl/details/5782697024?utm_medium=api&utm_source=8142930b	adzuna	tier2 | Senior Embedded Software Engineer @ Futures Work Global
-2	https://www.adzuna.nl/details/5761960284?utm_medium=api&utm_source=8142930b	adzuna	tier2 | Site Reliability Engineer (DevOps) - Netherlands @ Hewlett Packard Enterprise
-3	https://www.adzuna.nl/details/5782702757?utm_medium=api&utm_source=8142930b	adzuna	tier2 | DevOps Engineer - Modern Workplace @ Jobgether
-4	https://www.adzuna.nl/details/5777067274?utm_medium=api&utm_source=8142930b	adzuna	tier2 | Middle Node.js Backend Developer @ Jobgether
-5	https://www.adzuna.nl/details/5782697201?utm_medium=api&utm_source=8142930b	adzuna	tier2 | Backend Software Engineer @ Jobgether | €45,000–€100,000
-6	https://www.adzuna.nl/details/5777075283?utm_medium=api&utm_source=8142930b	adzuna	tier2 | Senior DevSecOps Engineer @ Jobgether
-7	https://www.adzuna.nl/details/5775573487?utm_medium=api&utm_source=8142930b	adzuna	tier2 | Manual QA Engineer (Web, CRM) @ Jobgether
-8	https://www.adzuna.nl/details/5782696961?utm_medium=api&utm_source=8142930b	adzuna	tier2 | Senior QA Automation Engineer – AI Applications @ Jobgether
-9	https://nl.indeed.com/viewjob?jk=c972e317386f9f02	jobspy	tier1 | Frontend Developer @ Trifork
-10	https://www.linkedin.com/jobs/view/4431737945	jobspy	tier1 | Java Developer      . @ Nedap
-11	https://www.linkedin.com/jobs/view/4434143410	jobspy	tier2 | Java Developer bij BeFrank @ NN Group
-12	https://www.linkedin.com/jobs/view/4209129414	jobspy	tier2 | Java developer (medior) @ Energie Data Services Nederland (EDSN) B.V.
-13	https://www.linkedin.com/jobs/view/4314998619	jobspy	tier2 | Java Developer @ Astek
-14	https://www.linkedin.com/jobs/view/4428231543	jobspy	tier1 | Java Backend Developer @ Salt
-15	https://www.linkedin.com/jobs/view/4429962340	jobspy	tier2 | Sr Java Backend Developer @ Infinity Quest
-16	https://www.linkedin.com/jobs/view/4375172660	jobspy	tier2 | Java Software Developer @ MYLAPS Sports Technology
-17	https://www.linkedin.com/jobs/view/4416233568	jobspy	tier2 | Java Software Engineer @ Stanley David and Associates
-18	https://www.linkedin.com/jobs/view/4422433224	jobspy	tier1 | Mobile App Developer (Kotlin) Trust Smarthome @ Trust International B.V.
-19	https://www.linkedin.com/jobs/view/4209123866	jobspy	tier2 | Kotlin developer (medior) @ Energie Data Services Nederland (EDSN) B.V.
-20	https://www.linkedin.com/jobs/view/4432425997	jobspy	tier1 | Android Developer @ TicketSwap
-21	https://www.linkedin.com/jobs/view/4430396368	jobspy	tier1 | Kotlin Software Engineer @ Qualogy
-22	https://www.linkedin.com/jobs/view/4431367485	jobspy	tier1 | Kotlin Developer @ DHL eCommerce Nederland
-23	https://www.linkedin.com/jobs/view/4410052845	jobspy	tier1 | Backend Engineer (Kotlin, Kafka, AI/LLM systems) @ Albert Heijn
-24	https://www.linkedin.com/jobs/view/4415272450	jobspy	tier1 | Backend developer (Kotlin, Event-driven, DevOps) @ Albert Heijn
-25	https://www.linkedin.com/jobs/view/4425737917	jobspy	tier2 | Android Developer @ SOURCE.ME
-26	https://www.linkedin.com/jobs/view/4416795530	jobspy	tier2 | Kotlin Software Engineer | Qualogy @ Cooder
-27	https://www.linkedin.com/jobs/view/4424875488	jobspy	tier1 | Senior Research Engineer (Agentic Behavior) @ JetBrains
-28	https://www.linkedin.com/jobs/view/4416141719	jobspy	tier1 | Backend Customer Success Engineer (Kotlin Ecosystem) @ JetBrains
-29	https://www.linkedin.com/jobs/view/4328731025	jobspy	tier1 | Technical Lead (IntelliJ Platform) @ JetBrains
-30	https://www.linkedin.com/jobs/view/4415790867	jobspy	tier1 | Android Developer @ bunq
-31	https://www.linkedin.com/jobs/view/4435518496	jobspy	tier2 | Java Software Engineer @ Infinity Quest
-32	https://www.linkedin.com/jobs/view/4435133377	jobspy	tier2 | Software Engineer @ JD.COM
-33	https://www.linkedin.com/jobs/view/4434140003	jobspy	tier2 | Back End Developer @ Capua
-34	https://www.linkedin.com/jobs/view/4434457514	jobspy	tier2 | Backend Developer Customer Data Platform @ CM.com
-35	https://www.linkedin.com/jobs/view/4297740909	jobspy	tier1 | Software Engineer - Backend @ Databricks
-36	https://www.linkedin.com/jobs/view/4297748047	jobspy	tier1 | Software Engineer - Fullstack @ Databricks
-37	https://www.linkedin.com/jobs/view/4428738406	jobspy	tier2 | Software Developer Azurion Eye @ Philips
-38	https://www.linkedin.com/jobs/view/4429531649	jobspy	tier1 | Medior Python Backend Developer @ Futurewhiz
-39	https://www.linkedin.com/jobs/view/4426803739	jobspy	tier2 | Backend Developer @ Framna
-40	https://www.linkedin.com/jobs/view/4425619458	jobspy	tier1 | Application Engineer II @ Mollie
-41	https://www.linkedin.com/jobs/view/4431096669	jobspy	tier1 | Full-Stack Developer @ B&S
-42	https://www.linkedin.com/jobs/view/4433845515	jobspy	tier2 | Full-stack Developer @ Adswag
-43	https://www.linkedin.com/jobs/view/4432655564	jobspy	tier2 | Full-stack Developer @ Valk Service Center
-44	https://www.linkedin.com/jobs/view/4431847528	jobspy	tier2 | Frontend Developer (React) @ Jobgether
-45	https://www.linkedin.com/jobs/view/4429031992	jobspy	tier2 | Full-stack software engineer @ Rototip
-46	https://www.linkedin.com/jobs/view/4424096495	jobspy	tier2 | Full Stack Developer @ GoMeddo
-47	https://www.linkedin.com/jobs/view/4429284340	jobspy	tier2 | Full stack engineer @ Aivory
-48	https://www.linkedin.com/jobs/view/4429554029	jobspy	tier1 | Full Stack Engineer @ Conference Compass
-49	https://www.linkedin.com/jobs/view/4431943582	jobspy	tier2 | React Developer @ Built Different
-50	https://www.linkedin.com/jobs/view/4433685824	jobspy	tier1 | Frontend Engineer - Growth team @ Insify
-51	https://www.linkedin.com/jobs/view/4415685225	jobspy	tier2 | Fullstack Engineer (m/f/d) @ Eye Security
-52	https://www.linkedin.com/jobs/view/4433600581	jobspy	tier1 | Software Engineer, Payments Platform @ Insify
-53	https://www.linkedin.com/jobs/view/4429870243	jobspy	tier2 | Software Engineer @ NAVARA
-54	https://www.linkedin.com/jobs/view/4380374795	jobspy	tier1 | Backend Engineer @ Sensorfact
-55	https://www.linkedin.com/jobs/view/4430144104	jobspy	tier2 | Software Engineer II @ CNN
-56	https://www.linkedin.com/jobs/view/4409941149	jobspy	tier2 | Software Engineer @ Builders
-57	https://www.linkedin.com/jobs/view/4415610995	jobspy	tier1 | Full stack developer @ Crisp
-58	https://www.linkedin.com/jobs/view/4413313568	jobspy	tier2 | Software-ingenieur @ NAVARA
-59	https://www.linkedin.com/jobs/view/4435308036	jobspy	tier2 | Full Stack Engineer @ Code for Good
-60	https://job-boards.greenhouse.io/gympass/jobs/8538485002	greenhouse	tier1 | Partner Sales Sr. Manager (Wishlist) @ gympass
-61	https://job-boards.greenhouse.io/gympass/jobs/8538492002	greenhouse	tier1 | Partnership Team Leader (Longtail) @ gympass
-62	https://job-boards.greenhouse.io/gympass/jobs/8563859002	greenhouse	tier1 | SMB Sales Account Executive II @ gympass
-63	https://priogen.com/careers/?gh_jid=8524865002	greenhouse	tier1 | Desk Analyst @ priogen energy
-64	https://job-boards.eu.greenhouse.io/newtone/jobs/4674948101	greenhouse	tier1 | Aangiftemedewerker @ newtone adviseurs accountants
-65	https://job-boards.eu.greenhouse.io/newtone/jobs/4793408101	greenhouse	tier1 | (Aankomend) Manager Aangiftepraktijk @ newtone adviseurs accountants
-66	https://job-boards.eu.greenhouse.io/newtone/jobs/4855505101	greenhouse	tier1 | (Aankomend) Partner | Auditpraktijk | MKB | Randstad @ newtone adviseurs accountants
-67	https://job-boards.eu.greenhouse.io/newtone/jobs/4855437101	greenhouse	tier1 | (Aankomend) Partner | Belastingadvies | MKB | Randstad @ newtone adviseurs accountants
-68	https://job-boards.eu.greenhouse.io/newtone/jobs/4824692101	greenhouse	tier1 | Afstudeerstage Samenstelpraktijk @ newtone adviseurs accountants
-69	https://job-boards.eu.greenhouse.io/newtone/jobs/4781273101	greenhouse	tier1 | Aspirant Belastingadviseur  @ newtone adviseurs accountants
-70	https://job-boards.eu.greenhouse.io/newtone/jobs/4779802101	greenhouse	tier1 | Assistent Accountant Samenstelpraktijk @ newtone adviseurs accountants
-71	https://job-boards.eu.greenhouse.io/newtone/jobs/4677126101	greenhouse	tier1 | Assistent Audit @ newtone adviseurs accountants
-72	https://job-boards.eu.greenhouse.io/newtone/jobs/4675017101	greenhouse	tier1 | Belastingadviseur Algemene Adviespraktijk @ newtone adviseurs accountants
-73	https://job-boards.eu.greenhouse.io/newtone/jobs/4675199101	greenhouse	tier1 |  Belastingadviseur BTW @ newtone adviseurs accountants
-74	https://job-boards.eu.greenhouse.io/newtone/jobs/4766817101	greenhouse	tier1 | Belastingadviseur Internationale Adviespraktijk @ newtone adviseurs accountants
-75	https://job-boards.eu.greenhouse.io/newtone/jobs/4798677101	greenhouse	tier1 | Business Development Manager | Randstad @ newtone adviseurs accountants
-76	https://job-boards.eu.greenhouse.io/newtone/jobs/4676112101	greenhouse	tier1 | Campus Recruiter regio West @ newtone adviseurs accountants
-77	https://job-boards.eu.greenhouse.io/newtone/jobs/4698668101	greenhouse	tier1 | Controller @ newtone adviseurs accountants
-78	https://job-boards.eu.greenhouse.io/newtone/jobs/4675208101	greenhouse	tier1 | Financial Professional @ newtone adviseurs accountants
-79	https://job-boards.eu.greenhouse.io/newtone/jobs/4877633101	greenhouse	tier1 | International Payroll Specialist | Eindhoven @ newtone adviseurs accountants
-80	https://job-boards.eu.greenhouse.io/newtone/jobs/4677458101	greenhouse	tier1 | IT Finance Adviseur @ newtone adviseurs accountants
-81	https://job-boards.eu.greenhouse.io/newtone/jobs/4675714101	greenhouse	tier1 | Junior Assistent Accountant Samenstelpraktijk @ newtone adviseurs accountants
-82	https://job-boards.eu.greenhouse.io/newtone/jobs/4676909101	greenhouse	tier1 | Junior Assistent Audit @ newtone adviseurs accountants
-83	https://job-boards.eu.greenhouse.io/newtone/jobs/4674809101	greenhouse	tier1 | Junior Belastingadviseur Algemene Adviespraktijk @ newtone adviseurs accountants
-84	https://job-boards.eu.greenhouse.io/newtone/jobs/4766825101	greenhouse	tier1 | Junior Belastingadviseur Internationale Adviespraktijk @ newtone adviseurs accountants
-85	https://job-boards.eu.greenhouse.io/newtone/jobs/4676363101	greenhouse	tier1 | Junior Belastingadviseur Loonheffingen @ newtone adviseurs accountants
-86	https://job-boards.eu.greenhouse.io/newtone/jobs/4757044101	greenhouse	tier1 | Junior Manager Advisory | Regio Randstad @ newtone adviseurs accountants
-87	https://job-boards.eu.greenhouse.io/newtone/jobs/4677508101	greenhouse	tier1 | Junior Manager Audit @ newtone adviseurs accountants
-88	https://job-boards.eu.greenhouse.io/newtone/jobs/4677655101	greenhouse	tier1 | Junior Manager Audit | Rotterdam @ newtone adviseurs accountants
-89	https://job-boards.eu.greenhouse.io/newtone/jobs/4677661101	greenhouse	tier1 | Junior Manager Pre-Audit @ newtone adviseurs accountants
-90	https://job-boards.eu.greenhouse.io/newtone/jobs/4875973101	greenhouse	tier1 | Junior subsidieadviseur Agri  @ newtone adviseurs accountants
-91	https://job-boards.eu.greenhouse.io/newtone/jobs/4677670101	greenhouse	tier1 | Jurist Ondernemingsrecht @ newtone adviseurs accountants
-92	https://job-boards.eu.greenhouse.io/newtone/jobs/4781289101	greenhouse	tier1 | Manager Aangiftepraktijk @ newtone adviseurs accountants
-93	https://job-boards.eu.greenhouse.io/newtone/jobs/4677678101	greenhouse	tier1 | Manager Audit @ newtone adviseurs accountants
-94	https://job-boards.eu.greenhouse.io/newtone/jobs/4889802101	greenhouse	tier1 | Manager Samenstelpraktijk @ newtone adviseurs accountants
-95	https://job-boards.eu.greenhouse.io/newtone/jobs/4675898101	greenhouse	tier1 | Opdrachtmanager A&A @ newtone adviseurs accountants
-96	https://job-boards.eu.greenhouse.io/newtone/jobs/4826558101	greenhouse	tier1 | Partner/ Adviseur MKB | Brabant @ newtone adviseurs accountants
-97	https://job-boards.eu.greenhouse.io/newtone/jobs/4750462101	greenhouse	tier1 | Payroll Consultant Extern @ newtone adviseurs accountants
-98	https://job-boards.eu.greenhouse.io/newtone/jobs/4677701101	greenhouse	tier1 | Payroll Specialist Intern @ newtone adviseurs accountants
-99	https://job-boards.eu.greenhouse.io/newtone/jobs/4677694101	greenhouse	tier1 | Salarisprofessional @ newtone adviseurs accountants
-100	https://job-boards.eu.greenhouse.io/newtone/jobs/4785945101	greenhouse	tier1 | Senior Aangiftemedewerker @ newtone adviseurs accountants
-101	https://job-boards.eu.greenhouse.io/newtone/jobs/4824882101	greenhouse	tier1 | (Senior) Aangiftespecialist IB / VPB @ newtone adviseurs accountants
-102	https://job-boards.eu.greenhouse.io/newtone/jobs/4675937101	greenhouse	tier1 | Senior Assistent Accountant Samenstelpraktijk @ newtone adviseurs accountants
-103	https://job-boards.eu.greenhouse.io/newtone/jobs/4677739101	greenhouse	tier1 | Senior Assistent Audit @ newtone adviseurs accountants
-104	https://job-boards.eu.greenhouse.io/newtone/jobs/4767179101	greenhouse	tier1 | Senior Assistent Audit (International) @ newtone adviseurs accountants
-105	https://job-boards.eu.greenhouse.io/newtone/jobs/4676065101	greenhouse	tier1 | Senior Belastingadviseur Algemene Adviespraktijk @ newtone adviseurs accountants
-106	https://job-boards.eu.greenhouse.io/newtone/jobs/4725830101	greenhouse	tier1 | Senior Belastingadviseur BTW @ newtone adviseurs accountants
-107	https://job-boards.eu.greenhouse.io/newtone/jobs/4860426101	greenhouse	tier1 | Senior Belastingadviseur Loonheffingen @ newtone adviseurs accountants
-108	https://job-boards.eu.greenhouse.io/newtone/jobs/4757088101	greenhouse	tier1 | Senior Consultant Business Advisory | Regio Randstad @ newtone adviseurs accountants
-109	https://job-boards.eu.greenhouse.io/newtone/jobs/4677031101	greenhouse	tier1 | Senior Manager Audit @ newtone adviseurs accountants
-110	https://job-boards.eu.greenhouse.io/newtone/jobs/4677060101	greenhouse	tier1 | Senior Manager Audit | Rotterdam @ newtone adviseurs accountants
-111	https://job-boards.eu.greenhouse.io/newtone/jobs/4786148101	greenhouse	tier1 | Senior Manager Belastingadvies Algemene Adviespraktijk @ newtone adviseurs accountants
-112	https://job-boards.eu.greenhouse.io/newtone/jobs/4858699101	greenhouse	tier1 | Senior Manager Loonheffingen @ newtone adviseurs accountants
-113	https://job-boards.eu.greenhouse.io/newtone/jobs/4749511101	greenhouse	tier1 | Senior Salarisprofessional @ newtone adviseurs accountants
-114	https://job-boards.eu.greenhouse.io/newtone/jobs/4676717101	greenhouse	tier1 | Support Medewerker @ newtone adviseurs accountants
-115	https://job-boards.eu.greenhouse.io/newtone/jobs/4857346101	greenhouse	tier1 | Support Medewerker Vaktechniek & Kwaliteit  | Landelijk @ newtone adviseurs accountants
-116	https://job-boards.eu.greenhouse.io/newtone/jobs/4676879101	greenhouse	tier1 | Werkstudent Algemene Adviespraktijk @ newtone adviseurs accountants
-117	https://job-boards.eu.greenhouse.io/newtone/jobs/4873744101	greenhouse	tier1 | Werkstudent Audit @ newtone adviseurs accountants
-118	https://job-boards.eu.greenhouse.io/newtone/jobs/4676711101	greenhouse	tier1 | Werkstudent btw-praktijk @ newtone adviseurs accountants
-119	https://www.linkedin.com/posts/pavlo-khyzhniak_success-story-how-to-get-visa-sponsorship-activity-7477651440644022272-SKzC	linkedin_posts	tier2 | Pavlo Khyzhniak's Post - LinkedIn @ 
-120	https://www.linkedin.com/posts/full-stack-ai-engineer-madhukar-anand_careers-germanyjobs-techcareers-activity-7472730541558009856-fihH	linkedin_posts	tier2 | Germany Job Market: Visa Sponsorship and Cultural Fit Key to ... @ 
-121	https://www.linkedin.com/posts/oksana-tafani_android-kotlin-jetpackcompose-activity-7472615037816221696-IeJw	linkedin_posts	tier2 | Oksana Tafani - android #kotlin #jetpackcompose #yorteam - LinkedIn @ 
-122	https://www.linkedin.com/posts/russell-tobin-%26-associates-llc_were-growing-in-the-netherlands-and-activity-7475552749414379520-Zba0	linkedin_posts	tier2 | Russell Tobin's Post - LinkedIn @ 
-123	https://www.linkedin.com/posts/ismar-kriese_we-spent-2-months-finding-these-companies-activity-7476892232390873088-O93s	linkedin_posts	tier2 | Ismar Kriese's Post - LinkedIn @ 
-124	https://www.linkedin.com/posts/eng-amir-abkhoshk_amir-abkhoshk-activity-7474632458697801728-TEyj	linkedin_posts	tier2 | Amir Abkhoshk - LinkedIn @ 
-125	https://www.linkedin.com/posts/neilrdawes_compliance-internationalhiring-skilledworkervisa-activity-7475824262495490048-GAZg	linkedin_posts	tier2 | International Hiring Risks Without Compliance Expertise - LinkedIn @ 
-126	https://www.linkedin.com/posts/hanalarock_hr-recruiting-remotework-activity-7476301099235377152-yjLF	linkedin_posts	tier2 | Why Companies Hesitate to Hire Remote Workers Abroad - LinkedIn @ 
-127	https://www.linkedin.com/posts/employsome_employerofrecord-southafrica-eor-activity-7474768902829465601-WHex	linkedin_posts	tier2 | EOR in South Africa: 4 Surprising Facts for Foreign Companies @ 
-128	https://www.linkedin.com/posts/stephanie-chigozie-7a0b901a8_disclaimer-activity-7475276341915856896-FqDt	linkedin_posts	tier2 | 5 Affordable EU Countries to Move to in 2026 - LinkedIn @ 
-129	https://startup.jobs/solutions-consultant-presales-netherlands-paloaltonetworks-com-8588043	niche_boards	tier2 | Solutions Consultant (Presales) - Netherlands at Palo Alto Networks @ 
-130	https://startup.jobs/country-manager-retail-netherlands-belgium-all-genders-ahead-gmbh-8577584	niche_boards	tier2 | Country Manager Retail - Netherlands & Belgium (All Genders) @ 
-131	https://startup.jobs/senior-sales-manager-institutionals-netherlands-f-m-d-360-treasury-systems-ag-8158015	niche_boards	tier2 | SENIOR SALES MANAGER INSTITUTIONALS NETHERLANDS (f/m/d) @ 
-132	https://startup.jobs/field-sales-the-netherlands-teleroute-alpega-group-8586442	niche_boards	tier2 | Field Sales - The Netherlands - Teleroute at Alpega Group @ 
-133	https://startup.jobs/nike-athlete-sales-associate-retailors-netherlands-bv-8577481	niche_boards	tier2 | Nike - Athlete (sales associate) at Retailors Netherlands B.V. @ 
-134	https://startup.jobs/key-account-manager-belkin-bv-netherlands-8434763	niche_boards	tier2 | Key Account Manager at Belkin BV (Netherlands) - Startup Jobs @ 
-135	https://startup.jobs/area-manager-benelux-germany-wwrd-netherlands-midco-bv-8516531	niche_boards	tier2 | Area Manager (Benelux & Germany) - Startup Jobs @ 
-136	https://magnet.me/en/opportunity/1053762/emea-legal-intern	niche_boards	tier2 | EMEA Legal Intern in Amsterdam at Palo Alto Networks - Magnet.me @ 
-137	https://vacaturebank.ai/jobs/junior-ai-engineer-based-in-netherlands-amsterdam-6a409c870fe963ab3940a591	niche_boards	tier2 | Junior AI Engineer - Based in Netherlands @ 
-138	https://vacaturebank.ai/jobs/ai-engineer-manager-amsterdam-6a409c8bd59c39f9f6d6dded	niche_boards	tier2 | AI Engineer Manager bij Avanade Netherlands Company @ 
-139	https://vacaturebank.ai/jobs/ai-engineer-entrnce-arnhem-6a41ee0b482fbaf338be3277	niche_boards	tier2 | AI Engineer ENTRNCE bij Alliander | Vacaturebank.ai @ 
-140	https://vacaturebank.ai/jobs/medior-ai-engineer-other-6a3f4b0b2eacab9fc895f8d7	niche_boards	tier2 | Medior AI Engineer bij ABN AMRO Bank | Vacaturebank.ai @ 
-141	https://vacaturebank.ai/jobs/ai-and-automation-process-specialist-amsterdam-6a2683c40f6c03ee06d03e90	niche_boards	tier2 | AI & Automation Process Specialist bij Zenchef @ 
-142	https://vacaturebank.ai/jobs/applied-ai-engineer-amsterdam-6a3df98b0cb648aff74b5c50	niche_boards	tier2 | Applied AI Engineer bij myTomorrows | Vacaturebank.ai @ 
-143	https://www.eurotoptech.com/compensation-report	niche_boards	tier2 | European Software Engineer Compensation Report 2026 @ 
-144	https://expatjobs.io/vacancies/0428bae4-2c24-41c1-b6af-47eb6fadb7dd	niche_boards	tier2 | Senior Data Scientist – Experimentation & Statistical Innovation ... @ 
-145	https://expatjobs.io/vacancies/a5d152a0-aa1e-4325-9a13-296191a79840	niche_boards	tier2 | HR Systems Solution Expert (Workday HCM) at EMBL - Expat Jobs @ 
-146	https://jaabz.com/jobs/239920-senior-software-engineer-a-core-tech	niche_boards	tier2 | Senior Software Engineer - Core Systems & Trading Infrastructure @ 
-147	https://jaabz.com/jobs/240431-chief-executive-officer-b2b-saas	niche_boards	tier2 | Chief Executive Officer (B2B SaaS) at Jobgether - Netherlands - Jaabz @ 
-148	https://jaabz.com/jobs/240293-data-scientist	niche_boards	tier2 | Data Scientist at magno it recruitment - Jobs - Jaabz @ 
-149	https://jaabz.com/jobs/239823-senior-java-software-engineer	niche_boards	tier2 | Senior Java Developer at asap staffing ltd - Jobs - Jaabz @ 
-150	https://jaabz.com/jobs/240804-business-development-representative-esg-saas	niche_boards	tier2 | Technical Business Development Representative (GTM Engineer) @ 
-151	https://jaabz.com/jobs/239728-senior-hardware-security-evaluator-relocation-provided	niche_boards	tier2 | Senior Hardware Security Evaluator at Wypoon Technologies - Jaabz @ 
-152	https://jaabz.com/jobs/240796-seo-specialist-dutch-speaking	niche_boards	tier2 | SEO Specialist at Picnic Technologies - Jobs - Jaabz @ 
-153	https://www.fintechcareers.com/job-category/fintech/?filter-location=amsterdam	niche_boards	tier2 | 90 Fintech Jobs in Amsterdam @ 
-154	https://www.fintechcareers.com/job/36999/product-owner-credit-amsterdam/	niche_boards	tier2 | Product Owner – Credit job in Amsterdam, Netherlands - bunq jobs @ 
-155	https://www.fintechcareers.com/job/36993/compliance-risk-officer-amsterdam/	niche_boards	tier2 | Compliance Risk Officer job in Amsterdam, Netherlands - Peaks jobs @ 
-156	https://www.fintechcareers.com/job/36897/jr-finance-systems-analyst-amsterdam/	niche_boards	tier2 | Jr. Finance Systems Analyst - Adyen jobs - Fintech Careers @ 
-157	https://weloveproduct.co/jobs/group-product-manager-commercial-risk-and-platform-fraud-adyen-yasdlj	niche_boards	tier2 | Group Product Manager - Commercial Risk & Platform Fraud at Adyen @ 
-158	https://weloveproduct.co/jobs/senior-product-manager-cards-acquiring-adyen-1g8q9e	niche_boards	tier2 | Senior Product Manager - Cards Acquiring at Adyen - WeLoveProduct @ 
-159	https://weloveproduct.co/jobs/senior-product-manager-nace-ai-d73380	niche_boards	tier2 | Senior Product Manager at Nace AI - Palo Alto, United States - $163k @ 
-160	https://weloveproduct.co/jobs/sr-product-manager-ads-and-brands-roblox-olacgs	niche_boards	tier2 | Sr Product Manager, Ads & Brands at Roblox - Remote - $174k @ 
-161	https://weloveproduct.co/jobs/senior-product-manager-ii-rf-detection-and-tracking-axon-1os6jx	niche_boards	tier2 | Senior Product Manager II, RF Detection & Tracking at Axon @ 
-162	https://weloveproduct.co/jobs/senior-product-manager-ui-platform-okta-pou38x	niche_boards	tier2 | Senior Product Manager - UI Platform at Okta - Toronto, Canada @ 
-163	https://weloveproduct.co/jobs/senior-product-manager-clinical-experience-headlight-p5pxet	niche_boards	tier2 | Senior Product Manager, Clinical Experience at Headlight - $160k @ 
-164	https://weloveproduct.co/jobs/product-manager-agent-development-arabic-speaking-sierra-w7dxjx	niche_boards	tier2 | Product Manager, Agent Development (Arabic speaking) at Sierra @ 
-165	https://weloveproduct.co/jobs/senior-product-manager-auth0-platform-infrastructure-okta-5yre2t	niche_boards	tier2 | Senior Product Manager, Auth0 Platform Infrastructure at Okta @ 
-166	https://www.wearedevelopers.com/en/jobs/ls/netherlands/noord-scharwoude/amazon-web-services-aws	niche_boards	tier2 | Amazon Web Services (AWS) jobs in Noord-Scharwoude, Netherlands @ 
-167	https://www.wearedevelopers.com/en/jobs/ls/netherlands/amsterdam/automation-anywhere	niche_boards	tier2 | Automation Anywhere Developer Jobs in Amsterdam | 6 open jobs @ 
-168	https://www.wearedevelopers.com/en/jobs/ls/netherlands/den-ham/docker	niche_boards	tier2 | Docker Developer Jobs in Den Ham | 5 open jobs | WeAreDevelopers @ 
-169	https://www.wearedevelopers.com/en/jobs/ls/netherlands/noord-scharwoude/microservices	niche_boards	tier2 | Microservices Developer Jobs in Noord-Scharwoude | 5 open jobs @ 
-170	https://www.wearedevelopers.com/en/jobs/ls/netherlands/zwolle/figma	niche_boards	tier2 | Figma Developer Jobs in Zwolle | 5 open jobs | WeAreDevelopers @ 
-171	https://www.wearedevelopers.com/en/jobs/ls/netherlands/heythuysen/uml	niche_boards	tier2 | UML Developer Jobs in Heythuysen | 3 open jobs | WeAreDevelopers @ 
+id	url	source	notes	cv_score
+1	https://www.adzuna.nl/details/5782697024?utm_medium=api&utm_source=8142930b	adzuna	tier2 | score:- | Senior Embedded Software Engineer @ Futures Work Global
+2	https://www.adzuna.nl/details/5761960284?utm_medium=api&utm_source=8142930b	adzuna	tier2 | score:- | Site Reliability Engineer (DevOps) - Netherlands @ Hewlett Packard Enterprise
+3	https://www.adzuna.nl/details/5782702757?utm_medium=api&utm_source=8142930b	adzuna	tier2 | score:- | DevOps Engineer - Modern Workplace @ Jobgether
+4	https://www.adzuna.nl/details/5777067274?utm_medium=api&utm_source=8142930b	adzuna	tier2 | score:- | Middle Node.js Backend Developer @ Jobgether
+5	https://www.adzuna.nl/details/5782697201?utm_medium=api&utm_source=8142930b	adzuna	tier2 | score:- | Backend Software Engineer @ Jobgether | €45,000–€100,000
+6	https://www.adzuna.nl/details/5777075283?utm_medium=api&utm_source=8142930b	adzuna	tier2 | score:- | Senior DevSecOps Engineer @ Jobgether
+7	https://www.adzuna.nl/details/5775573487?utm_medium=api&utm_source=8142930b	adzuna	tier2 | score:- | Manual QA Engineer (Web, CRM) @ Jobgether
+8	https://www.adzuna.nl/details/5782696961?utm_medium=api&utm_source=8142930b	adzuna	tier2 | score:- | Senior QA Automation Engineer – AI Applications @ Jobgether
+9	https://nl.indeed.com/viewjob?jk=c972e317386f9f02	jobspy	tier1 | score:- | Frontend Developer @ Trifork
+10	https://www.linkedin.com/jobs/view/4431737945	jobspy	tier1 | score:- | Java Developer      . @ Nedap
+11	https://www.linkedin.com/jobs/view/4434143410	jobspy	tier2 | score:- | Java Developer bij BeFrank @ NN Group
+12	https://www.linkedin.com/jobs/view/4209129414	jobspy	tier2 | score:- | Java developer (medior) @ Energie Data Services Nederland (EDSN) B.V.
+13	https://www.linkedin.com/jobs/view/4314998619	jobspy	tier2 | score:- | Java Developer @ Astek
+14	https://www.linkedin.com/jobs/view/4431370470	jobspy	tier1 | score:- | Java Software Engineer @ DHL eCommerce Nederland
+15	https://www.linkedin.com/jobs/view/4428231543	jobspy	tier1 | score:- | Java Backend Developer @ Salt
+16	https://www.linkedin.com/jobs/view/4429962340	jobspy	tier2 | score:- | Sr Java Backend Developer @ Infinity Quest
+17	https://www.linkedin.com/jobs/view/4375172660	jobspy	tier2 | score:- | Java Software Developer @ MYLAPS Sports Technology
+18	https://www.linkedin.com/jobs/view/4416233568	jobspy	tier2 | score:- | Java Software Engineer @ Stanley David and Associates
+19	https://www.linkedin.com/jobs/view/4372602599	jobspy	tier1 | score:- | Staff Software Developer (Kotlin Libraries) @ JetBrains
+20	https://www.linkedin.com/jobs/view/4402990121	jobspy	tier2 | score:- | iOS Developer - Native Mobile Platforms (Kotlin Multiplatform) @ iO
+21	https://www.linkedin.com/jobs/view/4430988940	jobspy	tier2 | score:- | Java/Kotlin Internal Tools Developer @ Planner 5D
+22	https://www.linkedin.com/jobs/view/4429660991	jobspy	tier1 | score:- | Android Developer @ Realworks BV
+23	https://www.linkedin.com/jobs/view/4402523294	jobspy	tier2 | score:- | Android Developer @ Hypersolid
+24	https://www.linkedin.com/jobs/view/4429528081	jobspy	tier1 | score:- | Software Engineer - Release Tooling @ Adyen
+25	https://www.linkedin.com/jobs/view/4428397958	jobspy	tier2 | score:- | Android Developer (Kotlin & Jetpack Compose) - 10748759 @ ITproposal
+26	https://www.linkedin.com/jobs/view/4428395952	jobspy	tier2 | score:- | Senior Java/Kotlin Developer (AI & Conversational Platforms)-10730447 @ ITproposal
+27	https://www.linkedin.com/jobs/view/4427982333	jobspy	tier2 | score:- | Back End Developer @ NIXZ.
+28	https://www.linkedin.com/jobs/view/4399510091	jobspy	tier1 | score:- | Engineering Manager @ Fastned
+29	https://www.linkedin.com/jobs/view/4416141719	jobspy	tier1 | score:- | Backend Customer Success Engineer (Kotlin Ecosystem) @ JetBrains
+30	https://www.linkedin.com/jobs/view/4435533492	jobspy	tier2 | score:- | Android Software Engineer @ Kaleido
+31	https://www.linkedin.com/jobs/view/4431588889	jobspy	tier2 | score:- | Software Engineer @ Evaal
+32	https://www.linkedin.com/jobs/view/4433600581	jobspy	tier1 | score:- | Software Engineer, Payments Platform @ Insify
+33	https://www.linkedin.com/jobs/view/4297740909	jobspy	tier1 | score:- | Software Engineer - Backend @ Databricks
+34	https://www.linkedin.com/jobs/view/4420477612	jobspy	tier2 | score:- | Junior Software Engineer, Elixir @ Telnyx
+35	https://www.linkedin.com/jobs/view/4410997713	jobspy	tier2 | score:- | Software Engineer II @ CNN
+36	https://www.linkedin.com/jobs/view/4429031992	jobspy	tier2 | score:- | Full-stack software engineer @ Rototip
+37	https://www.linkedin.com/jobs/view/4427318200	jobspy	tier1 | score:- | Software Engineer - Backend @ MotherDuck
+38	https://www.linkedin.com/jobs/view/4428398970	jobspy	tier2 | score:- | AI / GenAI Developer – Java & Spring Boot - 10729289 @ ITproposal
+39	https://www.linkedin.com/jobs/view/4425300249	jobspy	tier2 | score:- | Software Engineer - Ads G&T Data @ eBay
+40	https://www.linkedin.com/jobs/view/4425814959	jobspy	tier1 | score:- | Software Engineer I (Java) -Authorisation Optimisation @ Adyen
+41	https://www.linkedin.com/jobs/view/4434140003	jobspy	tier2 | score:- | Back End Developer @ Capua
+42	https://www.linkedin.com/jobs/view/4431096669	jobspy	tier1 | score:- | Full-Stack Developer @ B&S
+43	https://www.linkedin.com/jobs/view/4382092463	jobspy	tier2 | score:- | Back-end developer @ 4CEE
+44	https://www.linkedin.com/jobs/view/4380374795	jobspy	tier1 | score:- | Backend Engineer @ Sensorfact
+45	https://www.linkedin.com/jobs/view/4428738406	jobspy	tier2 | score:- | Software Developer Azurion Eye @ Philips
+46	https://www.linkedin.com/jobs/view/4428491409	jobspy	tier2 | score:- | Full Stack Engineer @ Arrows
+47	https://www.linkedin.com/jobs/view/4428805943	jobspy	tier2 | score:- | Full Stack Engineer (Python) @ Built Different
+48	https://www.linkedin.com/jobs/view/4435188894	jobspy	tier2 | score:- | Backend Developer (Typescript/Python) @ Monks
+49	https://www.linkedin.com/jobs/view/4432085682	jobspy	tier2 | score:- | Frontend Developer HALO @ CM.com
+50	https://www.linkedin.com/jobs/view/4431044884	jobspy	tier2 | score:- | Back-End Developer @ Primitive Technology Sdn Bhd
+51	https://www.linkedin.com/jobs/view/4431667144	jobspy	tier1 | score:- | Full Stack Developer @ Foreside
+52	https://www.linkedin.com/jobs/view/4430467533	jobspy	tier2 | score:- | Front End Developer @ Levy Professionals
+53	https://www.linkedin.com/jobs/view/4424096495	jobspy	tier2 | score:- | Full Stack Developer @ GoMeddo
+54	https://www.linkedin.com/jobs/view/4429502984	jobspy	tier2 | score:- | Full Stack Engineer @ Roundr
+55	https://www.linkedin.com/jobs/view/4415610995	jobspy	tier1 | score:- | Full stack developer @ Crisp
+56	https://www.linkedin.com/jobs/view/4428107794	jobspy	tier1 | score:- | Full-stack Software Engineer @ Samotics
+57	https://www.linkedin.com/jobs/view/4435308036	jobspy	tier2 | score:- | Full Stack Engineer @ Code for Good
+58	https://www.linkedin.com/jobs/view/4432374321	jobspy	tier2 | score:- | Frontend Software Engineer @ Jobgether
+59	https://careers.nebius.com/?gh_jid=4880676101	greenhouse	tier1 | score:- | Accounts Receivable Analyst  @ nebius
+60	https://job-boards.greenhouse.io/awin/jobs/7707871003	greenhouse	tier1 | score:- |  Account Manager (f/m/d) - Benelux  @ awin
+61	https://job-boards.greenhouse.io/awin/jobs/7707872003	greenhouse	tier1 | score:- | Account Manager - Key Accounts Benelux @ awin
+62	https://job-boards.greenhouse.io/awin/jobs/7758359003	greenhouse	tier1 | score:- | AI Enablement & Execution Leader (f/m/d) @ awin
+63	https://job-boards.greenhouse.io/awin/jobs/7710831003	greenhouse	tier1 | score:- | Engineering Manager - Billing & Payments (f/m/d) @ awin
+64	https://job-boards.greenhouse.io/awin/jobs/7647229003	greenhouse	tier1 | score:- | Engineering Manager - Enterprise Integrations (f/m/d) @ awin
+65	https://job-boards.greenhouse.io/awin/jobs/7677087003	greenhouse	tier1 | score:- | Information Security Risk Manager (f/m/d) @ awin
+66	https://job-boards.greenhouse.io/awin/jobs/7700096003	greenhouse	tier1 | score:- | Information Security Risk Specialist (f/m/d) @ awin
+67	https://job-boards.greenhouse.io/awin/jobs/7720618003	greenhouse	tier1 | score:- | Senior AI Engineer (f/m/d) @ awin
+68	https://job-boards.greenhouse.io/awin/jobs/7710046003	greenhouse	tier1 | score:- | Senior Software Engineer @ awin
+69	https://job-boards.greenhouse.io/awin/jobs/7683551003	greenhouse	tier1 | score:- | Senior Software Engineer (f/m/d) @ awin
+70	https://job-boards.greenhouse.io/oliver/jobs/8029995	greenhouse	tier1 | score:- | Programme Director @ oliver wyman
+71	https://job-boards.greenhouse.io/oliver/jobs/7984146	greenhouse	tier1 | score:- | Senior Digital Designer (Part-Time) @ oliver wyman
+72	https://job-boards.greenhouse.io/oliver/jobs/8009670	greenhouse	tier1 | score:- | Senior Project Manager  @ oliver wyman
+73	https://job-boards.greenhouse.io/oliver/jobs/7917885	greenhouse	tier1 | score:- | Senior Sales Manager - Netherlands and Germany (2 positions available) @ oliver wyman
+74	https://job-boards.greenhouse.io/oliver/jobs/7837865	greenhouse	tier1 | score:- | Social Insights Analyst @ oliver wyman
+75	https://job-boards.greenhouse.io/oliver/jobs/8000834	greenhouse	tier1 | score:- | Social Media Manager @ oliver wyman
+76	https://job-boards.greenhouse.io/adyen/jobs/7436701	greenhouse	tier1 | score:- | Account Manager @ adyen netherlands io
+77	https://job-boards.greenhouse.io/adyen/jobs/7548991	greenhouse	tier1 | score:- | Accounts Payable Team Lead @ adyen netherlands io
+78	https://job-boards.greenhouse.io/adyen/jobs/7953778	greenhouse	tier1 | score:- | AI & Innovation Lead, Operations @ adyen netherlands io
+79	https://job-boards.greenhouse.io/adyen/jobs/7618901	greenhouse	tier1 | score:- | AOSP Engineer @ adyen netherlands io
+80	https://job-boards.greenhouse.io/adyen/jobs/7355910	greenhouse	tier1 | score:- | Art Director - Internal Comms Branding @ adyen netherlands io
+81	https://job-boards.greenhouse.io/adyen/jobs/7768106	greenhouse	tier1 | score:- | CDD KYC QA Specialist @ adyen netherlands io
+82	https://job-boards.greenhouse.io/adyen/jobs/7412998	greenhouse	tier1 | score:- | CDD Risk Analyst @ adyen netherlands io
+83	https://job-boards.greenhouse.io/adyen/jobs/7479316	greenhouse	tier1 | score:- | Data Center Engineer @ adyen netherlands io
+84	https://job-boards.greenhouse.io/adyen/jobs/7721510	greenhouse	tier1 | score:- | Engineering Manager, Optimize Interfaces @ adyen netherlands io
+85	https://job-boards.greenhouse.io/adyen/jobs/7602168	greenhouse	tier1 | score:- | Financial and ESG Reporting Specialist @ adyen netherlands io
+86	https://job-boards.greenhouse.io/adyen/jobs/7454792	greenhouse	tier1 | score:- | Global Partner Engineering Manager, Payments @ adyen netherlands io
+87	https://job-boards.greenhouse.io/adyen/jobs/7862254	greenhouse	tier1 | score:- | Group Product Manager - Commercial Risk & Platform Fraud @ adyen netherlands io
+88	https://job-boards.greenhouse.io/adyen/jobs/7634817	greenhouse	tier1 | score:- | Head of Engineering - Adyen protect @ adyen netherlands io
+89	https://job-boards.greenhouse.io/adyen/jobs/7662681	greenhouse	tier1 | score:- | Head of Global Merchant Risk  @ adyen netherlands io
+90	https://job-boards.greenhouse.io/adyen/jobs/7699069	greenhouse	tier1 | score:- | Head of Strategy & Business Operations @ adyen netherlands io
+91	https://job-boards.greenhouse.io/adyen/jobs/7641158	greenhouse	tier1 | score:- | HR Business Partner - Technology @ adyen netherlands io
+92	https://job-boards.greenhouse.io/adyen/jobs/7791102	greenhouse	tier1 | score:- | Infrastructure Engineer - RDS @ adyen netherlands io
+93	https://job-boards.greenhouse.io/adyen/jobs/7790229	greenhouse	tier1 | score:- | Internal Control Officer- Financial risk @ adyen netherlands io
+94	https://job-boards.greenhouse.io/adyen/jobs/7942496	greenhouse	tier1 | score:- | Internal Control Specialist (Technology Risk) @ adyen netherlands io
+95	https://job-boards.greenhouse.io/adyen/jobs/6761873	greenhouse	tier1 | score:- | Java Software Engineer / Senior Java Engineer @ adyen netherlands io
+96	https://job-boards.greenhouse.io/adyen/jobs/8010419	greenhouse	tier1 | score:- | Manager, Platform Offering Strategy @ adyen netherlands io
+97	https://job-boards.greenhouse.io/adyen/jobs/7942455	greenhouse	tier1 | score:- | Monitoring Engineer @ adyen netherlands io
+98	https://job-boards.greenhouse.io/adyen/jobs/7988505	greenhouse	tier1 | score:- | Payment Risk Operations Analyst @ adyen netherlands io
+99	https://job-boards.greenhouse.io/adyen/jobs/7414468	greenhouse	tier1 | score:- | Payment Risk Operations Lead @ adyen netherlands io
+100	https://job-boards.greenhouse.io/adyen/jobs/7423863	greenhouse	tier1 | score:- | Payments Partnerships Manager @ adyen netherlands io
+101	https://job-boards.greenhouse.io/adyen/jobs/7768821	greenhouse	tier1 | score:- | Principal Product Manager - Identity @ adyen netherlands io
+102	https://job-boards.greenhouse.io/adyen/jobs/7930013	greenhouse	tier1 | score:- | Sanctions & Screening Compliance Senior Officer @ adyen netherlands io
+103	https://job-boards.greenhouse.io/adyen/jobs/7908806	greenhouse	tier1 | score:- | Senior AI Research Engineer @ adyen netherlands io
+104	https://job-boards.greenhouse.io/adyen/jobs/7294336	greenhouse	tier1 | score:- | Senior CI/CD Engineer @ adyen netherlands io
+105	https://job-boards.greenhouse.io/adyen/jobs/7993121	greenhouse	tier1 | score:- | Senior Commercial Strategy Manager, Financial Services & Insurance    @ adyen netherlands io
+106	https://job-boards.greenhouse.io/adyen/jobs/7895373	greenhouse	tier1 | score:- | Senior Content Marketing Manager, Global @ adyen netherlands io
+107	https://job-boards.greenhouse.io/adyen/jobs/7992449	greenhouse	tier1 | score:- | Senior Content Writer, Global @ adyen netherlands io
+108	https://job-boards.greenhouse.io/adyen/jobs/7068990	greenhouse	tier1 | score:- | Senior Data Platform Engineer @ adyen netherlands io
+109	https://job-boards.greenhouse.io/adyen/jobs/7300108	greenhouse	tier1 | score:- | Senior Data Scientist - Experimentation Platform @ adyen netherlands io
+110	https://job-boards.greenhouse.io/adyen/jobs/7835921	greenhouse	tier1 | score:- | Senior Development Tooling Engineer @ adyen netherlands io
+111	https://job-boards.greenhouse.io/adyen/jobs/7574479	greenhouse	tier1 | score:- | Senior Enterprise Applications Engineer  @ adyen netherlands io
+112	https://job-boards.greenhouse.io/adyen/jobs/8002425	greenhouse	tier1 | score:- | Senior Forward Deployed Engineer @ adyen netherlands io
+113	https://job-boards.greenhouse.io/adyen/jobs/7645869	greenhouse	tier1 | score:- | Senior GTM Operations Manager @ adyen netherlands io
+114	https://job-boards.greenhouse.io/adyen/jobs/7607691	greenhouse	tier1 | score:- | Senior Observability Infrastructure Engineer @ adyen netherlands io
+115	https://job-boards.greenhouse.io/adyen/jobs/7899156	greenhouse	tier1 | score:- | Senior Product Manager - Cards Acquiring @ adyen netherlands io
+116	https://job-boards.greenhouse.io/adyen/jobs/7941728	greenhouse	tier1 | score:- | Senior Product Manager - Developer Experience @ adyen netherlands io
+117	https://job-boards.greenhouse.io/adyen/jobs/7993050	greenhouse	tier1 | score:- | Senior Security Certification Expert @ adyen netherlands io
+118	https://job-boards.greenhouse.io/adyen/jobs/7976708	greenhouse	tier1 | score:- | Senior Security Expert @ adyen netherlands io
+119	https://job-boards.greenhouse.io/adyen/jobs/7342905	greenhouse	tier1 | score:- | Senior Software Engineer (Java) - Data Extraction & Accessibility  @ adyen netherlands io
+120	https://job-boards.greenhouse.io/adyen/jobs/7573921	greenhouse	tier1 | score:- | Senior Software Engineer (Java) - Financial Products @ adyen netherlands io
+121	https://job-boards.greenhouse.io/adyen/jobs/7396910	greenhouse	tier1 | score:- | Senior Software Engineer (Java) - Identity & Verification @ adyen netherlands io
+122	https://job-boards.greenhouse.io/adyen/jobs/7992221	greenhouse	tier1 | score:- | Software Engineer I (Java) -Authorisation Optimisation @ adyen netherlands io
+123	https://job-boards.greenhouse.io/adyen/jobs/7342888	greenhouse	tier1 | score:- | Software Engineer (Java) - Revenue Connect  @ adyen netherlands io
+124	https://job-boards.greenhouse.io/adyen/jobs/7342887	greenhouse	tier1 | score:- | Software Engineer (Java) - Unified Platform  @ adyen netherlands io
+125	https://job-boards.greenhouse.io/adyen/jobs/7978714	greenhouse	tier1 | score:- | Software Engineer - Release Tooling @ adyen netherlands io
+126	https://job-boards.greenhouse.io/adyen/jobs/7369512	greenhouse	tier1 | score:- | Software Engineer / Senior Software Engineer  (Java) - Payments @ adyen netherlands io
+127	https://job-boards.greenhouse.io/adyen/jobs/7992658	greenhouse	tier1 | score:- | Software Front End Engineer - II @ adyen netherlands io
+128	https://job-boards.greenhouse.io/adyen/jobs/8024073	greenhouse	tier1 | score:- | Strategic Deal Desk - Partnerships & Vendors @ adyen netherlands io
+129	https://job-boards.greenhouse.io/adyen/jobs/7960143	greenhouse	tier1 | score:- | Team Lead Credit Risk - EMEA @ adyen netherlands io
+130	https://job-boards.greenhouse.io/adyen/jobs/7423908	greenhouse	tier1 | score:- | Team Lead  - HR Business Partnering (Tech) @ adyen netherlands io
+131	https://job-boards.greenhouse.io/adyen/jobs/7208547	greenhouse	tier1 | score:- | Team Lead - Technical Support @ adyen netherlands io
+132	https://job-boards.greenhouse.io/adyen/jobs/6406545	greenhouse	tier1 | score:- | Team Lead - Technical Support - Platforms and Financial services @ adyen netherlands io
+133	https://job-boards.greenhouse.io/adyen/jobs/7180929	greenhouse	tier1 | score:- | Technical Support Engineer @ adyen netherlands io
+134	https://job-boards.greenhouse.io/adyen/jobs/7894241	greenhouse	tier1 | score:- | Tech Recruitment Business Partner - 6 month contract @ adyen netherlands io
+135	https://job-boards.greenhouse.io/adyen/jobs/7938611	greenhouse	tier1 | score:- | Workday Functional Specialist @ adyen netherlands io
+136	https://job-boards.greenhouse.io/adyen/jobs/7992579	greenhouse	tier1 | score:- | Workplace Lead - Amsterdam @ adyen netherlands io
+137	https://job-boards.greenhouse.io/zscaler/jobs/5174743007	greenhouse	tier1 | score:- | Principal AI Security Specialist, BeNeLux & Nordics @ zscaler netherlands
+138	https://job-boards.greenhouse.io/zscaler/jobs/5154848007	greenhouse	tier1 | score:- | Principal Sales Engineer - Northern Europe @ zscaler netherlands
+139	https://job-boards.greenhouse.io/zscaler/jobs/5153357007	greenhouse	tier1 | score:- | Principal Specialist Sales Engineer - Zero Trust Branch - Northern Europe @ zscaler netherlands
+140	https://job-boards.greenhouse.io/zscaler/jobs/5148024007	greenhouse	tier1 | score:- | Sales Account Executive, Enterprise  @ zscaler netherlands
+141	https://job-boards.greenhouse.io/zscaler/jobs/5124283007	greenhouse	tier1 | score:- | Specialist Account Executive - Data Security @ zscaler netherlands
+142	https://job-boards.greenhouse.io/zscaler/jobs/5153346007	greenhouse	tier1 | score:- | Specialist Account Executive - ZT Cloud  @ zscaler netherlands
+143	https://www.linkedin.com/posts/pavlo-khyzhniak_success-story-how-to-get-visa-sponsorship-activity-7477651440644022272-SKzC	linkedin_posts	tier2 | score:- | Pavlo Khyzhniak's Post - LinkedIn @ 
+144	https://www.linkedin.com/posts/full-stack-ai-engineer-madhukar-anand_careers-germanyjobs-techcareers-activity-7472730541558009856-fihH	linkedin_posts	tier2 | score:- | Germany Job Market: Visa Sponsorship and Cultural Fit Key to ... @ 
+145	https://www.linkedin.com/posts/uk-global-talent_uktech-globaltalentvisa-softwareengineer-activity-7475640701238669312-yejM	linkedin_posts	tier2 | score:- | Apply Now for UK Tech Visa Before It's Too Late - LinkedIn @ 
+146	https://www.linkedin.com/posts/oksana-tafani_android-kotlin-jetpackcompose-activity-7472615037816221696-IeJw	linkedin_posts	tier2 | score:- | Oksana Tafani - android #kotlin #jetpackcompose #yorteam - LinkedIn @ 
+147	https://www.linkedin.com/posts/russell-tobin-%26-associates-llc_were-growing-in-the-netherlands-and-activity-7475552749414379520-Zba0	linkedin_posts	tier2 | score:- | Russell Tobin's Post - LinkedIn @ 
+148	https://www.linkedin.com/posts/ismar-kriese_we-spent-2-months-finding-these-companies-activity-7476892232390873088-O93s	linkedin_posts	tier2 | score:- | Ismar Kriese's Post - LinkedIn @ 
+149	https://www.linkedin.com/posts/eng-amir-abkhoshk_amir-abkhoshk-activity-7474632458697801728-TEyj	linkedin_posts	tier2 | score:- | Amir Abkhoshk - LinkedIn @ 
+150	https://www.linkedin.com/posts/neilrdawes_compliance-internationalhiring-skilledworkervisa-activity-7475824262495490048-GAZg	linkedin_posts	tier2 | score:- | International Hiring Risks Without Compliance Expertise - LinkedIn @ 
+151	https://www.linkedin.com/posts/hanalarock_hr-recruiting-remotework-activity-7476301099235377152-yjLF	linkedin_posts	tier2 | score:- | Why Companies Hesitate to Hire Remote Workers Abroad - LinkedIn @ 
+152	https://www.linkedin.com/posts/employsome_employerofrecord-southafrica-eor-activity-7474768902829465601-WHex	linkedin_posts	tier2 | score:- | EOR in South Africa: 4 Surprising Facts for Foreign Companies @ 
+153	https://www.linkedin.com/posts/stephanie-chigozie-7a0b901a8_disclaimer-activity-7475276341915856896-FqDt	linkedin_posts	tier2 | score:- | 5 Affordable EU Countries to Move to in 2026 - LinkedIn @ 
+154	https://www.linkedin.com/posts/calumburrows23_dubai-based-roles-onsite-im-activity-7472182007662546944-k6mS	linkedin_posts	tier2 | score:- | Calum Burrows' Post - LinkedIn @ 
+155	https://www.linkedin.com/posts/chestha-vohra-04021a280_netherlands-logisticsjobsabroad-warehousejobs-activity-7477704705985495040-Ea5c	linkedin_posts	tier2 | score:- | Chestha Vohra's Post - LinkedIn @ 
+156	https://startup.jobs/solutions-consultant-presales-netherlands-paloaltonetworks-com-8588043	niche_boards	tier2 | score:- | Solutions Consultant (Presales) - Netherlands at Palo Alto Networks @ 
+157	https://startup.jobs/country-manager-retail-netherlands-belgium-all-genders-ahead-gmbh-8577584	niche_boards	tier2 | score:- | Country Manager Retail - Netherlands & Belgium (All Genders) @ 
+158	https://startup.jobs/senior-sales-manager-institutionals-netherlands-f-m-d-360-treasury-systems-ag-8158015	niche_boards	tier2 | score:- | SENIOR SALES MANAGER INSTITUTIONALS NETHERLANDS (f/m/d) @ 
+159	https://startup.jobs/field-sales-the-netherlands-teleroute-alpega-group-8586442	niche_boards	tier2 | score:- | Field Sales - The Netherlands - Teleroute at Alpega Group @ 
+160	https://startup.jobs/nike-athlete-sales-associate-retailors-netherlands-bv-8577481	niche_boards	tier2 | score:- | Nike - Athlete (sales associate) at Retailors Netherlands B.V. @ 
+161	https://startup.jobs/inside-account-executive-smb-dutch-speaking-jamf-8588257	niche_boards	tier2 | score:- | Inside Account Executive | SMB | Dutch speaking at Jamf @ 
+162	https://magnet.me/en/opportunity/1053762/emea-legal-intern	niche_boards	tier2 | score:- | EMEA Legal Intern in Amsterdam at Palo Alto Networks - Magnet.me @ 
+163	https://vacaturebank.ai/jobs/junior-ai-engineer-based-in-netherlands-amsterdam-6a409c870fe963ab3940a591	niche_boards	tier2 | score:- | Junior AI Engineer - Based in Netherlands @ 
+164	https://vacaturebank.ai/jobs/ai-engineer-entrnce-arnhem-6a41ee0b482fbaf338be3277	niche_boards	tier2 | score:- | AI Engineer ENTRNCE bij Alliander | Vacaturebank.ai @ 
+165	https://vacaturebank.ai/jobs/ai-engineer-manager-amsterdam-6a409c8bd59c39f9f6d6dded	niche_boards	tier2 | score:- | AI Engineer Manager bij Avanade Netherlands Company @ 
+166	https://vacaturebank.ai/jobs/medior-ai-engineer-other-6a3f4b0b2eacab9fc895f8d7	niche_boards	tier2 | score:- | Medior AI Engineer bij ABN AMRO Bank | Vacaturebank.ai @ 
+167	https://vacaturebank.ai/jobs/applied-ai-engineer-amsterdam-6a3df98b0cb648aff74b5c50	niche_boards	tier2 | score:- | Applied AI Engineer bij myTomorrows | Vacaturebank.ai @ 
+168	https://vacaturebank.ai/jobs/ai-and-automation-process-specialist-amsterdam-6a2683c40f6c03ee06d03e90	niche_boards	tier2 | score:- | AI & Automation Process Specialist bij Zenchef @ 
+169	https://www.eurotoptech.com/compensation-report	niche_boards	tier2 | score:- | European Software Engineer Compensation Report 2026 @ 
+170	https://expatjobs.io/vacancies/0428bae4-2c24-41c1-b6af-47eb6fadb7dd	niche_boards	tier2 | score:- | Senior Data Scientist – Experimentation & Statistical Innovation ... @ 
+171	https://expatjobs.io/vacancies/a5d152a0-aa1e-4325-9a13-296191a79840	niche_boards	tier2 | score:- | HR Systems Solution Expert (Workday HCM) at EMBL - Expat Jobs @ 
+172	https://expatjobs.io/vacancies/8c1b21fa-0c1e-4b59-a84d-c2569981e93f	niche_boards	tier2 | score:- | Software Engineer II - Full Stack - Web Engineering at elastic @ 
+173	https://jaabz.com/jobs/241107-software-engineer-in-test	niche_boards	tier2 | score:- | Software Development Engineer in Test (SDET) - Jobs - Jaabz @ 
+174	https://jaabz.com/jobs/239920-senior-software-engineer-a-core-tech	niche_boards	tier2 | score:- | Senior Software Engineer - Core Systems & Trading Infrastructure @ 
+175	https://jaabz.com/jobs/240431-chief-executive-officer-b2b-saas	niche_boards	tier2 | score:- | Chief Executive Officer (B2B SaaS) at Jobgether - Netherlands - Jaabz @ 
+176	https://jaabz.com/jobs/240293-data-scientist	niche_boards	tier2 | score:- | Data Scientist at magno it recruitment - Jobs - Jaabz @ 
+177	https://jaabz.com/jobs/240804-business-development-representative-esg-saas	niche_boards	tier2 | score:- | Technical Business Development Representative (GTM Engineer) @ 
+178	https://jaabz.com/jobs/239823-senior-java-software-engineer	niche_boards	tier2 | score:- | Senior Java Developer at asap staffing ltd - Jobs - Jaabz @ 
+179	https://jaabz.com/jobs/240796-seo-specialist-dutch-speaking	niche_boards	tier2 | score:- | SEO Specialist at Picnic Technologies - Jobs - Jaabz @ 
+180	https://jaabz.com/jobs/241020-head-of-people-operations	niche_boards	tier2 | score:- | Head of People Operations at Manychat - Jobs - Jaabz @ 
+181	https://jaabz.com/jobs/239728-senior-hardware-security-evaluator-relocation-provided	niche_boards	tier2 | score:- | Senior Hardware Security Evaluator at Wypoon Technologies - Jaabz @ 
+182	https://www.fintechcareers.com/job-category/fintech/?filter-location=amsterdam	niche_boards	tier2 | score:- | 90 Fintech Jobs in Amsterdam @ 
+183	https://www.fintechcareers.com/job/36999/product-owner-credit-amsterdam/	niche_boards	tier2 | score:- | Product Owner – Credit job in Amsterdam, Netherlands - bunq jobs @ 
+184	https://www.fintechcareers.com/job/36993/compliance-risk-officer-amsterdam/	niche_boards	tier2 | score:- | Compliance Risk Officer job in Amsterdam, Netherlands - Peaks jobs @ 
+185	https://www.fintechcareers.com/job/36897/jr-finance-systems-analyst-amsterdam/	niche_boards	tier2 | score:- | Jr. Finance Systems Analyst - Adyen jobs - Fintech Careers @ 
+186	https://weloveproduct.co/jobs/group-product-manager-commercial-risk-and-platform-fraud-adyen-yasdlj	niche_boards	tier2 | score:- | Group Product Manager - Commercial Risk & Platform Fraud at Adyen @ 
+187	https://weloveproduct.co/jobs/senior-product-manager-cards-acquiring-adyen-1g8q9e	niche_boards	tier2 | score:- | Senior Product Manager - Cards Acquiring at Adyen - WeLoveProduct @ 
+188	https://weloveproduct.co/jobs/senior-product-manager-nace-ai-d73380	niche_boards	tier2 | score:- | Senior Product Manager at Nace AI - Palo Alto, United States - $163k @ 
+189	https://weloveproduct.co/jobs/sr-product-manager-ads-and-brands-roblox-olacgs	niche_boards	tier2 | score:- | Sr Product Manager, Ads & Brands at Roblox - Remote - $174k @ 
+190	https://weloveproduct.co/jobs/senior-product-manager-ii-rf-detection-and-tracking-axon-1os6jx	niche_boards	tier2 | score:- | Senior Product Manager II, RF Detection & Tracking at Axon @ 
+191	https://weloveproduct.co/jobs/senior-product-manager-ui-platform-okta-pou38x	niche_boards	tier2 | score:- | Senior Product Manager - UI Platform at Okta - Toronto, Canada @ 
+192	https://weloveproduct.co/jobs/senior-product-manager-clinical-experience-headlight-p5pxet	niche_boards	tier2 | score:- | Senior Product Manager, Clinical Experience at Headlight - $160k @ 
+193	https://weloveproduct.co/jobs/product-manager-agent-development-arabic-speaking-sierra-w7dxjx	niche_boards	tier2 | score:- | Product Manager, Agent Development (Arabic speaking) at Sierra @ 
+194	https://weloveproduct.co/jobs/senior-product-manager-auth0-platform-infrastructure-okta-5yre2t	niche_boards	tier2 | score:- | Senior Product Manager, Auth0 Platform Infrastructure at Okta @ 
+195	https://www.wearedevelopers.com/en/jobs/ls/netherlands/amsterdam/business-intelligence	niche_boards	tier2 | score:- | Business Intelligence Developer Jobs in Amsterdam | 5 open jobs @ 
+196	https://www.wearedevelopers.com/en/jobs/ls/netherlands/amsterdam/automation-anywhere	niche_boards	tier2 | score:- | Automation Anywhere Developer Jobs in Amsterdam | 6 open jobs @ 
+197	https://www.wearedevelopers.com/en/jobs/ls/netherlands/heythuysen/uml	niche_boards	tier2 | score:- | UML Developer Jobs in Heythuysen | 3 open jobs | WeAreDevelopers @ 
+198	https://www.wearedevelopers.com/en/jobs/ls/netherlands/noord-scharwoude/amazon-web-services-aws	niche_boards	tier2 | score:- | Amazon Web Services (AWS) jobs in Noord-Scharwoude, Netherlands @ 
+199	https://www.wearedevelopers.com/en/jobs/ls/netherlands/den-ham/docker	niche_boards	tier2 | score:- | Docker Developer Jobs in Den Ham | 5 open jobs | WeAreDevelopers @ 
+200	https://www.wearedevelopers.com/en/jobs/ls/netherlands/noord-scharwoude/microservices	niche_boards	tier2 | score:- | Microservices Developer Jobs in Noord-Scharwoude | 5 open jobs @ 
+201	https://www.wearedevelopers.com/en/jobs/ls/netherlands/zwolle/figma	niche_boards	tier2 | score:- | Figma Developer Jobs in Zwolle | 5 open jobs | WeAreDevelopers @ 
