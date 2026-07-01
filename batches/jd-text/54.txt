@@ -1,0 +1,101 @@
+Sensorfact hiring Backend Engineer in Utrecht, Utrecht, Netherlands | LinkedIn
+Skip to main content
+Backend Engineer
+Sensorfact
+Utrecht, Utrecht, Netherlands
+Apply
+Join or sign in to find your next job
+Join to apply for the
+Backend Engineer
+role at
+Sensorfact
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Backend Engineer
+Sensorfact
+Utrecht, Utrecht, Netherlands
+1 week ago
+Over 200 applicants
+See who Sensorfact has hired for this role
+Apply
+Join or sign in to find your next job
+Join to apply for the
+Backend Engineer
+role at
+Sensorfact
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn?
+Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s
+User Agreement
+,
+Privacy Policy
+, and
+Cookie Policy
+.
+Save
+Report this job
+Ready to scale your career in a high-growth scale up where your results drive real world change?
+We’re
+Sensorfact
+, Europe’s
+#1 smart monitoring platform for the industry
+, on a mission to make industry smarter, cleaner, and more efficient. Every day, our technology helps thousands of manufacturers cut energy waste, reduce costs, and lower carbon emissions through intelligent data insights and automation.
+Today, we’ve joined forces with ABB, a global leader in electrification and automation. This partnership has propelled us onto the world stage, enabling us to expand rapidly and help more businesses optimize their energy efficiency, cut costs, and make a positive impact on the planet.
+Apply today and help shape a smarter and more sustainable industry.
+About The Role
+What you will do:
+As a Backend Engineer, you'll be part of our Backend Engineering team, building the core services that power our platform. You'll work on scalable microservices, APIs, and data pipelines that transform raw sensor data into actionable insights for our customers. This role offers the opportunity to work across the full data lifecycle—from ingestion to delivery.
+You'll design and develop scalable backend services and APIs, primarily using TypeScript/Node.js and Python. Your work will include building microservices that power our smart monitoring platform and working with GraphQL to expose data to frontend applications.
+You'll collaborate closely with Product Managers and cross-functional teams to deliver impactful features, contribute to architecture decisions, and help shape our engineering best practices. Code reviews and maintaining high-quality standards are a natural part of how we work together.
+Our Tech Stack
+We work with AWS cloud services (ECS/EKS, API Gateway, Lambda, Fargate), TypeScript/Node.js and Python, PostgreSQL and ClickHouse databases, Kafka for messaging, GraphQL APIs, and containerization with Docker and Kubernetes.
+What you bring:
+We're looking for someone with around 3+ years of backend engineering experience who enjoys building reliable, scalable systems.
+You're comfortable working with TypeScript/Node.js or Python and have experience with cloud services, preferably AWS. You understand how microservices and distributed systems work, and you value sound engineering practices such as testing, CI/CD, and collaborative code reviews. Fluency in English helps you communicate effectively with our international team.
+Proven experience collaborating with third-party stakeholders and communicating effectively throughout projects. Demonstrated track record in developing and/or integrating external APIs.
+Experience with streaming technologies like Kafka, stream processing frameworks such as Flink, or time series databases like ClickHouse would be valuable in this role—but if you're excited to learn these, that counts too.
+You don't need to check every box. If this role excites you and you bring relevant experience, we'd love to hear from you.
+How We Work
+We do Scrum with 2-week sprints and schedule most meetings in the mornings to preserve afternoon focus time. We work in a hybrid setup with regular office collaboration in Utrecht. You'll be part of multidisciplinary teams across Data, IoT, and Platform departments.
+Why you will love working here:
+Grow your career as we scale
+Pension Contribution of 4% with an employer sponsored retirement plan
+Public transport allowance via NS business card
+Employee Referral Incentives up to €3,000 for a successful referral
+27 Vacation Days to rest and recharge
+Remote Work Flexibility up to 2 months/year (with manager approval)
+Structured Onboarding & Mentorship support
+Social Events like Sensorfact Week & team dinners
+Office Perks like unlimited coffee, snacks, and free Friday lunch
+Visit our website and follow us on LinkedIn, Instagram, and Glassdoor to stay updated on our journey.
+Show more
+Show less
+Seniority level
+Mid-Senior level
+Employment type
+Full-time
+Job function
+Engineering and Information Technology
+Industries
+Information Technology
