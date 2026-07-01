@@ -1,107 +1,60 @@
-TicketSwap hiring Android Developer in Amsterdam, North Holland, Netherlands | LinkedIn
+DHL eCommerce Nederland hiring Kotlin Developer in Utrecht, Utrecht, Netherlands | LinkedIn
 Skip to main content
-Android Developer
-TicketSwap
-Amsterdam, North Holland, Netherlands
+Kotlin Developer
+DHL eCommerce Nederland
+Utrecht, Utrecht, Netherlands
 Apply
-Join or sign in to find your next job
-Join to apply for the
-Android Developer
-role at
-TicketSwap
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
-Android Developer
-TicketSwap
-Amsterdam, North Holland, Netherlands
+Kotlin Developer
+DHL eCommerce Nederland
+Utrecht, Utrecht, Netherlands
 1 week ago
-121 applicants
-See who TicketSwap has hired for this role
+81 applicants
+See who DHL eCommerce Nederland has hired for this role
 Apply
-Join or sign in to find your next job
-Join to apply for the
-Android Developer
-role at
-TicketSwap
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
-.
 Save
 Report this job
-Direct message the job poster from TicketSwap
-Joerie van den Dam
-Joerie van den Dam
-Senior Corporate Recruiter at TicketSwap - We’re hiring 🚀
-At TicketSwap, we’re on a mission to be the experience marketplace every fan loves. By bringing fans and experiences together on our marketplace, we enable fans to go to more events they love and support organisers in building lasting success. With over 19 million fans across 42 countries, we bring fans and experiences together - making live events safer, fairer, and more accessible.
-As an Android Developer, you’ll play a key role in how fans discover, buy, and experience events on mobile. You’ll work on meaningful product challenges and ship features that reach millions of users around the world.
-Ready to help us build the best Android experience for fans everywhere?
-What You’ll Do
-You’ll join a cross-functional product team where engineers, product managers, and designers work closely together. You’ll take ownership, move fast, and help shape the mobile experience end-to-end.
-Your impact:
-Build and improve features across our Android app used by millions of fans
-Collaborate closely with backend, web, and mobile engineers in a cross-functional squad
-Take ownership of features from idea to release and iteration
-Write clean, maintainable, and well-tested code
-Contribute to architectural decisions and continuously improve the codebase
-Balance speed and quality to deliver value without over-engineering
-Work with data and experimentation to improve user experience
-Partner with product and design to create intuitive, high-quality user journeys
-Share knowledge and learnings within the Android and mobile guild
-Stay up to date with new technologies and bring ideas to improve how we work
-Contribute to a culture of ownership, curiosity, and continuous improvement
-Our tech stack includes:
-Kotlin, Jetpack Compose, GraphQL, Firebase, GitHub, Sentry, Lokalise and standard testing frameworks such as Espresso and JUnit. We continuously evolve our stack to stay effective and up to date.
-About you
-We’re looking for someone who enjoys building great products and takes pride in their craft.
-You have solid experience building Android applications with Kotlin
-You are pragmatic, but you know the theory too
-You know when to move fast and when to focus on quality and detail
-You enjoy solving real user problems with simple, thoughtful solutions
-You’re comfortable working in cross-functional teams (Agile/Scrum)
-You communicate clearly and collaborate easily with non-engineers
-You’re curious and open to learning — both technically and on the product side
-You take ownership and like seeing your work make a real impact
-Experience with A/B testing, experimentation, or analytics tools is a plus
-You use AI in your everyday job, or you used it on some personal project
-Interest in product metrics or growth is a bonus
-Why You’ll Love It Here
-You’ll be part of a team that cares deeply about the product, each other, and the fans we serve. We move fast, give ownership, and trust people to do their best work.
-You’ll have the freedom to shape the product, learn continuously, and see your work used by millions of people around the world.
-Practical Details
-Location: Amsterdam (hybrid setup)
-Full-time role
-No relocation support provided
-This role sits within Function Group 6 or 7, depending on experience and seniority level. We’re open to considering both mid-level and senior Android Developers.
-TicketSwap is looking for the best and motivated talent out there no matter your nationality, gender, sexual preference or religious beliefs. 🚀
-Research shows that women and those in traditionally underrepresented groups tend to apply only if they check all the boxes. That’s a shame, as we want to build a diverse and inclusive team. If you know you’ve got what it takes but don’t quite meet every requirement for the role, we still encourage you to apply.
-Apply now – we'll take a look and get back to you as soon as possible! 💥
+Direct message the job poster from DHL eCommerce Nederland
+Aard Knol
+Aard Knol
+Senior Information Technology Recruiter @ DHL eCommerce Nederland
+Iets moois van A naar B brengen, daar draait alles om bij DHL eCommerce. Als Kotlin Developer breng jij de digitale wereld tot leven bij een wereldmerk. Jouw vernieuwende software bereikt dagelijks miljoenen gebruikers. Dat vraagt om doorzettingsvermogen en de drive om continu te blijven groeien.
+Dit ga je doen
+Elke dag worden miljoenen pakketten bezorgd bij ontvangers in Nederland. Als Senior Kotlin Software Engineer binnen Team Courier speel jij een sleutelrol in het optimaliseren van de software die dit mogelijk maakt!
+Onze bezorgers werken met een mobiele applicatie die we volledig aan het vernieuwen zijn. Jouw technische expertise en 'can-do' mentaliteit zijn daarbij onmisbaar. In een complexe, data-gedreven omgeving zet jij de gebruiker centraal en zorg je voor robuuste, schaalbare oplossingen.
+Bij ons telt elke seconde: de software die jij bouwt heeft direct impact op de dagelijkse operatie. Je werkt aan uitdagende vraagstukken zoals performance, betrouwbaarheid en gebruiksvriendelijkheid. Samen met je team draag je bij aan een applicatie die duizenden bezorgers helpt om pakketten efficient en foutloos af te leveren.
+Concreet betekent dit dat jij minstens 32 uur per week bezig bent met:
+Het bedenken van oplossingen, wij hebben een doel, jij maakt de weg ernaartoe.
+Samenwerken in multidisciplinaire teams samen leveren we de beste resultaten.
+Werken in sprints van twee weken 10% overleg, 90% programmeren.
+Jouw nieuwe werkplek
+Je komt te werken op het hoofdkantoor van DHL eCommerce in Utrecht. Waar je samenwerkt met andere developers en een product owner in één van de scrum teams. Naast je directe collega’s heb je ook contact over de teams en afdelingen heen en bestaat de afdeling Digital en IT inmiddels uit 250 collega’s.
+In ieder geval, waar je ook werkt: we luisteren altijd naar wat je te zeggen hebt. Hoe meer perspectieven en meningen we horen, hoe beter we daar allemaal van worden. Zo hebben we als organisatie dit jaar het certificaat Great Place to Work gekregen. Deze certificering is 100% gebaseerd op feedback van medewerkers.
+Dit ben jij
+Meebouwen aan de toekomst van bezorgen, dat geeft je energie. Telkens wanneer jij een DHL bus voorbij ziet komen, krijg je een trots gevoel. Terecht! Want jij ontwikkelt het. Je bent een doorzetter die het liefst werkt in teamverband. Bij DHL werk je met de modernste technieken aan grote en schaalbare platformen. Een taal die jij spreekt als geen ander.
+Verder heb je:
+Ervaring met Java en Kotlin in een professionele ontwikkelomgeving;
+Kennis van agile ontwikkelmethodieken en de bereidheid om verantwoordelijkheid te nemen voor de hele lifecycle van je applicaties;
+Affiniteit met nieuwe technologieën zoals AI, machine learning en OCR is een pré;
+Samenwerkingsgericht, communicatief sterk en altijd gericht op kwaliteit.
+Dit krijg jij
+Een baan om trots op te zijn! En niet zomaar een baan, wij gebruiken liever het woord carrière. Als Kotlin developer wil jij je namelijk blijven ontwikkelen!
+Voor de Kotlin developer kan jij rekenen op:
+Een salaris tussen € 5.000,- en € 6.500,- bruto op basis van 40 uur, gebaseerd op je kennis en ervaring;
+Een bonusregeling van 10%;
+Standaard 23 vakantiedagen en 8% vakantiegeld;
+Cao a la carte, een budget naar keuze voor extra salaris of vakantiedagen (4,5 dagen per jaar);
+Leaseauto of mobiliteitsvergoeding;
+Pensioenregeling;
+De mogelijkheid om hybride te werken;
+Vanaf dag één uitgebreide opleidings- en trainingsmogelijkheden;
+Kansen en mogelijkheden voor ontwikkeling en doorgroei, zowel nationaal- als internationaal!
+De toekomst van bezorgen is geel-rood
+DHL eCommerce is het meest toonaangevende logistiek bedrijf ter wereld. Dat klinkt misschien opschepperig, maar zo bedoelen we het niet: we zien het namelijk niet als een verdienste, maar als een verantwoordelijkheid.
+Dankzij onze positie kunnen we het verschil maken voor onze mensen, het milieu en de maatschappij. En dat blijkt: we zijn een Great Place to Work, hebben de groenste duurzaamheidsplannen in de logistiek en helpen via DHL Cares ontzettend veel mensen die dat hard kunnen gebruiken daar zijn we trots op!
+Solliciteren?
+We ontvangen graag je cv en motivatiebrief. Heb je naar aanleiding van de vacature nog vragen? Neem contact op met Aard Knol, recruitment, via aard.knol@dhl.com .
+VOG-screening en toetsing aan sanctielijsten en het interne en externe waarschuwingsregister (WLS) maken (mogelijk) deel uit van de sollicitatieprocedure.
 Show more
 Show less
-Seniority lev
+Seniority level
+Mid-S
