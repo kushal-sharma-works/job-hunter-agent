@@ -1,15 +1,15 @@
-Levy Professionals hiring Front End Developer in Amsterdam, North Holland, Netherlands | LinkedIn
+Aivory hiring Full stack engineer in Netherlands | LinkedIn
 Skip to main content
-Front End Developer
-Levy Professionals
-Amsterdam, North Holland, Netherlands
+Full stack engineer
+Aivory
+Netherlands
 Apply
-Front End Developer
-Levy Professionals
-Amsterdam, North Holland, Netherlands
-1 week ago
-26 applicants
-See who Levy Professionals has hired for this role
+Full stack engineer
+Aivory
+Netherlands
+2 weeks ago
+Over 200 applicants
+See who Aivory has hired for this role
 Apply
 Save
 Report this job
@@ -68,79 +68,98 @@ Privacy Policy
 , and
 Cookie Policy
 .
-Direct message the job poster from Levy Professionals
-Leonid Kruglikov
-Leonid Kruglikov
-Delivery Consultant – Cybersecurity, Cloud & Infrastructure at Levy Professionals
-We are looking for…
-A highly skilled Senior Frontend Developer to join a DevOps-oriented team within our client's internal-facing division. We need a collaborative, autonomous professional who is passionate about continuous learning and high-quality software delivery. You will be a key player in a team of developers helping to manage a complex ecosystem of applications and APIs.
-You will:
-Develop, maintain, and refactor mission-critical frontend applications using Vue.js (Vue3) and Web Components.
-Lead the migration effort from JavaScript to TypeScript to enhance code quality and maintainability.
-Ensure high levels of reusability across all applications and component libraries.
-Collaborate within a Scrum/Agile environment, working closely with designers, backend engineers, and Product Owners.
-Provide guidance and mentorship to junior and mid-level colleagues, driving the team's technical maturity.
-Responsibilities
-Full-lifecycle participation: from requirement refinement and technical design to delivery and incident support.
-Utilizing Azure DevOps for version control and managing CI/CD pipelines.
-Contributing to the client's internal knowledge sharing through presentations and hackathons.
-Implementing best practices in CSS3, SCSS, and HTML5 to ensure responsive and accessible interfaces.
-Who are you?
-Experience
-Minimum of 5 years of professional experience in frontend development.
-Deep expertise in Vue.js (specifically Vue3) and the modern JavaScript ecosystem.
-Proven track record in Scrum/Agile environments and DevOps practices (CI/CD, Git).
-Experience with large-scale component libraries or Server-Driven UI is highly preferred.
-Background in financial services, particularly in payment initiation or online banking, is a significant plus.
-Profile
-Education:
-Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field.
-Technical Stack:
-Proficient in Vue.js, TypeScript, Lit (Web Components), and Azure Cloud.
-Soft Skills:
-Strong communicator, mentor-minded, and a proactive problem solver who thrives in a collaborative, autonomous environment.
-Tools:
-Familiarity with Figma, Vitest, and PrimeView/Emerald is preferred.
-About Levy Professionals
-Since 2000 we provide professional solutions to organizations ranging from tech start-ups to global players. From our offices in Amsterdam and London we have built an international and local network of skilled employed professionals and contractors fuelled by our passion for connecting skills with projects. Over the years we have fulfilled over 1700 requirements and nowadays we consistently have 250+ professionals recruited and relocated from 14 countries allocated to various projects. Our strength is the way that we see and treat people. This will always be a key factor in our strategy for many years to come.
+Direct message the job poster from Aivory
+Ties Verberne
+Ties Verberne
+Modern software for dental practices
+Founding Engineer @ Aivory (Remote located in the Netherlands)
+About Us
+We’re
+Aivory
+, and we’re reinventing how dental practices run their entire business — from patient management to front-desk automation.
+Our mission is simple:
+build the smartest, most intuitive dental software ever created. No legac
+y. No clutter. Just a modern, AI-first platform that automates everything that doesn’t need a human — from voice-to-action charting in treatment rooms to automatically generated referral letters, scheduling, and patient communication.We’re bui
+lding something the dental world in the Netherlands (and beyond) has never seen before — and we’re doing it fast.If you wa
+nt to be part of a small, ambitious founding team that’s obsessed with product quality, speed, and impact — this might be the most exciting role you’ll read this year.
+About the Role
+We’re looking for a
+Founding Engineer
+— someone who doesn’t just want to “write code,” but wants to
+build a company
+.
+You’ll work directly with the founders (Ties & Sara) to shape the product, architecture, and culture from the ground up.
+You’ll own big parts of our stack, help make the key technical decisions, and ensure that the platform we ship is both beautiful and rock-solid. This is
+not
+a 9-to-5 role. It’s the kind of position for someone who loves to move fast, take full responsibility, and build something meaningful that touches thousands of users.
+What You’ll Do
+Help define and build the core architecture of Aivory’s SaaS platform.
+Translate real customer pain points into elegant, scalable solutions.
+Collaborate closely with the founders on product direction, design, and feature prioritization.
+Implement AI-driven workflows that automate real-world dental processes.
+Help grow the engineering team and establish best practices as we scale.
+Who You Are
+You have a
+strong product mindset
+— you love to ship, iterate, and improve.
+You’re comfortable working in ambiguity and thrive in early-stage environments.
+You can work independently and make things happen fast.
+You’re curious about the intersection of
+AI, healthcare, and great product design
+.
+You bring solid technical experience in
+modern web stacks (Angular, NestJS, Node.js, Python, or similar)
+and are comfortable connecting APIs and building reliable systems.
+You’re based in the
+Netherlands
+(remote-first, but we meet regularly in Amsterdam, Utrecht).
+Most importantly: you have a
+startup mentality
+— ownership, grit, and long-term vision.
+What We Offer
+💰
+€5.000 – €7.000 bruto per month
+, depending on experience.
+💎
+Significant equity package
+— we want you to have real skin in the game.
+🌍 Remote-first setup (within the Netherlands).
+🦷 The chance to build one of the most innovative healthcare platforms in Europe.
+⚡ Work directly with experienced founders — fast iterations, no politics, pure impact.
+Why Now?
+This is a unique moment to join before product-market fit explodes — you’ll have a
+founder-level impact
+on everything we ship.
+Ready to build the future of dental software with us?
+Send Ties Verberne a connection invite and message or reply to this vacancy direct.
+No long cover letter needed, we care more about mindset and drive than polished résumés.
 Show more
 Show less
 Seniority level
-Not Applicable
+Entry level
 Employment type
 Full-time
 Job function
-Information Technology
+Engineering and Information Technology
 Industries
-Banking
-Referrals increase your chances of interviewing at Levy Professionals by 2x
+Software Development
+Referrals increase your chances of interviewing at Aivory by 2x
 See who you know
-Get notified when a new job is posted.
-Set alert
-Sign in to set job alerts for “Frontend Developer” roles.
-Email or phone
-Password
-Show
-Forgot password?
-Sign in
-Sign in with Email
-or
-New to LinkedIn?
-Join now
-By clicking Continue to join or sign in, you agree to LinkedIn’s
-User Agreement
-,
-Privacy Policy
-, and
-Cookie Policy
+Get notified about new
+Full Stack Engineer
+jobs in
+Netherlands
 .
+Sign in to create job alert
 Similar jobs
-Front-end Developer
-Front-end Developer
-Adswag
-Amsterdam, North Holland, Netherlands
-4 days ago
-Frontend Developer
-Frontend Developer
-Trifork
-Amsterdam, Nor
+Full Stack Software Engineer
+Full Stack Software Engineer
+Lightdash
+Netherlands
+$100,000.00
+            -
+            $170,000.00
+1 year ago
+Software Engineer
+Software Engineer
+Bui
