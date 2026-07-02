@@ -784,16 +784,69 @@ def _is_nl_location(location: str) -> bool:
     loc_lower = location.lower()
     return any(kw in loc_lower for kw in NL_LOCATION_KEYWORDS)
 
+
 # ─────────────────────────────────────────────────────────────────────────────
-# Portals source — reads portals.yml, hits known ATS slugs directly
+# Portals source — reads portals.yml tracked_companies + search_queries
 # ─────────────────────────────────────────────────────────────────────────────
+
+def _extract_greenhouse_slug(api_url: str) -> str:
+    """Extract slug from https://boards-api.greenhouse.io/v1/boards/{slug}/jobs"""
+    import re
+    m = re.search(r'/boards/([^/]+)/jobs', api_url)
+    return m.group(1) if m else ""
+
+def _extract_lever_slug(careers_url: str) -> str:
+    """Extract slug from https://jobs.lever.co/{slug}"""
+    import re
+    m = re.search(r'jobs\.lever\.co/([^/?]+)', careers_url)
+    return m.group(1) if m else ""
+
+def _extract_ashby_slug(careers_url: str) -> str:
+    """Extract slug from https://jobs.ashbyhq.com/{slug}"""
+    import re
+    m = re.search(r'jobs\.ashbyhq\.com/([^/?]+)', careers_url)
+    return m.group(1) if m else ""
+
+def _apply_title_filter(jobs: List[Job], title_filter: dict) -> List[Job]:
+    """Apply portals.yml title_filter positive/negative lists."""
+    if not title_filter:
+        return jobs
+    positives = [p.lower() for p in title_filter.get("positive", [])]
+    negatives = [n.lower() for n in title_filter.get("negative", [])]
+    filtered = []
+    for job in jobs:
+        title_lower = job.title.lower()
+        if negatives and any(neg in title_lower for neg in negatives):
+            continue
+        if positives and not any(pos in title_lower for pos in positives):
+            continue
+        filtered.append(job)
+    return filtered
+
+def _serper_jobs_from_query(query: str, company_name: str, serper_key: str) -> List[Job]:
+    """Run a Serper search query and turn results into Job objects."""
+    results = _serper_search(query, serper_key, count=10)
+    jobs = []
+    for r in results:
+        url = r.get("url", "")
+        title = r.get("title", "")[:120]
+        if not url or not title:
+            continue
+        jobs.append(Job(
+            url=url,
+            title=title,
+            company=company_name,
+            location="Netherlands",
+            source="portals",
+            description=r.get("description", ""),
+        ))
+    return jobs
 
 def portals_source(config: dict) -> List[Job]:
     """
-    Read portals.yml and query each company's ATS directly using known slugs.
-    Unlike ind_ats_jobs (which guesses slugs from the IND register),
-    this uses curated, verified slugs — no 404 noise.
-    careers_page type is skipped (requires Playwright).
+    Read portals.yml tracked_companies and search_queries.
+    Handles Greenhouse, Lever, Ashby (ATS APIs) and websearch companies
+    (via Serper). Also processes the search_queries section (VC boards etc).
     """
     portals_file = Path("portals.yml")
     if not portals_file.exists():
@@ -803,56 +856,111 @@ def portals_source(config: dict) -> List[Job]:
     with open(portals_file) as f:
         data = yaml.safe_load(f)
 
-    portals = data.get("portals", [])
-    jobs = []
+    title_filter = data.get("title_filter", {})
+    companies = data.get("tracked_companies", [])
+    search_queries = data.get("search_queries", [])
+    serper_key = os.environ.get("SERPER_API_KEY", "")
 
-    for portal in portals:
-        if not portal.get("enabled", True):
+    all_jobs: List[Job] = []
+
+    # ── tracked_companies ──────────────────────────────────────────────────────
+    for company in companies:
+        if not company.get("enabled", True):
             continue
-        name = portal.get("name", "")
-        ptype = portal.get("type", "")
-        slug = portal.get("slug", "")
+
+        name = company.get("name", "")
+        careers_url = company.get("careers_url", "")
+        api_url = company.get("api", "")
+        scan_method = company.get("scan_method", "")
+        scan_query = company.get("scan_query", "")
+        provider = company.get("provider", "")
+
+        jobs: List[Job] = []
 
         try:
-            if ptype == "greenhouse" and slug:
-                found = greenhouse_jobs(slug, name)
-                if found:
-                    logger.info(f"Portals Greenhouse: {name} → {len(found)} jobs")
-                    jobs.extend(found)
+            # Greenhouse via api field
+            if api_url and "greenhouse.io" in api_url:
+                slug = _extract_greenhouse_slug(api_url)
+                if slug:
+                    jobs = greenhouse_jobs(slug, name)
+                    if jobs:
+                        logger.info(f"Portals Greenhouse: {name} → {len(jobs)} jobs")
 
-            elif ptype == "lever" and slug:
-                found = lever_jobs(slug, name)
-                if found:
-                    logger.info(f"Portals Lever: {name} → {len(found)} jobs")
-                    jobs.extend(found)
+            # Lever via careers_url
+            elif careers_url and "jobs.lever.co" in careers_url:
+                slug = _extract_lever_slug(careers_url)
+                if slug:
+                    jobs = lever_jobs(slug, name)
+                    if jobs:
+                        logger.info(f"Portals Lever: {name} → {len(jobs)} jobs")
 
-            elif ptype == "ashby" and slug:
-                found = ashby_jobs(slug, name)
-                if found:
-                    logger.info(f"Portals Ashby: {name} → {len(found)} jobs")
-                    jobs.extend(found)
+            # Ashby via careers_url
+            elif careers_url and "jobs.ashbyhq.com" in careers_url:
+                slug = _extract_ashby_slug(careers_url)
+                if slug:
+                    jobs = ashby_jobs(slug, name)
+                    if jobs:
+                        logger.info(f"Portals Ashby: {name} → {len(jobs)} jobs")
 
-            elif ptype == "careers_page":
-                logger.debug(f"Portals: {name} is careers_page type — skipped (requires Playwright)")
+            # websearch method (Google, ASML, IBM, etc.)
+            elif scan_method == "websearch" and scan_query and serper_key:
+                jobs = _serper_jobs_from_query(scan_query, name, serper_key)
+                if jobs:
+                    logger.info(f"Portals websearch: {name} → {len(jobs)} results")
+
+            # SmartRecruiters or other providers — websearch fallback
+            elif provider and provider != "greenhouse" and serper_key:
+                fallback_query = f'site:{careers_url.replace("https://","").split("/")[0]} "Netherlands" OR "Amsterdam" engineer OR developer OR "product manager"'
+                jobs = _serper_jobs_from_query(fallback_query, name, serper_key)
+                if jobs:
+                    logger.info(f"Portals fallback-search: {name} → {len(jobs)} results")
+
+            else:
+                logger.debug(f"Portals: {name} — no supported ATS/method, skipping")
 
         except Exception as e:
             logger.warning(f"Portals: {name} failed — {e}")
 
-        time.sleep(0.2)
+        all_jobs.extend(jobs)
+        time.sleep(0.3)
 
-    logger.info(f"Portals source: {len(jobs)} total jobs from {len([p for p in portals if p.get('enabled', True)])} companies")
-    return jobs
+    # ── search_queries (VC boards, ATS sweeps) ─────────────────────────────────
+    if serper_key:
+        for sq in search_queries:
+            if not sq.get("enabled", True):
+                continue
+            q_name = sq.get("name", "search_query")
+            q_text = sq.get("query", "")
+            if not q_text:
+                continue
+            try:
+                jobs = _serper_jobs_from_query(q_text, q_name, serper_key)
+                if jobs:
+                    logger.info(f"Portals search_query: {q_name} → {len(jobs)} results")
+                all_jobs.extend(jobs)
+            except Exception as e:
+                logger.warning(f"Portals search_query '{q_name}' failed — {e}")
+            time.sleep(0.3)
+    else:
+        logger.warning("SERPER_API_KEY not set — websearch companies and search_queries skipped")
+
+    # Apply title filter from portals.yml
+    before = len(all_jobs)
+    all_jobs = _apply_title_filter(all_jobs, title_filter)
+    logger.info(f"Portals: title filter removed {before - len(all_jobs)} jobs, {len(all_jobs)} remaining")
+
+    return all_jobs
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Full JD fetcher — replaces snippets with full page text for scoring
+# Full JD fetcher — replaces snippets with full page text for CV scoring
 # ─────────────────────────────────────────────────────────────────────────────
 
 _SKIP_FETCH_DOMAINS = {
     "linkedin.com", "indeed.com", "glassdoor.com",
 }
 
-_HEADERS = {
+_FETCH_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.5",
@@ -870,26 +978,23 @@ def fetch_full_jd(job: Job, max_chars: int = 4000) -> str:
     except Exception:
         return job.description
 
-    # Skip login-walled sites — use existing snippet
     if any(blocked in domain for blocked in _SKIP_FETCH_DOMAINS):
         return job.description
 
-    # If description is already substantial, don't refetch
-    if len(job.description) >= 1500:
+    if len(job.description or "") >= 1500:
         return job.description
 
     try:
-        r = requests.get(job.url, headers=_HEADERS, timeout=15, allow_redirects=True)
+        r = requests.get(job.url, headers=_FETCH_HEADERS, timeout=15, allow_redirects=True)
         if r.status_code != 200:
             return job.description
 
-        soup = BeautifulSoup(r.text, "html.parser")
+        from bs4 import BeautifulSoup as _BS
+        soup = _BS(r.text, "html.parser")
 
-        # Remove noise elements
         for tag in soup(["script", "style", "nav", "header", "footer", "meta", "noscript"]):
             tag.decompose()
 
-        # Try common JD container selectors first
         jd_text = ""
         for selector in [
             "[class*='job-description']", "[class*='jobDescription']",
@@ -902,14 +1007,11 @@ def fetch_full_jd(job: Job, max_chars: int = 4000) -> str:
                 if len(jd_text) > 300:
                     break
 
-        # Fall back to full body text
         if len(jd_text) < 300:
             jd_text = soup.get_text(separator=" ", strip=True)
 
-        # Collapse whitespace
         import re as _re
         jd_text = _re.sub(r'\s+', ' ', jd_text).strip()
-
         return jd_text[:max_chars] if jd_text else job.description
 
     except Exception as e:

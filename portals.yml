@@ -452,3 +452,31 @@ search_queries:
   - name: Lever — NL engineers
     query: 'site:jobs.lever.co "Amsterdam" OR "Rotterdam" OR "Utrecht" "visa sponsorship" OR "relocation" engineer OR "product manager"'
     enabled: true
+
+  - name: DevITJobs — Java/Kotlin NL
+    query: 'site:devitjobs.nl "Java" OR "Kotlin" OR "Spring Boot" Netherlands'
+    enabled: true
+
+  - name: IamExpat — tech NL
+    query: 'site:iamexpat.nl/career "software engineer" OR "backend" OR "Java" Netherlands'
+    enabled: true
+
+  - name: ArrowLancer / VisaHunt — visa sponsored NL tech
+    query: 'site:arrowlancer.com OR site:visa-hunt.com Netherlands "Java" OR "Kotlin" OR "backend" OR "software engineer"'
+    enabled: true
+
+  - name: IndSponsors — visa sponsored NL tech
+    query: 'site:indsponsors.nl "Java" OR "Kotlin" OR "backend" OR "software engineer" OR "product manager"'
+    enabled: true
+
+  - name: WeLoveProduct — PM NL
+    query: 'site:weloveproduct.co Netherlands "product manager" OR "product owner"'
+    enabled: true
+
+  - name: Mind the Product — PM NL
+    query: 'site:jobs.mindtheproduct.com Netherlands "product manager"'
+    enabled: true
+
+  - name: WorkWay — NL tech
+    query: 'site:workway.dev Amsterdam OR Netherlands "Java" OR "Kotlin" OR "backend" OR "product manager"'
+    enabled: true
