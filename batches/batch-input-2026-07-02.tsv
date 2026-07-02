@@ -1,0 +1,47 @@
+id	url	source	notes	cv_score
+1	https://www.adzuna.nl/details/5782697201?utm_medium=api&utm_source=8142930b	adzuna	tier2 | score:4.0 | Backend Software Engineer @ Jobgether | €45,000–€100,000 | Candidate has strong backend skills but lacks experience with Go or Python.
+2	https://nl.indeed.com/viewjob?jk=168092c69fab0619	jobspy	tier1 | score:4.0 | Full Stack Developer @ Alliander | Good match; strong full-stack skills and relevant experience.
+3	https://www.linkedin.com/jobs/view/4427497631	jobspy	tier1 | score:4.0 | Java Developer @ Nedap | Good match; strong Java skills align well with the role.
+4	https://www.linkedin.com/jobs/view/4314998619	jobspy	tier2 | score:4.0 | Java Developer @ Astek | Good match; strong Java skills align well with the role.
+5	https://www.linkedin.com/jobs/view/4431370470	jobspy	tier1 | score:5.0 | Java Software Engineer @ DHL eCommerce Nederland | Strong Java experience aligns perfectly with the role.
+6	https://www.linkedin.com/jobs/view/4430988940	jobspy	tier2 | score:5.0 | Java/Kotlin Internal Tools Developer @ Planner 5D | Expertise in Java/Kotlin matches the job requirements.
+7	https://www.linkedin.com/jobs/view/4410777043	jobspy	tier2 | score:4.0 | Senior Java Developer @ HeadFirst Group | Senior level experience, minor gaps in specific seniority expectations.
+8	https://www.linkedin.com/jobs/view/4375172660	jobspy	tier2 | score:5.0 | Java Software Developer @ MYLAPS Sports Technology | Extensive Java background makes for a perfect fit.
+9	https://www.linkedin.com/jobs/view/4427982333	jobspy	tier2 | score:4.0 | Back End Developer @ NIXZ. | Good backend experience, minor gaps in specific tools.
+10	https://www.linkedin.com/jobs/view/4425814959	jobspy	tier1 | score:4.0 | Software Engineer I (Java) -Authorisation Optimisation @ Adyen | Strong Java skills, backend focus, minor gaps in specific authorisation knowledge.
+11	https://www.linkedin.com/jobs/view/4209123866	jobspy	tier2 | score:4.0 | Kotlin developer (medior) @ Energie Data Services Nederland (EDSN) B.V. | Good Kotlin skills and backend experience, minor gaps in specific medior level expectations.
+12	https://www.linkedin.com/jobs/view/4430396368	jobspy	tier1 | score:5.0 | Kotlin Software Engineer @ Qualogy | Strong Kotlin experience, backend focus, and relevant skills.
+13	https://www.linkedin.com/jobs/view/4431367485	jobspy	tier1 | score:5.0 | Kotlin Developer @ DHL eCommerce Nederland | Excellent match with Kotlin and backend development experience.
+14	https://www.linkedin.com/jobs/view/4410052845	jobspy	tier1 | score:4.0 | Backend Engineer (Kotlin, Kafka, AI/LLM systems) @ Albert Heijn | Good fit with Kotlin and backend skills, minor gaps in AI/LLM.
+15	https://www.linkedin.com/jobs/view/4415272450	jobspy	tier1 | score:4.0 | Backend developer (Kotlin, Event-driven, DevOps) @ Albert Heijn | Good match with Kotlin and DevOps, minor gaps in event-driven specifics.
+16	https://www.linkedin.com/jobs/view/4416795530	jobspy	tier2 | score:5.0 | Kotlin Software Engineer | Qualogy @ Cooder | Perfect match with Kotlin and backend experience.
+17	https://www.linkedin.com/jobs/view/4435133377	jobspy	tier2 | score:4.0 | Software Engineer @ JD.COM | Strong backend skills in Java and experience in CI/CD align well.
+18	https://www.linkedin.com/jobs/view/4209129414	jobspy	tier2 | score:4.0 | Java developer (medior) @ Energie Data Services Nederland (EDSN) B.V. | Java focus matches well with candidate's backend experience.
+19	https://www.linkedin.com/jobs/view/4416233568	jobspy	tier2 | score:4.0 | Java Software Engineer @ Stanley David and Associates | Java development aligns with candidate's strong backend skills.
+20	https://www.linkedin.com/jobs/view/4434140003	jobspy	tier2 | score:4.0 | Back End Developer @ Capua | Good match; strong backend skills but minor gaps in specific frameworks.
+21	https://www.linkedin.com/jobs/view/4297740909	jobspy	tier1 | score:4.0 | Software Engineer - Backend @ Databricks | Good match; strong backend experience aligns well with Databricks.
+22	https://www.linkedin.com/jobs/view/4297748047	jobspy	tier1 | score:4.0 | Software Engineer - Fullstack @ Databricks | Good match; fullstack experience with relevant technologies.
+23	https://www.linkedin.com/jobs/view/4413687560	jobspy	tier2 | score:4.0 | Medior Backend Developer @ Repowered | Good match; backend focus aligns well with Medior level requirements.
+24	https://www.linkedin.com/jobs/view/4426803739	jobspy	tier2 | score:4.0 | Backend Developer @ Framna | Strong backend skills in Java/Kotlin, minor gaps in specific tools.
+25	https://www.linkedin.com/jobs/view/4435308036	jobspy	tier2 | score:4.0 | Full Stack Engineer @ Code for Good | Good full-stack experience, strong backend focus, minor frontend gaps.
+26	https://www.linkedin.com/jobs/view/4415685225	jobspy	tier2 | score:4.0 | Fullstack Engineer (m/f/d) @ Eye Security | Fullstack role aligns well with backend skills, minor gaps in specific tools.
+27	https://www.linkedin.com/jobs/view/4431667144	jobspy	tier1 | score:4.0 | Full Stack Developer @ Foreside | Strong backend and frontend skills, minor gaps in full-stack experience.
+28	https://www.linkedin.com/jobs/view/4429031992	jobspy	tier2 | score:4.0 | Full-stack software engineer @ Rototip | Good match with full-stack experience, minor gaps in specific frameworks.
+29	https://www.linkedin.com/jobs/view/4424096495	jobspy	tier2 | score:4.0 | Full Stack Developer @ GoMeddo | Solid backend and frontend skills, minor gaps in full-stack context.
+30	https://www.linkedin.com/jobs/view/4429502984	jobspy	tier2 | score:4.0 | Full Stack Engineer @ Roundr | Strong backend and frontend experience, minor gaps in specific full-stack tools.
+31	https://www.linkedin.com/jobs/view/4415610995	jobspy	tier1 | score:4.0 | Full stack developer @ Crisp | Good match with full-stack capabilities, minor gaps in specific technologies.
+32	https://www.linkedin.com/jobs/view/4429554029	jobspy	tier1 | score:4.0 | Full Stack Engineer @ Conference Compass | Strong full-stack skills, minor gaps in specific frameworks.
+33	https://www.linkedin.com/jobs/view/4429870243	jobspy	tier2 | score:4.0 | Software Engineer @ NAVARA | Good backend experience, minor gaps in specific technologies.
+34	https://www.linkedin.com/jobs/view/4380374795	jobspy	tier1 | score:5.0 | Backend Engineer @ Sensorfact | Perfect match for backend role with strong relevant skills.
+35	https://www.linkedin.com/jobs/view/4428738406	jobspy	tier2 | score:4.0 | Software Developer Azurion Eye @ Philips | Strong backend skills and relevant experience for Philips.
+36	https://www.linkedin.com/jobs/view/4413313568	jobspy	tier2 | score:4.0 | Software-ingenieur @ NAVARA | Good match with backend focus and microservices experience.
+37	https://job-boards.greenhouse.io/dept/jobs/8023283	greenhouse	tier1 | score:4.0 | Android Developer @ dept | Strong Kotlin skills, but lacks direct Android development experience.
+38	https://job-boards.greenhouse.io/dept/jobs/7873959	greenhouse	tier1 | score:4.0 | Cloud Engineer @ dept | Good cloud and DevOps skills, but lacks multi-cloud experience.
+39	https://job-boards.greenhouse.io/dept/jobs/5940981	greenhouse	tier1 | score:4.0 | Freelancing at DEPT® @ dept | Strong backend skills, but lacks specific freelance experience.
+40	https://boards.greenhouse.io/flexport/jobs/7449436?gh_jid=7449436	greenhouse	tier1 | score:4.0 | Senior Software Engineer: Data Infrastructure @ flexport | Strong backend skills match; some gaps in data infrastructure experience.
+41	https://boards.greenhouse.io/flexport/jobs/7921068?gh_jid=7921068	greenhouse	tier1 | score:4.0 | Senior Software Engineer: Platform @ flexport | Good backend and CI/CD experience; needs more platform-specific skills.
+42	https://boards.greenhouse.io/flexport/jobs/7921059?gh_jid=7921059	greenhouse	tier1 | score:4.0 | Staff Software Engineer: Platform @ flexport | Strong backend skills and CI/CD experience, minor gaps in platform tooling.
+43	https://expatjobs.io/vacancies/fd5c97bf-19f7-4aa1-a180-77d70889bb69	niche_boards	tier2 | score:4.0 | Software Engineer II - Full Stack - Web Engineering at elastic @  | Strong match in full-stack development with relevant tech skills.
+44	https://jaabz.com/jobs/239823-senior-java-software-engineer	niche_boards	tier2 | score:4.0 | Senior Java Developer at asap staffing ltd - Jobs - Jaabz @  | Strong Java background aligns well with senior developer role.
+45	https://www.wearedevelopers.com/en/jobs/ls/netherlands/noord-scharwoude/amazon-web-services-aws	niche_boards	tier2 | score:4.0 | Amazon Web Services (AWS) jobs in Noord-Scharwoude, Netherlands @  | Strong Java and Azure skills, aligns well with backend roles.
+46	https://www.wearedevelopers.com/en/jobs/ls/netherlands/noord-scharwoude/microservices	niche_boards	tier2 | score:4.0 | Microservices Developer Jobs in Noord-Scharwoude | 5 open jobs @  | Strong Java and microservices experience, minor gaps in specific tools.
