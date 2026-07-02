@@ -31,3 +31,38 @@ jobs:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
           GH_PAT: ${{ secrets.GH_PAT }}
+
+      - name: Commit results summary
+        run: |
+          python3 - <<'EOF'
+          import csv, pathlib, datetime
+
+          tsv = sorted(pathlib.Path("batches").glob("batch-input-*.tsv"))
+          if not tsv:
+              exit()
+
+          rows = list(csv.DictReader(open(tsv[-1]), delimiter="\t"))
+          today = datetime.date.today().isoformat()
+
+          lines = [f"# Job Hunter Results — {today}", f"**{len(rows)} jobs after CV scoring**\n"]
+          lines.append("| # | Score | Title & Company | Source | URL |")
+          lines.append("|---|-------|-----------------|--------|-----|")
+
+          for r in rows:
+              notes = r.get("notes", "")
+              url = r.get("url", "")
+              source = r.get("source", "")
+              # parse score and title from notes field
+              parts = [p.strip() for p in notes.split("|")]
+              score = next((p.replace("score:","").strip() for p in parts if "score:" in p), "-")
+              title = next((p for p in parts if "score:" not in p and "tier" not in p and len(p) > 5), notes)
+              lines.append(f"| {r['id']} | {score} | {title} | {source} | [link]({url}) |")
+
+          pathlib.Path("RESULTS.md").write_text("\n".join(lines))
+          EOF
+
+          git config user.name "job-hunter-agent"
+          git config user.email "actions@github.com"
+          git add RESULTS.md
+          git commit -m "results ${{ github.run_id }}" || echo "nothing to commit"
+          git push
